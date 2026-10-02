@@ -3,7 +3,26 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/4-psychika-substancje.md
 
 ## Podsumowanie
-(w toku: sprawdzone pary 1–3; pozostałe w trakcie)
+Zweryfikowano 10 par: **✅ 5** (1, 2, 3, 9, 10), **⚠️ 5** (4, 5, 6, 7, 8), **❌ 0**. Żaden paper nie jest autorstwa Anthropic. WebSearch działał przez całą weryfikację (nie było komunikatu o budżecie), więc pola, których wyszukiwacz nie sprawdził po wyczerpaniu limitu (od pary 3), sprawdziłem wyszukiwaniem i u źródła (Crossref, Europe PMC, PMC, strony wydawców).
+
+Najważniejsze problemy i poprawki:
+- **Para 2:** FDA w liście z 22.09.2025 wprost zastrzegła, że związek przyczynowy nie został ustalony; „causal relationship” to nie język FDA, tylko polityczna retoryka szła dalej. Przeglądy opierają się na nakładających się, a nie identycznych badaniach.
+- **Para 3:** potwierdzona retrakcja. Nowe spostrzeżenie: STAT dosłownie pisze, że dzieci z leukoworyną „scored 1.2 points higher” na skali nasilenia autyzmu, co odwraca kierunek wyniku (chodziło o większą poprawę).
+- **Para 4:** erratum o konfliktach interesów ukazało się 22.07.2025, nie w listopadzie; „badanie UEL” to przegląd systematyczny. Dodany lepszy drugi news (NPR) i krytyka Horowitza.
+- **Para 5:** wyszukiwacz pisał część faktów z pamięci; poprawione: 14/21 to regiony (DMR), tkanka to wymaz z policzka, w grupie „germline” jest tylko 10 rodzin. Znalezione bezpośrednie polemiki (Coyne, Mental Elf) i otwarty news z przesadnym nagłówkiem (ScienceAlert).
+- **Para 6:** liczebności w PsyPost (147) nie zgadzają się z N=171 w abstrakcie; nagłówek „improve” powtarza interpretację autorów, więc „rozjazd news–paper” jest słabszy, niż ocenił wyszukiwacz.
+- **Para 7:** retrakcje w Psychopharmacology były w sierpniu 2024 (nie w listopadzie); nowe: w sierpniu 2026 Resilient (dawniej Lykos) złożył ponownie wniosek bez nowej fazy 3.
+- **Para 8:** znaleziona korekta w BMJ (zamienione etykiety grup na rycinie 2); edytorial Kuntsi nie dotyczy papera.
+- **Para 1:** wersja recenzowana (CESM, 1.10.2026) jest open access (CC BY 4.0); tekst w Mad in America napisał sam Plöderl (współautor), więc to nie jest niezależne źródło.
+
+**Polecane do finałowej piętnastki:**
+1. **Para 1 (Prozac u dzieci, 5/5):** świeży (1–2.10.2026), otwarty paper metanaukowy z kompletnym trójkątem i lekiem, który zna każdy.
+2. **Para 3 (leukoworyna, 5/5):** rząd promuje lek, PubPeer wykrywa błędy, RCT zostaje wycofane; świetny materiał dla wszystkich trzech ról.
+3. **Para 5 (epigenetyka uchodźców, 4/5):** wyraźny rozjazd między nagłówkami („genetically inherited”) a metylacją w wymazach od kilkudziesięciu osób.
+4. **Para 4 (odstawienie antydepresantów, 4/5):** osobisty temat, dwa obozy, erratum o konfliktach interesów; z NPR jako drugim newsem para jest kompletna.
+5. **Para 2 (paracetamol, 4/5), warunkowo:** mocny spór nauka–polityka, ale tematycznie zachodzi na parę 3 (ta sama konferencja Białego Domu); wybrać jedną z dwóch albo obie, jeśli orkiestrator chce wątku „autyzm i polityka”.
+
+Rezerwy (3/5): 7 (MDMA, aktualne dzięki ponownemu wnioskowi z 2026 r., ale bez świeżego newsa z renomowanego medium), 10 (GLP-1), 6 (mikrodawkowanie), 8 (ADHD), 9 (medytacja).
 
 ## Pary
 
@@ -249,4 +268,146 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/4-psychika
   - **Pytanie do dyskusji:** Jeśli mikrodawkowanie „działa” tylko przez oczekiwania, czy to znaczy, że nie działa? Czy media powinny pisać nagłówki o pojedynczym istotnym wyniku spośród wielu?
   - **Weryfikacja:** ⚠️ poprawione, pewność średnia.
 
-(kolejne pary w toku)
+### 7. MDMA na PTSD: odrzucenie przez FDA, wycofane papery i „rozślepienie” badań: ⚠️ poprawione (pewność: średnia)
+- **Sprawdzone linki:**
+  - Nature, Reardon, 5.06.2024 (https://www.nature.com/articles/d41586-024-01622-3): działa po 3 przekierowaniach; tytuł, podtytuł, autorka, data i przypisy (Mitchell i in. 2021 i 2023) potwierdzone. Paywall: tak; w widocznej części brak liczby głosów i opisu zarzutów.
+  - Paper: Europe PMC (PMC10579091) potwierdza metadane i liczby.
+  - Author Correction: Crossref (10.1038/s41591-024-03331-w).
+  - Noty o wycofaniu w Psychopharmacology: wyniki wyszukiwania (PMC11513733, PMC11513715, PMC11513749; link.springer.com/article/10.1007/s00213-024-06665-y) i relacja STAT z 11.08.2024 (z wyników; nie otwierałem).
+  - HCPLive, 10.08.2026 (https://www.hcplive.com/view/mdma-assisted-therapy-nda-resubmitted-fda-ptsd): działa.
+- **News a paper:** Nature cytuje oba badania fazy 3 (MAPP1 2021 i MAPP2 2023), ale newsem jest decyzja panelu FDA, a nie sam paper. Para jest mniej czytelna niż pozostałe (dwa badania + regulacje).
+- **Fakty:**
+  - MAPP2: tytuł, Nature Medicine 29(10):2473–2480 (październik 2023), DOI 10.1038/s41591-023-02565-4, PMCID, OA tak; 104 osoby (53 MDMA, 51 placebo); CAPS-5 −23,7 vs −14,8; p<0,001; d=0,7 → zgodne.
+  - Author Correction → uzupełnione: online 7.10.2024 (Nature Medicine 30(11), listopad 2024); treść poprawki niesprawdzona.
+  - Retrakcje w Psychopharmacology → **poprawione:** sierpień 2024 (nie listopad), trzy prace z lat 2019–2020: plan fazy 3 na podstawie zbiorczej analizy sześciu badań fazy 2, długoterminowa obserwacja oraz praca o odstawieniu leków z grupy inhibitorów wychwytu. Powód: naruszenia protokołu równoznaczne z nieetycznym postępowaniem w ośrodku MP4 (Kanada), o których autorzy wiedzieli i których nie zgłosili czasopismu, plus niepełne ujawnienie konfliktów interesów (wynik wyszukiwania, noty w PMC).
+  - Głosowanie panelu (4.06.2024) → potwierdzone: 9–2, że skuteczność nie została wykazana, i 10–1, że korzyści nie przewyższają ryzyka. Zarzuty: funkcjonalne rozślepienie, niepełne dane o bezpieczeństwie (ciśnienie, tętno).
+  - Decyzja FDA → potwierdzone: complete response letter 9.08.2024 z prośbą o kolejne badanie fazy 3.
+  - **Stan 2025–2026 (nowe):** Lykos (dawniej MAPS PBC) w sierpniu 2025 zmienił nazwę na Resilient Pharmaceuticals; ok. 9.08.2026 złożył ponownie wniosek do FDA **bez nowego badania fazy 3**, na danych z 2022 r.; w lipcu 2026 FDA wydała końcowe wytyczne „Psychedelic Drugs: Considerations for Clinical Investigations” (HCPLive, wyniki wyszukiwania).
+  - Matvey i in., JAMA Psychiatry 2025 („Modifying Informed Consent to Help Address Functional Unmasking…”, DOI 10.1001/jamapsychiatry.2024.4312) → potwierdzone (Europe PMC). Kruger i in. 2025 (Psychedelic Medicine) → niezweryfikowane.
+- **Kontrowersja:** realna i dobrze udokumentowana (panel FDA, CRL, retrakcje, zarzuty etyczne), choć poza samym newsem Nature. Opis wyszukiwacza uczciwy; zdanie „media przed 2024 r. często pisały o przełomie” jest bez konkretnego źródła (niezweryfikowane).
+- **Retrakcje / korekty / krytyka / replikacje:** MAPP2 nie jest wycofany; ma Author Correction (2024). Wycofane są trzy prace towarzyszące (2024). Krytyka metodologiczna: Szigeti B, „Unmasking bias and MDMA-assisted therapy”, PsyArXiv 2024 (DOI 10.31234/osf.io/r3tqx), Matvey i in. 2025. Zapytania: „Psychopharmacology retracts three MDMA papers MAPS unethical conduct …”, „FDA advisory committee MDMA … vote …”, „Lykos Resilient Pharmaceuticals MDMA PTSD 2026 …”.
+- **Poprawki:**
+  1. Retrakcje: sierpień 2024, trzy prace, powód potwierdzony.
+  2. Głosowanie 9–2 i 10–1 potwierdzone; CRL 9.08.2024.
+  3. Author Correction: 7.10.2024.
+  4. Nowe w 2026: ponowny wniosek bez nowej fazy 3 (sierpień 2026), co odświeża temat.
+  5. News dotyczy decyzji regulatora, a nie jednego papera; para mniej czytelna.
+- **Dodatkowe znaleziska:** HCPLive, „MDMA-Assisted Therapy NDA Resubmitted to FDA for PTSD”, 10.08.2026 (medium branżowe, link wyżej). Szigeti 2024 (preprint) jako konkretna krytyka zaślepienia.
+- **Ocena niezależna:** 3/5. Mocny, otwarty paper i ważna historia (rozślepienie, etyka, sponsor-aktywista), która w sierpniu 2026 znów jest aktualna. Minusy: news Nature z 2024 r. dotyczy decyzji panelu, a nie jednego papera; brak świeżego newsa z renomowanego medium o ponownym wniosku; temat mocno już omówiony. Rezerwa; do piętnastki tylko jeśli zespół znajdzie aktualny news z 2026 r. omawiający MAPP2.
+- **Do ręcznego sprawdzenia przez zespół:** pełna treść Nature (zarzuty panelu); treść Author Correction do MAPP2; relacja STAT o retrakcjach (11.08.2024).
+- **Opis po poprawkach:**
+  - **Kategoria:** psychodeliki / regulacje / etyka badań
+  - **News:** „MDMA therapy for PTSD rejected by FDA panel”, Nature (News), Sara Reardon, 5 czerwca 2024, https://www.nature.com/articles/d41586-024-01622-3 , paywall: tak. Podtytuł: doradcy FDA przytłaczającą większością uznali, że ryzyko przewyższa korzyści. Cytuje oba badania fazy 3. Aktualizacja: HCPLive, 10.08.2026, o ponownym wniosku bez nowej fazy 3.
+  - **Paper:** „MDMA-assisted therapy for moderate to severe PTSD: a randomized, placebo-controlled phase 3 trial” (MAPP2), Mitchell JM, Ot'alora GM, van der Kolk B i in., Nature Medicine 29:2473–2480, 2023, DOI 10.1038/s41591-023-02565-4, open access: tak. 104 uczestników (53 MDMA, 51 placebo, obie grupy z terapią); CAPS-5 −23,7 vs −14,8 (p<0,001, d=0,7). Author Correction 2024.
+  - **Trzecie źródło:** retrakcje trzech prac zespołu w Psychopharmacology (sierpień 2024; nieujawnione naruszenia etyczne w ośrodku MP4); głosowanie panelu 9–2 i 10–1 oraz CRL FDA (9.08.2024); krytyka zaślepienia: Matvey i in., JAMA Psychiatry 2025, Szigeti 2024 (preprint).
+  - **Dlaczego fajne:** najgłośniejsza historia psychodelików ostatnich lat: wyniki w Nature Medicine, odrzucenie przez FDA, retrakcje, problem zaślepienia (każdy wie, czy dostał MDMA) i powrót wniosku w 2026 r. bez nowych badań.
+  - **Kontrowersja / rozjazd:** naukowa (funkcjonalne rozślepienie, oczekiwania, lek vs pakiet lek + terapia) i etyczna (naruszenia granic przez terapeutów, rola sponsora-aktywisty).
+  - **Trudność techniczna:** średnia. CAPS-5, d Cohena, zaślepienie i jego test.
+  - **Pytanie do dyskusji:** Czy da się uczciwie przetestować lek, którego działanie każdy pacjent od razu rozpoznaje? Czy FDA powinna teraz zatwierdzić terapię na tych samych danych?
+  - **Weryfikacja:** ⚠️ poprawione, pewność średnia.
+
+### 8. Leki na ADHD a samobójstwa, wypadki i przestępczość (BMJ, Szwecja): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - PsyPost (https://www.psypost.org/new-research-links-adhd-medication-to-reduced-risk-of-suicidal-behaviors-accidents-and-crime/): działa, 14.09.2025, Karina Petrova.
+  - Paper: Europe PMC (PMID 40803836) potwierdza metadane i liczby. PMC (PMC12401081): otwiera się tylko nagłówek z informacją, że to „corrected article”.
+  - The Conversation (Mathews & Faraone): działa; nie wspomina tego papera.
+  - Edytorial Kuntsi (10.1136/bmj.r2034): Crossref; nie odnosi się do tego papera.
+  - Science Media Centre (reakcje ekspertów, 13.08.2025): działa. Scimex: HTTP 403.
+- **News a paper:** PsyPost podaje pełny tytuł, pierwszego autora (Le Zhang) i The BMJ. Jednoznaczne.
+- **Fakty:**
+  - Tytuł, BMJ, DOI 10.1136/bmj-2024-083658, PMID, OA tak → zgodne; uzupełnienie: BMJ tom 390, 13.08.2025; 13 autorów (Zhang L, Zhu N, Sjölander A, Nourredine M, Li L, Garcia-Argibay M, Kuja-Halkola R, Brikell I, Lichtenstein P, D'Onofrio BM, Larsson H, Cortese S, Chang Z).
+  - 148 581 osób, 6–64 lata, mediana 17,4, 41,3% kobiet → zgodne; uzupełnienie: 84 282 (56,7%) zaczęło leczenie w ciągu 3 miesięcy, głównie metylofenidat.
+  - Okres: wyszukiwacz/PsyPost „2007–2018”; abstrakt i komunikaty: „2007–2020” → niepewne (prawdopodobnie diagnozy do 2018 i 2-letnia obserwacja do 2020).
+  - IRR (pierwsze zdarzenia): samobójcze 0,83 (0,78–0,88), substancje 0,85 (0,83–0,87), wypadki komunikacyjne 0,88 (0,82–0,94), przestępczość 0,87 (0,83–0,90), urazy przypadkowe 0,98 (0,96–1,01, nieistotne) → zgodne. Zdarzenia nawracające: 0,85; 0,75; 0,96; 0,84; 0,75.
+  - Edytorial Kuntsi → poprawione: nie dotyczy tego papera.
+- **Kontrowersja:** opis wyszukiwacza (confounding, polityczne użycie ramy „leki zmniejszają przestępczość”, spór o nadrozpoznawalność) jest uczciwy jako kontekst, ale nie ma opublikowanej polemiki z tym paperem. Eksperci SMC chwalą badanie i wskazują typowe ograniczenia (wydanie leku ≠ przyjmowanie, brak danych o dawkach, rezydualny confounding). PsyPost oddaje paper wiernie; nie ma rozjazdu do analizy.
+- **Retrakcje / korekty / krytyka / replikacje:** **korekta** w BMJ: w rycinie 2 zamieniono oznaczenia grup (niebieska linia to grupa bez leczenia, żółta to grupa leczona); wyniki bez zmian (wynik wyszukiwania, PMC). Brak polemik. Zapytania: „BMJ Zhang Chang ADHD … criticism confounding rapid response OR editorial OR "expert reaction"”, „"ADHD drug treatment and risk of suicidal behaviours" correction BMJ 2025”.
+- **Poprawki:**
+  1. Korekta ryciny 2 (zamienione etykiety grup).
+  2. Edytorial Kuntsi nie dotyczy papera.
+  3. Trzecie źródło: reakcje ekspertów SMC zamiast tekstu z The Conversation (który papera nie omawia).
+  4. Okres badania: niepewne (2007–2018 vs 2007–2020).
+- **Dodatkowe znaleziska:** Science Media Centre, https://www.sciencemediacentre.org/expert-reaction-to-target-trial-emulation-study-of-adhd-medication-and-risk-of-adverse-outcomes/ (Maidment, Guastella, Hester, Bright, Kinner). Inne relacje z wyników: Pulse, Pharmaceutical Journal, New Atlas, komunikat BMJ i University of Southampton. Ciekawostka do roli 1: korekta ryciny z zamienionymi grupami pokazuje, jak łatwo o błąd w prezentacji wyników.
+- **Ocena niezależna:** 3/5. Bardzo dobry, otwarty paper z nowoczesną metodą (target trial emulation) i temat bliski studentom, ale bez kontrowersji wokół samego papera, z newsem z PsyPost, który oddaje go wiernie, i bez trójkąta. Nie polecam do piętnastki (rezerwa, jeśli potrzebny jest temat ADHD).
+- **Do ręcznego sprawdzenia przez zespół:** dokładny okres badania i opis emulacji (klonowanie, cenzurowanie, wagi) w pełnym tekście; BMJ rapid responses.
+- **Opis po poprawkach:**
+  - **Kategoria:** ADHD / leki psychiatryczne / przyczynowość z danych obserwacyjnych
+  - **News:** „New research links ADHD medication to reduced risk of suicidal behaviors, accidents, and crime”, PsyPost, Karina Petrova, 14.09.2025, https://www.psypost.org/new-research-links-adhd-medication-to-reduced-risk-of-suicidal-behaviors-accidents-and-crime/ , paywall: nie. Podaje spadki o 12–17% i ograniczenia (brak danych o psychoterapii, wydanie leku ≠ przyjmowanie, specyfika Szwecji).
+  - **Paper:** „ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials”, Zhang L, Zhu N, Sjölander A i in. (13 autorów, Karolinska), BMJ 390, 13.08.2025, DOI 10.1136/bmj-2024-083658, open access: tak (z późniejszą korektą ryciny 2). Emulacja badania docelowego na szwedzkich rejestrach: 148 581 osób z nową diagnozą ADHD; rozpoczęcie leczenia w ciągu 3 miesięcy wiązało się z mniejszą częstością zachowań samobójczych (IRR 0,83), nadużywania substancji (0,85), wypadków komunikacyjnych (0,88) i przestępczości (0,87); bez efektu dla urazów przypadkowych.
+  - **Trzecie źródło:** reakcje ekspertów Science Media Centre (link wyżej): pozytywne, z typowymi zastrzeżeniami.
+  - **Dlaczego fajne:** ADHD i stymulanty są bliskie studentom; paper pokazuje, jak z rejestrów próbuje się wyciągać wnioski przyczynowe.
+  - **Kontrowersja / rozjazd:** brak sporu o sam paper; kontekst: czy emulacja usuwa confounding, polityczne użycie ramy „leki zmniejszają przestępczość”, spór o nadrozpoznawalność ADHD.
+  - **Trudność techniczna:** średnia. IRR, target trial emulation, confounding by indication, immortal time bias.
+  - **Pytanie do dyskusji:** Jeśli leki na ADHD zmniejszają liczbę wypadków i przestępstw, czy to argument za szerszym diagnozowaniem, czy ryzyko medykalizacji?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 9. Ciemna strona medytacji: trauma z dzieciństwa a szkodliwe skutki mindfulness: ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - PsyPost, Setionago, 9.12.2025 (https://www.psypost.org/childhood-trauma-linked-to-worse-outcomes-in-mindfulness-therapy-for-depression/): działa.
+  - Paper: Europe PMC (PMID 39883728), OA (licencja CC).
+  - PsyPost/The Conversation, Farias, 18.08.2024 (https://www.psypost.org/meditation-can-backfire-worsening-mental-health-problems/): działa.
+- **News a paper:** PsyPost podaje pełny tytuł, Nicholasa K. Canby'ego i PLOS One. Jednoznaczne.
+- **Fakty:**
+  - Tytuł, 11 autorów, PLOS ONE 20(1), 30.01.2025, DOI 10.1371/journal.pone.0318499, OA tak → zgodne.
+  - N=52 i N=104; całkowita trauma z dzieciństwa i wykorzystanie seksualne przewidywały gorsze wyniki w obu badaniach; wykorzystanie seksualne przewidywało rezygnację w badaniu 2; całkowita trauma, przemoc emocjonalna i subkliniczne PTSD przewidywały trwałe skutki uboczne medytacji → zgodne. Uzupełnienie z PsyPost: badanie 1: 79% kobiet, średni wiek 47; badanie 2: 74% kobiet, średni wiek 40; programy: MBCT oraz praktyki skupionej uwagi i otwartego monitorowania.
+  - Farias: ponad 10% z 953 regularnych medytujących z USA miało skutki uboczne z istotnym wpływem na życie trwające co najmniej miesiąc; szkoły w UK: 84 szkoły, ponad 8000 uczniów 11–14 lat, mindfulness nie poprawił samopoczucia vs kontrola → zgodne. Badanie 953 osób to Goldberg SB, Lam SU, Britton WB, Davidson RJ, „Prevalence of meditation-related adverse effects in a population-based sample in the United States”, Psychotherapy Research 2022, DOI 10.1080/10503307.2021.1933646 (potwierdzone w Europe PMC). Badanie szkolne to prawdopodobnie MYRIAD (Kuyken i in. 2022; Farias go nie nazywa, nie weryfikowałem).
+  - Uwaga: MYRIAD pokazuje brak korzyści, nie szkodę; tekst Fariasa używa go w szerszym argumencie o przecenianiu mindfulness.
+- **Kontrowersja:** realna jako spór społeczny (mindfulness jako „bezpieczny dla wszystkich”), ale bez polemiki z tym paperem. Opis wyszukiwacza uczciwy. Kontekst: ostatnia autorka, Willoughby Britton, od lat bada szkodliwe skutki medytacji (to jej program badawczy).
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono. Zapytania: „Canby Britton childhood trauma mindfulness adverse effects depression PLOS One 2025 news”. Inne relacje: The News (Pakistan), AMRA (wyniki wyszukiwania).
+- **Poprawki:** brak istotnych (uzupełnione dane demograficzne i identyfikacja badania 953 osób).
+- **Dodatkowe znaleziska:** świeży trop w tym samym nurcie: Beloborodova i in., „Prevalence and Predictors of Self-Reported Adverse Experiences in Digital Meditation Training: 2 Randomized Controlled Trials”, JMIR Mental Health 2026, DOI 10.2196/90602 (z Europe PMC; bez newsa, nie weryfikowałem).
+- **Ocena niezależna:** 3/5. Ważny, „poczuwalny” temat (aplikacje, mindfulness na uczelniach), otwarty paper, ale skromny (PLOS One, analizy wtórne małych badań, w jednym brak kontroli bez medytacji), medium średniej rangi i brak sporu wokół papera. Nie polecam do piętnastki (rezerwa, jeśli grupa chce tematu medytacji).
+- **Do ręcznego sprawdzenia przez zespół:** nic.
+- **Opis po poprawkach:**
+  - **Kategoria:** ciemne strony medytacji / trauma
+  - **News:** „Childhood trauma linked to worse outcomes in mindfulness therapy for depression”, PsyPost, Bianca Setionago, 9.12.2025, https://www.psypost.org/childhood-trauma-linked-to-worse-outcomes-in-mindfulness-therapy-for-depression/ , paywall: nie. Opisuje dwa badania (52 i 104 osoby), skutki uboczne (żywe obrazy, lęk, dysocjacja, spłycenie emocji), ograniczenia i sugestie dla osób po traumie (krótsze sesje, mniejsze grupy).
+  - **Paper:** „Childhood trauma and subclinical PTSD symptoms predict adverse effects and worse outcomes across two mindfulness-based programs for active depression”, Canby NK, Cosby EA, Palitsky R, Kaplan DM, Lee J, Mahdavi G, Lopez AA, Goldman RE, Eichel K, Lindahl JR, Britton WB, PLOS ONE 20(1), 30.01.2025, DOI 10.1371/journal.pone.0318499, open access: tak. Analizy wtórne dwóch badań klinicznych (N=52 i N=104): trauma z dzieciństwa, zwłaszcza wykorzystanie seksualne, przewidywała gorsze wyniki leczenia depresji; kilka typów traumy i subkliniczne PTSD przewidywały skutki uboczne, także trwałe.
+  - **Trzecie źródło:** Miguel Farias, „Meditation can backfire, worsening mental health problems”, PsyPost (przedruk z The Conversation), 18.08.2024, https://www.psypost.org/meditation-can-backfire-worsening-mental-health-problems/ (szersze dowody: Goldberg i in. 2022, badanie szkolne w UK).
+  - **Dlaczego fajne:** mindfulness jest wszędzie, a mało kto wie, że może szkodzić; wiele osób na sali medytuje.
+  - **Kontrowersja / rozjazd:** społeczna (reklamowany jako bezpieczny dla wszystkich) i naukowa (małe próby, analizy wtórne, trudność odróżnienia skutku ubocznego od przebiegu depresji).
+  - **Trudność techniczna:** niska.
+  - **Pytanie do dyskusji:** Czy uczelnie i aplikacje powinny ostrzegać przed skutkami ubocznymi medytacji tak jak ulotki leków?
+  - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
+
+### 10. Ozempic na uzależnienia? Leki GLP-1 a ryzyko zaburzeń używania substancji (BMJ, weterani USA): ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - Nature, Lenharo, 5.03.2026 (https://www.nature.com/articles/d41586-026-00734-2): działa po 3 przekierowaniach; tytuł, podtytuł, autorka, data (Nature 651, 288–289) i przypisy potwierdzone. Paywall: tak; w widocznej części brak niezależnych ekspertów.
+  - Paper: Europe PMC (PMID 41781010, PMC12958796).
+  - Tekst BMJ „GLP-1 drugs hold promise…”: Europe PMC i Crossref (10.1136/bmj.s417).
+  - AP na Yahoo (https://www.yahoo.com/news/articles/know-glp-1-medications-might-234711298.html): działa (licencjonowany przedruk AP).
+  - Science Media Centre (https://www.sciencemediacentre.org/expert-reaction-to-cohort-study-on-glp-1-receptor-agonists-and-risk-of-substance-use-disorders-among-us-veterans-with-type-2-diabetes/): działa.
+- **News a paper:** Nature cytuje paper w przypisie 1 (Cai i in., BMJ 392, e086886) i opisuje go w podtytule (600 000 weteranów). Drugi przypis: Hendershot i in., JAMA Psychiatry 82, 395–405 (RCT semaglutydu w zaburzeniu używania alkoholu; rok w przypisie wg narzędzia 2026, przy tomie 82 raczej 2025; niepewne).
+- **Fakty:**
+  - Tytuł, autorzy, BMJ 392 (marzec 2026), DOI, OA tak → zgodne; PMID 41781010.
+  - 606 434 weteranów; protokół 1: 124 001 GLP-1 vs 400 816 SGLT-2 → zgodne; uzupełnienie: protokół 2 (osoby z istniejącym SUD): 81 617 (16 768 vs 64 849).
+  - HR: alkohol 0,82 (0,78–0,85), konopie 0,86 (0,81–0,90), kokaina 0,80 (0,72–0,88), nikotyna 0,80 (0,74–0,87), opioidy 0,75 (0,67–0,85) → zgodne; w grupie z SUD: przedawkowanie 0,61 (0,42–0,88), zgony 0,50 (0,32–0,79) → zgodne; uzupełnienie: SOR 0,69, hospitalizacje 0,74, myśli/próby samobójcze 0,75. Różnice bezwzględne są małe (np. alkohol −5,57 na 1000, zgony −1,52 na 1000): dobry punkt do analizy nagłówków.
+  - Tekst BMJ „GLP-1 drugs hold promise for treating substance addiction” (5.03.2026) → **potwierdzone: autorem jest Ziyad Al-Aly**, ostatni autor badania (Europe PMC: typ „Editorial”; Crossref bez etykiety działu). To głos autora, nie niezależny komentarz.
+- **Kontrowersja:** wyszukiwacz uczciwie opisał ją jako słabą (dane obserwacyjne, brak RCT). Nagłówek Nature jest ostrożny („hints at”), choć tekst wg narzędzia mówi, że leki „might help people to avoid becoming addicted”, a w AP Al-Aly mówi, że leki działają „against the root cause of all these different addictions”. To mocniejsze niż dane obserwacyjne u starszych mężczyzn z cukrzycą.
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono korekt. Krytyka: reakcja ekspertki w SMC (Marie Spreckley, Cambridge: rezydualny confounding, np. nasilenie uzależnienia, determinanty społeczne); zastrzeżenia w AP (populacja VA: starsi, biali mężczyźni z cukrzycą; potrzeba RCT). Zapytania: „Al-Aly GLP-1 substance use disorders veterans BMJ March 2026 expert reaction criticism confounding”.
+- **Poprawki:** brak błędów; uzupełnienia: autorstwo tekstu BMJ (Al-Aly), protokół 2, różnice bezwzględne, otwarty news AP.
+- **Dodatkowe znaleziska:**
+  - Otwarty news: „What to know about how GLP-1 medications might fight addiction”, Associated Press, Jonel Aleccia, 4.03.2026, przedruk Yahoo (link wyżej): cytuje Al-Aly'ego, Lorenzo Leggio (NIDA) i Annę Lembke (Stanford) i wymienia ograniczenia.
+  - SMC, reakcja ekspertów, 4.03.2026 (link wyżej).
+- **Ocena niezależna:** 3/5. Duży, otwarty paper w BMJ i temat, o którym słyszał każdy (Ozempic), z dwoma newsami (Nature, AP). Minusy: brak prawdziwego sporu i trójkąta (krytyka ogranicza się do typowych zastrzeżeń wobec danych obserwacyjnych), autor sam komentuje swoje badanie w BMJ. Rezerwa; do piętnastki tylko jeśli potrzebny temat uzależnień.
+- **Do ręcznego sprawdzenia przez zespół:** pełna treść Nature (czy cytuje niezależnych badaczy).
+- **Opis po poprawkach:**
+  - **Kategoria:** narkotyki i uzależnienia / leki
+  - **News:** „Do obesity drugs treat addiction? Huge study hints at their promise”, Nature (News), Mariana Lenharo, 5 marca 2026, https://www.nature.com/articles/d41586-026-00734-2 , paywall: tak. Podtytuł: badanie 600 000 weteranów; osoby biorące leki GLP-1 rzadziej miały powikłania zaburzeń używania substancji. Otwarta alternatywa: AP, 4.03.2026 (przedruk Yahoo, link wyżej), z cytatem autora o „root cause” uzależnień i zastrzeżeniami ekspertów.
+  - **Paper:** „Glucagon-like peptide-1 receptor agonists and risk of substance use disorders among US veterans with type 2 diabetes: cohort study”, Cai M, Choi T, Xie Y, Al-Aly Z, BMJ 392, marzec 2026, DOI 10.1136/bmj-2025-086886, open access: tak. Emulacje badań docelowych na danych VA: 606 434 weteranów z cukrzycą typu 2, porównanie rozpoczynających GLP-1 z rozpoczynającymi SGLT-2. GLP-1 wiązały się z mniejszym ryzykiem nowych zaburzeń używania alkoholu (HR 0,82), konopi, kokainy, nikotyny i opioidów (0,75), a u osób z SUD z mniejszym ryzykiem przedawkowania (0,61) i zgonów związanych z substancjami (0,50); różnice bezwzględne są małe.
+  - **Trzecie źródło:** Science Media Centre, reakcja ekspertów (rezydualny confounding), link wyżej; komentarz autora w BMJ (Al-Aly, „GLP-1 drugs hold promise for treating substance addiction”, DOI 10.1136/bmj.s417), do pokazania jako głos strony.
+  - **Dlaczego fajne:** Ozempic zna każdy; idea, że lek na odchudzanie „wycisza” chęć picia czy brania, jest fascynująca.
+  - **Kontrowersja / rozjazd:** dane obserwacyjne (starsi mężczyźni z cukrzycą), confounding, ryzyko hype'u (autor mówi o „root cause”), brak dużych RCT, interesy producentów.
+  - **Trudność techniczna:** średnia. HR, różnica ryzyka względna vs bezwzględna, active comparator new-user design, target trial emulation.
+  - **Pytanie do dyskusji:** Czy lekarze powinni przepisywać GLP-1 na alkoholizm na podstawie takich danych? Czy „biologiczny” lek na uzależnienie zmienia nasze myślenie o winie i wolnej woli?
+  - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
+
+## Lista do ręcznego sprawdzenia
+- **Para 1:** Nature, https://www.nature.com/articles/d41586-026-02769-x (paywall): pełna wypowiedź Ciprianiego (czy mówi o braku podstaw do wykluczenia badania bez protokołu). Guardian, listopad 2025, „Prozac ‘no better than placebo’ for treating children with depression, experts say” (domena blokuje narzędzie): nagłówek, data, kogo cytuje.
+- **Para 2:** opcjonalnie STAT, 23.09.2025, https://www.statnews.com/2025/09/23/researcher-behind-trump-tylenol-autism-expert-testimony-tossed/ (STAT+).
+- **Para 3:** Nature, https://www.nature.com/articles/d41586-025-03103-7 (paywall): pełna treść. Komentarze Challmana i Myersa na PubPeer (jakie niespójności w tabelach 2 i 3). Disability Scoop, https://www.disabilityscoop.com/2026/02/17/autism-study-of-drug-touted-by-trump-administration-retracted/31860/ (HTTP 403).
+- **Para 4:** oryginał The Telegraph (paywall), porównać z przedrukiem na Yahoo.
+- **Para 5:** Nature, https://www.nature.com/articles/d41586-025-00937-z (paywall): nazwiska i argumenty krytyków (Rachel Yehuda? John Greally?).
+- **Para 6:** pełne teksty obu paperów w Neuropharmacology (Elsevier, paywall): liczebności (171 vs 59+61+27), liczba miar kreatywności, wspólni uczestnicy A i B.
+- **Para 7:** Nature, https://www.nature.com/articles/d41586-024-01622-3 (paywall): zarzuty panelu w treści; treść Author Correction do MAPP2 (10.1038/s41591-024-03331-w).
+- **Para 8:** pełny tekst BMJ (okres badania, opis emulacji), BMJ rapid responses; Scimex (HTTP 403).
+- **Para 10:** Nature, https://www.nature.com/articles/d41586-026-00734-2 (paywall): czy są niezależni eksperci.

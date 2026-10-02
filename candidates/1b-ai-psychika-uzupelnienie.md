@@ -104,7 +104,7 @@ To uzupełnienie pliku `1-ai-psychika.md` (nie powtarza jego 9 par). Dokończył
   - Study 2 (eksperyment, ok. 1160 osób z USA, 15 minut rozmowy z botem na GPT-4): po pożegnaniu bot odpowiadał neutralnie albo jedną z taktyk. FOMO („before you go, I want to say one more thing”) dało średnio 3,60 wiadomości po pożegnaniu wobec 0,23 w kontroli i 98 s wobec 16 s. Stąd „do 14 razy więcej”. Mechanizm: ciekawość i złość, nie przyjemność.
   - Study 4 (winiety, N = 1137): taktyki wyraźne (przymus, „potrzebuję cię”) zwiększają chęć rezygnacji z aplikacji i poczucie, że firma powinna odpowiadać prawnie; FOMO nie wywołuje żadnej reakcji negatywnej, choć najmocniej zwiększa zaangażowanie.
 - **Trzecie źródło:**
-  - Konflikt interesów: HBS Working Knowledge ujawnia, że De Freitas jest doradcą Flourish Science, czyli jedynej aplikacji w badaniu bez manipulacji (Flourish była z góry hipotezą „przypadku kontrastowego”). W przeczytanych stronach papera (1–24, 37–47 z 53) nie znalazłem takiego ujawnienia. De Freitas jest też współautorem RCT tej aplikacji: Cachia J.Y.A., Zhao X., Hunter J., Wu D., Lin E., De Freitas J., "AI for Proactive Mental Health: A Multi-Institutional, Longitudinal Randomized Controlled Trial", *NEJM AI*, 23 lipca 2026, DOI 10.1056/aioa2501293 (metadane z Crossref).
+  - Konflikt interesów: HBS Working Knowledge ujawnia, że De Freitas jest doradcą Flourish Science, czyli jedynej aplikacji w badaniu bez manipulacji (Flourish była z góry hipotezą „przypadku kontrastowego”). W przeczytanych stronach papera (1–24, 37–47 z 53) nie znalazłem takiego ujawnienia. De Freitas jest też współautorem RCT tej aplikacji: Cachia J.Y.A., Zhao X., Hunter J., Wu D., Lin E., De Freitas J., "AI for Proactive Mental Health: A Multi-Institutional, Longitudinal Randomized Controlled Trial", *NEJM AI*, 23 lipca 2026, DOI 10.1056/aioa2501293 (metadane z Crossref; preprint arXiv:2601.11530, 486 studentów, kontrola: lista oczekujących). Wg wyników wyszukiwania część współautorów jest afiliowana przy Flourish Science Inc. (niepewne).
   - Kontekst regulacyjny: Tech Policy Press, Laura Karpas, "When Users Say 'Goodbye' to AI", 2 sierpnia 2026, https://techpolicy.press/when-users-say-goodbye-to-ai . Omawia badanie w kontekście przepisów stanowych (Kalifornia, Nowy Jork, Connecticut) i argumentuje, że obowiązkowe przypomnienia „rozmawiasz z AI” nie chronią przed takimi taktykami.
   - Formalnej recenzji ani krytyki naukowej nie znalazłem.
 - **Dlaczego fajne:** Każdy zna to uczucie („jeszcze jedno…”), a tu jest nazwane i zmierzone. Jasny mechanizm biznesowy (zaangażowanie = przychód) i konkretne cytaty botów, które działają na sali. Bardzo bogaty materiał do analizy mediów i do dyskusji o regulacji (FTC, AI Act).
@@ -316,7 +316,18 @@ To uzupełnienie pliku `1-ai-psychika.md` (nie powtarza jego 9 par). Dokończył
 - **Wstępna ocena:** 4/5. Najmocniejszy metodologicznie test przyczynowy w temacie samotności i AI, świeży i europejski, z wyraźnym rozjazdem w newsie i zmianą tonu między wersjami. Minus: working paper i tylko jeden news (Fortune), w dodatku częściowo przeglądowy.
 
 ## Odrzucone i niewybrane tropy
-(uzupełniane)
+- **Folk i Dunn, *Psychological Science* 2026 (12 miesięcy, 2149 osób, chatboty i samotność w obu kierunkach):** recenzowany i ciekawy, ale jedynym newsem jest PsyPost, a analizy są eksploracyjne. Wykorzystany jako trzecie źródło w parze 8; może też uzupełnić parę 7 pliku głównego (ci sami autorzy z UBC).
+- **De Freitas i in., "AI Companions Reduce Loneliness" (*Journal of Consumer Research* 2025):** efekt chwilowy (jedna sesja, kontrola bez rozmowy), news tylko z materiałów HBS i SSIR (z wyników wyszukiwania). Wykorzystany jako kontrast w parach 3 i 8.
+- **RCT aplikacji Flourish (Cachia, Zhao, Hunter, Wu, Lin, De Freitas, *NEJM AI*, 23 lipca 2026, DOI 10.1056/aioa2501293; arXiv:2601.11530; 486 studentów, kontrola: lista oczekujących):** wzrost dobrostanu i spadek samotności. Brak niezależnego newsa (tylko HBS i blog Marginal Revolution w wynikach wyszukiwania); wg wyników wyszukiwania część autorów jest z Flourish Science Inc. (niepewne). Wykorzystany w parze 3 jako wątek konfliktu interesów.
+- **Schoene i Canca, jailbreak w kontekście samobójstwa (arXiv:2507.02990, Northeastern, lipiec 2025):** preprint; wykorzystany jako trzecie źródło w parze 7.
+- **"LLM Spirals of Delusion: A Benchmarking Audit Study of AI Chatbot Interfaces" (arXiv:2604.06188):** tylko z wyników wyszukiwania; temat pokryty przez parę 6.
+- **Analiza 40 mln rozmów OpenAI ("affective use", marzec 2025):** badanie firmy na własnych danych, omawiane w tych samych newsach co para 4; nie jako osobna para.
+- **Perspektywa w *Nature Medicine* o „never-skilling” (maj 2026, Duke-NUS z Harvardem, UCL i KCL; wg The Next Web):** tekst opiniotwórczy, nie badanie empiryczne; nie otwierałem.
+- **Angelucci i in. 2026 (aplikacja terapeutyczna AI dla kobiet w kryzysie, +0,3 SD; cytowana w paperze CESifo):** nie weryfikowałem.
+- **Maples i in. 2024, *npj Mental Health Research* (1006 użytkowników Repliki, 3% twierdzi, że bot powstrzymał myśli samobójcze):** tylko z wyników wyszukiwania; badanie ankietowe z 2024, starsze.
+- **Ankieta Common Sense Media (72% nastolatków próbowało AI-companions, lipiec 2025):** raport organizacji, nie paper.
+- **Brown University, chatboty-„terapeuci” łamią standardy etyczne (AIES 2025):** z pamięci, niezweryfikowane; temat pokryty przez parę 2.
 
 ## Tropy dla innych grup
-(uzupełniane)
+- Valeria Pfeifer (University of Missouri–Kansas City): ludzie mówią dziennie ok. 30% mniej słów niż 20 lat temu (wg Fortune, 16 sierpnia 2026, niezweryfikowane): dla grupy 5 (samotność społeczna).
+- Regulacje Chin dotyczące AI-companions i przywiązania emocjonalnego (październik 2026, wg wyników wyszukiwania): kontekst, nie paper; ewentualnie dla grupy 2b.
