@@ -1,0 +1,136 @@
+# Weryfikacja: 4. Psychika i substancje
+
+Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/4-psychika-substancje.md
+
+## Podsumowanie
+(w toku: sprawdzone pary 1–3; pozostałe w trakcie)
+
+## Pary
+
+### 1. Prozac u dzieci: jedno wadliwe irańskie badanie przechyliło metaanalizy: ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - Nature news https://www.nature.com/articles/d41586-026-02769-x : działa (3 przekierowania: idp.nature.com → transit → nature.com z parametrem cookies). Tytuł, podtytuł, autor (Richard Van Noorden), data (2.10.2026) i przypisy potwierdzone. Paywall: tak (po wstępie komunikat „Log in or create an account”).
+  - medRxiv (pełny PDF z wyników wyszukiwania): HTTP 403. Abstrakt preprintu odczytany przez Europe PMC REST API.
+  - Wersja recenzowana: metadane i pełny abstrakt odczytane przez Crossref API (api.crossref.org/works/10.1002/cesm.70108). Strony Wiley nie otwierałem (wyszukiwacz: 403).
+  - Psychiatry at the Margins (Aftab): działa, opisany zgodnie co do daty i tezy (z zastrzeżeniem niżej).
+  - Mad in America (https://www.madinamerica.com/2026/09/from-efficacy-to-non-efficacy-lessons-from-pediatric-fluoxetine-trials/): działa. **Autorem jest sam Martin Plöderl** (współautor papera), 30.09.2026, więc to nie jest niezależne źródło.
+  - Guardian, listopad 2025: nie otwierany (domena blokuje narzędzie); istnienie i treść potwierdzone przez wynik wyszukiwania (bioethics.com, przedruk/omówienie z tym samym tytułem).
+- **News a paper:** news wprost podaje, że badanie Lyusa, Naudeta, van Valkenhoefa i Plöderla ukazało się „w tym miesiącu” w Cochrane Evidence Synthesis and Methods (przypis 1 z DOI 10.1002/cesm.70108). Wadliwe badanie: 40 dzieci w Iranie, 2006 r., „ogromna przewaga” Prozacu nad nortryptyliną (przypis 5: Attari i in., J. Res. Med. Sci. 11, 24–30, 2006). Jednoznaczna para.
+- **Fakty:**
+  - Tytuł, autorzy papera → zgodne (Crossref).
+  - Czasopismo, tom, numer → zgodne i uzupełnione: Cochrane Evidence Synthesis and Methods 4(6), e70108, **online 1 października 2026** (Crossref).
+  - Open access → poprawione: **tak, także wersja recenzowana** (licencja CC BY 4.0 wg Crossref), nie tylko preprint.
+  - Liczby: Lancet NMA SMD −0,51 (95% CrI −0,99 do −0,03) i −0,51 (−0,84 do −0,18); po wykluczeniu badania wynik bliski Cochrane: SMD −0,20 (95% CI −0,28 do −0,11); badanie odstające z SMD > 4; narzędzie INSPECT-SR; niewyjaśniona pętla fluoksetyna–placebo–nortryptylina → zgodne (pełny abstrakt w Crossref identyczny z preprintem).
+  - Attari i in. 2006 → zgodne; uzupełnienie z abstraktu (wynik wyszukiwania, baza BVS): 40 pacjentów 7–16 lat, 8 tygodni, fluoksetyna 1 mg/kg vs nortryptylina 2 mg/kg, zmiana −10,95 ± 2,61 vs −2,6 ± 0,8.
+  - Cytaty w Nature: Plöderl (czekolada vs odchody) → zgodny; Abi-Jaoude („slam-dunk study”) → zgodny; Cipriani → częściowo: w moim odczycie przyznaje, że dane z 2006 r. są problematyczne, i podkreśla, że zespoły metaanaliz sygnalizowały ryzyko błędu i „very low” pewność. Wątku „bez obecnego protokołu nie mieli podstaw do wykluczenia” nie potwierdziłem (może być za paywallem).
+  - Medknow → zgodne: wydawca poprosił redakcję czasopisma o zbadanie sprawy i uprzedził o opóźnieniach z powodu sytuacji w Iranie. Nature nie pisze o retrakcji.
+  - Nature nie podaje liczb SMD → zgodne (tylko „enormous advantage”, „effect size so big as to be unheard of”).
+  - JCE 2026 (Plöderl, Lyus, Horowitz, Moncrieff), DOI 10.1016/j.jclinepi.2025.112016, tom 189, PMID 41548966 → zgodne; abstrakt mówi o spadku efektu w czasie do zakresu klinicznej równoważności z placebo i o novelty bias / oczekiwaniach. Liczby „12 badań 1997–2024” nie ma w abstrakcie → niezweryfikowane.
+  - List Boussageon, Gougeon, Kassaï (JCE, kwiecień 2026, DOI 10.1016/j.jclinepi.2026.112137) → zgodny (Crossref). Odpowiedź autorów (DOI 10.1016/j.jclinepi.2026.112138) i meta-regresja w J Psychiatr Res (DOI 10.1016/j.jpsychires.2026.08.018) → zgodne (Europe PMC).
+  - Aftab → poprawione: tekst z 18.10.2025 odpowiada na wpis blogowy Plöderla (o tekstach Olfsona i Strawna/Walkupa), **nie omawia papera Lyusa ani pracy z JCE**. TADS: fluoksetyna 63,3%, placebo 39,6% (kombinacja 73,7%, CBT 48,9%) → zgodne.
+- **Kontrowersja:** realna i dobrze udokumentowana: paper, krytyczna wypowiedź Ciprianiego w Nature, list polemiczny w JCE i odpowiedź autorów. Opis wyszukiwacza uczciwy. Nagłówek Nature („skewed”) wiernie oddaje paper (który sam pisze, że wyniki „may alter the clinical risk/benefit assessment”). Nagłówek Guardiana z 2025 r. („no better than placebo”, w cudzysłowie jako słowa ekspertów) idzie dalej: SMD −0,20 to wciąż efekt różny od zera, a „równoważność z placebo” zależy od przyjętego progu klinicznej istotności. To dobry punkt dla roli 1.
+- **Retrakcje / korekty / krytyka / replikacje:** paper CESM ukazał się 1.10.2026, brak korekt (za wcześnie). Badanie Attari 2006 według Nature nie jest wycofane, toczy się sprawdzanie przez wydawcę. Zapytania: „Attari 2006 fluoxetine nortriptyline … trustworthiness”, „cesm.70108 …”, Europe PMC AUTH:"Lyus R", Crossref. Ciekawostka z Mad in America: preprint został odrzucony przez pięć czasopism przed publikacją w CESM (wg samego Plöderla).
+- **Poprawki:**
+  1. Wersja recenzowana jest open access (CC BY 4.0), online 1.10.2026, tom 4, numer 6.
+  2. Aftab nie polemizuje z tym paperem, tylko z szerszą tezą Plöderla; to kontekst, nie bezpośrednia odpowiedź.
+  3. Mad in America: autor to Plöderl, czyli głos strony, nie niezależne źródło.
+  4. Wypowiedź Ciprianiego: potwierdzona tylko część (problematyczne dane, ostrzeżenia o „very low” pewności).
+  5. „12 badań 1997–2024” w pracy z JCE: niezweryfikowane.
+- **Dodatkowe znaleziska:**
+  - Mad in America, Plöderl, 30.09.2026: autor sam opisuje historię i to, że preprint pięć razy odrzucono. Dobre do dyskusji o tym, jak trudno publikuje się krytykę wpływowych metaanaliz (pamiętać, że to głos strony).
+  - Plöderl, Lyus, Naudet, „Letter in response to Shakibaei et al. …” (PsyArXiv, 15.07.2026, DOI 10.31234/osf.io/8wgy4_v1): list krytyczny wobec pilotażowego RCT fluoksetyny u bardzo małych dzieci (Adv Biomed Res 2026, Iran). Pokazuje, że grupa systematycznie tropi wątpliwe badania.
+- **Ocena niezależna:** 5/5. Świetny, świeży (1–2.10.2026), recenzowany i otwarty paper metanaukowy; news w Nature jednoznacznie go omawia; jest kompletny trójkąt (Cipriani w newsie, polemika w JCE, odpowiedź autorów) oraz drugi, ostrzejszy nagłówek (Guardian 2025). Każdy zna Prozac. Zdecydowanie polecam do piętnastki.
+- **Do ręcznego sprawdzenia przez zespół:** pełna treść newsa Nature za paywallem (dokładna wypowiedź Ciprianiego); Guardian z listopada 2025 (nagłówek i dokładne sformułowania).
+- **Opis po poprawkach:**
+  - **Kategoria:** leki psychiatryczne / metanauka (metaanalizy sieciowe, niewiarygodne badania)
+  - **News:** „Prozac use for childhood depression skewed by single flawed medical trial”, Nature (News), Richard Van Noorden, 2 października 2026, https://www.nature.com/articles/d41586-026-02769-x , paywall: tak (dostęp przez bibliotekę UU). Podtytuł: jedno małe badanie z Iranu przechyliło metaanalizy na korzyść antydepresantów u dzieci. Artykuł cytuje nowy paper z DOI, wypowiedzi Plöderla, Ciprianiego (autor NMA z Lancetu) i Abi-Jaoude; wydawca irańskiego czasopisma (Medknow) zlecił sprawdzenie badania. Drugi news (o pracy z JCE): Guardian, listopad 2025, „Prozac ‘no better than placebo’ for treating children with depression, experts say” (do ręcznego sprawdzenia).
+  - **Paper:** „A Re-Appraisal of Three Network Meta-Analyses to Explain the Discrepancy in Findings for the Efficacy of Fluoxetine for the Treatment of Depression in Children and Adolescents”, Richard Lyus, Florian Naudet, Gert van Valkenhoef, Martin Plöderl. Cochrane Evidence Synthesis and Methods 4(6), e70108, online 1.10.2026, DOI 10.1002/cesm.70108, open access: tak (CC BY 4.0); preprint medRxiv 2025, DOI 10.1101/2025.09.07.25334757. Reanaliza trzech NMA (Cipriani 2016 Lancet, Zhou 2020 Lancet Psychiatry, Hetrick 2021 Cochrane). Wyższe efekty z Lancetu (SMD −0,51) wynikały z niespójnej pętli fluoksetyna–placebo–nortryptylina, którą wywoływało jedno małe badanie (Attari i in. 2006, 40 dzieci, SMD > 4, ocenione narzędziem INSPECT-SR jako mało wiarygodne). Po jego usunięciu wyniki zbiegły się z Cochrane (SMD −0,20, 95% CI −0,28 do −0,11).
+  - **Trzecie źródło:** list Boussageon, Gougeon, Kassaï, „Some additional considerations on the evidence for fluoxetine in pediatric depression”, J Clin Epidemiol 2026, DOI 10.1016/j.jclinepi.2026.112137, i odpowiedź Plöderla i in. (DOI 10.1016/j.jclinepi.2026.112138), do pracy siostrzanej „The loss of efficacy of fluoxetine in pediatric depression” (JCE 189, 2026, DOI 10.1016/j.jclinepi.2025.112016). Przeciwwaga kliniczna: Awais Aftab, „Looking Again at SSRIs in Adolescent Depression and Anxiety”, 18.10.2025, https://www.psychiatrymargins.com/p/looking-again-at-ssris-in-adolescent (mały efekt w depresji, lepsze dowody dla lęku i OCD; nie omawia tego papera).
+  - **Dlaczego fajne:** Prozac zna każdy, a fluoksetyna jest lekiem pierwszego wyboru u nastolatków. Detektywistyczna historia: jedno 40-osobowe badanie z mało znanego czasopisma przez lata przesuwało wyniki wpływowych metaanaliz i wytyczne.
+  - **Kontrowersja / rozjazd:** naukowa (wiarygodność badań w metaanalizach, próg „klinicznej istotności”) i społeczna (leczenie depresji u młodzieży). Nature oddaje paper wiernie („skewed”); Guardian 2025 przy pracy siostrzanej idzie dalej („no better than placebo”). Część autorów (Moncrieff, Horowitz, Plöderl) to znani krytycy antydepresantów: to kontekst, nie dyskwalifikacja.
+  - **Trudność techniczna:** średnia. Metaanaliza sieciowa (porównania pośrednie, pętle niespójności), SMD; dla informatyka wdzięczne (graf porównań, propagacja błędu przez sieć).
+  - **Pytanie do dyskusji:** Czy jedno podejrzane badanie powinno móc zmienić wytyczne leczenia dzieci? Kto ma sprawdzać wiarygodność badań: autorzy metaanaliz, czasopisma, regulatorzy? Co znaczy „lek działa”, jeśli efekt jest statystycznie różny od zera, ale mniejszy od progu klinicznego?
+  - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
+
+### 2. Paracetamol w ciąży a autyzm: dwa przeglądy, odwrotne wnioski: ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - STAT 16.01.2026 (https://www.statnews.com/2026/01/16/tylenol-autism-lancet-study-finds-no-acetaminophen-link/): działa, bez oznaczenia STAT+.
+  - ADN (przedruk Washington Post): działa; autorzy, data i treść potwierdzone.
+  - openaccess.sgul.ac.uk/id/eprint/118190: działa, abstrakt z liczbami.
+  - Crossref (10.1016/S3050-5038(25)00211-0): metadane potwierdzone.
+  - Prada i in.: Europe PMC (PMID 40804730) potwierdza metadane i abstrakt.
+  - Céline Gounder: działa (z zastrzeżeniem treści, niżej).
+  - PubPeer (Prada): działa, brak widocznych komentarzy.
+  - STAT 23.09.2025 i Harvard Crimson: nie otwierałem (drugorzędne).
+- **News a paper:** STAT pisze, że badanie ukazało się „w piątek” w „The Lancet”, wymienia współautorkę Asmę Khalil (St George's) i 43 badania. Pełnej nazwy czasopisma (Lancet Obstetrics, Gynaecology, & Women's Health) nie podaje: to uproszczenie, ale para jest jednoznaczna (data, autorka, liczba badań). Zestawia wynik z przeglądem Prady i Baccarellego z 2025 r.
+- **Fakty:**
+  - Paper główny: autorzy, tytuł, czasopismo → zgodne; uzupełnienie: The Lancet Obstetrics, Gynaecology, & Women's Health 2(3):e190–e198 (druk marzec 2026, online 16.01.2026), licencja CC BY 4.0 → open access tak (Crossref).
+  - 43 badania w przeglądzie, 17 w metaanalizie; porównania rodzeństwa: autyzm OR 0,98 (0,93–1,03), ADHD 0,95 (0,86–1,05), niepełnosprawność intelektualna 0,93 (0,69–1,24) → zgodne (repozytorium SGUL).
+  - Prada i in., Environ Health 24(1), sierpień 2025, DOI 10.1186/s12940-025-01208-0, OA → zgodne. 46 badań, 27 dodatnich, 9 zerowych, 4 ujemne → zgodne z abstraktem (uwaga: suma to 40, abstrakt nie wyjaśnia pozostałych 6; niepewne).
+  - Cytaty w STAT → uzupełnione: Brian Lee (Drexel) nazywa przegląd Prady „horrifically inaccurate”; David Mandell: nowy przegląd to „a pretty solid rebuke”, bo stawia na porównania rodzeństwa, które Prada deprecjonował; HHS: badanie „did not refute claims from other researchers”; Baccarelli odmówił komentarza → zgodne.
+  - WaPo/ADN: przegląd w „BMC Environmental Health”; sędzia Denise Cote, grudzień 2023, 148-stronicowa opinia, zarzut „cherry-picking” → zgodne. Kwota 150 tys. USD → **poprawione źródło:** podaje ją sam artykuł WaPo (dokumenty sądowe), a nie tylko Boston Globe; stawka 700 USD/h.
+  - „Administracja i FDA mówiły o ‘causal relationship’” → **poprawione:** list FDA do lekarzy z 22.09.2025 wprost zastrzega, że związek przyczynowy nie został ustalony (wynik wyszukiwania; m.in. healthexec.com, indianpharmapost.com). Dalej niż dane szła retoryka polityczna (Trump, HHS: rady, by unikać Tylenolu), a nie formalny komunikat FDA.
+  - „Te same badania” w nazwie pary → poprawione na „w dużej mierze nakładające się badania” (43 vs 46, różne kryteria; dokładnego nakładania nie sprawdziłem).
+  - Gounder → poprawione: tekst omawia badanie z Tajwanu (JAMA Pediatrics, ponad 2 mln urodzeń 2004–2015). Wypunktowane ograniczenia porównań rodzeństwa to argumenty dyrektora NIH Jaya Bhattacharyi, które Gounder przytacza i odpiera. Nie wspomina przeglądu D'Antonio/Khalil ani Prady.
+- **Kontrowersja:** realna, z konkretnymi źródłami (dwa przeglądy, opinia sądu, wypowiedzi epidemiologów, reakcja HHS). Uwaga wyszukiwacza o kierunku jest trafna: STAT oddaje wynik rzetelnie, przesadza polityka. Trzeba jednak uczciwie dodać, że FDA formalnie mówiła o „association”, nie o przyczynowości.
+- **Retrakcje / korekty / krytyka / replikacje:** nie znalazłem retrakcji ani erraty żadnego z dwóch przeglądów ani opublikowanych listów do Lancet OGWH. Krytyka Prady: blog prawnika N. Schachtmana (zarzut mylącego powoływania się na grant NIH), opinia sądu. Replikacje kierunku „brak związku”: duże badanie z Danii (JAMA Pediatrics 2026, ok. 1,5 mln dzieci, wg ABC) i z Tajwanu (JAMA Pediatrics 2026). Zapytania: „Prada Baccarelli acetaminophen Navigation Guide … correction OR erratum OR criticism 2026”, „D'Antonio Khalil paracetamol … criticism sibling design letter”, „acetaminophen pregnancy autism 2026 new study FDA label …”.
+- **Poprawki:**
+  1. FDA w liście z 22.09.2025 zastrzegła brak ustalonego związku przyczynowego; przesadza retoryka polityczna, nie formalny komunikat FDA.
+  2. 150 tys. USD: źródłem jest artykuł WaPo (dokumenty sądowe).
+  3. Przeglądy opierają się na nakładających się, ale nie identycznych zbiorach badań.
+  4. Gounder: ograniczenia sibling design to argumenty Bhattacharyi, które autorka odpiera; tekst nie dotyczy papera głównego.
+  5. Pełna nazwa czasopisma, tom/strony i open access (CC BY 4.0) uzupełnione.
+- **Dodatkowe znaleziska:** brak nowych źródeł poza duńskim badaniem w JAMA Pediatrics (2026), o którym pisały ABC i inne media; może służyć jako trzeci „głos” danych.
+- **Ocena niezależna:** 4/5. Dwa porządne, otwarte przeglądy i bardzo czytelny spór nauka–polityka, który zna każdy. Minusy: news główny jest rzetelny (mało „przekręcania” do roli 1, więcej do analizy polityki niż mediów), temat bardzo szeroko omówiony i tematycznie zachodzi na parę 3 (ta sama konferencja Białego Domu z września 2025). Polecam do piętnastki warunkowo: jako alternatywę dla pary 3 albo razem z nią, jeśli orkiestrator chce mieć wątek „autyzm i polityka”.
+- **Do ręcznego sprawdzenia przez zespół:** nic krytycznego (opcjonalnie STAT 23.09.2025 za STAT+).
+- **Opis po poprawkach:**
+  - **Kategoria:** leki / autyzm i ADHD / nauka a polityka
+  - **News:** „Tylenol use during pregnancy not linked to autism, new study says”, STAT News, O. Rose Broderick, 16 stycznia 2026, https://www.statnews.com/2026/01/16/tylenol-autism-lancet-study-finds-no-acetaminophen-link/ , paywall: nie. Opisuje nowy przegląd „w The Lancet” (współautorka Asma Khalil), który stawia na porównania rodzeństwa, i zestawia go z przeglądem Prady i Baccarellego; epidemiolog Brian Lee nazywa tamten przegląd „horrifically inaccurate”, HHS broni swojej linii. Drugi news: „Research tying Tylenol to autism lost in court. Then it won Trump's ear.”, Washington Post (D. Gilbert, L. Weber, A. E. Cha), 25.09.2025, przedruk ADN: https://www.adn.com/nation-world/2025/09/25/research-tying-tylenol-to-autism-lost-in-court-then-it-won-trumps-ear (opinia biegłego Baccarellego odrzucona przez sąd w 2023 r., 150 tys. USD za udział w procesach).
+  - **Paper:** „Prenatal paracetamol exposure and child neurodevelopment: a systematic review and meta-analysis”, D'Antonio F, Flacco ME, Della Valle L, Prasad S, Manzoli L, Samara A, Khalil A. The Lancet Obstetrics, Gynaecology, & Women's Health 2(3):e190–e198, online 16.01.2026, DOI 10.1016/S3050-5038(25)00211-0, open access: tak (CC BY 4.0; wersja w repozytorium https://openaccess.sgul.ac.uk/id/eprint/118190). 43 badania kohortowe, 17 w metaanalizie; w porównaniach rodzeństwa brak związku: autyzm OR 0,98 (0,93–1,03), ADHD 0,95 (0,86–1,05), niepełnosprawność intelektualna 0,93 (0,69–1,24). Paper kontrastowy: Prada D, Ritz B, Bauer AZ, Baccarelli AA, „Evaluation of the evidence on acetaminophen use and neurodevelopmental disorders using the Navigation Guide methodology”, Environmental Health 24, 2025, DOI 10.1186/s12940-025-01208-0, OA: 46 badań, 27 z dodatnim związkiem, 9 zerowych, 4 ujemne; wniosek o związku i zalecenie ograniczania paracetamolu w ciąży.
+  - **Trzecie źródło:** opinia sądu i konflikt interesów Baccarellego (WaPo/ADN, wyżej); Céline Gounder, „A New Tylenol Study Doesn't Show What the Headlines May Claim”, 9.03.2026, https://www.celinegounder.com/i/190228599/the-sibling-study-debate (spór o sens porównań rodzeństwa: przytacza argumenty dyrektora NIH Bhattacharyi i je odpiera).
+  - **Dlaczego fajne:** każdy brał paracetamol; dwa przeglądy systematyczne z nakładających się danych dochodzą do odwrotnych wniosków, a jeden z nich trafia do Białego Domu. Idealny przykład, że „metaanaliza” nie jest automatycznie prawdą.
+  - **Kontrowersja / rozjazd:** naukowa (korelacja a przyczynowość, confounding by indication, sens porównań rodzeństwa, Navigation Guide vs klasyczna ocena ryzyka błędu) i polityczna. Media naukowe (STAT) oddają wyniki rzetelnie; przesadza retoryka polityczna, przy czym FDA formalnie zastrzegła brak ustalonego związku przyczynowego.
+  - **Trudność techniczna:** średnia. OR i przedziały ufności, confounding, porównanie rodzeństwa, różnice metod przeglądu.
+  - **Pytanie do dyskusji:** Jeśli dwa przeglądy mówią co innego, komu ma wierzyć kobieta w ciąży? Czy „ostrożność na wszelki wypadek” jest neutralna, skoro nieleczona gorączka też szkodzi?
+  - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
+
+### 3. Leukoworyna na autyzm: news opisał badanie, które potem wycofano: ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - STAT, Herper, 22.09.2025 (https://www.statnews.com/2025/09/22/trump-autism-tylenol-leucovorin-what-science-says/): działa, bez oznaczenia STAT+ (paywall: nie).
+  - Nature, Ledford, 23.09.2025 (https://www.nature.com/articles/d41586-025-03103-7): działa po 3 przekierowaniach; paywall: tak; przypis 1 to Panda i in. 2024.
+  - Nota o wycofaniu: doi.org → link.springer.com (4 przekierowania): działa, pełny tekst noty odczytany; potwierdzone także w Crossref (online 29.01.2026, typ: retraction notice).
+  - Transmitter (https://www.thetransmitter.org/spectrum/largest-leucovorin-autism-trial-retracted/): działa.
+  - Retraction Watch, Weekend reads 7.02.2026: działa, linkuje do Transmittera.
+  - Europe PMC (PMID 39243316): działa, rekord oznaczony jako „Retracted Publication”.
+  - List Castro & Marchezan: potwierdzony w Crossref (Eur J Pediatr 184, art. 352, online 21.05.2025; treści brak).
+- **News a paper:** STAT pisze o badaniu w European Journal of Pediatrics: 80 pacjentów w wieku 2–10 lat, randomizacja leukoworyna vs placebo, 24 tygodnie, wynik istotny statystycznie, ale „smaller studies are prone to false positive results”. Autorów nie wymienia, ale opis (czasopismo, próba, wiek, czas, skala) jednoznacznie wskazuje Panda i in. 2024. Nature podaje paper w przypisie.
+- **Fakty:**
+  - Paper: tytuł, autorzy, Eur J Pediatr 183(11):4827–4835 (listopad 2024), DOI 10.1007/s00431-024-05762-6, PMID 39243316 → zgodne.
+  - Abstrakt: 80 dzieci 2–10 lat, 2 mg/kg/dzień (max 50 mg), zmiana CARS 3,6 ± 0,8 vs 2,4 ± 0,7 (p<0,001), CBCL 19,7 vs 12,6, wysokie miano przeciwciał przeciw receptorowi folianów u 32/40 i 33/40, większy efekt w podgrupie z przeciwciałami, brak działań niepożądanych → zgodne (Europe PMC).
+  - Open access → poprawione z „niepewne” na **nie** (Europe PMC: subskrypcja).
+  - Retrakcja 29.01.2026, DOI noty 10.1007/s00431-026-06769-x, błędy w tabelach 2 i 3, zastrzeżenia do analizy statystycznej, recenzja po publikacji nie odtworzyła wyników z danych, redaktor „no longer has confidence…”, zgodzili się Panda i Sharawat, czterech nie odpowiedziało → zgodne (pełny tekst noty). Uzupełnienie: autorom zaproponowano złożenie poprawionej wersji do pełnej recenzji.
+  - Transmitter: Thomas Challman i Scott Myers (Geisinger), PubPeer we wrześniu 2025; cytat Challmana → zgodne; Dorothy Bishop: „the statistics were all over the place” → zgodne (pada też „The quality of the research is uniformly poor”). Liczba uczestników: Transmitter pisze o 77 dzieciach (prawdopodobnie analizowanych), abstrakt i STAT o 80 (randomizowanych) → obie liczby poprawne w swoim kontekście.
+  - Decyzja FDA → wyjaśnione: wg Transmittera opierała się na 23 badaniach u dzieci z mózgowym niedoborem folianów (cerebral folate deficiency), nie na autyzmie; artykuł nie mówi, czy FDA cytowała Panda 2024. FDA zatwierdzała lek dla CFD, nie dla autyzmu (też BMJ: „FDA approves leucovorin—but not for autism…”, rekord w Europe PMC).
+  - **Nowe spostrzeżenie do analizy mediów:** zdanie STAT brzmi dosłownie, że dzieci z leukoworyną „scored 1.2 points higher on a 60-point scale used to measure autism severity than the children who did not”. Na skali nasilenia (CARS) wyższy wynik oznacza większe nasilenie; w paperze chodzi o o 1,2 pkt większą *poprawę* (3,6 vs 2,4). To prawdopodobnie skrót myślowy dziennikarza, ale dosłownie odwraca kierunek wyniku.
+- **Kontrowersja:** realna, z dokumentem (nota o wycofaniu, PubPeer, Transmitter, Retraction Watch). Opis wyszukiwacza uczciwy: STAT zaznaczył ograniczenia, Nature w podtytule mówi o leku „unproven”. Media nie przesadziły; problemem był sam paper i polityka.
+- **Retrakcje / korekty / krytyka / replikacje:** retrakcja potwierdzona. Dalsze komentarze w Europe PMC (2026): Holle i in. (The Oncologist), Rothman i in. i Patel i in. (JAMA Netw Open), Rome i in. „Use of Leucovorin After the FDA Announcement…” (Pediatrics), stanowisko ACMT (J Med Toxicol), edytorial Coghill (CNS Drugs), BMJ (Fielding). Inne media o retrakcji: Disability Scoop (17.02.2026; HTTP 403, nieotwarty), SDBP (stanowisko towarzystwa). Zapytania: „leucovorin autism trial retracted European Journal of Pediatrics Panda STAT”, Europe PMC „leucovorin autism AND PUB_YEAR:2026”. Nie znalazłem tekstu STAT o retrakcji.
+- **Poprawki:**
+  1. Open access: nie.
+  2. 80 randomizowanych (abstrakt, STAT) vs 77 (Transmitter): obie liczby występują, różnica prawdopodobnie analizowani vs randomizowani (niepewne).
+  3. Decyzja FDA dotyczyła CFD, a nie autyzmu; brak potwierdzenia, że FDA cytowała Panda 2024.
+  4. Nowe: dosłowne sformułowanie STAT („scored 1.2 points higher” na skali nasilenia) odwraca kierunek wyniku.
+- **Dodatkowe znaleziska:** BMJ 2026, Fielding S, „FDA approves leucovorin—but not for autism, despite…” (tytuł z Europe PMC, treści nie widziałem); Pediatrics 2026, Rome BN i in., o wzroście stosowania leukoworyny po ogłoszeniu FDA. Oba mogą wzmocnić wątek realnych skutków.
+- **Ocena niezależna:** 5/5. Rzadko czysty przypadek: rząd promuje lek, media opisują jedyne większe RCT, a pediatrzy na PubPeer wykrywają błędy i paper zostaje wycofany. Kompletny trójkąt (news + paper + retrakcja i Transmitter), mocny kontekst polityczny i realne skutki (recepty, wyszukiwania). Każda z trzech ról ma materiał. Polecam do piętnastki. Uwaga: zachodzi tematycznie na parę 2.
+- **Do ręcznego sprawdzenia przez zespół:** pełna treść Nature (paywall); komentarze Challmana i Myersa na PubPeer (jakie konkretnie niespójności w tabelach); Disability Scoop (403).
+- **Opis po poprawkach:**
+  - **Kategoria:** leki / autyzm / nauka a polityka / retrakcja
+  - **News:** „What the evidence tells us about Tylenol, leucovorin, and autism”, STAT News, Matthew Herper, 22 września 2025, https://www.statnews.com/2025/09/22/trump-autism-tylenol-leucovorin-what-science-says/ , paywall: nie. Dzień po konferencji Białego Domu Herper opisuje dowody: dla leukoworyny jedno RCT z European Journal of Pediatrics (80 dzieci, 24 tygodnie, różnica 1,2 pkt na 60-punktowej skali), z zastrzeżeniem, że małe badania dają fałszywe pozytywy. Drugi news: „Trump team backs an unproven drug for autism — but does it work?”, Nature (News), Heidi Ledford, 23.09.2025, https://www.nature.com/articles/d41586-025-03103-7 , paywall: tak.
+  - **Paper:** „Efficacy of oral folinic acid supplementation in children with autism spectrum disorder: a randomized double-blind, placebo-controlled trial”, Panda PK, Sharawat IK, Saha S, Gupta D, Palayullakandi A, Meena K. European Journal of Pediatrics 183(11):4827–4835, 2024, DOI 10.1007/s00431-024-05762-6, open access: nie. **Wycofany 29.01.2026** (nota DOI 10.1007/s00431-026-06769-x: błędy w tabelach 2 i 3, problemy z analizą statystyczną, wyników nie odtworzono z danych). RCT z placebo, 80 dzieci 2–10 lat, 24 tygodnie; raportowana poprawa CARS 3,6 vs 2,4 punktu, większa u dzieci z przeciwciałami przeciw receptorowi folianów.
+  - **Trzecie źródło:** „Largest leucovorin-autism trial retracted”, The Transmitter, Claudia López Lloreda, 3.02.2026, https://www.thetransmitter.org/spectrum/largest-leucovorin-autism-trial-retracted/ : błędy wykryli pediatrzy Thomas Challman i Scott Myers (Geisinger) i zgłosili je na PubPeer we wrześniu 2025; Dorothy Bishop: statystyki „all over the place”. Plus Retraction Watch (7.02.2026).
+  - **Dlaczego fajne:** rząd promuje lek, media rzetelnie opisują jedyne większe RCT, a kilka miesięcy później RCT zostaje wycofane po zgłoszeniu na PubPeer. Pokazuje, jak działa (i jak wolno działa) samokorekta nauki, z realnymi skutkami (wzrost recept i wyszukiwań).
+  - **Kontrowersja / rozjazd:** naukowa (przenoszenie wniosków z mózgowego niedoboru folianów na autyzm, mała próba, błędne dane) i polityczna. STAT zaznaczył ograniczenia, ale opisał wynik badania, które okazało się niewiarygodne, a jego dosłowne zdanie („scored 1.2 points higher” na skali nasilenia) odwraca kierunek wyniku. Pytanie: co dziennikarz mógł wiedzieć we wrześniu 2025?
+  - **Trudność techniczna:** niska–średnia. RCT, skala CARS, p-value vs wielkość efektu, jak wykrywa się błędy w tabelach (np. niespójne odchylenia standardowe).
+  - **Pytanie do dyskusji:** Jeśli badanie zostaje wycofane, kto ma „odkręcić” decyzje i nagłówki oparte na nim? Czy rodzice, którzy już podają lek, powinni przestać?
+  - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
+
+(kolejne pary w toku)
