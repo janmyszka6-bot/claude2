@@ -3,7 +3,25 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3b-geny-cialo.md
 
 ## Podsumowanie
-(w trakcie: zweryfikowano pary 1–3, kolejne w toku)
+Zweryfikowano 9 par: **✅ 2** (1, 2), **⚠️ 7** (3–9), **❌ 0**. Żaden paper nie jest autorstwa Anthropic. Nie znalazłem żadnej retrakcji ani expression of concern; korekty mają pary 1 (Author Correction: zduplikowane panele, paski skali) i 9 (dwa corrigenda).
+
+Najważniejsze problemy:
+- **Para 3 (Herasight):** jedyny news z liczbami (Aporia, autor Emil Kirkegaard) pochodzi z medium powiązanego z ruchem „race science” i omawia wersję preprintową z października 2025, nie recenzowany paper z kwietnia 2026. Renomowane media (NPR, New Atlantis, SciAm) nie nazywają papera. Liczby firmy (10/13/18 pkt IQ) to rozpiętość najlepszy–najgorszy zarodek, nie oczekiwany zysk. Editor's Note jest mocniejszy, niż podał wyszukiwacz: jeden z trzech recenzentów rekomendował odrzucenie.
+- **Para 4 (dire wolf):** recenzowany paper (Cell Genomics 2026) dotyczy filogenezy, a nie edytowanych szczeniąt; dla szczeniąt nie ma żadnego papera. Proporcje pochodzenia w wersji recenzowanej to 61/39%, nie 2/3–1/3.
+- **Pary 5, 6, 7, 8:** wyszukiwacz nie miał dostępnego newsa (lub miał niepotwierdzony); znalazłem i otworzyłem dostępne newsy wprost nazywające paper: przedruk NYT i National Geographic (5), MIT Technology Review i przedruk BBC (6), przedruki CNN i Business Insider (7), przedruk NPR, STAT i Newsweek (8). Tytuł papera 1 w parze 6 był błędny.
+- **Para 1:** Roger Kuhlman nie jest autorem formalnej krytyki w Nature Medicine (był cytowany przez Guardiana). Sam paper wprost wyklucza wnioski przyczynowe co do demencji, a „łyżeczki” w nim nie ma. Nowe, świeże źródło: The Transmitter, 18.09.2026.
+- **Para 9:** druga korekta zmniejszyła też szacowane pobranie (34 700 → 7900 ng/dobę), czego wyszukiwacz nie podał; data The Conversation to 13.02.2025.
+- **Para 7:** kontrowersja jest słabsza, niż opisano: co do niestwarzania lustrzanych bakterii panuje konsensus, spór dotyczy zakresu ograniczeń. Gillum (Health Security) nie jest „kontrą”, tylko proponuje adaptacyjny nadzór.
+
+Polecane do finałowej piętnastki:
+1. **Mikroplastik w mózgu (para 1), 5/5:** najczystszy „trójkąt” (paper, news, Matters Arising, Reply i spór medialny w 2026).
+2. **Baby KJ (para 2), 4/5:** świetny paper w NEJM, czytelna para; kontrowersja głównie etyczna i regulacyjna.
+3. **Płuco świni (para 5), 4/5:** mocny paper w Nature Medicine i wyraźny rozjazd „pierwszy przeszczep” vs obrzęk i odrzucanie.
+4. **Dawstwo mitochondriów (para 6), 4/5:** otwarte papery w NEJM; „born free of hereditary disease” vs heteroplazmia do 16%.
+5. **Komórki jajowe ze skóry (para 8), 4/5:** ten sam paper jako „Breakthrough” (Newsweek) i „stumbles” (STAT).
+6. **Mirror life (para 7), 4/5:** fascynujący temat i recenzowane odpowiedzi z 2026; „paper” to policy forum, nie badanie empiryczne.
+
+Warunkowo: Herasight (para 3), 3/5; ocena rośnie do 4/5, jeśli zespół potwierdzi, że The Economist (11.08.2026) omawia ten paper. Nie polecam: dire wolf (para 4), 3/5; czarne łopatki (para 9), 3/5, lepiej pasuje do grupy 5.
 
 ## Pary
 
@@ -264,8 +282,121 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3b-geny-ci
   - **Pytanie do dyskusji:** Jeśli u części dzieci wadliwe mitochondria wracają, czy wolno nazywać terapię sukcesem i jak komunikować niepewność rodzicom?
   - **Weryfikacja:** ⚠️ poprawione (tytuł papera, dostępny news), pewność wysoka.
 
+### 7. Mirror life: apel o niestwarzanie „lustrzanych” bakterii i spór o restrykcje: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://www.nature.com/articles/d41586-025-02902-2 – działa po 2 przekierowaniach; paywall; widoczny lead (spotkanie w Manchesterze) i referencja „Adamala, K. P. et al. Science 386, 1351–1353 (2024)”. Treści sporu nie dało się przeczytać.
+  - Paper w Science (science.org) – nieotwierany (HTTP 403 wg notatek); metadane potwierdzone wyszukiwaniem (JCVI, NCBS, IAS repository).
+  - Guardian, NYT, Science news, CNN (URL-e z Wikipedii u wyszukiwacza) – nieotwierane (blokady).
+  - Dodatkowo otwarte i działające: przedruk CNN Newsource https://ktvz.com/cnn-other/2024/12/16/mirror-bacteria-may-constitute-radical-departure-from-known-life-scientists-warn/ oraz Business Insider (przez Yahoo) https://www.yahoo.com/news/scientist-working-create-mirror-life-013650643.html.
+  - Odpowiedzi (mSphere, Health Security, Biophysics & Physicobiology) – potwierdzone przez API Europe PMC (metadane i abstrakty).
+- **News a paper:** Nature (Peplow) cytuje paper w referencjach, ale tekst jest za paywallem. Dostępne newsy nazywają go wprost: CNN (Katie Hunt): naukowcy opublikowali raport w Science 12 grudnia; Business Insider: „38 scientists warned in a paper published in the journal Science on December 12…”.
+- **Fakty:**
+  - „Confronting risks of mirror life”, Science 386(6728):1351–1353, DOI 10.1126/science.ads9158, PMID 39666824, policy forum → zgodne.
+  - „Kate P. Adamala” → doprecyzowane: Katarzyna P. (Kate) Adamala, University of Minnesota; 38 autorów z 9 krajów (wyszukiwacz: „ponad 30”).
+  - Data: online 12.12.2024, numer z 20.12.2024 → zgodne z uzupełnieniem.
+  - Teza (nie tworzyć lustrzanych organizmów, dopóki nie wykaże się braku poważnego ryzyka; ucieczka przed odpornością i drapieżnikami bakterii) → zgodne. Uzupełnienie: do artykułu dołączono ok. 300-stronicowy raport techniczny (z wyników wyszukiwania), więc „paper” ma rozbudowaną analizę, choć nie eksperymentalną.
+  - Imperiale i Casadevall, „Mirror microbial life and the dual use dilemma”, mSphere 11(6), 11.06.2026, DOI 10.1128/msphere.00342-26, open access, cytat „the potential risks of mirror organisms currently far outweigh the benefits” → zgodne (abstrakt w Europe PMC; PMC13317228).
+  - Gillum, „Mirror Life and the Case for Adaptive Risk Governance”, Health Security, 31.08.2026, DOI 10.1177/23265094261480574 → zgodne; poprawka interpretacji: to nie „kontra” wobec ostrożności. Gillum buduje na istniejących propozycjach „ostrożnego, warunkowego nadzoru” i proponuje adaptacyjne zarządzanie z etapowymi punktami kontrolnymi zamiast sztywnych reguł. Open access: nie.
+  - Fujiwara i in., „Mirror life at the crossroads: Report on the symposia in Japan…”, Biophysics & Physicobiology 23(1), 20.02.2026, DOI 10.2142/biophysico.bppb-v23.0008, open access → zgodne.
+  - Horyzont 10–30+ lat → CNN i BI mówią o „dekadzie lub więcej”; „30+” niepotwierdzone.
+- **Kontrowersja:** Ma realne źródła, ale wyszukiwacz nieco ją przecenia. Wśród naukowców panuje dziś szeroki konsensus, że lustrzanych bakterii nie należy tworzyć (konferencje w Paryżu i Manchesterze, deklaracje z 2025 r.). Spór dotyczy zakresu: czy ograniczać też badania nad lustrzanymi cząsteczkami (białka, enzymy, leki), które mają realne zastosowania. Głosy sceptyczne w mediach są umiarkowane: Tom Ellis (Imperial College) w CNN zgadza się z obawami, ale nazywa je bardzo spekulatywnymi; Ting Zhu (Westlake) w BI wątpi, by pełną lustrzaną bakterię dało się zsyntetyzować w dającej się przewidzieć przyszłości. Rozjazd nagłówek–paper: BI cytuje Adamalę „perfect bioweapon”, CNN mówi o „unprecedented risks”; paper jest apelem o dyskusję i ostrożność.
+- **Retrakcje / korekty / krytyka / replikacje:** Brak retrakcji/korekt (to policy forum). Odpowiedzi w literaturze z 2026 r.: mSphere (za ostrożnością), Health Security (adaptacyjne zarządzanie), Biophysics & Physicobiology (stanowisko pośrednie). Zapytania: „mirror bacteria risk overstated critique scientists disagree ban mirror life research 2025 2026”, tytuły odpowiedzi, „Technical Report on Mirror Bacteria: Feasibility and Risks”.
+- **Poprawki:**
+  1. Dostępny news: przedruk CNN (ktvz.com) i Business Insider (Yahoo) zamiast zablokowanych.
+  2. 38 autorów, Katarzyna P. Adamala.
+  3. Gillum to nie kontra, tylko model adaptacyjnego nadzoru.
+  4. Kontrowersja dotyczy zakresu restrykcji, nie samego tworzenia lustrzanych organizmów (tu jest konsensus).
+  5. „10–30+ lat” zmienić na „dekada lub więcej”.
+- **Dodatkowe znaleziska:** Business Insider, „A scientist working to create 'mirror life' discovered it could be 'a perfect bioweapon.' She's asking other researchers to stop.” (Morgan McFall-Johnsen, 20.12.2024) – mocna, ludzka historia (Adamala sama zrezygnowała z grantu na budowę lustrzanej komórki), dobra na otwarcie prezentacji.
+- **Ocena niezależna:** 4/5. Naprawdę fascynujący temat, który każdy zrozumie (chiralność, „lustrzane życie”), czytelna para (CNN i BI wprost nazywają paper), recenzowane odpowiedzi z 2026 r. tworzą „trójkąt”, a pytanie o zakazywanie badań „na wszelki wypadek” świetnie nadaje się do dyskusji (także w analogii do AI). Minusy: „paper” to apel (policy forum), nie badanie empiryczne; kontrowersja naukowa jest słabsza, niż sugeruje wyszukiwacz. Polecam do piętnastki jako przedstawiciela biologii syntetycznej i ryzyka.
+- **Do ręcznego sprawdzenia przez zespół:** pełny tekst newsa Nature (Peplow, 15.09.2025; paywall) i papera w Science (dostęp przez bibliotekę UU); oryginały Guardian/NYT z grudnia 2024, jeśli zespół chce je cytować.
+- **Opis po poprawkach:**
+  - **Kategoria:** biologia syntetyczna / ryzyko / governance (policy forum, nie badanie empiryczne).
+  - **News:** „Scientists warn of 'unprecedented' risks of research into mirror life”, CNN (Katie Hunt), 16 grudnia 2024, przedruk CNN Newsource: https://ktvz.com/cnn-other/2024/12/16/mirror-bacteria-may-constitute-radical-departure-from-known-life-scientists-warn/, paywall: nie. Relacjonuje apel 38 naukowców opublikowany w Science, zaznacza, że technologia jest odległa o dekadę lub więcej, i cytuje umiarkowanie sceptycznego Toma Ellisa. Wersja bardziej dramatyczna: Business Insider, 20.12.2024, https://www.yahoo.com/news/scientist-working-create-mirror-life-013650643.html („perfect bioweapon”). Drugi etap sporu: Nature, „How should 'mirror life' research be restricted? Debate heats up”, Mark Peplow, 15.09.2025, https://www.nature.com/articles/d41586-025-02902-2 (paywall).
+  - **Paper:** „Confronting risks of mirror life”, Katarzyna P. Adamala, D. Agashe, Y. Belkaid i in. (38 autorów), Science 386(6728):1351–1353, 12 grudnia 2024, DOI 10.1126/science.ads9158, open access: niepewne (prawdopodobnie nie). Policy forum z dołączonym raportem technicznym: lustrzane bakterie mogłyby unikać odporności ludzi, zwierząt i roślin oraz drapieżników bakterii; autorzy apelują, by nie tworzyć ich bez przekonujących dowodów, że nie są groźne, i by fundatorzy nie wspierali takich prac.
+  - **Trzecie źródło:** Imperiale i Casadevall, mSphere 11(6), 2026, DOI 10.1128/msphere.00342-26 (open access): lustrzane cząsteczki warto badać, ale ryzyko lustrzanych organizmów przewyższa korzyści. Gillum, Health Security 2026, DOI 10.1177/23265094261480574: adaptacyjne, etapowe zarządzanie. Fujiwara i in., Biophysics & Physicobiology 2026, DOI 10.2142/biophysico.bppb-v23.0008: raport z japońskich sympozjów.
+  - **Dlaczego fajne:** Brzmi jak science fiction, a to realny spór o to, czy wolno zakazywać badań na wszelki wypadek. Jedna z autorek sama porzuciła projekt budowy lustrzanej komórki.
+  - **Kontrowersja / rozjazd:** Konsensus: nie tworzyć lustrzanych bakterii. Spór: co jeszcze ograniczać (lustrzane białka i leki?), kto decyduje i czy ryzyko odległe o dekady uzasadnia zakazy już teraz. Nagłówki („bioweapon”, „unprecedented”) dramatyzują apel, który sam w sobie wzywa do dyskusji.
+  - **Trudność techniczna:** średnia. Chiralność, dlaczego układ odpornościowy i fagi mogłyby nie rozpoznać lustrzanych bakterii.
+  - **Pytanie do dyskusji:** Czy nauka powinna z góry zakazywać całego kierunku badań z powodu hipotetycznego, odległego ryzyka i kto ma o tym decydować: naukowcy, fundatorzy czy państwa?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 8. Ludzkie komórki jajowe ze skóry (mitomeiosis), proof of concept: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12485136 – działa, pełny tekst.
+  - BBC (https://www.bbc.com/news/articles/c4g2vyee0zlo) – nieotwierany (domena blokowana); nagłówek niepotwierdzony przeze mnie.
+  - Przegląd Macedo i Alves-Lopes (Human Reproduction Update) – nie otwierałem (kontekst, nieistotny dla werdyktu).
+  - Dodatkowo otwarte i działające: NPR (przedruk WAMC) https://www.wamc.org/2025-09-30/scientists-create-human-eggs-in-the-lab-using-skin-cells; STAT https://www.statnews.com/2025/09/30/fertility-pioneer-shoukhrat-mitalipov-research-update/; Newsweek https://newsweek.com/breakthrough-human-eggs-from-skin-cells-reproduction-fertility-10804584; SMC https://www.sciencemediacentre.org/expert-reaction-to-a-paper-describing-the-creation-of-functional-egg-cells-from-human-skin-cells-through-cell-reprogramming/.
+- **News a paper:** NPR (Rob Stein): badanie „published in the journal Nature Communications”, kierował nim Shoukhrat Mitalipov z OHSU. STAT (Megan Molteni): wyniki „published Tuesday in Nature Communications” z linkiem do DOI papera. Newsweek podaje pełny tytuł papera.
+- **Fakty:**
+  - Tytuł, Marti Gutierrez (pierwsza) … Mitalipov (ostatni), Nature Communications 16:8340, 30.09.2025, DOI 10.1038/s41467-025-63454-7, PMC12485136, open access (CC BY-NC-ND 4.0) → zgodne.
+  - 270 dojrzałych oocytów, 155 zarodków badawczych → zgodne.
+  - ~76% z dwoma przedjądrzami po SCNT + aktywacji → zgodne (76% ± 5,5).
+  - 8,8% ± 5,2 do blastocysty (kontrola 59%) → zgodne.
+  - ~45,6% bez rozdziału chromosomów somatycznych → zgodne.
+  - Aneuploidia, brak crossing-over, losowa segregacja → zgodne.
+  - Finansowanie: Open Philanthropy (oraz Haploid Gamete Research Foundation, Longevity Impetus, OHSU) → zgodne.
+  - „just a proof of concept” → zgodne (pełne zdanie w paperze mówi o potrzebie dalszych badań nad skutecznością i bezpieczeństwem).
+  - 82 zapłodnione „funkcjonalne” komórki jajowe → podają media (NPR); spójne z paperem, ale tej liczby nie potwierdzałem w PMC.
+- **Kontrowersja:** Ma realne źródło i jest ostra. STAT ma nagłówek „Push to create functional human eggs in the lab stumbles, pioneering fertility researcher reports” i cytuje Hanka Greely'ego (Stanford): „They made things that look like eggs, but none of them are going to be viable”, oraz Amander Clark (UCLA): technologia nie powinna trafić do kliniki. Newsweek ma nagłówek „Breakthrough As Human Eggs Made From Skin Cells” (w treści wymienia ograniczenia). SMC: eksperci z Hull, Southampton i Edynburga wskazują niską skuteczność i poważne kwestie bezpieczeństwa. To modelowy przykład: ten sam paper jako „przełom” i jako „potknięcie”. Opis wyszukiwacza jest uczciwy.
+- **Retrakcje / korekty / krytyka / replikacje:** Brak retrakcji, korekt, Matters Arising (zapytanie: „mitomeiosis Mitalipov 2026 follow-up OR criticism OR matters arising skin cell eggs aneuploidy expert reaction Science Media Centre”). Nowszych danych z 2026 r. nie znalazłem.
+- **Poprawki:**
+  1. Główny news zmieniony na dostępny: NPR (przedruk WAMC); BBC zostaje do ręcznego sprawdzenia.
+  2. Dodane kontrastowe newsy: STAT („stumbles”) vs Newsweek („Breakthrough”).
+  3. Dodane trzecie źródło: SMC i krytycy w STAT/NPR (niezależny komentarz, którego brakowało).
+- **Dodatkowe znaleziska:** Para nagłówków STAT vs Newsweek z tego samego dnia to gotowy slajd dla roli „analiza mediów”.
+- **Ocena niezależna:** 4/5. Recenzowany, otwarty paper z efektem „wow” i bardzo uczciwie raportowanymi słabościami, świetny rozjazd w mediach, jasne pytania etyczne (niepłodność, pary jednopłciowe, „designer babies”). Minus: wysoka trudność techniczna (mejoza, ploidalność) i brak formalnej krytyki w czasopiśmie. Polecam do piętnastki.
+- **Do ręcznego sprawdzenia przez zespół:** BBC, 30.09.2025, https://www.bbc.com/news/articles/c4g2vyee0zlo (dokładny nagłówek i czy nazywa paper).
+- **Opis po poprawkach:**
+  - **Kategoria:** biologia reprodukcyjna / in vitro gametogenesis / SCNT.
+  - **News:** „Scientists create human eggs in the lab, using skin cells”, NPR (Rob Stein), 30 września 2025, przedruk https://www.wamc.org/2025-09-30/scientists-create-human-eggs-in-the-lab-using-skin-cells, paywall: nie. Nazywa Nature Communications i OHSU, mówi wprost, że wszystkie zarodki miały nieprawidłowości genetyczne i tylko ok. 9% doszło do blastocysty, cytuje etyków. Kontrast: STAT, „Push to create functional human eggs in the lab stumbles…”, https://www.statnews.com/2025/09/30/fertility-pioneer-shoukhrat-mitalipov-research-update/ vs Newsweek, „Breakthrough As Human Eggs Made From Skin Cells”, https://newsweek.com/breakthrough-human-eggs-from-skin-cells-reproduction-fertility-10804584.
+  - **Paper:** „Induction of experimental cell division to generate cells with reduced chromosome ploidy”, Nuria Marti Gutierrez … Shoukhrat Mitalipov (OHSU), Nature Communications 16:8340, 30 września 2025, DOI 10.1038/s41467-025-63454-7, https://pmc.ncbi.nlm.nih.gov/articles/PMC12485136, open access: tak. Jądro komórki skóry przeniesione do pozbawionej jądra komórki jajowej i zmuszone do podziału redukcyjnego („mitomeiosis”). 270 oocytów, 155 zarodków; 8,8% doszło do blastocysty (kontrola 59%); 45,6% zygot nie rozdzieliło chromosomów somatycznych; zarodki aneuploidalne, bez rekombinacji. Autorzy: „just a proof of concept”.
+  - **Trzecie źródło:** Science Media Centre, 30.09.2025 (link wyżej) oraz krytycy w STAT (Greely, Clark).
+  - **Dlaczego fajne:** „Komórki jajowe ze skóry” to potencjalna rewolucja dla niepłodności i par jednopłciowych, a wynik jest technicznie surowy.
+  - **Kontrowersja / rozjazd:** „Breakthrough” vs „stumbles” dla tego samego papera; <9% blastocyst, aneuploidia, brak rekombinacji. Etyka zarodków badawczych i przyszłej selekcji/edycji.
+  - **Trudność techniczna:** wysoka. Mejoza vs mitoza, ploidalność, SCNT, aneuploidia, rekombinacja.
+  - **Pytanie do dyskusji:** Kiedy „proof of concept” z <9% skutecznością i aneuploidią wolno nazwać przełomem i czy taki nagłówek daje fałszywą nadzieję osobom niepłodnym?
+  - **Weryfikacja:** ⚠️ poprawione (dostępny news, trzecie źródło), pewność wysoka.
+
+### 9. Czarne plastikowe łyżki kuchenne, opóźniacze palenia i błąd rachunkowy (×10): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - Rekordy paper + 2 corrigenda – potwierdzone przez API Europe PMC (metadane i abstrakt).
+  - The Conversation – URL znaleziony wyszukiwaniem z filtrem domeny i otwarty: https://theconversation.com/3-statistical-stuff-ups-that-made-everyday-items-look-healthier-or-riskier-than-they-really-are-249367 (działa).
+  - McGill OSS – otwarty: https://www.mcgill.ca/oss/node/10192 (działa; Joe Schwarcz, 6.12.2024).
+  - Dodatkowo: Retraction Watch https://retractionwatch.com/2025/07/06/viral-paper-black-plastic-kitchen-spatula-utensils-chemosphere-second-correction (działa). CBC (dwa artykuły) i PlasticsToday – HTTP 403. UniSA (przedruk The Conversation) – HTTP 503. Mirage News (przedruk) – działa.
+  - The Atlantic, National Geographic, Salon – nieotwierane.
+- **News a paper:** The Conversation wymienia czasopismo Chemosphere i linkuje paper oraz korektę, ale nie podaje nazwisk autorów. McGill OSS podaje tytuł papera z Chemosphere i szczegółowo przelicza błąd. Retraction Watch podaje pełny tytuł, czasopismo i cytuje pierwszą autorkę (Megan Liu). Para jest jednoznaczna.
+- **Fakty:**
+  - Tytuł, Liu, Brandsma, Schreder, Chemosphere 365:143319, DOI 10.1016/j.chemosphere.2024.143319, PMID 39271080 → zgodne. Data: online 11.09.2024, wydanie październik 2024 (wyszukiwacz: październik 2024 – zgodne z uzupełnieniem). Open access: nie.
+  - 203 produkty, 85% z opóźniaczami palenia, do 22 800 mg/kg, mediana pobrania BDE-209 34 700 ng/dobę → zgodne (abstrakt).
+  - Corrigendum 1: DOI 10.1016/j.chemosphere.2024.143903, Chemosphere 370, wydanie luty 2025 (online grudzień 2024) → zgodne z uzupełnieniem.
+  - Corrigendum 2: DOI 10.1016/j.chemosphere.2025.144552, Chemosphere 385, wydanie wrzesień 2025 (online 3.07.2025 wg Retraction Watch) → zgodne z uzupełnieniem.
+  - Błąd ×10 → zgodne i doprecyzowane: dawka referencyjna EPA 7000 ng/kg/dobę × 60 kg = 420 000 ng/dobę, a autorzy podali 42 000; po korekcie pobranie to ok. 1/10 dawki referencyjnej, a nie „blisko limitu”.
+  - Pominięte przez wyszukiwacza: druga korekta zmniejszyła też samo szacowane pobranie z 34 700 do 7900 ng/dobę (źle zinterpretowany wzór), czyli łącznie ryzyko było zawyżone znacznie bardziej niż 10 razy.
+  - The Conversation, Esterman, „3 marca 2025” → poprawione: opublikowany 13.02.2025, zaktualizowany 2.03.2025 (3 marca to data przedruku UniSA).
+- **Kontrowersja:** Realna i dobrze udokumentowana (dwie korekty, Retraction Watch). Uczciwość opisu: autorzy (Toxic-Free Future, organizacja rzecznicza) utrzymują, że błąd dotyczył jednego przykładu w dyskusji, a obecność toksycznych opóźniaczy w produktach z recyklingu pozostaje faktem; część ekspertów nadal uważa temat za istotny. Nie należy więc przedstawiać badania jako „obalonego”, tylko jako przykład zawyżonego przekazu o ryzyku. Dodatkowo z wyników wyszukiwania: Chemosphere usunięto z Web of Science (Clarivate) za niespełnianie kryteriów jakości (do potwierdzenia, niepewna data).
+- **Retrakcje / korekty / krytyka / replikacje:** Dwie korekty (powyżej), brak retrakcji. Zapytania: „black plastic spatula flame retardants Chemosphere correction math error reference dose 7000 42000 Toxic-Free Future”, „theconversation.com black plastic utensils flame retardants study error Chemosphere”.
+- **Poprawki:**
+  1. URL The Conversation ustalony i otwarty; data 13.02.2025 (aktualizacja 2.03.2025).
+  2. Druga korekta zmieniła też szacunek pobrania (34 700 → 7900 ng/dobę).
+  3. Daty corrigend: online grudzień 2024 i lipiec 2025 (wydania luty i wrzesień 2025).
+  4. McGill OSS działa pod adresem node/10192.
+  5. Zaznaczyć, że autorzy to organizacja rzecznicza, a Chemosphere ma problemy z jakością (kontekst, nie dyskwalifikacja).
+- **Dodatkowe znaleziska:** Retraction Watch, 6.07.2025 (link wyżej) – najlepsze pojedyncze źródło o obu korektach. McGill OSS, 6.12.2024 – przystępne wyjaśnienie błędu („A small error can cause large worries”).
+- **Ocena niezależna:** 3/5. Świetna, czytelna historia dla roli „analiza mediów” i wszyscy się do niej odniosą. Ale paper jest słaby (organizacja rzecznicza, czasopismo z problemami jakości, prosty pomiar stężeń), a kryterium „najważniejszy jest dobry paper” przemawia przeciw. Temat bardziej pasuje do grupy 5 (metanauka). Do piętnastki w grupie 3b nie polecam; warto przekazać grupie 5.
+- **Do ręcznego sprawdzenia przez zespół:** oryginalny wiralny news z grudnia 2024 (The Atlantic, news.com.au lub CBC) jako „wersja hype”, jeśli para będzie użyta; potwierdzenie usunięcia Chemosphere z Web of Science.
+- **Opis po poprawkach:**
+  - **Kategoria:** chemikalia z tworzyw w ciele / metanauka (błąd obliczeniowy i korekty); nakłada się na grupę 5.
+  - **News:** „3 statistical stuff-ups that made everyday items look healthier (or riskier) than they really are”, The Conversation (Adrian Esterman), 13 lutego 2025 (aktualizacja 2.03.2025), https://theconversation.com/3-statistical-stuff-ups-that-made-everyday-items-look-healthier-or-riskier-than-they-really-are-249367, paywall: nie. Omawia badanie z Chemosphere: 85% produktów z opóźniaczami, rzekomo blisko limitów EPA, a w rzeczywistości błąd ×10 i korekta. Uzupełniająco: McGill OSS, „Are Black Plastic Spatulas and Serving Spoons Safe to Use?”, 6.12.2024, https://www.mcgill.ca/oss/node/10192.
+  - **Paper:** „From e-waste to living space: Flame retardants contaminating household items add to concern about plastic recycling”, Megan Liu, Sicco H. Brandsma, Erika Schreder (Toxic-Free Future), Chemosphere 365:143319 (online wrzesień 2024), DOI 10.1016/j.chemosphere.2024.143319, open access: nie. 203 produkty z czarnego plastiku, 85% z opóźniaczami palenia (do 22 800 mg/kg); szacowane pobranie BDE-209 z przyborów kuchennych 34 700 ng/dobę (po drugiej korekcie 7900 ng/dobę). Dwie korekty: zła dawka referencyjna (×10) oraz źle zinterpretowany wzór pobrania.
+  - **Trzecie źródło:** Retraction Watch, 6.07.2025, https://retractionwatch.com/2025/07/06/viral-paper-black-plastic-kitchen-spatula-utensils-chemosphere-second-correction – obie korekty i stanowisko autorów.
+  - **Dlaczego fajne:** Każdy ma w kuchni czarną łopatkę; nagłówek kazał ją wyrzucić, a potem okazało się, że badanie zawyżyło ryzyko kilkudziesięciokrotnie.
+  - **Kontrowersja / rozjazd:** Realne zanieczyszczenie opóźniaczami vs zawyżony przekaz o ryzyku, który media powtórzyły przed korektą; autorzy bronią głównego wniosku.
+  - **Trudność techniczna:** niska/średnia. Dawka referencyjna, pobranie dzienne, rząd wielkości, „wykryto” vs „groźne stężenie”.
+  - **Pytanie do dyskusji:** Kto odpowiada, gdy prosty błąd rachunkowy w recenzowanym paperze wywołuje globalną panikę konsumencką: autorzy, recenzenci czy media?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
 ## Lista do ręcznego sprawdzenia
-(uzupełniana na bieżąco)
 - Guardian, Damian Carrington, 13.01.2026, „'A bombshell': doubt cast on discovery of microplastics throughout human body” (para 1): dokładny nagłówek, lista badań, cytat Kuhlmana.
 - Nature Medicine 31(12):4036–4037, Reply Campena (para 1): treść odpowiedzi.
 - NYT/Guardian/BBC z 15.05.2025 o baby KJ (para 2): czy w nagłówkach pada „cure”.
@@ -274,3 +405,9 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3b-geny-ci
 - New Scientist, 22.05.2025, https://www.newscientist.com/article/2481409-colossal-scientist-now-admits-they-havent-really-made-dire-wolves/ (para 4; URL od wyszukiwacza, nieotwierany): dokładny cytat Shapiro.
 - Nature Medicine, pełny tekst papera He i in. (para 5; paywall): przyczyna obrzęku, zgoda rodziny.
 - Live Science, 16.07.2025 (para 6): treść obcięta przez narzędzie; czy nazywa NEJM.
+- BBC i Guardian o dawstwie mitochondriów, 16–17.07.2025 (para 6): oryginały zablokowane (BBC sprawdzone przez przedruk w The Star).
+- Nature, Peplow, 15.09.2025, https://www.nature.com/articles/d41586-025-02902-2 (para 7; paywall): treść sporu o zakres restrykcji.
+- Science, Adamala i in., DOI 10.1126/science.ads9158 (para 7; HTTP 403): pełny tekst policy forum.
+- Guardian, https://www.theguardian.com/science/2024/dec/12/unprecedented-risk-to-life-on-earth-scientists-call-for-halt-on-mirror-life-microbe-research (para 7; URL od wyszukiwacza, nieotwierany).
+- BBC, https://www.bbc.com/news/articles/c4g2vyee0zlo (para 8): dokładny nagłówek i czy nazywa paper.
+- Oryginalny wiralny news o czarnych łopatkach, grudzień 2024 (para 9; The Atlantic, CBC – zablokowane lub 403) oraz usunięcie Chemosphere z Web of Science.
