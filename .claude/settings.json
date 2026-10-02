@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Read",
+      "Edit(./candidates/**)",
+      "Edit(./verification/**)",
+      "Edit(./RAPORT.md)"
+    ]
+  }
+}
