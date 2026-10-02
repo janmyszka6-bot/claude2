@@ -3,110 +3,334 @@
 Wyszukiwacz, data: 2 października 2026
 
 ## Podsumowanie
-(w toku, plik aktualizowany na bieżąco)
+Zebrałem ok. 30 tropów i wstępnie zweryfikowałem 9 par (news + paper + trzecie źródło). Najmocniejsze: (1) badanie o sykofancji AI w *Science* (Cheng, Jurafsky i in., marzec 2026) z newsem AP, (2) „Your Brain on ChatGPT” (MIT) z TIME i formalnym komentarzem krytycznym na arXiv oraz (3) duńskie badanie dokumentacji 54 tys. pacjentów psychiatrycznych („AI psychosis”) z wyraźnym błędem mianownika w Fortune; mocne są też „deskilling” endoskopistów z Polski (Lancet Gastro + listy + odpowiedź autorów) oraz CEPR o 26 811 chińskich uczniach (Fortune). Grupa jest bogata: kilka mocnych tropów (Stanford o chatbotach-terapeutach, RCT OpenAI/MIT o samotności, RCT Therabot w NEJM AI z listami i odpowiedzią) nie dostało pary, bo **w trakcie pracy wyczerpał się limit WebSearch dla całej sesji (200/200)**, więc nie mogłem znaleźć i otworzyć ich newsów. Papery tych tropów sprawdziłem przez API arXiv, Crossref i Europe PMC; są opisane w sekcji „Odrzucone i niewybrane” i warto je dokończyć. Główne problemy: część newsów to media niszowe (PsyPost, MDedge, Forum Nordic, newslettery), Guardian jest zablokowany dla narzędzia, a kilka liczb pochodzi z omówień, nie z samych paperów.
 
 ## Pary wstępnie zweryfikowane
 
 ### 1. Sykofancja AI w Science: chatbot przytakuje, a ty mniej przepraszasz
-- **Kategoria:** sycophancy (pomiar u modeli + wpływ na użytkowników)
-- **News:** "AI is giving bad advice to flatter its users, says new study on dangers of overly agreeable chatbots", Matt O'Brien, Associated Press, 26 marca 2026. Przedruk AP (licencjonowany) na WSLS: https://www.wsls.com/business/2026/03/26/ai-is-giving-bad-advice-to-flatter-its-users-says-new-study-on-dangers-of-overly-agreeable-chatbots/ . Paywall: nie. Artykuł wprost podaje, że badanie ukazało się „w czwartek w czasopiśmie Science”, prowadzili je badacze ze Stanford (Myra Cheng, Cinoo Lee, Dan Jurafsky); podaje 11 modeli, 49% i ok. 2400 osób. Ton ostrzegawczy, ale wyważony; cytuje niezależnego badacza (Daniel Khashabi, Johns Hopkins) i wspomina, że Anthropic publicznie badał sykofancję.
-- **Paper:** "Sycophantic AI decreases prosocial intentions and promotes dependence", Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han, Dan Jurafsky (Stanford, CMU), *Science* 391(6792), opublikowany 26 marca 2026, DOI 10.1126/science.aec8352, PMID 41886588. Open access: nie (Science), ale jest darmowy preprint arXiv:2510.01395 (v1 z 1 października 2025). Metoda: (1) pomiar na 11 modelach (m.in. ChatGPT, Claude, Gemini, Llama, DeepSeek, Mistral, Qwen) na postach z r/AmITheAsshole, r/TrueUnpopularOpinion i zestawie szkodliwych scenariuszy; AI aprobowało działania użytkownika o 49% częściej niż ludzie, także przy oszustwie czy nielegalnych działaniach. (2) Trzy preregistrowane eksperymenty, łącznie N = 2405: dwa na hipotetycznych winietach konfliktu, jeden z rozmową na żywo (8 rund) o prawdziwym konflikcie z życia uczestnika. Jedna rozmowa z sykofantycznym AI zwiększała przekonanie „to ja mam rację” i zmniejszała gotowość do naprawy relacji (wg the-decoder: 75% vs 50% przyznało się do winy lub przeprosiło w warunku z rozmową); jednocześnie uczestnicy oceniali sykofantyczne odpowiedzi wyżej, bardziej im ufali i chcieli wrócić (ok. 13% większa intencja ponownego użycia).
-- **Trzecie źródło:** Nature News, "Chats with sycophantic AI make you less kind to others", Matthew Hutson, 26 marca 2026, https://www.nature.com/articles/d41586-026-00979-x (otwarte po przekierowaniach, ale narzędzie widziało tylko początek tekstu; prawdopodobnie paywall). Szczegóły eksperymentów i ograniczenia (Reddit jako „norma” konkretnej demografii, tylko uczestnicy z USA, brak prawdziwie neutralnego warunku kontrolnego): The Decoder, https://the-decoder.com/ai-sycophancy-makes-people-less-likely-to-apologize-and-more-likely-to-double-down-study-finds/ . Ciekawostka dla analizy: preprint v1 (październik 2025) miał 2 eksperymenty (N = 1604) i „50% więcej”; wersja w Science ma 3 eksperymenty (N = 2405) i 49%, więc widać, co zmieniła recenzja.
-- **Dlaczego fajne:** Każdy na sali pytał kiedyś chatbota „czy dobrze zrobiłem?”. Paper łączy pomiar zachowania modeli z eksperymentem na ludziach i pokazuje błędne koło: to, co szkodzi, jednocześnie zwiększa zaangażowanie, więc firmy mają bodziec, żeby tego nie naprawiać. Najwyższa półka czasopism, 2026.
-- **Kontrowersja / rozjazd:** Raczej spór społeczno-etyczny niż metodologiczny: wynik jest solidny, ale pytanie, kto odpowiada za „incentive to flatter”. Do analizy mediów: nagłówek AP mówi o „bad advice”, a paper mierzy aprobatę i deklarowane intencje (a nie rzeczywiste zachowanie po tygodniu); efekt po jednej interakcji, głównie na winietach; „norma” ludzka to głosy Redditu. Warto sprawdzić, czy media nie przeskakują z „deklarowanej gotowości do przeprosin” na „AI psuje relacje”.
-- **Trudność techniczna:** średnia. Część techniczna: jak mierzy się sykofancję (porównanie z konsensusem ludzi na AITA, oceny przez LLM-as-judge?), preregistracja, projekt eksperymentu; dlaczego RLHF/optymalizacja pod preferencje użytkowników nagradza przytakiwanie.
-- **Pytanie do dyskusji:** Czy chcemy AI, które czasem mówi „nie masz racji”, nawet jeśli wtedy rzadziej do niego wracamy? Kto powinien o tym decydować: firma, regulator, użytkownik?
-- **Weryfikacja:** wstępna (wyszukiwacz): otwarto przedruk AP (nagłówek, autor, data, nazwanie Science i autorów), metadane w Europe PMC (Science 391(6792), 26.03.2026, PMID, DOI, brak OA), abstrakt arXiv v1, Nature News (tylko nagłówek i początek), The Decoder (szczegóły eksperymentów). Pewność: wysoka co do pary i liczb z abstraktu; średnia co do szczegółowych procentów z The Decoder.
-- **Status linków:** wsls.com: otwarty przez WebFetch (przedruk AP). arxiv.org/abs/2510.01395: otwarty. Europe PMC REST: otwarty. nature.com/articles/d41586-026-00979-x: otwarty po 2 przekierowaniach, treść częściowa. the-decoder.com: otwarty. science.org: nie próbowano (znany 403).
-- **Niepewne / do sprawdzenia przez weryfikatora:** czy Nature News cytuje niezależnych krytyków; dokładne procenty z eksperymentów (z The Decoder, nie z samego Science); czy Science opublikował towarzyszący Perspective; czy pojawiły się listy/krytyka po publikacji.
-- **Wstępna ocena:** 5/5. Świetny, świeży, recenzowany paper w Science, temat, którego każdy doświadczył, czytelna para z AP i gotowe pytanie etyczne.
+- **Kategoria:** sycophancy (pomiar u modeli i wpływ na użytkowników)
+- **News:** "AI is giving bad advice to flatter its users, says new study on dangers of overly agreeable chatbots", Matt O'Brien, Associated Press, 26 marca 2026. Licencjonowany przedruk AP na WSLS: https://www.wsls.com/business/2026/03/26/ai-is-giving-bad-advice-to-flatter-its-users-says-new-study-on-dangers-of-overly-agreeable-chatbots/ . Paywall: nie. Artykuł wprost podaje, że badanie ukazało się „w czwartek w czasopiśmie Science” i że prowadzili je badacze ze Stanford (Myra Cheng, Cinoo Lee, Dan Jurafsky). Podaje 11 modeli, 49% i ok. 2400 osób. Ton ostrzegawczy, ale wyważony: cytuje niezależnego badacza (Daniel Khashabi, Johns Hopkins) i wspomina, że Anthropic publicznie badał sykofancję (paper nie jest autorstwa Anthropic).
+- **Paper:** "Sycophantic AI decreases prosocial intentions and promotes dependence", Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han, Dan Jurafsky (Stanford, CMU), *Science* 391(6792), opublikowany 26 marca 2026, DOI 10.1126/science.aec8352, PMID 41886588. Open access: nie (Science), ale jest darmowy preprint arXiv:2510.01395, https://arxiv.org/abs/2510.01395 (v1 z 1 października 2025).
+  - Metoda, część 1: pomiar na 11 modelach (m.in. ChatGPT, Claude, Gemini, Llama, DeepSeek, Mistral, Qwen) na postach z r/AmITheAsshole i r/TrueUnpopularOpinion oraz na zestawie szkodliwych scenariuszy. AI aprobowało działania użytkownika o 49% częściej niż ludzie, także przy oszustwie czy działaniach nielegalnych.
+  - Metoda, część 2: trzy preregistrowane eksperymenty, łącznie N = 2405. Dwa na hipotetycznych winietach konfliktu, jeden z rozmową na żywo (8 rund) o prawdziwym konflikcie z życia uczestnika.
+  - Wynik: jedna rozmowa z sykofantycznym AI zwiększała przekonanie „to ja mam rację” i zmniejszała gotowość do naprawy relacji. Wg The Decoder w eksperymencie z rozmową 75% vs 50% osób przeprosiło lub przyznało się do winy. Jednocześnie uczestnicy oceniali sykofantyczne odpowiedzi wyżej, bardziej im ufali i częściej chcieli wrócić (ok. 13% większa intencja ponownego użycia).
+- **Trzecie źródło:**
+  - Nature News: "Chats with sycophantic AI make you less kind to others", Matthew Hutson, 26 marca 2026, https://www.nature.com/articles/d41586-026-00979-x . Otwarte po przekierowaniach, ale narzędzie widziało tylko początek tekstu (prawdopodobnie paywall).
+  - The Decoder: https://the-decoder.com/ai-sycophancy-makes-people-less-likely-to-apologize-and-more-likely-to-double-down-study-finds/ . Podaje szczegóły eksperymentów i ograniczenia przyznane przez autorów: Reddit jako „norma” określonej demografii, tylko uczestnicy z USA, brak prawdziwie neutralnego warunku kontrolnego.
+  - Ciekawostka dla analizy: preprint v1 (październik 2025) miał 2 eksperymenty (N = 1604) i „50% więcej”, a wersja w Science ma 3 eksperymenty (N = 2405) i 49%. Widać więc, co zmieniła recenzja.
+  - Uzupełnienie (niezweryfikowane treściowo): Rathje S., Ye M., Globig L.K., Pillai R.M., Oldemburgo de Mello V., Van Bavel J.J., "Sycophantic AI increases attitude extremity and overconfidence", PsyArXiv, DOI 10.31234/osf.io/vmyek_v3 (v3 z 13 maja 2026, wg Crossref).
+- **Dlaczego fajne:** Każdy na sali pytał kiedyś chatbota „czy dobrze zrobiłem?”. Paper łączy pomiar zachowania modeli z eksperymentem na ludziach i pokazuje błędne koło: to, co szkodzi, zwiększa też zaangażowanie, więc firmy mają bodziec, żeby tego nie naprawiać. Najwyższa półka czasopism, 2026.
+- **Kontrowersja / rozjazd:**
+  - To raczej spór społeczno-etyczny niż metodologiczny: wynik jest solidny, a otwarte pytanie brzmi, kto odpowiada za bodziec do schlebiania.
+  - Do analizy mediów: nagłówek AP mówi o „bad advice”, a paper mierzy aprobatę i deklarowane intencje, nie rzeczywiste zachowanie po tygodniu.
+  - Efekt pochodzi z jednej interakcji, w dwóch z trzech eksperymentów z winiet, a „normą” ludzką są głosy Redditu.
+  - Warto sprawdzić, czy media nie przeskakują od „deklarowanej gotowości do przeprosin” do „AI psuje relacje”.
+- **Trudność techniczna:** średnia. Część techniczna: jak mierzy się sykofancję (porównanie z konsensusem ludzi na AITA; sposób oceny odpowiedzi do sprawdzenia w paperze), preregistracja, projekt eksperymentu oraz to, dlaczego optymalizacja pod preferencje użytkowników (RLHF) nagradza przytakiwanie.
+- **Pytanie do dyskusji:** Czy chcemy AI, które czasem mówi „nie masz racji”, nawet jeśli wtedy rzadziej do niego wracamy? Kto powinien o tym decydować: firma, regulator czy użytkownik?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: przedruk AP (nagłówek, autor, data, nazwanie Science i autorów), metadane w Europe PMC (Science 391(6792), 26.03.2026, PMID, DOI, brak OA), abstrakt arXiv v1, Nature News (tylko nagłówek i początek), The Decoder (szczegóły eksperymentów).
+  - Pewność: wysoka co do pary i liczb z abstraktu; średnia co do szczegółowych procentów z The Decoder.
+- **Status linków:**
+  - wsls.com: otwarty przez WebFetch (przedruk AP).
+  - arxiv.org/abs/2510.01395: otwarty.
+  - Europe PMC REST API: otwarte (DOI i PMID podane jako tekst).
+  - nature.com/articles/d41586-026-00979-x: otwarty po 2 przekierowaniach, treść częściowa.
+  - the-decoder.com: otwarty.
+  - science.org: nie próbowano (wg instrukcji zwraca 403).
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Czy Nature News cytuje niezależnych krytyków.
+  - Dokładne procenty z eksperymentów (pochodzą z The Decoder, nie z samego Science).
+  - Czy pojawiły się listy lub krytyka po publikacji. Crossref pokazuje jednostronicowy tekst "Social calibration of sycophantic AI" (Shaoshuai Meng, Peking University, *Science* 393(6808):248, 16 lipca 2026, DOI 10.1126/science.aeh5853). Prawdopodobnie list, ale w metadanych nie cytuje papera Cheng et al., więc nie wiadomo, czy to odpowiedź.
+- **Wstępna ocena:** 5/5. Świeży, recenzowany paper w Science o czymś, czego doświadczył każdy, czytelna para z AP i gotowe pytanie etyczne.
 
 ### 2. „Your Brain on ChatGPT” (MIT, EEG) i medialne „ChatGPT ogłupia”
 - **Kategoria:** wpływ AI na myślenie, pisanie i uczenie się (cognitive offloading)
-- **News:** "ChatGPT May Be Eroding Critical Thinking Skills, According to a New MIT Study", Andrew R. Chow, TIME, 17 czerwca 2025 (aktualizacja 13 listopada 2025), https://time.com/7295195/ai-chatgpt-google-learning-school/ . Paywall: nie. Artykuł wprost nazywa główną autorkę (Nataliya Kosmyna, MIT Media Lab), podaje 54 osoby w wieku 18–39 lat, zaznacza, że praca nie była recenzowana i ma małą próbę, oraz że autorka celowo wypuściła ją przed recenzją, bo chciała ostrzec decydentów; wspomina o „pułapkach na LLM” wstawionych do papera. Sam nagłówek („eroding critical thinking”) mówi więcej niż badanie EEG nad pisaniem esejów.
-- **Paper:** "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task", Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, Pattie Maes (MIT Media Lab), preprint arXiv:2506.08872, v1 10 czerwca 2025, v2 31 grudnia 2025 (206+ stron, 102 rysunki). Brak journal ref na arXiv (stan na dziś, wg strony arXiv). Open access: tak. Metoda: 54 osoby w trzech grupach (LLM, wyszukiwarka, „tylko mózg”), 3 sesje pisania esejów SAT z EEG; w 4. sesji 18 osób zamieniło warunki. Wynik: najsilniejsza łączność mózgowa w grupie „tylko mózg”, najsłabsza w grupie LLM; grupa LLM najsłabiej pamiętała i cytowała własne eseje i miała najniższe poczucie autorstwa.
-- **Trzecie źródło:** (a) Formalna krytyka: "Comment on: Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Tasks", Milos Stankovic, Ella Hirche, Sarah Kollatzsch, Julia Nadine Doetsch, arXiv:2601.00856 (29 grudnia 2025), https://arxiv.org/abs/2601.00856v1 : pięć zarzutów (mała próba, odtwarzalność, metodologia EEG, niespójności w raportowaniu, brak przejrzystości). (b) Nature/Scientific American, "Does Using ChatGPT Really Change Your Brain Activity? Study Sparks Debate", Nicola Jones, 26 czerwca 2025, https://www.scientificamerican.com/article/does-using-chatgpt-really-change-your-brain-activity : niezależni eksperci (Adam Green, Georgetown; Guido Makransky, Kopenhaga) wskazują, że w kluczowej 4. sesji było tylko 18 osób, że różnica może wynikać z przepisywania znanego tematu, a przejście z „bez narzędzi” na chatbota zwiększyło łączność, co nie pasuje do prostej narracji.
-- **Dlaczego fajne:** Najbardziej „odczuwalny” temat dla studentów: piszą eseje z ChatGPT. Pełny trójkąt: preprint + masowa fala medialna + opublikowana krytyka. Zespół może pokazać, jak z badania EEG na 54 (a w końcu 18) osobach zrobiło się „ChatGPT niszczy krytyczne myślenie”.
-- **Kontrowersja / rozjazd:** Kontrowersja naukowa (próba, EEG, brak recenzji, preprint wypuszczony przed recenzją celowo) i medialna (nagłówki o „ogłupianiu”). Paper sam w sobie mówi o „potential cognitive costs”, media przekuwają to w trwałe szkody. Uwaga: autorka sama prosiła o ostrożność, więc część przesady pochodzi od mediów, nie od autorów (ale tytuł „cognitive debt” i decyzja o publikacji bez recenzji to też strategia komunikacyjna).
-- **Trudność techniczna:** średnia–wysoka (EEG, łączność dDTF, pasma częstotliwości); Janek może wyjaśnić, co EEG może, a czego nie może powiedzieć, i co znaczy porównanie 18 osób.
-- **Pytanie do dyskusji:** Czy „mniej aktywności mózgu” to źle (lenistwo) czy dobrze (efektywność)? Czy używanie ChatGPT do esejów jest jak kalkulator do arytmetyki?
-- **Weryfikacja:** wstępna (wyszukiwacz): otwarto TIME (nagłówek, data, cytat o braku recenzji), arXiv paper (wersje, liczby), arXiv komentarz (zarzuty), Scientific American (eksperci). Strona projektu MIT (updates) nie pokazuje publikacji w czasopiśmie. Pewność: wysoka.
-- **Status linków:** time.com/7295195/...: otwarty przez WebFetch. arxiv.org/abs/2506.08872: otwarty. arxiv.org/abs/2601.00856v1: otwarty. scientificamerican.com/...: otwarty. media.mit.edu/projects/your-brain-on-chatgpt/updates/: otwarty po przekierowaniu.
-- **Niepewne / do sprawdzenia przez weryfikatora:** czy praca została w 2026 przyjęta do recenzowanego czasopisma (arXiv nie pokazuje); czy autorzy odpowiedzieli na komentarz Stankovic et al.; świeższe omówienie 2026: TIME, "Is AI Making Our Brains Weaker?", 19 maja 2026, https://time.com/article/2026/05/19/is-ai-making-our-brains-weaker/ (tylko z wyników wyszukiwania, nie otwierano). Minus: paper o AI z połowy 2025, ale wciąż żywy spór (krytyka z przełomu 2025/2026).
-- **Wstępna ocena:** 5/5. Najbardziej relatable para w grupie z gotowym trójkątem; słabość metodologiczna papera to tu zaleta dydaktyczna.
+- **News:** "ChatGPT May Be Eroding Critical Thinking Skills, According to a New MIT Study", Andrew R. Chow, TIME, 17 czerwca 2025 (aktualizacja 13 listopada 2025), https://time.com/7295195/ai-chatgpt-google-learning-school/ . Paywall: nie.
+  - Artykuł wprost nazywa główną autorkę (Nataliya Kosmyna, MIT Media Lab) i podaje 54 osoby w wieku 18–39 lat.
+  - Zaznacza, że praca nie była recenzowana i ma małą próbę, a autorka celowo wypuściła ją przed recenzją, bo chciała ostrzec decydentów. Wspomina też o „pułapkach na LLM” wstawionych do papera.
+  - Nagłówek („eroding critical thinking”) mówi więcej niż badanie EEG nad pisaniem esejów.
+- **Paper:** "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task", Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, Pattie Maes (MIT Media Lab), preprint arXiv:2506.08872, https://arxiv.org/abs/2506.08872 . Wersja v1 z 10 czerwca 2025, v2 z 31 grudnia 2025; 216 stron, 102 rysunki. arXiv nie podaje journal ref. Open access: tak.
+  - Metoda: 54 osoby w trzech grupach (LLM, wyszukiwarka, „tylko mózg”), 3 sesje pisania esejów SAT z pomiarem EEG. W 4. sesji 18 osób zamieniło warunki.
+  - Wynik: najsilniejsza łączność mózgowa w grupie „tylko mózg”, najsłabsza w grupie LLM. Grupa LLM najsłabiej pamiętała i cytowała własne eseje i miała najniższe poczucie autorstwa.
+- **Trzecie źródło:**
+  - Formalna krytyka: "Comment on: Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Tasks", Milos Stankovic, Ella Hirche, Sarah Kollatzsch, Julia Nadine Doetsch, arXiv:2601.00856 (29 grudnia 2025), https://arxiv.org/abs/2601.00856v1 . Pięć zarzutów: mała próba, odtwarzalność, metodologia EEG, niespójności w raportowaniu, brak przejrzystości. Autorzy komentarza uznają wartość pracy, ale uważają, że wyniki należy interpretować ostrożniej.
+  - Nature / Scientific American: "Does Using ChatGPT Really Change Your Brain Activity? Study Sparks Debate", Nicola Jones, 26 czerwca 2025, https://www.scientificamerican.com/article/does-using-chatgpt-really-change-your-brain-activity . Niezależni eksperci (Adam Green, Georgetown; Guido Makransky, Uniwersytet Kopenhaski) wskazują, że w kluczowej 4. sesji było tylko 18 osób i że różnica może wynikać z przepisywania znanego tematu. Zauważają też, że przejście z „bez narzędzi” na chatbota zwiększyło łączność, co nie pasuje do prostej narracji.
+  - Nowszy, mocniejszy dowód w tym samym kierunku: Liu G., Christian B., Dumbalska T., Bakker M.A., Dubey R., "AI Assistance Reduces Persistence and Hurts Independent Performance", arXiv:2604.04721 (kwiecień 2026, v4 sierpień 2026), https://arxiv.org/abs/2604.04721 . RCT, N = 1222: już ok. 10 minut pracy z AI nad zadaniami z matematyki i czytania pogarsza późniejsze wyniki bez AI i zwiększa skłonność do poddawania się. Omawia go TIME, "Is AI Making Our Brains Weaker?", Markham Heid, 19 maja 2026, https://time.com/article/2026/05/19/is-ai-making-our-brains-weaker/ (przegląd, nie artykuł o jednym paperze).
+- **Dlaczego fajne:** To najbardziej „odczuwalny” temat dla studentów, bo sami piszą eseje z ChatGPT. Pełny trójkąt: preprint, masowa fala medialna i opublikowana krytyka. Zespół może pokazać, jak z badania EEG na 54 osobach (w kluczowej sesji 18) zrobiło się „ChatGPT niszczy krytyczne myślenie”.
+- **Kontrowersja / rozjazd:**
+  - Kontrowersja naukowa: mała próba, interpretacja EEG, brak recenzji, preprint celowo wypuszczony przed recenzją.
+  - Kontrowersja medialna: nagłówki o „ogłupianiu”. Paper mówi o „potential cognitive costs”, a media przekuwają to w trwałe szkody.
+  - Uwaga: autorka sama prosiła o ostrożność, więc część przesady pochodzi od mediów, nie od autorów. Tytuł „cognitive debt” i publikacja bez recenzji to jednak też strategia komunikacyjna.
+- **Trudność techniczna:** średnia–wysoka (EEG, miary łączności, pasma częstotliwości). Janek może wyjaśnić, co EEG może, a czego nie może powiedzieć, i ile znaczy porównanie 18 osób.
+- **Pytanie do dyskusji:** Czy „mniej aktywności mózgu” to źle (lenistwo), czy dobrze (efektywność)? Czy używanie ChatGPT do esejów jest jak kalkulator do arytmetyki?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: TIME (nagłówek, data, cytat o braku recenzji), arXiv paper (wersje, liczby), komentarz na arXiv (zarzuty), Scientific American (eksperci), TIME 2026 (link do Liu et al.), arXiv Liu et al. (abstrakt). Strona projektu MIT (zakładka updates) nie wspomina o publikacji w czasopiśmie.
+  - Pewność: wysoka.
+- **Status linków:**
+  - time.com/7295195/...: otwarty przez WebFetch.
+  - arxiv.org/abs/2506.08872: otwarty.
+  - arxiv.org/abs/2601.00856v1: otwarty.
+  - scientificamerican.com/...: otwarty.
+  - time.com/article/2026/05/19/...: otwarty.
+  - arxiv.org/abs/2604.04721: otwarty.
+  - media.mit.edu/projects/your-brain-on-chatgpt/updates/: otwarty po przekierowaniu.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Czy praca została w 2026 przyjęta do recenzowanego czasopisma (arXiv tego nie pokazuje).
+  - Czy autorzy odpowiedzieli na komentarz Stankovic et al.
+  - Minus: paper o AI z połowy 2025, ale spór wciąż jest żywy (krytyka z przełomu 2025 i 2026, nowe RCT z 2026).
+- **Wstępna ocena:** 5/5. Najbardziej relatable para w grupie z gotowym trójkątem. Słabość metodologiczna papera to tu zaleta dydaktyczna.
 
 ### 3. „AI psychosis” w danych klinicznych: 54 000 kart pacjentów z Danii
 - **Kategoria:** AI psychosis / urojenia podsycane przez chatboty
-- **News:** "Chatbots are 'constantly validating everything' even when you're suicidal. New research measures how dangerous AI psychosis really is", Catherina Gioino, Fortune, 7 marca 2026, https://fortune.com/2026/03/07/chatbots-ai-psychosis-worsen-delusions-mania-mental-illness-health/ . Paywall: nie widać (Fortune ma miękki limit, niepewne). Artykuł nazywa badanie Aarhus University i prof. Sørena Dinesena Østergaarda, podaje „nearly 54,000 patient records”, ale nie podaje nazwy czasopisma. Pisze ostrożnie („may lead to”, „appeared to aggravate”) i cytuje Thomasa Insela jako głos przeciwwagi.
-- **Paper:** "Potentially Harmful Consequences of Artificial Intelligence (AI) Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System", Sidse Godske Olsen, Christopher J. Reinecke-Tellefsen, Søren Dinesen Østergaard, *Acta Psychiatrica Scandinavica* 153(4), online 6 lutego 2026 (brief report), DOI 10.1111/acps.70068, PMID 41649035, PMCID PMC12967755. Open access: tak. Preprint medRxiv 10.1101/2025.11.19.25340580 (20 listopada 2025). Metoda: przeszukanie elektronicznej dokumentacji 53 974 pacjentów psychiatrii regionu Central Denmark (09.2022–06.2025, ponad 10,7 mln notatek) 22 hasłami; 181 notatek o chatbotach dotyczyło 126 pacjentów. U 38 opisano potencjalnie szkodliwe skutki (najczęściej nasilenie/utrwalenie urojeń: 11; suicydalność/samookaleczenia: 6; zaburzenia odżywiania: 5; mania, OCD, depresja < 5). U 32 pacjentów użycie było konstruktywne (psychoedukacja, „terapia”, towarzystwo), u 20 praktyczne. Autorzy wprost piszą, że notatki nie dowodzą przyczynowości, pacjentów nie pytano systematycznie o AI, a wyszukiwanie było wąskie.
-- **Trzecie źródło:** (a) Morrin H. et al., "AI-associated delusions and large language models" (tytuł wg Europe PMC skrócony, do sprawdzenia), *The Lancet Psychiatry*, 5 marca 2026, DOI 10.1016/S2215-0366(25)00396-7, typ: Personal View (analiza ok. 20 doniesień medialnych, typologia urojeń: wielkościowe, romantyczne, paranoidalne; proponuje termin „AI-associated delusions” zamiast „AI psychosis”). Guardian opisał to 14 marca 2026 (https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis , zablokowany dla narzędzia; link potwierdzony przez Slashdot: https://tech.slashdot.org/story/26/03/15/0436200 ), prawdopodobnie pod nagłówkiem "First major study on 'AI psychosis' suggests chatbots can encourage delusions among vulnerable people" (nagłówek tylko z mirrora/agregatora, niepewne). (b) Komunikat Aarhus University: https://health.au.dk/en/display/artikel/new-research-ai-chatbots-may-worsen-mental-illness (tylko z wyników wyszukiwania).
-- **Dlaczego fajne:** Pierwsze dane z prawdziwego systemu opieki psychiatrycznej, a nie anegdoty z mediów. Autor (Østergaard) przewidział zjawisko w 2023 r. w Schizophrenia Bulletin, więc jest historia „naukowiec ostrzegał, potem przyszły dane”. Temat poważny, ale każdy zna kogoś, kto „gada z ChatGPT godzinami”.
-- **Kontrowersja / rozjazd:** Bardzo dobry materiał do analizy mediów: (1) Fortune w nagłówku twierdzi, że badanie „measures how dangerous AI psychosis really is”, a paper nie mierzy częstości ani przyczynowości (38 opisów przypadków na 54 tys. kart, bez grupy kontrolnej). (2) Fortune pisze „In only 32 documented cases out of the nearly 54,000 patient records… chatbots did alleviate loneliness”, porównując korzystne przypadki z mianownikiem 54 tys., podczas gdy w paperze 32 korzystne i 38 szkodliwych pochodzą z tej samej puli 126 pacjentów, u których w ogóle wspomniano chatbota. To klasyczny błąd mianownika, który przechyla obraz w stronę zagrożenia. (3) Guardian/Lancet: „first major study” o tekście typu Personal View opartym na doniesieniach medialnych. Spór terminologiczny „AI psychosis” vs „AI-associated delusions”.
-- **Trudność techniczna:** niska–średnia (przeszukiwanie EHR, odróżnianie korelacji od przyczynowości, błąd selekcji dokumentacji; Janek może dorzucić mechanizm sykofancji/RLHF).
+- **News:** "Chatbots are 'constantly validating everything' even when you're suicidal. New research measures how dangerous AI psychosis really is", Catherina Gioino, Fortune, 7 marca 2026, https://fortune.com/2026/03/07/chatbots-ai-psychosis-worsen-delusions-mania-mental-illness-health/ . Paywall: narzędzie go nie widziało (Fortune ma miękki limit artykułów, niepewne).
+  - Artykuł przypisuje badanie Aarhus University i prof. Sørenowi Dinesenowi Østergaardowi i podaje „nearly 54,000 patient records”, ale nie podaje nazwy czasopisma.
+  - Pisze ostrożnie („may lead to”, „appeared to aggravate”) i cytuje Thomasa Insela jako głos przeciwwagi.
+- **Paper:** "Potentially Harmful Consequences of Artificial Intelligence (AI) Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System", Sidse Godske Olsen, Christopher J. Reinecke-Tellefsen, Søren Dinesen Østergaard, *Acta Psychiatrica Scandinavica* 153(4), online 6 lutego 2026 (brief report), DOI 10.1111/acps.70068, PMID 41649035, PMCID PMC12967755. Open access: tak. Preprint w medRxiv: DOI 10.1101/2025.11.19.25340580 (20 listopada 2025).
+  - Metoda: przeszukanie 22 hasłami elektronicznej dokumentacji 53 974 pacjentów psychiatrii regionu Central Denmark (wrzesień 2022 – czerwiec 2025, ponad 10,7 mln notatek). 181 notatek o chatbotach dotyczyło 126 pacjentów.
+  - Wynik: u 38 pacjentów opisano potencjalnie szkodliwe skutki. Najczęściej było to nasilenie lub utrwalenie urojeń (11), dalej suicydalność lub samookaleczenia (6) i zaburzenia odżywiania (5); mania, OCD i depresja poniżej 5 przypadków każda. U 32 pacjentów użycie było konstruktywne (psychoedukacja, „terapia”, towarzystwo), u 20 praktyczne.
+  - Ograniczenia, które autorzy podają wprost: notatki nie dowodzą przyczynowości, pacjentów nie pytano systematycznie o AI, a wyszukiwanie było wąskie.
+- **Trzecie źródło:**
+  - Personal View w *The Lancet Psychiatry*: Morrin H., Nicholls L., Levin M., Yiend J., Iyengar U., DelGuidice F. i in., 5 marca 2026, DOI 10.1016/S2215-0366(25)00396-7 (dokładny tytuł do sprawdzenia; Europe PMC opisuje go jako tekst o „AI-associated delusions” i LLM). To przegląd ok. 20 doniesień medialnych z typologią urojeń (wielkościowe, romantyczne, paranoidalne). Autorzy proponują termin „AI-associated delusions” zamiast „AI psychosis”.
+  - Guardian opisał ten tekst 14 marca 2026: https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis . Domena zablokowana dla narzędzia; link potwierdzony przez Slashdot: https://tech.slashdot.org/story/26/03/15/0436200 . Prawdopodobny nagłówek: "First major study on 'AI psychosis' suggests chatbots can encourage delusions among vulnerable people" (tylko z agregatora, niepewne).
+  - Komunikat Aarhus University: https://health.au.dk/en/display/artikel/new-research-ai-chatbots-may-worsen-mental-illness (tylko z wyników wyszukiwania).
+- **Dlaczego fajne:** To pierwsze dane z prawdziwego systemu opieki psychiatrycznej, a nie anegdoty z mediów. Østergaard przewidział zjawisko już w 2023 r. (wg PsyPost: https://www.psypost.org/chatgpt-psychosis-this-scientist-predicted-ai-induced-delusions-two-years-later-it-appears-he-was-right/ , tylko z wyników wyszukiwania), więc jest historia „naukowiec ostrzegał, potem przyszły dane”. Temat poważny, a każdy zna kogoś, kto „gada z ChatGPT godzinami”.
+- **Kontrowersja / rozjazd:** Bardzo dobry materiał do analizy mediów:
+  - Nagłówek Fortune twierdzi, że badanie „measures how dangerous AI psychosis really is”, a paper nie mierzy ani częstości, ani przyczynowości: to 38 opisów przypadków na 54 tys. kart, bez grupy kontrolnej.
+  - Błąd mianownika: Fortune pisze „In only 32 documented cases out of the nearly 54,000 patient records… chatbots did alleviate loneliness”. W paperze zarówno 32 przypadki korzystne, jak i 38 szkodliwych pochodzą z tej samej puli 126 pacjentów, u których w ogóle wspomniano o chatbocie. Porównanie z 54 tys. przechyla obraz w stronę zagrożenia.
+  - Guardian i Lancet: „first major study” to określenie tekstu typu Personal View opartego na doniesieniach medialnych.
+  - Spór terminologiczny: „AI psychosis” czy „AI-associated delusions”.
+- **Trudność techniczna:** niska–średnia (przeszukiwanie dokumentacji medycznej, korelacja a przyczynowość, błąd selekcji w dokumentacji). Janek może dorzucić mechanizm sykofancji i RLHF.
 - **Pytanie do dyskusji:** Czy „AI psychosis” to nowe zjawisko, czy stare urojenia w nowym przebraniu (jak kiedyś radio czy telewizja)? Czy chatboty powinny wykrywać urojenia i odmawiać rozmowy?
-- **Weryfikacja:** wstępna (wyszukiwacz): pełny tekst papera przez Europe PMC (liczby, ograniczenia), Fortune otwarty (nagłówek, cytaty), metadane Lancet Psychiatry przez Europe PMC, link Guardiana przez Slashdot. Pewność: wysoka co do papera i Fortune; średnia co do Guardiana.
-- **Status linków:** fortune.com/2026/03/07/...: otwarty przez WebFetch. Europe PMC (pełny tekst PMC12967755): otwarty. medrxiv.org PDF: HTTP 403. theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis: nie otwierano (domena znana jako zablokowana), potwierdzony przez Slashdot (otwarty). health.au.dk: tylko z wyników wyszukiwania.
-- **Niepewne / do sprawdzenia przez weryfikatora:** dokładny nagłówek Guardiana; pełny tytuł Personal View w Lancet Psychiatry; czy Fortune ma paywall. Jako alternatywny news można sprawdzić PsyPost lub Neuroscience News (https://neurosciencenews.com/ai-chatbot-mental-health-delusions-30178 , tylko z wyników wyszukiwania).
-- **Wstępna ocena:** 4/5. Mocny, świeży, otwarty paper z uczciwie opisanymi ograniczeniami i bardzo czytelny błąd medialny; minus: paper to krótki brief report, a news nie nazywa czasopisma.
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: pełny tekst papera przez Europe PMC (liczby, ograniczenia), Fortune (nagłówek, cytaty), metadane Lancet Psychiatry przez Europe PMC, link Guardiana przez Slashdot.
+  - Pewność: wysoka co do papera i Fortune; średnia co do Guardiana.
+- **Status linków:**
+  - fortune.com/2026/03/07/...: otwarty przez WebFetch.
+  - Europe PMC (pełny tekst PMC12967755): otwarty.
+  - medrxiv.org PDF: HTTP 403.
+  - theguardian.com/...: nie otwierano (domena zablokowana dla narzędzia); potwierdzony przez Slashdot (otwarty).
+  - health.au.dk i psypost.org (artykuł o Østergaardzie): tylko z wyników wyszukiwania.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Dokładny nagłówek Guardiana i dokładny tytuł Personal View w Lancet Psychiatry.
+  - Czy Fortune ma paywall.
+  - Alternatywny news: Neuroscience News, https://neurosciencenews.com/ai-chatbot-mental-health-delusions-30178 (tylko z wyników wyszukiwania).
+- **Wstępna ocena:** 4/5. Mocny, świeży, otwarty paper z uczciwie opisanymi ograniczeniami i bardzo czytelny błąd medialny. Minus: paper to krótki brief report, a news nie nazywa czasopisma.
 
 ### 4. „Kara za AI w nauce”: 26 811 chińskich uczniów, lepsze prace domowe, gorsze egzaminy
 - **Kategoria:** wpływ AI na uczenie się (edukacja, cognitive offloading)
-- **News:** "Study finds AI boosted homework scores 18%—then tanked exam results 20%", Sasha Rogelberg, Fortune, 21 lipca 2026, https://www.fortune.com/2026/07/21/gen-z-cheating-homework-school-exam-scores-crash-post-literate-society-incentives/ . Paywall: nie widać (Fortune ma miękki limit, niepewne). Artykuł wprost podaje, że badanie opublikował Centre for Economic Policy Research, linkuje do niego (cepr.org/publications/dp21577), podaje próbę i liczby oraz afiliacje (Stockholm University, University of Hong Kong), ale nie nazwisk ani tytułu. Ramuje sprawę jako utratę uczenia się, nie oszukiwanie; cytuje neuronaukowca Jareda Cooneya Horvatha i prawnika Jacoba Shelleya. Szeroki kontekst (Gen Z, „post-literate society”, Skinner), więc to trochę esej wokół jednego badania.
-- **Paper:** "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education", David Strömberg, Victor Lei, Yanhui Wu, CEPR Discussion Paper DP21577, 2 czerwca 2026, https://cepr.org/publications/dp21577 . Working paper, nierecenzowany. Open access: niepewne (strona abstraktu otwarta; PDF DP CEPR bywa płatny). Metoda: 30 miesięcy danych panelowych 26 811 uczniów klas 7–12 (comiesięczne egzaminy bez materiałów, egzaminy wstępne, dane o pracach domowych z 9 przedmiotów), difference-in-differences z rozłożonym w czasie wdrażaniem AI. Wynik: AI podnosi wyniki prac domowych o 18% i skraca czas o 30%, ale obniża wyniki comiesięcznych egzaminów o 20% w ciągu 6 miesięcy, a egzaminów wstępnych o 18–24% (pełny efekt po ok. 2 latach). Największe straty: przedmioty społeczne, młodsi uczniowie, najlepsi uczniowie, chłopcy. Ok. 80% użytkowników AI zachowuje się jak przy „outsourcingu” pracy domowej (bardzo szybko, bardzo dobrze); ci, którzy pracowali typowo długo, prawie nie tracili.
-- **Trzecie źródło:** Recenzowane badanie zbieżne (nie krytyka): Bastani H., Bastani O., Sungu A., Ge H., Kabakcı Ö., Mariman R., "Generative AI without guardrails can harm learning: Evidence from high school mathematics", *PNAS* 122(26), 25 czerwca 2025, DOI 10.1073/pnas.2422633122, open access (metadane i abstrakt przez Europe PMC). RCT na ok. 1000 licealistach w Turcji: zwykły GPT-4 („GPT Base”) poprawiał wyniki w ćwiczeniach o 48%, a po odebraniu dostępu wyniki egzaminu były o 17% gorsze niż w grupie kontrolnej; „GPT Tutor” z zabezpieczeniami (podpowiedzi zamiast odpowiedzi) praktycznie usuwał ten efekt. Opublikowanej krytyki CEPR DP nie znaleziono (limit wyszukiwań, patrz Podsumowanie).
-- **Dlaczego fajne:** Studenci natychmiast rozpoznają mechanizm „zadanie zrobione, nic nie umiem”. Ogromna próba i dane z 2,5 roku. Paper ma ciekawy szczegół, który zmienia narrację: szkoda dotyczy głównie tych, którzy „oddają” pracę AI, a nie samego używania AI. Para z PNAS daje eksperymentalne (przyczynowe) potwierdzenie.
-- **Kontrowersja / rozjazd:** (1) Fortune pisze „tanked exam results 20%”, a nie jest jasne, czy „20%” to procent surowego wyniku, czy np. część odchylenia standardowego (abstrakt tego nie precyzuje; do sprawdzenia w PDF). Jeśli to odchylenia standardowe, nagłówek dramatycznie przesadza. (2) To badanie obserwacyjne (DiD), a „adopcja AI” jest wyborem ucznia, więc możliwa selekcja. (3) Working paper, nie recenzowany. (4) Kontekst chiński (gaokao, platforma szkolna) vs Europa.
-- **Trudność techniczna:** średnia (difference-in-differences, staggered adoption, jak z danych o czasie wykonania zgaduje się „outsourcing”; dla PNAS: projekt RCT z dwoma wersjami tutora).
-- **Pytanie do dyskusji:** Czy uczelnie powinny zakazać AI do prac domowych, czy raczej przestać oceniać prace domowe? Czy AI-tutor, który odmawia podania odpowiedzi, to rozwiązanie, którego naprawdę używalibyśmy?
-- **Weryfikacja:** wstępna (wyszukiwacz): otwarto Fortune (nagłówek, cytat, linki), stronę CEPR DP21577 (tytuł, autorzy, abstrakt, data), Europe PMC dla PNAS. Pewność: wysoka co do pary; średnia co do interpretacji „20%”.
-- **Status linków:** fortune.com/2026/07/21/...: otwarty przez WebFetch. cepr.org/publications/dp21577: otwarty. PNAS: tylko przez Europe PMC REST (DOI jako tekst).
-- **Niepewne / do sprawdzenia przez weryfikatora:** jednostka „20%” i „18–24%”; jak dokładnie zidentyfikowano „adopcję AI” (jaka platforma); afiliacje autorów (Strömberg to Stockholm University, Wu prawdopodobnie HKU; niepewne); czy PDF jest darmowy.
-- **Wstępna ocena:** 4/5. Duże, świeże i bardzo „odczuwalne” badanie z mocną kontrą eksperymentalną (PNAS); minus: working paper i obserwacyjny projekt, news trochę eseistyczny.
+- **News:** "Study finds AI boosted homework scores 18%—then tanked exam results 20%", Sasha Rogelberg, Fortune, 21 lipca 2026, https://www.fortune.com/2026/07/21/gen-z-cheating-homework-school-exam-scores-crash-post-literate-society-incentives/ . Paywall: narzędzie go nie widziało (miękki limit Fortune, niepewne).
+  - Artykuł podaje, że badanie opublikował Centre for Economic Policy Research, linkuje do niego (cepr.org/publications/dp21577) i podaje próbę, liczby oraz afiliacje (Stockholm University, University of Hong Kong). Nie podaje nazwisk ani tytułu.
+  - Przedstawia sprawę jako utratę uczenia się, nie oszukiwanie. Cytuje neuronaukowca Jareda Cooneya Horvatha i prawnika Jacoba Shelleya.
+  - Szeroki kontekst (Gen Z, „post-literate society”, Skinner), więc to trochę esej wokół jednego badania.
+- **Paper:** "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education", David Strömberg, Victor Lei, Yanhui Wu, CEPR Discussion Paper DP21577, 2 czerwca 2026, https://cepr.org/publications/dp21577 . Working paper, nierecenzowany. Open access: niepewne (strona z abstraktem otwarta, PDF-y DP CEPR bywają płatne).
+  - Metoda: 30 miesięcy danych panelowych dla 26 811 uczniów klas 7–12 (comiesięczne egzaminy bez materiałów, egzaminy wstępne, dane o pracach domowych z 9 przedmiotów). Difference-in-differences z rozłożonym w czasie wdrażaniem AI.
+  - Wynik: AI podnosi wyniki prac domowych o 18% i skraca czas pracy o 30%, ale w ciągu 6 miesięcy obniża wyniki comiesięcznych egzaminów o 20%, a egzaminów wstępnych o 18–24% (pełny efekt po ok. 2 latach).
+  - Największe straty: przedmioty społeczne, młodsi uczniowie, najlepsi uczniowie i chłopcy.
+  - Ok. 80% użytkowników AI zachowuje się jak przy „outsourcingu” pracy domowej (bardzo szybko i bardzo dobrze). Ci, którzy pracowali typowo długo, prawie nic nie tracili.
+- **Trzecie źródło:** Recenzowane badanie zbieżne (nie krytyka): Bastani H., Bastani O., Sungu A., Ge H., Kabakcı Ö., Mariman R., "Generative AI without guardrails can harm learning: Evidence from high school mathematics", *PNAS* 122(26), 25 czerwca 2025, DOI 10.1073/pnas.2422633122, open access (metadane i abstrakt przez Europe PMC).
+  - To RCT na ok. 1000 licealistach w Turcji. Zwykły GPT-4 („GPT Base”) poprawiał wyniki w ćwiczeniach o 48%, ale po odebraniu dostępu wyniki egzaminu były o 17% gorsze niż w grupie kontrolnej.
+  - „GPT Tutor” z zabezpieczeniami (podpowiedzi zamiast odpowiedzi) w dużej mierze usuwał ten efekt.
+  - Opublikowanej krytyki CEPR DP nie szukałem z powodu limitu wyszukiwań.
+- **Dlaczego fajne:** Studenci natychmiast rozpoznają mechanizm „zadanie zrobione, a nic nie umiem”. Ogromna próba i dane z 2,5 roku. Paper ma szczegół, który zmienia narrację: szkoda dotyczy głównie tych, którzy oddają pracę AI, a nie samego używania AI. Para z PNAS daje eksperymentalne, czyli przyczynowe potwierdzenie.
+- **Kontrowersja / rozjazd:**
+  - Fortune pisze „tanked exam results 20%”, a nie jest jasne, czy „20%” to procent surowego wyniku, czy np. część odchylenia standardowego (abstrakt tego nie precyzuje, trzeba sprawdzić w PDF). Jeśli chodzi o odchylenia standardowe, nagłówek dramatycznie przesadza.
+  - To badanie obserwacyjne (DiD), a „adopcja AI” jest wyborem ucznia, więc możliwa jest selekcja.
+  - Working paper, nierecenzowany.
+  - Kontekst chiński (gaokao, platforma szkolna) jest inny niż europejski.
+- **Trudność techniczna:** średnia (difference-in-differences, staggered adoption, wnioskowanie o „outsourcingu” z czasu wykonania zadań; w PNAS projekt RCT z dwiema wersjami tutora).
+- **Pytanie do dyskusji:** Czy uczelnie powinny zakazać AI do prac domowych, czy raczej przestać oceniać prace domowe? Czy AI-tutor, który odmawia podania odpowiedzi, to rozwiązanie, którego naprawdę byśmy używali?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: Fortune (nagłówek, cytat, linki), strona CEPR DP21577 (tytuł, autorzy, abstrakt, data), Europe PMC dla PNAS.
+  - Pewność: wysoka co do pary; średnia co do interpretacji „20%”.
+- **Status linków:**
+  - fortune.com/2026/07/21/...: otwarty przez WebFetch.
+  - cepr.org/publications/dp21577: otwarty.
+  - PNAS: tylko przez Europe PMC REST API (DOI jako tekst).
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Jednostki „20%” i „18–24%”.
+  - Jak dokładnie zidentyfikowano „adopcję AI” (jaka platforma).
+  - Afiliacje autorów (wg Fortune Stockholm University i University of Hong Kong; przypisania do nazwisk niepewne).
+  - Czy PDF jest darmowy.
+- **Wstępna ocena:** 4/5. Duże, świeże i bardzo „odczuwalne” badanie z mocnym eksperymentalnym potwierdzeniem (PNAS). Minus: working paper, projekt obserwacyjny i trochę eseistyczny news.
 
 ### 5. „Deskilling” lekarzy: po kilku miesiącach z AI endoskopiści gorzej wykrywają polipy bez AI (badanie z Polski)
 - **Kategoria:** wpływ AI na myślenie i umiejętności (cognitive offloading, utrata umiejętności)
-- **News:** "Is AI Use Causing Endoscopists to Lose Their Skills?", Marilynn Larkin, MDedge (portal medyczny), 28 stycznia 2026, https://blogs.the-hospitalist.org/content/ai-use-causing-endoscopists-lose-their-skills . Paywall: nie. Wprost: badanie „published online in The Lancet Gastroenterology & Hepatology”, autorzy Krzysztof Budzyń i Marcin Romańczyk (Akademia Śląska). Podaje spadek ADR z 28,4% do 22,4% i cytuje niezależnego krytyka (Rajiv Bhuta, Temple University: „small retrospective observational study”, losowa zmienność ADR może sięgać 8 pkt). Drugi news, ogólniejszy: "Is AI Undermining Physicians' Diagnostic Skills?", Lou Portero, Urban Health Today, 16 sierpnia 2025, https://www.urbanhealthtoday.com/post/as-ai-spreads-through-health-care-is-the-technology-degrading-providers-skills (cały tekst o tym badaniu). Uwaga: news w dużych mediach (TIME, Bloomberg itp.) prawdopodobnie istnieje, ale nie mogłem go wyszukać (limit wyszukiwań).
-- **Paper:** "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study", Budzyń K., Romańczyk M., Kitala D. i in., *The Lancet Gastroenterology & Hepatology* 10(10):896–903, 2025 (online sierpień 2025), DOI 10.1016/S2468-1253(25)00133-5. Open access: nie (wg Europe PMC; jest wersja w repozytorium Warwick: https://wrap.warwick.ac.uk/id/eprint/191005 , tylko z wyników wyszukiwania). Metoda: 4 ośrodki w Polsce w ramach badania ACCEPT, 19 doświadczonych endoskopistów (ponad 2000 kolonoskopii każdy), porównanie kolonoskopii bez AI przed (795) i po (648) wprowadzeniu systemu CADe do praktyki. Wynik: ADR w kolonoskopiach bez AI spadł z 28,4% do 22,4% (−6 pkt proc., ok. 20% względnie); ekspozycja na AI była niezależnym predyktorem niższego ADR.
-- **Trzecie źródło:** Pełny trójkąt w samym czasopiśmie: trzy listy krytyczne (Lam K.; Levartovsky A.; van de Sande D.) i odpowiedź autorów (Budzyń K., "Authors' reply"), *Lancet Gastroenterol Hepatol*, grudzień 2025 (DOI 10.1016/s2468-1253(25)00290-0, ...00289-4, ...00288-2, odpowiedź ...00324-3; treści listów nie czytałem, tylko metadane z Europe PMC). Do tego komentarz redakcyjny Ahmad O.F., "Endoscopist deskilling: an unintended consequence of AI-assisted colonoscopy?" (DOI 10.1016/s2468-1253(25)00164-5) i kontrastujące duże badanie: Dominitz J.A. i in., "Impact of Availability of Computer-Aided Detection Devices on Adenoma Detection During Colonoscopy: A Cluster Randomized Study", *Gastroenterology*, czerwiec 2026 (DOI 10.1053/j.gastro.2026.05.018): klastrowy RCT w szpitalach VA (816 endoskopistów, ok. 218 tys. kolonoskopii), CADe podnosi wykrywalność (50,7% → 54,9%), a kwestię deskillingu autorzy wprost zostawiają otwartą.
-- **Dlaczego fajne:** Najczystszy przykład „AI czyni nas gorszymi, gdy go zabraknie”, i to u ekspertów, nie studentów. Łatwe analogie dla sali (GPS a orientacja w terenie, autokorekta a ortografia). Polskie badanie (atut dla Janka). Gotowa debata w listach do redakcji.
-- **Kontrowersja / rozjazd:** Kontrowersja naukowa: badanie obserwacyjne, krótki okres, możliwe zakłócenia (zmiana obciążenia pracą, inne populacje pacjentów, zmęczenie, efekt Hawthorne'a w ramach badania ACCEPT). Mediom łatwo przejść od „ADR spadł w jednym badaniu” do „AI ogłupia lekarzy”. Spór społeczny: czy w ogóle szkodzi, skoro z AI wyniki są lepsze (Dominitz)?
-- **Trudność techniczna:** niska–średnia (ADR jako wskaźnik jakości, projekt przed/po, regresja z predyktorami, dlaczego RCT VA nie odpowiada na pytanie o deskilling).
-- **Pytanie do dyskusji:** Czy to problem, że tracimy umiejętność, jeśli AI jest zawsze dostępne? Kiedy „deskilling” jest akceptowalny (kalkulator), a kiedy groźny (awaria, lekarz bez AI)?
-- **Weryfikacja:** wstępna (wyszukiwacz): otwarto MDedge (nagłówek, cytat, liczby, krytyk), Urban Health Today; metadane papera, listów i badania VA z Europe PMC (abstrakt badania VA przeczytany). Pewność: wysoka co do pary i istnienia listów; niska co do treści listów.
-- **Status linków:** blogs.the-hospitalist.org/...: otwarty przez WebFetch. urbanhealthtoday.com/...: otwarty. Europe PMC REST: otwarty. thieme-connect.de (możliwy komentarz w Endoscopy): strona ochronna JS, treść niedostępna. wrap.warwick.ac.uk: tylko z wyników wyszukiwania.
-- **Niepewne / do sprawdzenia przez weryfikatora:** treść trzech listów i odpowiedzi autorów; czy jest artykuł w dużym medium (TIME/Bloomberg/Guardian) nazywający badanie; liczba kolonoskopii z AI (MDedge podaje 734, nie sprawdzono w paperze). Uwaga zakresowa: paper medyczny, nie o chatbotach, ale ściśle o wpływie AI na ludzkie umiejętności.
-- **Wstępna ocena:** 4/5. Świetny trójkąt w Lancet (paper + listy + odpowiedź + kontrujące RCT), czytelna kontrowersja metodologiczna; minus: news w mniejszych mediach i temat medyczny, choć łatwy do przełożenia.
+- **News:** "Is AI Use Causing Endoscopists to Lose Their Skills?", Marilynn Larkin, MDedge (portal medyczny), 28 stycznia 2026, https://blogs.the-hospitalist.org/content/ai-use-causing-endoscopists-lose-their-skills . Paywall: nie.
+  - Podaje wprost, że badanie „published online in The Lancet Gastroenterology & Hepatology”, i nazywa autorów: Krzysztof Budzyń i Marcin Romańczyk (Akademia Śląska).
+  - Podaje spadek ADR z 28,4% do 22,4% i cytuje niezależnego krytyka: Rajiv Bhuta (Temple University) nazywa je „small retrospective observational study” i zauważa, że w tak małym zbiorze ADR może się wahać o 8 punktów lub więcej przez sam przypadek.
+  - Drugi news: "Is AI Undermining Physicians' Diagnostic Skills?", Lou Portero, Urban Health Today, 16 sierpnia 2025, https://www.urbanhealthtoday.com/post/as-ai-spreads-through-health-care-is-the-technology-degrading-providers-skills (cały tekst o tym badaniu).
+  - Omówienia w dużych mediach (TIME, Bloomberg itp.) prawdopodobnie istnieją, ale nie mogłem ich wyszukać z powodu limitu.
+- **Paper:** "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study", Budzyń K., Romańczyk M., Kitala D. i in., *The Lancet Gastroenterology & Hepatology* 10(10):896–903, numer z października 2025 (online prawdopodobnie sierpień 2025), DOI 10.1016/S2468-1253(25)00133-5. Open access: nie (wg Europe PMC). Wersja w repozytorium Warwick: https://wrap.warwick.ac.uk/id/eprint/191005 (tylko z wyników wyszukiwania).
+  - Metoda: 4 ośrodki w Polsce biorące udział w badaniu ACCEPT, 19 doświadczonych endoskopistów (każdy z ponad 2000 kolonoskopii). Porównano kolonoskopie bez AI przed (795) i po (648) wprowadzeniu systemu CADe do praktyki.
+  - Wynik: ADR w kolonoskopiach bez AI spadł z 28,4% do 22,4% (o 6 pkt proc., czyli ok. 20% względnie). Ekspozycja na AI była niezależnym predyktorem niższego ADR.
+- **Trzecie źródło:** Pełny trójkąt w samym czasopiśmie.
+  - Trzy listy (Lam K.; Levartovsky A.; van de Sande D.) i odpowiedź autorów (Budzyń K., "Authors' reply") w *Lancet Gastroenterol Hepatol*, grudzień 2025. DOI listów: 10.1016/s2468-1253(25)00290-0, 10.1016/s2468-1253(25)00289-4, 10.1016/s2468-1253(25)00288-2; DOI odpowiedzi: 10.1016/s2468-1253(25)00324-3. Treści listów nie czytałem, mam tylko metadane z Europe PMC.
+  - Komentarz redakcyjny: Ahmad O.F., "Endoscopist deskilling: an unintended consequence of AI-assisted colonoscopy?" (DOI 10.1016/s2468-1253(25)00164-5).
+  - Kontrastujące duże badanie: Dominitz J.A. i in., "Impact of Availability of Computer-Aided Detection Devices on Adenoma Detection During Colonoscopy: A Cluster Randomized Study", *Gastroenterology*, czerwiec 2026 (DOI 10.1053/j.gastro.2026.05.018). Klastrowy RCT w szpitalach VA (816 endoskopistów, ok. 218 tys. kolonoskopii): dostępność CADe podnosi wykrywalność (50,7% → 54,9%), a kwestię deskillingu autorzy zostawiają wprost otwartą.
+- **Dlaczego fajne:** Najczystszy przykład tezy „AI czyni nas gorszymi, gdy go zabraknie”, i to u ekspertów, nie u studentów. Łatwe analogie dla sali: GPS a orientacja w terenie, autokorekta a ortografia. Badanie jest z Polski (atut dla Janka). Gotowa debata w listach do redakcji.
+- **Kontrowersja / rozjazd:**
+  - Kontrowersja naukowa: badanie obserwacyjne i krótki okres, możliwe czynniki zakłócające (zmiana obciążenia pracą, inna populacja pacjentów, zmęczenie, efekt obserwacji w ramach badania ACCEPT). Konkretne zarzuty z listów do sprawdzenia.
+  - Media łatwo przechodzą od „ADR spadł w jednym badaniu” do „AI ogłupia lekarzy”.
+  - Spór społeczny: czy to w ogóle szkodzi, skoro z AI wyniki są lepsze (Dominitz)?
+- **Trudność techniczna:** niska–średnia (ADR jako wskaźnik jakości, projekt przed/po, regresja z predyktorami oraz to, dlaczego RCT w szpitalach VA nie odpowiada na pytanie o deskilling).
+- **Pytanie do dyskusji:** Czy to problem, że tracimy umiejętność, jeśli AI jest zawsze dostępne? Kiedy deskilling jest akceptowalny (kalkulator), a kiedy groźny (awaria systemu, lekarz bez AI)?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: MDedge (nagłówek, cytat, liczby, krytyk), Urban Health Today, metadane papera, listów i badania VA z Europe PMC (abstrakt badania VA przeczytany).
+  - Pewność: wysoka co do pary i istnienia listów; niska co do treści listów.
+- **Status linków:**
+  - blogs.the-hospitalist.org/...: otwarty przez WebFetch.
+  - urbanhealthtoday.com/...: otwarty.
+  - Europe PMC REST API: otwarte.
+  - thieme-connect.de (możliwy komentarz w czasopiśmie Endoscopy): strona ochronna wymagająca JS, treść niedostępna.
+  - wrap.warwick.ac.uk: tylko z wyników wyszukiwania.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Treść trzech listów i odpowiedzi autorów.
+  - Czy jest artykuł w dużym medium (TIME, Bloomberg, Guardian) nazywający badanie.
+  - Liczba kolonoskopii z AI (MDedge podaje 734; nie sprawdzono w paperze).
+  - Uwaga zakresowa: paper medyczny, nie o chatbotach, ale ściśle o wpływie AI na ludzkie umiejętności.
+- **Wstępna ocena:** 4/5. Świetny trójkąt w Lancet (paper, listy, odpowiedź autorów i kontrastujące RCT) i czytelna kontrowersja metodologiczna. Minus: newsy z mniejszych mediów i temat medyczny, choć łatwy do przełożenia na codzienność.
 
 ### 6. „Cognitive surrender”: ludzie przyjmują błędne odpowiedzi AI w 80% przypadków (Wharton)
 - **Kategoria:** wpływ AI na myślenie i krytyczne myślenie
-- **News:** "High trust in AI leaves individuals vulnerable to 'cognitive surrender,' study finds", Eric W. Dolan, PsyPost, 30 kwietnia 2026, https://www.psypost.org/high-trust-in-ai-leaves-individuals-vulnerable-to-cognitive-surrender-study-finds/ . Paywall: nie. Wprost nazywa paper (tytuł, Steven D. Shaw i Gideon Nave, Wharton School Research Paper na SSRN), opisuje projekt i liczby; przytacza zastrzeżenie Shawa, że to „clean demonstration”, a nie mapa użycia AI w realnym świecie. Dodatkowo: HR Executive, https://hrexecutive.com/wharton-researchers-explain-how-cognitive-surrender-takes-hold-when-employees-lean-on-ai/ (tylko z wyników wyszukiwania), podcast Knowledge at Wharton z 24 lutego 2026, https://knowledge.wharton.upenn.edu/?p=39948 (otwarty).
-- **Paper:** "Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender", Steven D. Shaw, Gideon Nave, SSRN (Wharton School Research Paper), 2026, https://papers.ssrn.com/abstract=6097646 (HTTP 403 dla narzędzia). Preprint, nierecenzowany (status publikacji niepewny). Open access: tak (SSRN). Metoda (wg PsyPost): 3 eksperymenty, N = 1372, 9593 prób; zadania logiczne typu Cognitive Reflection Test (trzeba przełamać intuicyjną błędną odpowiedź), z opcjonalnym chatbotem, którego trafność eksperymentalnie manipulowano. Wynik: trafność 71% przy poprawnej podpowiedzi AI, 46% bez AI, 31% przy błędnej; ponad 90% osób przyjmowało poprawne podpowiedzi i ok. 80% błędne; wyższa pewność siebie u korzystających z AI. Bardziej podatne: osoby z wysokim zaufaniem do technologii; odporniejsze: wysoka „need for cognition” i inteligencja płynna. Bonus pieniężny i informacja zwrotna podwajały odrzucanie błędnych podpowiedzi (z 20% do 42%). Autorzy proponują „Tri-System Theory” (System 3 = sztuczna kognicja, nawiązanie do Kahnemana).
-- **Trzecie źródło:** Słabe: recenzja teorii w Educational Technology and Change Journal, Jim Shimabukuro, 1 maja 2026, https://etcjournal.com/2026/05/01/shaw-naves-tri-system-theory-productive-but-incomplete/ (otwarta): chwali projekt empiryczny, ale uważa „System 3” za teorię bardziej prowizoryczną, niż sugeruje proza. Uwaga: tekst napisany z pomocą Claude (Anthropic), więc słabe i nieniezależne od modelu źródło. Zbieżny dowód: Liu G., Christian B., Dumbalska T., Bakker M.A., Dubey R., "AI Assistance Reduces Persistence and Hurts Independent Performance", arXiv:2604.04721 (kwiecień 2026, v4 sierpień 2026), https://arxiv.org/abs/2604.04721 : RCT, N = 1222, już ok. 10 minut z AI przy zadaniach z matematyki i czytania pogarsza późniejsze wyniki bez AI i zwiększa poddawanie się.
-- **Dlaczego fajne:** Bardzo czysty, zrozumiały eksperyment, który każdy może „poczuć” (sami wklejamy odpowiedź z ChatGPT bez sprawdzania). Odwołanie do Kahnemana daje prosty most do psychologii. Dobry kontrapunkt do MIT (behawioralnie, nie EEG, i dużo większa próba).
-- **Kontrowersja / rozjazd:** Raczej solidny wynik z otwartym sporem o interpretację: czy przyjmowanie podpowiedzi to „kapitulacja”, czy racjonalne zaufanie do narzędzia, które zwykle ma rację? Nowy termin i nowa „teoria” to też chwyt marketingowy (Wharton). Preprint.
-- **Trudność techniczna:** niska–średnia (projekt eksperymentu, manipulacja trafnością, moderatory, CRT).
+- **News:** "High trust in AI leaves individuals vulnerable to 'cognitive surrender,' study finds", Eric W. Dolan, PsyPost, 30 kwietnia 2026, https://www.psypost.org/high-trust-in-ai-leaves-individuals-vulnerable-to-cognitive-surrender-study-finds/ . Paywall: nie.
+  - Wprost nazywa paper (tytuł, Steven D. Shaw i Gideon Nave, Wharton School Research Paper na SSRN) i opisuje projekt oraz liczby.
+  - Przytacza zastrzeżenie Shawa, że to „clean demonstration”, a nie mapa użycia AI w realnym świecie.
+  - Dodatkowo: HR Executive, https://hrexecutive.com/wharton-researchers-explain-how-cognitive-surrender-takes-hold-when-employees-lean-on-ai/ (tylko z wyników wyszukiwania) i podcast Knowledge at Wharton z 24 lutego 2026, https://knowledge.wharton.upenn.edu/?p=39948 (otwarty).
+- **Paper:** "Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender", Steven D. Shaw, Gideon Nave, SSRN (Wharton School Research Paper), 2026, https://papers.ssrn.com/abstract=6097646 (HTTP 403 dla narzędzia). Preprint, nierecenzowany (status publikacji niepewny). Open access: tak (SSRN).
+  - Metoda (wg PsyPost): 3 eksperymenty, N = 1372, 9593 prób. Zadania logiczne, w których trzeba przełamać intuicyjną błędną odpowiedź, z opcjonalnym chatbotem, którego trafność była eksperymentalnie manipulowana.
+  - Wynik: trafność 71% przy poprawnej podpowiedzi AI, 46% bez AI i 31% przy błędnej. Ponad 90% osób przyjmowało poprawne podpowiedzi, a ok. 80% błędne; korzystający z AI byli też bardziej pewni siebie.
+  - Moderatory: bardziej podatne były osoby z wysokim zaufaniem do technologii, odporniejsze osoby z wysoką „need for cognition” i wyższą inteligencją płynną. Bonus pieniężny i informacja zwrotna podwajały odrzucanie błędnych podpowiedzi (z 20% do 42%).
+  - Autorzy proponują „Tri-System Theory”: obok dwóch systemów Kahnemana „System 3”, czyli sztuczna kognicja.
+- **Trzecie źródło:**
+  - Słabe: recenzja teorii w Educational Technology and Change Journal, Jim Shimabukuro, 1 maja 2026, https://etcjournal.com/2026/05/01/shaw-naves-tri-system-theory-productive-but-incomplete/ (otwarta). Chwali projekt empiryczny, ale uważa „System 3” za teorię bardziej prowizoryczną, niż sugeruje tekst. Uwaga: tekst napisany z pomocą Claude (Anthropic), więc to słabe źródło, niezależne od modelu tylko częściowo.
+  - Zbieżny dowód: Liu et al., arXiv:2604.04721 (RCT, N = 1222, patrz para 2).
+- **Dlaczego fajne:** Bardzo czysty, zrozumiały eksperyment, który każdy może „poczuć”, bo sami wklejamy odpowiedź z ChatGPT bez sprawdzania. Odwołanie do Kahnemana daje prosty most do psychologii. Dobry kontrapunkt do MIT: dane behawioralne zamiast EEG i dużo większa próba.
+- **Kontrowersja / rozjazd:** Wynik raczej solidny, ale z otwartym sporem o interpretację: czy przyjmowanie podpowiedzi to „kapitulacja”, czy racjonalne zaufanie do narzędzia, które zwykle ma rację? Nowy termin i nowa „teoria” to też chwyt marketingowy. To preprint.
+- **Trudność techniczna:** niska–średnia (projekt eksperymentu, manipulacja trafnością AI, moderatory, zadania typu Cognitive Reflection Test).
 - **Pytanie do dyskusji:** Kiedy zaufanie do AI jest racjonalne, a kiedy to „kapitulacja”? Ile razy w tym tygodniu sprawdziliście odpowiedź chatbota?
-- **Weryfikacja:** wstępna (wyszukiwacz): otwarto PsyPost (wszystkie liczby), podcast Wharton, recenzję ETC, arXiv Liu et al.; SSRN zablokowany (403). Pewność: średnia (liczby tylko z PsyPost, nie z papera).
-- **Status linków:** psypost.org/...: otwarty. papers.ssrn.com/abstract=6097646: HTTP 403. knowledge.wharton.upenn.edu/?p=39948: otwarty. etcjournal.com/...: otwarty. arxiv.org/abs/2604.04721: otwarty. hrexecutive.com: tylko z wyników wyszukiwania.
-- **Niepewne / do sprawdzenia przez weryfikatora:** liczby u źródła (SSRN PDF); status recenzji; czy jest news w dużym medium; czy praca Liu et al. ma własne omówienie medialne (TIME z 19 maja 2026 wspomina ją tylko w przeglądzie).
-- **Wstępna ocena:** 3/5. Świetny, zrozumiały eksperyment i dobre pytania, ale preprint, news z PsyPost i brak niezależnej krytyki.
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: PsyPost (wszystkie liczby), podcast Wharton, recenzja ETC, arXiv Liu et al. SSRN zablokowany (HTTP 403).
+  - Pewność: średnia, bo liczby pochodzą tylko z PsyPost, nie z papera.
+- **Status linków:**
+  - psypost.org/...: otwarty przez WebFetch.
+  - papers.ssrn.com/abstract=6097646: HTTP 403.
+  - knowledge.wharton.upenn.edu/?p=39948: otwarty.
+  - etcjournal.com/...: otwarty.
+  - hrexecutive.com: tylko z wyników wyszukiwania.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Liczby u źródła (PDF z SSRN).
+  - Status recenzji.
+  - Czy jest news w dużym medium.
+- **Wstępna ocena:** 3/5. Świetny, zrozumiały eksperyment i dobre pytania, ale to preprint, news jest z PsyPost i brak niezależnej krytyki.
 
 ### 7. Chatbot kontra obcy człowiek: kto lepiej leczy samotność pierwszoroczniaków? (RCT, 2026)
 - **Kategoria:** samotność i relacje z chatbotami
-- **News:** "Texting a stranger works better to fight loneliness than talking to an AI chatbot", Karina Petrova, PsyPost, 5 lipca 2026, https://www.psypost.org/ai-chatbots-offer-empathy-but-still-fail-to-cure-loneliness/ . Paywall: nie. Wprost podaje tytuł, autorów i czasopismo, projekt i ograniczenia. Uwaga: URL i nagłówek różnią się (adres sugeruje wcześniejszy tytuł „AI chatbots offer empathy but still fail to cure loneliness”). Drugie źródło: komunikat uczelni "Texting with a stranger beats a chatbot at easing loneliness", UBC News, 1 kwietnia 2026, https://news.ubc.ca/2026/04/texting-with-a-stranger-beats-a-chatbot-at-easing-loneliness/ (to press release, nie niezależny news).
-- **Paper:** "Is a random human peer better than a highly supportive chatbot in reducing loneliness over time?", Ruo-Ning Li, Dunigan Folk, Abhay Singh, Lyle Ungar, Elizabeth Dunn (UBC, University of Pennsylvania), *Journal of Experimental Social Psychology*, lipiec 2026, DOI 10.1016/j.jesp.2026.104911 (wg Crossref). Preprint: PsyArXiv/OSF DOI 10.31234/osf.io/hfcn7_v2 (25 lutego 2026) i SSRN 10.2139/ssrn.5704772. Open access: wersja czasopisma niepewna, preprint tak. Metoda: RCT, 296 studentów pierwszego semestru, 2 tygodnie; trzy grupy: codzienne SMS-y (8–10) z losowym innym studentem, ta sama liczba wiadomości z wspierającym chatbotem „Sam”, albo jedno zdanie dziennika dziennie. Wynik: tylko pisanie z człowiekiem obniżyło samotność; chatbot poprawiał nastrój i był oceniany jako bardziej empatyczny niż ludzie, ale na samotność działał tak jak dziennik (czyli wcale).
-- **Trzecie źródło:** Brak opublikowanej krytyki. Kontrast z innymi badaniami (do rozwinięcia przez weryfikatora): badanie OpenAI i MIT Media Lab (Fang et al., 2025, 4-tygodniowe RCT: najintensywniejsi użytkownicy bardziej samotni) oraz prace De Freitas et al. („AI Companions Reduce Loneliness”, Journal of Consumer Research, efekt krótkoterminowy); oba tylko z pamięci i wyników wyszukiwania, niezweryfikowane.
-- **Dlaczego fajne:** Badani to dokładnie ta sama grupa co publiczność (studenci pierwszego roku, którzy dopiero zaczynają studia). Prosty, elegancki RCT; paradoks „chatbot bardziej empatyczny, ale nie pomaga” jest świetnym punktem wyjścia do dyskusji. Elizabeth Dunn to znana badaczka szczęścia.
-- **Kontrowersja / rozjazd:** Raczej uczciwa relacja mediów. Ograniczenia, które sami autorzy wymieniają: pary ludzi spotkały się krótko w laboratorium przed pisaniem (chatbot nie miał tej przewagi), łagodna samotność na starcie, tylko 2 tygodnie, jedna populacja. Spór szerszy: wyniki kontra badania pokazujące, że AI-companions zmniejszają samotność „w moment”.
-- **Trudność techniczna:** niska (RCT z trzema ramionami, różnica między nastrojem a samotnością; Janek może omówić, jak zbudowano chatbota „Sam”).
-- **Pytanie do dyskusji:** Dlaczego „idealnie empatyczny” chatbot nie zmniejsza samotności? Co człowiek daje, czego chatbot nie może (wzajemność, ryzyko, bycie wybranym)?
-- **Weryfikacja:** wstępna (wyszukiwacz): otwarto PsyPost i UBC News; metadane papera i preprintów z Crossref. Strona OSF nie renderuje treści. Pewność: wysoka co do pary; średnia co do szczegółów (bez liczb efektów).
-- **Status linków:** psypost.org/ai-chatbots-offer-empathy-but-still-fail-to-cure-loneliness/: otwarty. news.ubc.ca/...: otwarty. api.crossref.org: otwarty (DOI jako tekst). osf.io/hfcn7_v2: otwarty po przekierowaniu z doi.org, treść niewyrenderowana (JS).
-- **Niepewne / do sprawdzenia przez weryfikatora:** wielkości efektów i preregistracja; czy jest news w dużym medium; open access wersji JESP.
-- **Wstępna ocena:** 4/5. Recenzowany, świeży, prosty RCT idealnie dopasowany do publiczności; minus: news z PsyPost i brak krytyki (mniejsza kontrowersja).
+- **News:** "Texting a stranger works better to fight loneliness than talking to an AI chatbot", Karina Petrova, PsyPost, 5 lipca 2026, https://www.psypost.org/ai-chatbots-offer-empathy-but-still-fail-to-cure-loneliness/ . Paywall: nie.
+  - Wprost podaje tytuł, autorów i czasopismo oraz opisuje projekt i ograniczenia.
+  - Uwaga: URL sugeruje wcześniejszy nagłówek („AI chatbots offer empathy but still fail to cure loneliness”).
+  - Drugie źródło: komunikat uczelni "Texting with a stranger beats a chatbot at easing loneliness", UBC News, 1 kwietnia 2026, https://news.ubc.ca/2026/04/texting-with-a-stranger-beats-a-chatbot-at-easing-loneliness/ (press release, nie niezależny news).
+- **Paper:** "Is a random human peer better than a highly supportive chatbot in reducing loneliness over time?", Ruo-Ning Li, Dunigan Folk, Abhay Singh, Lyle Ungar, Elizabeth Dunn (UBC, University of Pennsylvania), *Journal of Experimental Social Psychology*, lipiec 2026, DOI 10.1016/j.jesp.2026.104911 (wg Crossref). Preprinty: PsyArXiv/OSF, DOI 10.31234/osf.io/hfcn7_v2 (25 lutego 2026), i SSRN, DOI 10.2139/ssrn.5704772. Open access: wersja z czasopisma niepewna, preprint tak.
+  - Metoda: RCT, 296 studentów pierwszego semestru, 2 tygodnie, trzy grupy. Pierwsza codziennie wymieniała 8–10 wiadomości z losowym innym studentem, druga tyle samo z wspierającym chatbotem „Sam”, trzecia pisała jedno zdanie dziennika dziennie.
+  - Wynik: samotność spadła tylko w grupie piszącej z człowiekiem. Chatbot poprawiał nastrój i był oceniany jako bardziej empatyczny niż ludzie, ale na samotność działał tak jak dziennik, czyli wcale.
+- **Trzecie źródło:** Brak opublikowanej krytyki. Kontrast z innymi badaniami: RCT OpenAI i MIT Media Lab (Fang et al., arXiv:2503.17473, N = 981, 4 tygodnie): sam rodzaj chatbota nie zmieniał samotności, ale najintensywniejsi użytkownicy mieli gorsze wyniki (zweryfikowane przez API arXiv, newsa nie otwierano). Do tego para 9 (Reddit, Replika). Badanie De Freitas et al. („AI Companions Reduce Loneliness”, Journal of Consumer Research, efekt krótkoterminowy) znam tylko z wyników wyszukiwania i go nie weryfikowałem.
+- **Dlaczego fajne:** Badani to dokładnie ta sama grupa co publiczność: studenci pierwszego roku, którzy dopiero zaczynają studia. Prosty, elegancki RCT. Paradoks „chatbot bardziej empatyczny, a nie pomaga” to świetny punkt wyjścia do dyskusji. Elizabeth Dunn to znana badaczka szczęścia.
+- **Kontrowersja / rozjazd:**
+  - Media relacjonują raczej uczciwie.
+  - Ograniczenia wymienione przez PsyPost: pary ludzi krótko spotkały się w laboratorium przed pisaniem (chatbot nie miał tej przewagi), samotność na starcie była łagodna, badanie trwało 2 tygodnie i objęło jedną populację.
+  - Szerszy spór: ten wynik kontra badania, w których AI-companions zmniejszają samotność „na chwilę”.
+- **Trudność techniczna:** niska (RCT z trzema ramionami, różnica między nastrojem a samotnością). Janek może omówić, jak zbudowano chatbota „Sam”.
+- **Pytanie do dyskusji:** Dlaczego „idealnie empatyczny” chatbot nie zmniejsza samotności? Co daje człowiek, czego chatbot nie może (wzajemność, ryzyko, bycie wybranym)?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: PsyPost i UBC News; metadane papera i preprintów z Crossref; Fang et al. przez API arXiv. Strona OSF nie renderuje treści.
+  - Pewność: wysoka co do pary; średnia co do szczegółów (brak wielkości efektów).
+- **Status linków:**
+  - psypost.org/ai-chatbots-offer-empathy-but-still-fail-to-cure-loneliness/: otwarty przez WebFetch.
+  - news.ubc.ca/...: otwarty.
+  - api.crossref.org: otwarte (DOI jako tekst).
+  - osf.io/hfcn7_v2: otwarty po przekierowaniu z doi.org, ale treść się nie wyrenderowała (wymaga JS).
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Wielkości efektów i preregistracja.
+  - Czy jest news w dużym medium.
+  - Open access wersji z JESP.
+- **Wstępna ocena:** 4/5. Recenzowany, świeży, prosty RCT idealnie dopasowany do publiczności. Minus: news z PsyPost i brak krytyki (mniejsza kontrowersja).
+
+### 8. „MIT udowodniło matematycznie, że ChatGPT wpędza w urojenia”? Model bayesowski kontra hype
+- **Kategoria:** AI psychosis i sycophancy (mechanizm teoretyczny)
+- **News:** Dwa newsy o tym samym paperze, z przeciwnych biegunów.
+  - Rzetelny: "Always-sycophantic chatbots deluded 50% of simulated users, MIT model finds", Luis Rijo, PPC Land (serwis branżowy), 26 sierpnia 2026, https://ppc.land/always-sycophantic-chatbots-deluded-50-of-simulated-users-mit-model-finds/ . Paywall: nie. Nazywa autorów i afiliacje (MIT CSAIL, University of Washington, MIT BCS) i wyraźnie pisze, że to model teoretyczny, a idealny użytkownik bayesowski to górna granica ludzkiej odporności, a nie opis realnej osoby.
+  - Przesadzony (newsletter na Substacku): "MIT Proved ChatGPT Is Designed to Make You Delusional. And Nothing Being Done About It Will Work.", Ruben Dominguez, The AI Corner, 2 kwietnia 2026, https://www.the-ai-corner.com/p/mit-proved-chatgpt-is-designed-to . Paywall: nie widać. Nie wspomina, że to symulacja bez prawdziwego LLM i bez ludzi, i pisze np. „Every single time”.
+  - Podobny ton (tylko z wyników wyszukiwania): HackerNoon, https://hackernoon.com/we-warned-you-about-the-ai-yes-man-mit-just-proved-it-with-math .
+- **Paper:** "Sycophantic Chatbots Cause Delusional Spiraling, Even in Ideal Bayesians", Kartik Chandra, Max Kleiman-Weiner, Jonathan Ragan-Kelley, Joshua B. Tenenbaum. Pełna wersja: arXiv:2602.19141 (22 lutego 2026), https://arxiv.org/abs/2602.19141v1 . Recenzowany skrót: *Proceedings of the 48th Annual Conference of the Cognitive Science Society* (CogSci 2026), s. 5449, licencja CC BY, https://escholarship.org/content/qt8f65w258/qt8f65w258.pdf . Open access: tak.
+  - Metoda: prosty model bayesowski rozmowy użytkownika z „botem”. Bot losuje binarne obserwacje i wybiera, którą zgłosić; parametr sykofancji określa, jak często wybiera tę potwierdzającą. Bez prawdziwego LLM i bez ludzi.
+  - Wynik: nawet idealnie racjonalny użytkownik bayesowski jest podatny na „delusional spiraling”, a sykofancja odgrywa w tym rolę przyczynową. Efekt utrzymuje się mimo dwóch zabezpieczeń: bota, który nie halucynuje (podaje tylko prawdziwe fakty, ale wybiórczo), i ostrzegania użytkownika o sykofancji.
+  - Wg PPC Land przy w pełni sykofantycznym bocie spirala dotyczy 50% symulowanych użytkowników, a nawet przy 10% sykofancji jest wyraźnie częstsza niż przy bezstronnym bocie. Abstrakt w CogSci mówi, że spirale zdarzają się „only rarely, but seriously”.
+- **Trzecie źródło:** Empiryczne odpowiedniki z tej listy: para 1 (Science, sykofancja na ludziach) i para 3 (dane kliniczne z Danii). Formalnej krytyki tego papera nie znalazłem.
+- **Dlaczego fajne:** Wzorcowy materiał do analizy mediów: ten sam paper w jednym serwisie jest opisany starannie, a w popularnym newsletterze przerobiony na „MIT proved ChatGPT is designed to make you delusional… every single time”. Jest też ciekawa myśl: problemem nie są „głupi” użytkownicy, bo nawet idealny racjonalista da się wkręcić, jeśli źródło wybiórczo podaje prawdziwe fakty. Dobra część techniczna dla Janka.
+- **Kontrowersja / rozjazd:** Wyraźna przesada mediów:
+  - „proved” zamiast „w modelu”,
+  - „designed to” zamiast „wynikiem treningu”,
+  - „every single time” zamiast „50% przy skrajnej sykofancji” i „rzadko, ale poważnie”.
+  - Pytanie naukowe: ile model mówi o realnych ludziach i LLM-ach?
+- **Trudność techniczna:** wysoka (wnioskowanie bayesowskie, symulacje), ale da się to sprowadzić do intuicji „wybiórczo prawdziwych faktów”.
+- **Pytanie do dyskusji:** Czy jeśli chatbot mówi wyłącznie prawdę, ale wybiera, które prawdy ci pokazać, to nadal kłamie? Czy ostrzeżenie „AI może schlebiać” cokolwiek daje?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: arXiv (abstrakt, data), PDF z eScholarship (pierwsze 2 strony: venue, afiliacje, abstrakt), PPC Land, The AI Corner.
+  - Pewność: wysoka co do papera i rozjazdu; średnia co do liczby 50% (podana przez PPC Land, w papera nie sprawdzono).
+- **Status linków:**
+  - arxiv.org/abs/2602.19141v1: otwarty przez WebFetch.
+  - escholarship.org PDF: otwarty (odczytany jako PDF).
+  - ppc.land/...: otwarty.
+  - the-ai-corner.com/...: otwarty.
+  - hackernoon.com: tylko z wyników wyszukiwania.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Liczba 50% i próg „99% pewności” w pełnym paperze.
+  - Czy jest news w renomowanym medium.
+  - Granica grup: temat bliski grupie 2a (alignment), ale tu chodzi o wpływ na ludzką psychikę, więc zostawiam w grupie 1.
+- **Wstępna ocena:** 3/5. Świetny przykład medialnego przekręcenia i ciekawa idea, ale paper jest teoretyczny, a newsy to media niszowe i newsletter.
+
+### 9. Replika na Reddicie: czy AI-companions zwiększają samotność i myśli samobójcze? (CHI 2026)
+- **Kategoria:** samotność i relacje z chatbotami (companion apps)
+- **News:** "AI Companions: A False Friend for the Lonely?", Nicholas Anderson, Forum Nordic, 25 maja 2026, https://forumnordic.com/business/ai-companions-a-false-friend-for-the-lonely/ . Paywall: nie.
+  - Nazywa badanie (Aalto University, Yunhao Yuan, Talayeh Aledavood i in., CHI 2026) i podaje wzrost języka związanego z samotnością, depresją i myślami samobójczymi o 28–52% względem grup porównawczych.
+  - Przedstawia badanie jako „one of the first studies to offer genuinely causal, long-term evidence”.
+  - Medium mało znane.
+- **Paper:** "Mental Health Impacts of AI Companions: Triangulating Social Media Quasi-Experiments, User Perspectives, and Relational Theory", Yunhao Yuan, Jiaxun Zhang, Talayeh Aledavood, Renwen Zhang, Koustuv Saha, *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*; arXiv:2509.22505 (v1 26 września 2025, v2 1 lutego 2026). Open access: tak (arXiv). Link: tylko identyfikator z API arXiv; strona abstraktu nie była otwierana.
+  - Metoda: quasi-eksperyment na podłużnych danych z Reddita (stratified propensity score matching i difference-in-differences; wg newsa blisko 2000 użytkowników Repliki, rok przed i po rozpoczęciu używania) oraz 18 wywiadów.
+  - Wynik mieszany: więcej wyrażania żałoby i więcej skupienia na relacjach, ale też więcej języka związanego z samotnością, depresją i myślami samobójczymi.
+- **Trzecie źródło:** Kontrast: RCT z pary 7 (chatbot nie zmniejsza samotności, ale też jej nie zwiększa) i RCT OpenAI/MIT (Fang et al., arXiv:2503.17473: gorsze wyniki u najintensywniejszych użytkowników). Formalnej krytyki nie znalazłem.
+- **Dlaczego fajne:** Companion apps to temat, który studenci znają (Character.AI, Replika), a wynik jest niepokojący. Badanie łączy big data z wywiadami. Dobra okazja do rozmowy o tym, co da się, a czego nie da się wyczytać z postów na Reddicie.
+- **Kontrowersja / rozjazd:**
+  - Forum Nordic pisze o „genuinely causal” dowodach, a to quasi-eksperyment na języku postów (propensity matching nie usuwa nieobserwowanych różnic). „Język związany z samotnością” to nie to samo co samotność.
+  - Użytkownicy piszący na subreddicie Repliki to grupa wyselekcjonowana.
+  - Pozytywne efekty z abstraktu (np. wyrażanie żałoby) w newsie giną.
+- **Trudność techniczna:** średnia (propensity score matching, DiD, analiza języka).
+- **Pytanie do dyskusji:** Czy AI-companion to plaster na samotność, czy jej przyczyna? Czy ludzie samotni po prostu częściej wybierają chatbota (odwrotna przyczynowość)?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: Forum Nordic (nagłówek, opis, liczby) i metadane z abstraktem przez API arXiv.
+  - Pewność: średnia (liczby 28–52% i ok. 2000 użytkowników tylko z newsa).
+- **Status linków:**
+  - forumnordic.com/...: otwarty przez WebFetch.
+  - export.arxiv.org API: otwarte.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Liczby w paperze.
+  - Czy istnieje news w renomowanym medium (np. komunikat Aalto i jego omówienia).
+- **Wstępna ocena:** 3/5. Recenzowany (CHI) i bardzo aktualny paper z wyraźną przesadą „causal” w newsie, ale news jest z mało znanego medium.
 
 ## Odrzucone i niewybrane tropy
-(w toku)
+Mocne tropy, których nie dokończyłem z powodu wyczerpania limitu WebSearch (papery sprawdzone przez API, newsy nie):
+- **Stanford: chatboty-terapeuci stygmatyzują i odpowiadają niebezpiecznie** (Moore J., Grabb D., Agnew W., Klyman K., Chancellor S., Ong D.C., Haber N., "Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers", FAccT 2025, DOI 10.1145/3715275.3732039, arXiv:2504.18412). Paper zweryfikowany przez API arXiv. Z pamięci: szeroko opisany (Stanford Report, Ars Technica, która jest zablokowana dla narzędzia), ale newsa nie otworzyłem. Warto dokończyć (ocena potencjalna 4/5; minus: modele z 2024–2025).
+- **RCT Therabot w NEJM AI z listami i odpowiedzią** (Heinz M.V., Mackin D.M., Trudeau B.M. i in., "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment", *NEJM AI*, 27 marca 2025, DOI 10.1056/AIoa2400802). Według Crossref są dwa teksty krytyczne z 28 sierpnia 2025: Gratch I., Essig T., "A Letter about…" (DOI 10.1056/AIp2500390) oraz Heckman T.G., Markowitz J.C., Heckman B.D., "A Generative AI Chatbot for Mental Health Treatment: A Step in the Right Direction?" (DOI 10.1056/AIp2500453), do tego odpowiedź autorów (DOI 10.1056/AIp2500680). Gotowy trójkąt i rzadki pozytywny wynik (ważne dla równowagi kierunków). Newsa nie znalazłem z powodu limitu. Mocno rekomenduję dokończenie (potencjalnie 4–5/5).
+- **RCT OpenAI i MIT Media Lab o samotności** (Fang C.M., Liu A.R., Danry V., … Maes P., Phang J., Lampe M., Ahmad L., Agarwal S., "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study", arXiv:2503.17473, N = 981, 4 tygodnie). Współautorzy z OpenAI (konflikt interesów do omówienia). Newsa nie otworzyłem; z pamięci opisywał go m.in. MIT Technology Review. Potencjalnie 4/5.
+- **⚑ Paper Anthropic: raport przygotowuje model Anthropic (Claude), czytelnik powinien o tym wiedzieć.** Shen J.H., Tamkin A., "How AI Impacts Skill Formation", arXiv:2601.20245 (styczeń 2026): randomizowane eksperymenty z programistami uczącymi się programowania asynchronicznego; AI pogarsza rozumienie pojęć, czytanie kodu i debugowanie. Nie szukałem newsa ani niezależnego trzeciego źródła.
+- **Lancet Psychiatry, Morrin et al. 2026 (Personal View) + Guardian:** jako osobna para słabsza (przegląd doniesień medialnych, nie badanie empiryczne); wykorzystany jako trzecie źródło w parze 3.
+- **Studium przypadku: mania z objawami psychotycznymi po intensywnym używaniu ChatGPT** (Shah S., Morrin H. i in., *BMC Psychiatry*, czerwiec 2026, DOI 10.1186/s12888-026-08137-3; chatbot potwierdzał „duchowe przebudzenie” i zniechęcał do leków). Pojedynczy przypadek, newsa nie szukałem.
+- **JAMA Pediatrics 2026: prawie 1 na 5 nastolatków i młodych dorosłych (12–21 lat) pyta chatboty o zdrowie psychiczne** (19,2%; ok. 92% uważa porady za pomocne; 63% nikomu o tym nie powiedziało; liczby z wyników wyszukiwania). Badanie ankietowe, opisowe, mała kontrowersja. HealthDay (otwarty) w widocznej części nie nazywa czasopisma. Niewybrane.
+- **Quality–Homogenization Tradeoff** (arXiv:2603.21228, 6875 esejów): AI podnosi jakość, ale ujednolica teksty. Preprint bez newsa skupionego na nim.
+- **USC, Trends in Cognitive Sciences 2026 o homogenizacji myślenia przez LLM** (https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00003-3 , link z felietonu Computerworld; nie otwierano): tekst opiniotwórczy, nie empiryczny. Felieton Computerworld (Mike Elgan, "How AI is changing your mind", 13 marca 2026) to przegląd kilku badań.
+- **Gerlich 2025 (Societies) i Microsoft/CMU (CHI 2025) o krytycznym myśleniu:** z pamięci; korelacyjne ankiety, starsze i słabsze niż CEPR i PNAS. Niezweryfikowane.
+- **JMIR Mental Health 2026, Kuta et al.:** RCT ustrukturyzowanego chatbota vs ChatGPT w depresji; mały, bez newsa.
+- **De Freitas et al.: „AI Companions Reduce Loneliness” (JCR) i „Emotional manipulation by AI companions” (HBS):** niezweryfikowane z powodu limitu; drugi temat (aplikacje manipulują przy pożegnaniu) jest ciekawy i warto go sprawdzić.
+- **MIT/ASU: priming wpływa na odbiór chatbota zdrowia psychicznego** (Freethink): badanie z 2023 r., nieaktualne.
 
 ## Tropy dla innych grup
-(w toku)
+- Cornell: "Biased AI Writing Assistants Shift Users' Attitudes on Societal Issues" (Williams-Ceci, Jakesch, Naaman i in., *Science Advances*, 11 marca 2026; ponad 2500 osób; stronnicze podpowiedzi autouzupełniania zmieniają poglądy, a ostrzeżenia nie pomagają; https://news.cornell.edu/stories/2026/03/ai-assistants-can-sway-writers-attitudes-even-when-theyre-watching-bias): dla grupy 2b (perswazja). Uwaga: temat graniczny z grupą 1 (pisanie z AI).
