@@ -1,12 +1,22 @@
 {
   "permissions": {
     "allow": [
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "NotebookEdit",
       "WebSearch",
       "WebFetch",
-      "Read",
-      "Edit(./candidates/**)",
-      "Edit(./verification/**)",
-      "Edit(./RAPORT.md)"
+      "Agent",
+      "Skill",
+      "ToolSearch",
+      "TaskCreate",
+      "TaskUpdate",
+      "TaskList",
+      "TaskGet"
     ]
   }
 }

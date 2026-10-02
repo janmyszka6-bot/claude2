@@ -29,7 +29,9 @@ Pisz po polsku. Tytuły artykułów i paperów zostawiaj w oryginale.
 - Obie opcje są dobre: media dobrze oddały badanie albo wyraźnie je przekręciły.
 - Kontrowersja naukowa (słaba metodologia, podważony wynik) i społeczno-etyczna (solidny wynik, spór o konsekwencje) są równie dobre.
 - Żaden temat nie jest za ciężki.
-- Najlepiej świeże (2025–2026, zwłaszcza ostatnie miesiące). Starsze tylko, jeśli są wyjątkowo dobre.
+- **Świeżość zależy od dziedziny i jest plusem, nie warunkiem.**
+  - **AI:** zdecydowanie 2025–2026. Starszy paper o AI jest zwykle nieaktualny, bo modele się zmieniły. Starsze tylko, jeśli to przełomowe badanie, o którym wciąż się mówi.
+  - **Inne dziedziny** (psychologia, neuronauka, medycyna, genetyka, metanauka): 2023–2026 jest w porządku. Starsze wchodzi w grę, jeśli jest wyjątkowo dobre albo spór jest wciąż żywy (nowa krytyka, retrakcja, replikacja albo powrót tematu do mediów w latach 2025–2026).
 - Recenzowany paper lepszy niż preprint, ale preprint dopuszczalny.
 - Renomowane medium lepsze niż blog, ale blog dopuszczalny.
 - **Priorytet: „trójkąty”**, czyli paper + news + opublikowana krytyka lub odpowiedź (komentarz w czasopiśmie, list, replikacja, rebuttal, polemika naukowca, wpis na PubPeer, Retraction Watch). Taka para ma gotową dyskusję w środku.
@@ -49,7 +51,7 @@ Dzisiaj jest **październik 2026** (dokładna data jest w treści zadania). Twoj
 3. **Kontrowersja albo rozjazd** między nagłówkiem a wynikiem.
 4. **Da się rozdzielić na 3 role** (analiza mediów, technika, dyskusja).
 5. **Jakość medium i papera.**
-6. **Świeżość.**
+6. **Świeżość** (zależna od dziedziny, patrz wyżej).
 7. **Dostępność:** paywall oznaczyć, nie wykluczać.
 8. **Trudność techniczna:** zaznaczyć, nie wykluczać.
 
@@ -71,14 +73,15 @@ W treści zadania dostaniesz listę tematów innych grup. Nie wchodź w nie. Je�
 
 # Narzędzia: praktyczne uwagi (stan na 2 października 2026)
 
-- **„Claude Code is unable to fetch from <domena>”** oznacza blokadę narzędzia po stronie wydawcy (serwis blokuje AI), a nie zły link. Tak było m.in. z: theguardian.com, nytimes.com, bbc.com, theatlantic.com, wired.com, theverge.com, arstechnica.com, newscientist.com, vox.com, apnews.com, reuters.com. **HTTP 403:** science.org, washingtonpost.com.
+- **„Claude Code is unable to fetch from <domena>”** oznacza blokadę narzędzia po stronie wydawcy (serwis blokuje AI), a nie zły link. Tak było m.in. z: theguardian.com, nytimes.com, bbc.com, theatlantic.com, wired.com, theverge.com, arstechnica.com, newscientist.com, vox.com, apnews.com, reuters.com, content.guardianapis.com (API Guardiana). **HTTP 403:** science.org, washingtonpost.com.
 - **Działały:** nature.com (trzeba ręcznie przejść 2 przekierowania), arxiv.org, pubmed.ncbi.nlm.nih.gov, medrxiv.org, theconversation.com, statnews.com, technologyreview.com, scientificamerican.com, quantamagazine.org, psypost.org, 404media.co. Lista nie jest pełna.
 - **Przekierowania:** WebFetch nie podąża za przekierowaniem na inną domenę, tylko zwraca nowy URL. Wywołaj go ponownie z tym URL-em (to jest link zwrócony przez narzędzie, więc wolno go użyć).
-- **Gdy news jest zablokowany:** nie obchodź blokady (nie używaj kopii archiwalnych, mirrorów ani innych sposobów czytania zablokowanego artykułu). Zamiast tego:
-  1. potwierdź treść i to, że nazywa paper, przez WebSearch (np. tytuł artykułu + nazwa papera albo autora),
-  2. poszukaj innego, dostępnego artykułu o tym samym paperze i podaj go jako drugi news,
-  3. oznacz w „Status linków”: „zablokowany dla narzędzia, potwierdzony z wyników wyszukiwania”.
-  Taka para nie jest dyskwalifikowana. Zespół sprawdzi ją ręcznie.
+- **Gdy news jest zablokowany:** nie obchodź blokady. Wydawca świadomie zablokował AI. Nie udawaj przeglądarki i nie używaj kopii archiwalnych, mirrorów, czytników-proxy ani innych sposobów czytania zablokowanego artykułu. Zamiast tego, w tej kolejności:
+  1. **WebSearch z precyzyjnym zapytaniem:** tytuł artykułu w cudzysłowie, nazwisko autora papera, nazwa czasopisma, nazwa medium. Fragmenty z wyników często pokazują, czy artykuł nazywa badanie.
+  2. **Licencjonowany przedruk:** teksty AP i Reuters są legalnie przedrukowywane przez partnerów (np. Yahoo News, PBS, ABC News, gazety lokalne). Jeśli wyszukiwanie zwróci taki przedruk, otwórz go i podaj jako źródło z dopiskiem „przedruk”.
+  3. **Inne dostępne medium o tym samym paperze:** podaj je jako drugi news, albo jako główny, jeśli jest równie dobre.
+  4. Oznacz w „Status linków”: „zablokowany dla narzędzia; potwierdzony przez: …”.
+  Taka para nie jest dyskwalifikowana. Zespół wklei treść takich artykułów ręcznie do końcowej weryfikacji.
 - **Gdy paper jest zablokowany (np. science.org):** szukaj strony abstraktu w PubMed lub Europe PMC, wersji w PMC, preprintu albo wersji autorskiej.
 - **WebFetch odpowiada przez mały model streszczający stronę.** Zadawaj precyzyjne pytania („podaj dokładną liczbę uczestników”, „przytocz zdanie, w którym artykuł wymienia badanie”). Kluczowych faktów nie opieraj na ogólnym streszczeniu.
 

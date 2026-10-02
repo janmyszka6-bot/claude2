@@ -28,7 +28,10 @@ Pisz po polsku. Tytuły artykułów i paperów zostawiaj w oryginale.
 - Coś kontrowersyjnego albo naprawdę fascynującego, do czego każdy na sali może się odnieść.
 - Obie opcje są dobre: media dobrze oddały badanie albo wyraźnie je przekręciły.
 - Kontrowersja naukowa (słaba metodologia, podważony wynik) i społeczno-etyczna (solidny wynik, spór o konsekwencje) są równie dobre.
-- Najlepiej świeże (2025–2026). Recenzowany paper lepszy niż preprint, renomowane medium lepsze niż blog, ale oba dopuszczalne.
+- **Świeżość zależy od dziedziny i jest plusem, nie warunkiem.**
+  - **AI:** zdecydowanie 2025–2026, starsze tylko przełomowe.
+  - **Inne dziedziny:** 2023–2026 w porządku. Starsze, jeśli są wyjątkowo dobre albo spór jest wciąż żywy (nowa krytyka, retrakcja, replikacja w latach 2025–2026).
+- Recenzowany paper lepszy niż preprint, renomowane medium lepsze niż blog, ale oba dopuszczalne.
 - Priorytet: „trójkąty”, czyli paper + news + opublikowana krytyka lub odpowiedź.
 
 ## Uwaga metodologiczna
@@ -46,7 +49,7 @@ Dzisiaj jest **październik 2026** (dokładna data jest w treści zadania). Twoj
 3. Kontrowersja albo rozjazd między nagłówkiem a wynikiem.
 4. Da się rozdzielić na 3 role.
 5. Jakość medium i papera.
-6. Świeżość.
+6. Świeżość (zależna od dziedziny, patrz wyżej).
 7. Dostępność (paywall oznaczyć).
 8. Trudność techniczna (zaznaczyć, nie wykluczać).
 
@@ -73,10 +76,14 @@ Nie dodawaj własnych nowych par. Jeśli jednak przy okazji znajdziesz dla istni
 
 # Narzędzia: praktyczne uwagi (stan na 2 października 2026)
 
-- **„Claude Code is unable to fetch from <domena>”** oznacza blokadę narzędzia po stronie wydawcy (serwis blokuje AI), a nie zły link. Tak było m.in. z: theguardian.com, nytimes.com, bbc.com, theatlantic.com, wired.com, theverge.com, arstechnica.com, newscientist.com, vox.com, apnews.com, reuters.com. **HTTP 403:** science.org, washingtonpost.com.
+- **„Claude Code is unable to fetch from <domena>”** oznacza blokadę narzędzia po stronie wydawcy (serwis blokuje AI), a nie zły link. Tak było m.in. z: theguardian.com, nytimes.com, bbc.com, theatlantic.com, wired.com, theverge.com, arstechnica.com, newscientist.com, vox.com, apnews.com, reuters.com, content.guardianapis.com (API Guardiana). **HTTP 403:** science.org, washingtonpost.com.
 - **Działały:** nature.com (trzeba ręcznie przejść 2 przekierowania), arxiv.org, pubmed.ncbi.nlm.nih.gov, medrxiv.org, theconversation.com, statnews.com, technologyreview.com, scientificamerican.com, quantamagazine.org, psypost.org, 404media.co. Lista nie jest pełna.
 - **Przekierowania:** WebFetch nie podąża za przekierowaniem na inną domenę, tylko zwraca nowy URL. Wywołaj go ponownie z tym URL-em.
-- **Gdy news jest zablokowany:** nie obchodź blokady (nie używaj kopii archiwalnych, mirrorów ani innych sposobów czytania zablokowanego artykułu). Potwierdź przez WebSearch (tytuł artykułu + nazwa papera lub autora) i inne artykuły. Taka para może dostać najwyżej ⚠️ i trafia na listę „Do ręcznego sprawdzenia przez zespół”.
+- **Gdy news jest zablokowany:** nie obchodź blokady. Wydawca świadomie zablokował AI. Nie udawaj przeglądarki i nie używaj kopii archiwalnych, mirrorów, czytników-proxy ani innych sposobów czytania zablokowanego artykułu. Zamiast tego:
+  1. **WebSearch z precyzyjnym zapytaniem:** tytuł artykułu w cudzysłowie, nazwisko autora papera, nazwa czasopisma, nazwa medium.
+  2. **Licencjonowany przedruk:** teksty AP i Reuters są legalnie przedrukowywane przez partnerów (np. Yahoo News, PBS, ABC News). Jeśli wyszukiwanie zwróci przedruk, otwórz go.
+  3. **Inne dostępne artykuły** o tym samym paperze.
+  Taka para może dostać najwyżej ⚠️ i trafia na listę „Do ręcznego sprawdzenia przez zespół”. Zespół wklei treść artykułu do końcowej weryfikacji.
 - **Gdy paper jest zablokowany:** strona abstraktu w PubMed lub Europe PMC, wersja w PMC, preprint, wersja autorska.
 - **WebFetch odpowiada przez mały model streszczający stronę.** Zadawaj precyzyjne pytania („podaj dokładną liczbę uczestników”, „przytocz zdanie, w którym artykuł wymienia badanie”). Kluczowych faktów nie opieraj na ogólnym streszczeniu.
 

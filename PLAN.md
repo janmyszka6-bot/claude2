@@ -7,7 +7,13 @@ Data startu: 2 października 2026.
 - 7 wyszukiwaczy (Faza 1) i 7 weryfikatorów (Faza 2), po jednym na grupę. Wszyscy to Opus 5.5 z effort xhigh (definicje w `.claude/agents/`).
 - Weryfikator danej grupy rusza od razu, gdy skończy jej wyszukiwacz.
 - News tylko po angielsku. Paywall oznaczamy, ale nie wykluczamy, bo news czyta tylko zespół, nie sala.
-- Media blokujące narzędzie (Guardian, NYT, BBC itd.) są dozwolone. Blokady nie obchodzimy. Taka para dostaje najwyżej ⚠️ i trafia na listę do ręcznego sprawdzenia przez zespół.
+- Media blokujące narzędzie (Guardian, w tym jego API, NYT, BBC itd.) są dozwolone. Blokady nie obchodzimy. Drogi zastępcze:
+  - fragmenty z WebSearch,
+  - licencjonowane przedruki AP i Reuters,
+  - inne dostępne medium o tym samym paperze.
+  Taka para dostaje najwyżej ⚠️ i trafia na listę do ręcznego sprawdzenia. Zespół wkleja treść artykułu (do czatu albo do `manual/`), a orkiestrator dokańcza weryfikację.
+- Świeżość zależy od dziedziny: AI raczej 2025–2026, inne dziedziny 2023–2026, a starsze, jeśli spór jest wciąż żywy. Świeżość to plus, nie warunek.
+- Wynik końcowy: 15 par opisanych w czacie (każda w kilku linijkach) oraz pełny `RAPORT.md`.
 - Papery Anthropic są oznaczane, a ich trzecie źródło musi być niezależne od Anthropic.
 - Wcześniejsze prezentacje (integracja europejska, rośliny i ekologia) nie przecinają się z naszymi tematami.
 - Pliki:
