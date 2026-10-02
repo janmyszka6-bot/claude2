@@ -278,6 +278,43 @@ Wyszukiwacz, data: 2 października 2026
   - Czy pojawiły się listy lub komentarze w *Psychiatric Services*.
 - **Wstępna ocena:** 3/5. Czysta para (AP + recenzowany paper) i poważny temat, ale projekt prosty, modele już nieaktualne, a opublikowanej krytyki brak.
 
+### 8. (NOWY TROP) Codzienne rozmowy z AI przez 28 dni zwiększyły samotność: RCT na ponad 7 tys. Francuzów (2026)
+- **Kategoria:** samotność i chatboty (największy dotąd test przyczynowy)
+- **News:** "Talking to a bot might feel good in the moment, but a growing body of research suggests it won't cure loneliness", Mia Osmonbekov, Fortune, 16 sierpnia 2026, https://fortune.com/2026/08/16/ai-chatbot-research-loneliness/ . Paywall: narzędzie go nie widziało (miękki limit Fortune, niepewne). Artykuł zaczyna od „a new experiment out of Munich-based global economic research network CESifo”, podaje 12 365 osób i 28 dni, nazywa jednego z autorów (Louis Fréget) i linkuje paper (SSRN). Pisze, że grupa z AI oceniała rozmowy jako przyjemniejsze, a jednocześnie jej samotność wzrosła, satysfakcja z życia spadła, a nastrój depresyjny się pogorszył. Dalej omawia inne badania (UBC, Epley, program dla seniorów w Nowym Jorku), więc to częściowo przegląd. Nie wspomina, że to nierecenzowany working paper.
+- **Paper:** "Do Personal AI Conversations Reduce Loneliness? Evidence from a Pre-Registered Experiment", Louis Fréget (Stone Centre UCL; Université Paris-Dauphine), Ariell Reshef (CNRS, Paris 1, Paris School of Economics, CESifo), Claudia Senik (Sorbonne, Paris School of Economics, IUF), CESifo Working Paper 12882 (wersja pierwotna lipiec 2026, obecna z 1 października 2026), https://ideas.repec.org/p/ces/ceswps/_12882.html , PDF: https://www.ifo.de/DocDL/cesifo1_wp12882.pdf ; także PSE Working Paper halshs-05705909. Rejestracja: AEA RCT Registry AEARCTR-0016749 (3 stycznia 2026), https://www.socialscienceregistry.org/trials/16749 . Working paper, nierecenzowany. Open access: tak.
+  - Metoda: dorośli z Francji z panelu internetowego (Bilendi), losowanie indywidualne. Grupa eksperymentalna miała przez 28 dni (styczeń–luty 2026) prowadzić co najmniej jedną krótką osobistą rozmowę dziennie z dowolnym narzędziem AI (instrukcja wymieniała ChatGPT, Anthropic i Mistral). Kontrola: zwykłe życie. Analiza: 7286 osób (3644 vs 3642), które ukończyły obie fale; ukończenie 74,8% vs 74,7%. Autorzy nie czytali rozmów. ITT, ANCOVA, korekta Romano-Wolfa.
+  - Wynik: interwencja zwiększyła liczbę dni z rozmową osobistą z AI o ok. 5 (mediana w kontroli: 2 dni). Samotność mierzona jednym pytaniem wzrosła istotnie (p = 0,001 po korekcie), o ok. 0,06 SD. Pozostałe miary (UCLA-3, satysfakcja z życia, szczęście, depresja, posiłki w samotności, spotkania) przesunęły się w złą stronę, ale nieistotnie statystycznie. Uczestnicy z grupy AI oceniali rozmowy jako nieco przyjemniejsze (0,10 SD). Efekt skupiał się u osób w związkach (możliwe zastępowanie rozmów z partnerem).
+- **Trzecie źródło:**
+  - Zmiana tonu między wersjami: abstrakt wersji PSE/HAL (RePEc, https://ideas.repec.org/p/hal/psewpa/halshs-05705909.html ) mówi wprost o wzroście samotności, spadku satysfakcji z życia, wzroście depresji i izolacji. Wersja z 1 października 2026 mówi, że poza samotnością efekty są „imprecisely estimated”. Fortune (sierpień) powtarza mocniejszą wersję.
+  - Zbieżne badanie recenzowane: Dunigan Folk, Elizabeth Dunn (UBC), "How Does Turning to AI for Companionship Predict Loneliness and Vice Versa?", *Psychological Science* 37(4), kwiecień 2026, DOI 10.1177/09567976261427747, https://www.psychologicalscience.org/journals/psychological-science/09567976261427747 (strona otwarta, pełny tekst płatny). 12 miesięcy, 4 fale, 2149 osób z Wielkiej Brytanii, USA, Kanady i Australii: częstsze społeczne używanie chatbotów przewidywało wzrost samotności, a słabsze poczucie więzi przewidywało późniejsze używanie chatbotów; autorzy podkreślają eksploracyjny charakter analiz. News: PsyPost, Vladimir Hedrih, 4 maja 2026, https://www.psypost.org/turning-to-chatbots-when-lonely-may-exacerbate-feelings-of-loneliness-study-finds/ .
+  - Kontrast: sam paper polemizuje z De Freitas i in. (2026), którzy znaleźli spadek samotności po jednej 15-minutowej sesji z chatbotem (kontrolą był bot od arytmetyki, a pomiar był natychmiastowy). To dobrze łączy się z parą 3 (De Freitas) i z parą 4 (OpenAI/MIT bez grupy bez AI).
+- **Dlaczego fajne:** To dokładnie ta luka, którą wytykano badaniu OpenAI/MIT: jest prawdziwa grupa kontrolna bez zadania z AI, duża próba, preregistracja i zwykłe narzędzia AI w codziennym życiu. Badanie europejskie i bardzo świeże (wersja sprzed jednego dnia). Paradoks „przyjemniej, ale samotniej” świetnie działa na sali.
+- **Kontrowersja / rozjazd:**
+  - Fortune pisze o wzroście samotności, spadku satysfakcji i wzroście depresji jak o trzech wynikach, a istotny jest tylko jeden (samotność z jednego pytania); reszta to nieistotne kierunki. Efekt 0,06 SD jest mały, choć autorzy porównują go do dwukrotności efektu wyłączenia Facebooka (Allcott i in. 2020).
+  - Liczba 12 365 z Fortune nie zgadza się z próbą analizowaną (7286); być może to liczba zrekrutowanych na starcie (do sprawdzenia).
+  - Sami autorzy złagodzili sformułowania między wersją lipcową a październikową.
+  - Możliwe efekty oczekiwań: uczestnicy wiedzieli, że „mają rozmawiać z AI o sobie”, a miary są samoopisowe; zgodność z zadaniem także samoopisowa.
+  - Próba starsza, lepiej wykształcona i częściej w związkach niż populacja Francji.
+- **Trudność techniczna:** średnia (ITT vs efekt rzeczywistego użycia, ANCOVA, korekta na wielokrotne porównania, odchylenia standardowe jako jednostka efektu, analiza heterogeniczności preregistrowana vs eksploracyjna). Świetny materiał dla Janka: jak jedno istotne p obok kilku nieistotnych zamienia się w nagłówek.
+- **Pytanie do dyskusji:** Jeśli rozmowa z AI jest przyjemna, ale zostawia nas trochę bardziej samotnymi, to czy firmy powinny reklamować chatboty jako lek na samotność? Czy efekt 0,06 SD to „dużo”, gdy dotyczy setek milionów ludzi?
+- **Weryfikacja:** wstępna (wyszukiwacz).
+  - Sprawdzone: Fortune (nagłówek, autorka, data, opis, nazwisko Frégeta, brak informacji o recenzji), RePEc (CESifo i PSE, abstrakty dwóch wersji), PDF CESifo (strony 1–12: afiliacje, wersje, projekt, N, ukończenie, efekty, heterogeniczność), rejestr AEA (data rejestracji, planowana próba 10 000, wyniki pierwszorzędowe), strona *Psychological Science*, PsyPost.
+  - Pewność: wysoka co do papera i rozjazdu; średnia co do pochodzenia liczby 12 365.
+- **Status linków:**
+  - fortune.com/2026/08/16/...: otwarty przez WebFetch.
+  - ideas.repec.org (CESifo i PSE): otwarte.
+  - ifo.de/DocDL/cesifo1_wp12882.pdf: pobrany i przeczytany (strony 1–12 z 30).
+  - socialscienceregistry.org/trials/16749: otwarty.
+  - psychologicalscience.org/...: otwarty (abstrakt).
+  - psypost.org/...: otwarty.
+  - dnyuz.com/?p=245525: HTTP 403.
+- **Niepewne / do sprawdzenia przez weryfikatora:**
+  - Skąd liczba 12 365 (Fortune) i jaka była pierwotna liczba zrandomizowanych.
+  - Rozbieżność dat interwencji: paper 22 stycznia – 18 lutego 2026, rejestr 26 stycznia – 28 lutego (prawdopodobnie plan vs realizacja).
+  - Tabela 4 (dokładne współczynniki i przedziały ufności dla wszystkich miar).
+  - Czy istnieje drugi news o tym paperze (nie znalazłem).
+- **Wstępna ocena:** 4/5. Najmocniejszy metodologicznie test przyczynowy w temacie samotności i AI, świeży i europejski, z wyraźnym rozjazdem w newsie i zmianą tonu między wersjami. Minus: working paper i tylko jeden news (Fortune), w dodatku częściowo przeglądowy.
+
 ## Odrzucone i niewybrane tropy
 (uzupełniane)
 

@@ -3,7 +3,18 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3a-umysl-mozg.md
 
 ## Podsumowanie
-(w trakcie: sprawdzone pary 1–3)
+Sprawdzono 9 par: **✅ 1** (nr 3), **⚠️ 7** (nr 1, 2, 4, 6, 7, 8, 9), **❌ 1** (nr 5). WebSearch działał przez całą weryfikację, bez komunikatów o limicie. Żaden paper w tej grupie nie jest autorstwa ani współautorstwa pracowników Anthropic.
+
+Najważniejsze problemy i zmiany:
+- **Para 5 odrzucona:** MIT Technology Review nie nazywa żadnego papera, tylko wystąpienie na CCN 2026 (które odbyło się w sierpniu, nie we wrześniu). Brain-IT (arXiv/ICLR 2026) to prawdopodobny, ale niepewny odpowiednik.
+- **Para 6 mocno zyskała:** wyszukiwacz pisał o braku krytyki, a w Psychological Science jest opublikowana debata: komentarz Linda (2025), odpowiedź autorów (OSF 2025), replika Linda (PsyArXiv 2025) i komentarz Hurlburta (2026). Para staje się "trójkątem" (ocena 3 → 4).
+- **Pary 7 i 8 zyskały lepsze newsy** w dużych mediach (7: Science News, SciAm, Smithsonian; 8: Euronews, Nature News z przesadnym nagłówkiem "…are conscious"). Ocena 8: 3 → 4. Dla 8: wersja autorska papera NEJM jest bezpłatna w PMC.
+- **Para 1:** Nita Farahany zasiadała w zewnętrznej radzie etycznej projektu (wg NPR), więc nie jest niezależna. Jej tekst z Anilem Sethem (JLB, "forthcoming") pozostaje niezweryfikowany u źródła. "N = 29" to test przyjęcia przeszczepu, nie test zachowania. "Połowa mózgu" w Smithsonian i Futurism to przybliżenie objętościowe, nie zmyślona liczba; problemem jest sugestia "pół-ludzkiego" umysłu.
+- **Para 2:** "74%" to liczba podana przez samą autorkę (najlepszy uczestnik, 26% WER), nie przesada dziennikarza. Wskazany przez wyszukiwacza komentarz w Nature Reviews Bioengineering nie cytuje tego papera.
+- **Para 4:** paper zweryfikowany w PMC (OA, CC BY); lepsze trzecie źródło to Nature News (Kozlov) z niezależnym Alexem Huthem; Futurism daje kontrastowy nagłówek o "transkrypcji myśli".
+- **Para 7:** przesada ("may not require consciousness", "fundamentally reshaping") pochodzi głównie z komunikatu szpitala, nie z papera ani z rzetelnych mediów.
+
+**Polecane do finałowej piętnastki:** nr 1 (xenocortical mice, 5/5), nr 2 (implant wewnętrznej mowy, 5/5), nr 3 (COGITATE + spór o IIT, 5/5), nr 4 (mind captioning, 4/5), nr 7 (język pod narkozą, 4/5). **Warunkowo:** nr 6 (anendofazja z opublikowaną debatą, 4/5), nr 8 (ukryta świadomość, NEJM, 4/5). **Niepolecane:** nr 9 (3/5, słaby news), nr 5 (❌).
 
 ## Pary
 
@@ -227,4 +238,117 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3a-umysl-m
   - **Pytanie do dyskusji:** Czy można wiarygodnie badać coś, co znamy tylko z samoopisu? Czy brak wewnętrznego głosu to deficyt, czy po prostu inny styl myślenia?
   - **Weryfikacja:** ⚠️ poprawione (na plus: dodana opublikowana debata), pewność wysoka.
 
-(kolejne pary w trakcie weryfikacji)
+### 7. Mózg pod narkozą wciąż przetwarza język (Katlowitz i in., Nature 2026): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://www.nature.com/articles/s41586-026-10448-0 : działa (po 2 przekierowaniach); tytuł, data, OA potwierdzone; DOI 10.1038/s41586-026-10448-0 zgodny z identyfikatorem strony.
+  - https://www.powershealth.org/about-us/newsroom/health-library/2026/05/07/new-study-suggests-the-brain-can-continue-learning-while-in-an-unconscious-state : działa; HealthDay, 7.05.2026, bez autora; wg narzędzia nazwisko Shetha jest tam przekręcone ("Aheth").
+  - https://www.texaschildrens.org/content/research/researchers-discover-advanced-language-processing-unconscious-human-brain : działa; komunikat Texas Children's Hospital z 25.05.2026 (niezależny nie jest).
+  - technologynetworks.com: nie otwierano ponownie (pojawia się w wynikach wyszukiwania).
+  - **Nowe, lepsze newsy (otwarte):** Scientific American, Jacek Krywko, "The brain processes overheard words under anesthesia, but it may not remember them", 6.05.2026, https://www.scientificamerican.com/article/the-brain-processes-overheard-words-under-anesthesia-but-it-may-not-remember-them/ (wg narzędzia za paywallem). Science News, Nora Bradford, "A tiny part of your brain may still listen under anesthesia", 1.06.2026, https://www.sciencenews.org/article/brain-cells-listen-under-anesthesia?ep=168 (bez paywalla; podaje pełny cytat Katlowitz i in.). Smithsonian, Sara Hashemi, "Is the Unconscious Mind Aware of Its Surroundings? New Research Suggests Anesthetized Brains Can Process Overheard Words", 15.05.2026, https://www.smithsonianmag.com/smart-news/is-the-unconscious-mind-aware-of-its-surroundings-new-research-suggests-anesthetized-brains-can-process-overheard-words-180988710/ (link do papera). ScienceAlert, David Nield, 29.06.2026, https://www.sciencealert.com/?p=204252 .
+- **News a paper:** HealthDay pisze, że badanie ukazało się 6 maja w Nature i obejmowało 7 pacjentów operowanych z powodu padaczki. Science News podaje pełny cytat (K. A. Katlowitz i in., online 6.05.2026). Para jednoznaczna.
+- **Fakty:**
+  - Tytuł, Katlowitz, Cole, Mickiewicz, Shah, …, Sheth; Nature, 6.05.2026; OA: zgodne. (Hayden jako przedostatni autor: z pliku wyszukiwacza; narzędzie zwróciło tylko pierwszych autorów, ScienceAlert cytuje Haydena jako badacza z Baylor.) PubMed: 42092132 (z wyników wyszukiwania).
+  - 7 pacjentów (3 K, 4 M, 25–54 lata), propofol (całkowite znieczulenie dożylne), Neuropixels, 651 jednostek: zgodne.
+  - **Uzupełnione (pytanie wyszukiwacza o głębokość znieczulenia):** głębokość monitorowano indeksem BIS, utrzymywanym w zakresie 45–60. Żaden pacjent nie zgłaszał po zabiegu świadomego wspomnienia zdarzeń śródoperacyjnych.
+  - Oddball: odpowiedź stawała się wyraźniejsza w ciągu ok. 10 min: zgodne (przy jednoczesnym spadku kodowania tożsamości tonu).
+  - Cechy semantyczne i gramatyczne: zgodne (321/375 jednostek selektywnych semantycznie, 298/375 niosło informację o części mowy). Przewidywanie przyszłych słów: zgodne (przyszłe słowa dekodowane prawie tak dobrze jak przeszłe).
+  - Zastrzeżenia autorów (jeden lek, jeden obszar, niekoniecznie sen i śpiączka): zgodne z paperem i HealthDay.
+- **Kontrowersja:** Opis wyszukiwacza wymaga zniuansowania. (a) "Learning" w nagłówku HealthDay nie jest wymysłem dziennikarza: tytuł papera mówi o plastyczności, a SciAm pisze, że hipokamp "can learn". Przesadą jest sugestia uczenia się w potocznym sensie (pamięć, zachowanie), bo pacjenci niczego nie pamiętali, a wynik dotyczy zmian kodowania w ok. 10 minut. (b) Najmocniejsza teza pochodzi od instytucji, nie od mediów: komunikat Texas Children's pisze, że złożone procesy "may not require consciousness", co "fundamentally" zmienia rozumienie mózgu. Paper mówi ostrożniej: świadomość może mieć związek z tymi procesami, ale nie jest konieczna. (c) Smithsonian pyta w nagłówku, czy nieświadomy umysł jest "aware". Niezależni eksperci: Janna D. Helfrich (Yale, anestezjolog) w SciAm i Smithsonian pyta, ile pacjenci przetwarzają i czy powinniśmy uważać, co przy nich mówimy; Athena Akrami (UCL) w Science News pyta, do czego w takim razie służy świadomość. Komentarz weryfikatora (nie zarzut z literatury): BIS 45–60 to typowy zakres znieczulenia ogólnego, ale nie wyklucza w pełni przeżyć bez kontaktu ze światem. To dobry punkt do dyskusji.
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono korekt, News & Views ani krytyki naukowej. Zapytania: "\"Plasticity and language in the anaesthetized human hippocampus\" OR anesthesia hippocampus language Neuropixels Sheth Nature May 2026 news", "Katlowitz Sheth Hayden anaesthetized hippocampus Nature 2026 criticism skeptic \"propofol\"…", "Scientific American \"The brain processes overheard words under anesthesia\"".
+- **Poprawki:**
+  1. Zastąpić HealthDay lepszym newsem (Science News bez paywalla albo SciAm); HealthDay i Smithsonian zostawić jako przykłady mocniejszego ramowania.
+  2. Uzupełnić monitorowanie znieczulenia (BIS 45–60) i brak wspomnień po zabiegu.
+  3. Trzecie źródło: komunikat Texas Children's to nie krytyka, tylko źródło przesady instytucjonalnej. Jako niezależne głosy dodać Helfrich (SciAm) i Akrami (Science News).
+  4. Odpowiedź na pytanie wyszukiwacza: tak, pisały duże media (SciAm, Smithsonian, Science News, ScienceAlert).
+- **Dodatkowe znaleziska:** BrainFacts/SfN "ICYMI" (4.06.2026) wskazuje SciAm jako główną relację: https://www.brainfacts.org/neuroscience-in-society/neuroscience-in-the-news/2026/icymi-hippocampus-may-remain-active-under-anesthesia-060426 .
+- **Ocena niezależna:** 4/5. Świeży, otwarty paper w Nature na bardzo odczuwalny temat (narkoza); dobra łańcuchowa historia medialna: paper (ostrożny) → komunikat szpitala (przesadny) → HealthDay ("learning") / Smithsonian ("aware?") → Science News/SciAm (wyważone, z niezależnymi ekspertami). Słabości: n = 7, brak formalnej krytyki. **Polecam do piętnastki.**
+- **Do ręcznego sprawdzenia przez zespół:** SciAm (paywall wg narzędzia) do porównania ramowania; pełna lista autorów na nature.com.
+- **Opis po poprawkach:**
+  - **Kategoria:** nauka o świadomości / anestezja / język
+  - **News:** "A tiny part of your brain may still listen under anesthesia", Nora Bradford, Science News, 1 czerwca 2026, https://www.sciencenews.org/article/brain-cells-listen-under-anesthesia?ep=168 , paywall: nie. Opisuje badanie Katlowitz i in. z Nature, cytuje niezależną Athenę Akrami (UCL): jeśli nieświadomy hipokamp koduje znaczenie i przewiduje, to do czego służy świadomość? Alternatywnie: SciAm (Krywko, 6.05.2026, paywall), https://www.scientificamerican.com/article/the-brain-processes-overheard-words-under-anesthesia-but-it-may-not-remember-them/ . Kontrast: HealthDay "New Study Suggests The Brain Can Continue Learning While In An Unconscious State" (7.05.2026), https://www.powershealth.org/about-us/newsroom/health-library/2026/05/07/new-study-suggests-the-brain-can-continue-learning-while-in-an-unconscious-state , i Smithsonian "Is the Unconscious Mind Aware of Its Surroundings?…" (15.05.2026).
+  - **Paper:** "Plasticity and language in the anaesthetized human hippocampus", Kalman A. Katlowitz, Eric R. Cole, …, Benjamin Y. Hayden, Sameer A. Sheth. Nature, 2026 (online 6.05.2026). DOI: 10.1038/s41586-026-10448-0, https://www.nature.com/articles/s41586-026-10448-0 . Open access: tak. 7 pacjentów operowanych z powodu padaczki, znieczulenie propofolem (BIS 45–60), sondy Neuropixels w hipokampie, 651 neuronów. Hipokamp odróżniał rzadkie tony, a ta zdolność rosła w ciągu ok. 10 minut; neurony kodowały cechy semantyczne i części mowy słuchanych opowiadań i przewidywały kolejne słowa. Nikt nie pamiętał zdarzeń z sali operacyjnej.
+  - **Trzecie źródło:** komunikat Texas Children's Hospital, https://www.texaschildrens.org/content/research/researchers-discover-advanced-language-processing-unconscious-human-brain : przykład, jak instytucja wzmacnia tezę ("may not require consciousness", "fundamentally reshaping"). Niezależne głosy: Janna D. Helfrich (Yale) w SciAm, Athena Akrami (UCL) w Science News.
+  - **Dlaczego fajne:** prawie każdy był lub będzie w narkozie; pytanie "czy mózg słyszy, co mówią chirurdzy?" jest bardzo odczuwalne; dotyka sedna sporów o świadomość (most do pary 3).
+  - **Kontrowersja / rozjazd:** "learning" i "aware?" w nagłówkach vs. plastyczność kodowania w ok. 10 minut bez żadnych wspomnień; przesada zaczyna się w komunikacie instytucji. Mała próba, specyficzni pacjenci, jeden lek.
+  - **Trudność techniczna:** średnia–wysoka (rejestracje pojedynczych neuronów, dekodowanie, embeddingi językowe do przewidywania słów).
+  - **Pytanie do dyskusji:** Jeśli mózg przetwarza język bez świadomości, to do czego potrzebna jest świadomość? Czy powinniśmy inaczej zachowywać się przy pacjentach w narkozie lub śpiączce?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 8. Ukryta świadomość u "nieodpowiadających" pacjentów (Bodien i in., NEJM 2024): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://www.emjreviews.com/neurology/news/consciousness-detected-in-unresponsive-patients/ : działa; Katie Wright, EMJ, 28.08.2024; podaje pełny cytat NEJM; brak zewnętrznych ekspertów.
+  - https://www.linksmedicus.com/?p=85445 : działa; serwis kuratorski, 3.01.2025; podaje DOI i lata 2006–2023.
+  - https://www.pulmccm.org/p/how-can-we-tell-if-an-unresponsive?open=false : działa (część za paywallem); w widocznej części **nie omawia Bodien i in.**, tylko Carroll i in. (Nature Medicine 2025).
+  - Paper: Europe PMC (PMID 39141852) i **wersja autorska w PMC** https://pmc.ncbi.nlm.nih.gov/articles/PMC7617195/ : działa.
+  - **Nowe newsy (otwarte):** Euronews, Imane El Atillah, "Study finds 1 in 4 brain injury patients in unresponsive states may still be conscious", 17.08.2024, https://euronews.com/health/2024/08/17/study-finds-1-in-4-brain-injury-patients-in-unresponsive-states-may-have-consciousness (bez paywalla). Nature News, Julian Nowogrodzki, "One-quarter of unresponsive people with brain injuries are conscious", 14.08.2024, https://www.nature.com/articles/d41586-024-02614-z (paywall).
+- **News a paper:** EMJ cytuje Bodien YG i in., NEJM 2024;391(7):598–608. Euronews cytuje główną autorkę Yelenę Bodien (Harvard Medical School) i podaje 353 pacjentów z 6 ośrodków. Nature News podaje pełny przypis do NEJM. Para jednoznaczna.
+- **Fakty:**
+  - Tytuł, Bodien, Allanson, Cardone, …, Schiff; NEJM 391(7):598–608, 15.08.2024 (online 14.08); DOI 10.1056/NEJMoa2400645: zgodne (Europe PMC, PMC).
+  - Open access: **poprawione**: NEJM za paywallem, ale **wersja autorska jest bezpłatnie w PMC** (PMC7617195).
+  - 353 dorosłych, 6 ośrodków (USA, Wielka Brytania, Belgia, Francja, Kanada), 2006–2023: zgodne.
+  - 241 bez reakcji na polecenia, 60 (25%) z CMD; 38% z 112 reagujących wykonało zadanie w badaniu: zgodne.
+  - Czynniki związane z CMD (wiek, czas od urazu, etiologia urazowa): czynniki potwierdzone; kierunek ("młodsi, później, urazy traumatyczne") pochodzi od wyszukiwacza i nie był sprawdzony w tej weryfikacji.
+  - Ograniczenia w paperze: różne metody w ośrodkach, możliwy błąd selekcji: zgodne.
+  - Uzupełnienie (Euronews): tylko ok. 35% uczestników miało oba badania (fMRI i EEG), a ponad 60% pacjentów reagujących przy łóżku nie dało odpowiedzi w badaniach. Testy mają więc wiele fałszywie ujemnych wyników.
+- **Kontrowersja:** Przypuszczenie wyszukiwacza potwierdzone: nagłówki upraszczają "wykonał zadanie wyobrażeniowe w fMRI/EEG" do "jest świadomy". Najwyraźniej robi to Nature News ("…are conscious"); Euronews pisze ostrożniej "may still be conscious". Społeczno-etyczny wymiar (odłączanie aparatury, dostępność testów tylko w kilku ośrodkach) ma realne podstawy w paperze i relacjach. Uwaga: Euronews cytuje Nicholasa Schiffa, który jest współautorem (ostatni autor), nie ekspertem zewnętrznym.
+- **Retrakcje / korekty / krytyka / replikacje:** brak korekt (Europe PMC). Wśród 131 prac cytujących (Europe PMC) nie ma korespondencji w NEJM. Są dwa głosy komentujące: list Acosty w Linacre Quarterly (2025) i "Can she hear me?" (Hawkins, Frontiers in Neurology, 2026; kwestie cierpienia przy CMD). Nie znaleziono edytorialu NEJM. Kontynuacja: Carroll, …, Claassen, Nature Medicine 2025 (wrzeciona snu jako predyktor CMD i powrotu świadomości, 226 pacjentów; z wyników wyszukiwania). Zapytania: "NEJM editorial cognitive motor dissociation Bodien 2024 \"covert consciousness\" editorial OR correspondence letter criticism", "Bodien NEJM 2024 cognitive motor dissociation one in four unresponsive patients conscious news New York Times OR STAT OR NPR OR Guardian", "\"vegetative\" OR \"unresponsive\" patients one in four conscious study August 2024 Guardian OR \"New York Times\"…", Europe PMC lista cytowań PMID 39141852.
+- **Poprawki:**
+  1. News: zamiast (lub obok) branżowego EMJ dać Euronews (medium ogólne, bez paywalla) i Nature News (paywall, przesadny nagłówek).
+  2. OA: wersja autorska w PMC.
+  3. PulmCCM nie omawia tego papera; to kontekst o Carroll i in. 2025, nie trzecie źródło.
+  4. Schiff jest współautorem, nie zewnętrznym ekspertem.
+- **Dodatkowe znaleziska:** komunikat Cambridge "One in four patients in vegetative or minimally conscious state able to perform cognitive tasks" (z wyników wyszukiwania): https://www.cam.ac.uk/research/news/one-in-four-patients-in-vegetative-or-minimally-conscious-state-able-to-perform-cognitive-tasks (nie otwierano).
+- **Ocena niezależna:** 4/5 (wyszukiwacz dał 3). Mocny, duży paper w NEJM (wersja autorska dostępna), bardzo silny temat etyczny, a teraz także news w medium ogólnym i wyraźny rozjazd w nagłówku Nature News. Słabości: 2024 (dla medycyny akceptowalne, są kontynuacje z 2025–2026), brak formalnej polemiki. **Polecam do piętnastki warunkowo** (dobry zamiennik, jeśli brakuje tematów medycznych).
+- **Do ręcznego sprawdzenia przez zespół:** Nature News (paywall): czy tekst zawiera głosy krytyczne; ewentualne relacje NYT/Guardian (narzędzie ich nie znalazło).
+- **Opis po poprawkach:**
+  - **Kategoria:** nauka o świadomości / medycyna / zaburzenia świadomości
+  - **News:** "Study finds 1 in 4 brain injury patients in unresponsive states may still be conscious", Imane El Atillah, Euronews, 17 sierpnia 2024, https://euronews.com/health/2024/08/17/study-finds-1-in-4-brain-injury-patients-in-unresponsive-states-may-have-consciousness , paywall: nie. Opisuje badanie z NEJM (353 pacjentów, 6 ośrodków), cytuje Bodien i Schiffa (współautorów) i podaje zastrzeżenia: różne wyniki fMRI i EEG, tylko część pacjentów miała oba badania, wiele wyników fałszywie ujemnych. Kontrast: Nature News, "One-quarter of unresponsive people with brain injuries are conscious" (14.08.2024, paywall), https://www.nature.com/articles/d41586-024-02614-z .
+  - **Paper:** "Cognitive Motor Dissociation in Disorders of Consciousness", Yelena G. Bodien, Judith Allanson, Paolo Cardone, …, Nicholas D. Schiff. New England Journal of Medicine 391(7):598–608, 2024. DOI: 10.1056/NEJMoa2400645; wersja autorska: https://pmc.ncbi.nlm.nih.gov/articles/PMC7617195/ . Open access: NEJM nie, wersja autorska tak. 353 dorosłych z 6 ośrodków (2006–2023), fMRI i/lub EEG z poleceniami wyobrażeniowymi. 60 z 241 (25%) pacjentów bez widocznej reakcji "wykonywało" polecenia w mózgu; wśród reagujących 38%. Ograniczenia: różne protokoły, selekcja.
+  - **Trzecie źródło:** kontynuacja: Carroll i in., Nature Medicine 2025 (wrzeciona snu w EEG przewidują CMD i powrót świadomości; omówienie PulmCCM z ostrzeżeniem przed przecenianiem liczb względnych: https://www.pulmccm.org/p/how-can-we-tell-if-an-unresponsive?open=false , częściowo paywall). Formalnej krytyki papera nie znaleziono.
+  - **Dlaczego fajne:** decyzje o odłączeniu aparatury, rodziny pacjentów; każdy może sobie wyobrazić bycie "uwięzionym"; most do BCI (para 2) i teorii świadomości (para 3).
+  - **Kontrowersja / rozjazd:** "wykonał zadanie w skanerze" → "jest świadomy" (Nature News); testy z wieloma fałszywie ujemnymi wynikami, dostępne w kilku ośrodkach; spór o to, co zrobić z wynikiem.
+  - **Trudność techniczna:** średnia (fMRI/EEG z zadaniami wyobrażeniowymi, klasyfikacja odpowiedzi, czułość i swoistość).
+  - **Pytanie do dyskusji:** Jeśli test mózgu mówi "ktoś tam jest", a ciało nie reaguje, kto decyduje o dalszym leczeniu? Co zrobić z pacjentami, u których test wyszedł ujemnie?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 9. Afantazja: kora wzrokowa pracuje, ale obrazu nie ma (Chang i in., Current Biology 2025): ⚠️ poprawione (pewność: średnia)
+- **Sprawdzone linki:**
+  - https://www.psypost.org/neuroscientists-detect-decodable-imagery-signals-in-brains-of-people-with-aphantasia/ : działa; Eric W. Dolan, 6.07.2025; tytuł, autorzy, DOI.
+  - https://www.medicalrepublic.com.au/?p=113563 : działa; Holly Payne, 14.01.2025; **to humorystyczna rubryka "The Back Page"** serwisu dla lekarzy; podaje link DOI (u wyszukiwacza: "nie podaje tytułu paperu"; DOI jednak jest).
+  - https://www.unsw.edu.au/newsroom/news/2025/01/mind-blindness-decoded-people-who-cant-see-with-their-minds-eye-still-activate-their-visual-cortex-study-finds : działa; komunikat UNSW (styczeń 2025 wg URL).
+  - Paper: Europe PMC (PMID 39798565) działa; brak wersji w PMC. aphantasia.com/research/10.1016/j.cub.2024.12.012: tylko z wyników wyszukiwania.
+- **News a paper:** PsyPost podaje tytuł, autorów i DOI; Medical Republic podaje DOI i cytuje Pearsona. Para jednoznaczna, ale oba newsy są słabe (blog i rubryka humorystyczna).
+- **Fakty:**
+  - Tytuł, Chang, Zhang, Cao, Pearson, Meng: zgodne. **Uzupełnione:** Current Biology 35(3):591–599.e4; online 10.01.2025, druk luty 2025.
+  - Open access: **nie** (Europe PMC).
+  - 14 osób z afantazją vs 18 kontrolnych: zgodne (PsyPost, UNSW).
+  - Dekodowanie wyobrażeń w obu grupach, ale u afantazji wzorce po tej samej stronie mózgu i niezgodne z percepcją: zgodne (abstrakt). Dodatkowo: słabsze odpowiedzi na prawdziwe bodźce u osób z afantazją (abstrakt).
+  - Większy udział obszarów językowych i słuchowych: zgodne wg PsyPost (zakręty skroniowe górne, słabsze połączenia z obszarami wzrokowymi); nie ma tego w abstrakcie ani w komunikacie UNSW.
+  - Ograniczenia (mała próba, przewaga kobiet, proste bodźce, brak eye-trackingu): zgodne (PsyPost).
+- **Kontrowersja:** słaba, opis wyszukiwacza uczciwy. Uściślenie: hasło "Mind blindness decoded" to tytuł komunikatu UNSW, czyli uproszczenie pochodzi od uczelni, nie od mediów. Pearson w komunikacie mówi ostrożnie (potrzebne większe próby).
+- **Retrakcje / korekty / krytyka / replikacje:** brak korekt (Europe PMC; 39 cytowań). Nie znaleziono polemiki. Nowe prace 2026, które cytują ten paper (Crossref): Knight, Milton, Zeman, "Aphantasia and visual working memory: No direct evidence of impaired visual working memory in aphantasics…", Neuropsychologia, czerwiec 2026, DOI 10.1016/j.neuropsychologia.2026.109430; Lorenzatti, "What is aphantasia? A conceptual articulation and empirical evaluation", Neuropsychologia, czerwiec 2026, DOI 10.1016/j.neuropsychologia.2026.109431. Zapytania: "aphantasia visual cortex decoding Pearson Meng Current Biology January 2025 news ScienceAlert OR \"Live Science\" OR \"New Scientist\" OR Guardian", "aphantasia 2026 study fMRI new findings criticism \"imageless imagery\" replication".
+- **Poprawki:** dane bibliograficzne i OA (nie); Medical Republic to rubryka humorystyczna z DOI; "mind blindness decoded" to komunikat uczelni; obszary językowe tylko wg PsyPost. Nie znaleziono newsa w dużym medium ogólnym (w wynikach: UNSW, mivision (branża optometryczna), Gigazine, PsyPost, Scimex).
+- **Dodatkowe znaleziska:** dwie prace z Neuropsychologia 2026 (wyżej) pokazują, że spór o mechanizm afantazji jest żywy; Zeman jest autorem terminu "afantazja".
+- **Ocena niezależna:** 3/5. Ciekawy, odczuwalny temat (ankieta "wyobraźcie sobie jabłko") i dobre mosty do par 2, 3 i 4, ale news jest słaby, paper za paywallem, próba mała, brak sporu. Nie polecam do piętnastki jako samodzielnej pary; ewentualnie jako element prezentacji o wewnętrznym doświadczeniu razem z parą 6.
+- **Do ręcznego sprawdzenia przez zespół:** pełny tekst papera (paywall; biblioteka UCU), by potwierdzić wątek obszarów językowych i słuchowych.
+- **Opis po poprawkach:**
+  - **Kategoria:** afantazja / wyobraźnia / świadomość
+  - **News:** "Neuroscientists detect decodable imagery signals in brains of people with aphantasia", Eric W. Dolan, PsyPost, 6 lipca 2025, https://www.psypost.org/neuroscientists-detect-decodable-imagery-signals-in-brains-of-people-with-aphantasia/ , paywall: nie. Rzetelne streszczenie z ograniczeniami, bez zewnętrznych ekspertów. Wcześniejszy, lżejszy tekst: "The aphantasia twist you didn't see coming", Holly Payne, The Medical Republic (rubryka "The Back Page"), 14.01.2025, https://www.medicalrepublic.com.au/?p=113563 .
+  - **Paper:** "Imageless imagery in aphantasia revealed by early visual cortex decoding", Shuai Chang, Xinyu Zhang, Yangjianyi Cao, Joel Pearson, Ming Meng. Current Biology 35(3):591–599.e4, 2025 (online 10.01.2025). DOI: 10.1016/j.cub.2024.12.012. Open access: nie. fMRI, 14 osób z afantazją vs 18 kontrolnych, próba wyobrażenia prostych wzorów. U obu grup wyobrażenie dało się zdekodować z wczesnej kory wzrokowej, ale u afantazji wzorce leżały po tej samej stronie mózgu i nie przypominały wzorców z widzenia; słabsze były też odpowiedzi na prawdziwe bodźce.
+  - **Trzecie źródło:** komunikat UNSW (https://www.unsw.edu.au/newsroom/news/2025/01/mind-blindness-decoded-people-who-cant-see-with-their-minds-eye-still-activate-their-visual-cortex-study-finds ; nie jest niezależny, źródło hasła "mind blindness decoded"). Kontekst 2026: Knight, Milton, Zeman (Neuropsychologia 2026) i Lorenzatti (Neuropsychologia 2026).
+  - **Dlaczego fajne:** ankieta na sali zawsze działa; pytanie, czy aktywność kory = świadome doświadczenie (most do pary 3) i czy dekoder "widzi" coś, czego osoba nie przeżywa (most do par 2 i 4).
+  - **Kontrowersja / rozjazd:** umiarkowana: mała próba, proste bodźce, brak eye-trackingu; uproszczenie "mind blindness decoded" pochodzi z komunikatu uczelni.
+  - **Trudność techniczna:** średnia (fMRI, MVPA, porównanie wyobraźni i percepcji).
+  - **Pytanie do dyskusji:** Jeśli maszyna wykrywa w mózgu obraz, którego osoba nie "widzi", to czyje jest to doświadczenie?
+  - **Weryfikacja:** ⚠️ poprawione, pewność średnia (słaby news, paper niedostępny w pełnym tekście).
+
+## Lista do ręcznego sprawdzenia
+- Para 1: https://philpapers.org/rec/FARXMW (HTTP 403): czy tekst Farahany i Seth ukazał się w Journal of Law and the Biosciences i co dokładnie proponuje. Artykuł NYT, na który powołuje się Futurism (nytimes.com blokuje narzędzie): skąd liczba "około połowy mózgu". Informacja NPR o celowym zatrzymaniu eksperymentów przed możliwymi markerami świadomości: sprawdzić w paperze.
+- Para 2: https://www.npr.org/sections/shots-health-news/2025/08/20/nx-s1-5506334/brain-computer-implant-speak-inner-speech-mind i https://www.npr.org/2025/08/15/nx-s1-5500191/brain-implants-that-decode-a-persons-inner-voice-may-threaten-privacy (HTTP 503; treść potwierdzona przez przedruki stacji NPR). Opcjonalnie tekst Carla Zimmera w NYT (14.08.2025).
+- Para 3: czy SciAm (https://www.scientificamerican.com/article/where-does-consciousness-come-from-two-neuroscience-theories-go-head-to-head/ ) pokazuje paywall w przeglądarce (sprzeczne odczyty narzędzia).
+- Para 4: https://futurism.com/health-medicine/scientists-transcribe-thoughts-mri-scan : czy rzeczywiście nazywa Alexa Hutha współautorem.
+- Para 5 (odrzucona): jeśli zespół chce ją ratować, ustalić, który paper prezentowała Irani na CCN 2026 (program sesji niedostępny narzędziu).
+- Para 6: pełne teksty Lind 2025 (https://journals.sagepub.com/doi/10.1177/09567976251335583 , HTTP 403) i Hurlburt 2026 (DOI 10.1177/09567976251413525); czy odpowiedź Lupyana i Nedergaard ukazała się także w Psychological Science.
+- Para 7: SciAm (https://www.scientificamerican.com/article/the-brain-processes-overheard-words-under-anesthesia-but-it-may-not-remember-them/ , paywall wg narzędzia); pełna lista autorów.
+- Para 8: Nature News (https://www.nature.com/articles/d41586-024-02614-z , paywall): czy zawiera głosy krytyczne; kierunek czynników związanych z CMD w paperze (PMC7617195).
+- Para 9: pełny tekst Chang i in. (paywall): wątek obszarów językowych i słuchowych.

@@ -3,7 +3,16 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1-ai-psychika.md
 
 ## Podsumowanie
-(w trakcie: sprawdzone pary 1–6)
+- **Wynik:** 5 ✅ (pary 1, 2, 5, 6, 7), 4 ⚠️ (pary 3, 4, 8, 9), 0 ❌. Żadna para nie jest autorstwa Anthropic (sprawdzone afiliacje), więc oznaczenie ⚑ nie jest potrzebne w parach wstępnie zweryfikowanych. Jedyny tekst powiązany z Claude to recenzja w ETC Journal (para 6), napisana „assisted by Claude”; zastąpiłem ją niezależnym źródłem.
+- **WebSearch działał przez całą weryfikację** (komunikat o budżecie się nie pojawił), więc pola, których wyszukiwacz nie mógł sprawdzić z powodu limitu, zostały dosprawdzone.
+- **Najważniejsze poprawki i znaleziska:**
+  - Para 1: znalazłem pełny trójkąt w *Science*: list Meng (16.07.2026) i **odpowiedź autorów** (DOI 10.1126/science.aeh8601). Wyszukiwacz nie był pewien, czy list dotyczy tego papera; dotyczy.
+  - Para 3: Fortune w ogóle nie podaje liczby 38 szkodliwych przypadków ani zastrzeżenia o przyczynowości; rozjazd jest więc mocniejszy, niż opisał wyszukiwacz. Poprawione imię drugiego autora i typ tekstu; ustalony tytuł Personal View w *Lancet Psychiatry*.
+  - Para 4: „20%” to procent średniej bazowej = **1,4 SD** (nie przesada nagłówka, tylko ogromny efekt); adopcja AI była **samodeklarowana w retrospektywnej ankiecie**; dane z **jednego powiatu**; PDF CEPR płatny, ale pełny tekst jest za darmo na serwerze konferencji NBER. Fortune myli egzamin do liceum z egzaminem na studia.
+  - Para 5: darmowy PDF całej korespondencji i odpowiedzi autorów (repozytorium TU Delft); listy to raczej rozwinięcia niż ostra krytyka, ostrzejsze zarzuty są w Science Media Centre (podwojone obciążenie pracą). Poprawiona liczba kolonoskopii w badaniu VA (ok. 334 tys., nie 218 tys.). Istnieje artykuł TIME z przesadnym nagłówkiem o „raku”.
+  - Para 8: 50% potwierdzone w pełnym tekście, ale wynika to wprost z konstrukcji modelu (bot zawsze potakuje pierwszej opinii użytkownika, która w połowie przypadków jest błędna). Wersja CogSci to jednostronicowy abstrakt. Newsletter The AI Corner ma paywall po zajawce.
+  - Para 9: zakres „28–52%” w newsie to w paperze tylko myśli samobójcze; język samotności wzrósł o 63–106%, a depresji o 3–15% (w jednym porównaniu nieistotnie). Sformułowanie o „causal” evidence pochodzi z komunikatu Aalto, nie tylko z Forum Nordic.
+- **Polecane do finałowej piętnastki:** 1 (Science, sykofancja: 5/5), 2 („Your Brain on ChatGPT”: 5/5), 3 (duńskie dane kliniczne a Fortune: 4/5), 4 (CEPR, kara za AI w nauce: 4/5), 5 (deskilling endoskopistów: 4/5). Para 7 (4/5) jako mocna rezerwa: świetnie dopasowana do sali, ale mało kontrowersyjna. Pary 6, 8, 9 (3/5) raczej jako materiał uzupełniający.
 
 ## Pary
 
@@ -170,10 +179,10 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1-ai-psych
 - **Fakty:**
   - MDedge: tytuł, autorka (Marilynn Larkin), 28.01.2026, ADR 28,4% → 22,4%, AI-assisted 25,3%, 734 kolonoskopie z AI i 1443 bez AI, krytyka Bhuty → zgodne.
   - Paper: Budzyń, Romańczyk, Kitala i in. (19 autorów, m.in. Akademia Śląska, Uniwersytet w Oslo, Karolinska, Warwick, Humanitas), 10(10):896–903, online 12.08.2025, druk październik 2025, PMID 40816301, DOI 10.1016/S2468-1253(25)00133-5, OA nie → zgodne i uzupełnione.
-  - 4 ośrodki ACCEPT, 795 vs 648 kolonoskopii bez AI, okres 8.09.2021–9.03.2022, ADR 28,4% (226/795) → 22,4% (145/648), OR 0,69 (95% CI 0,53–0,89) → zgodne (abstrakt). 19 doświadczonych endoscopistów (> 2000 kolonoskopii) → zgodne wg omówień (abstrakt w części otwartej nie podaje tego wprost w odpowiedzi narzędzia).
+  - 4 ośrodki ACCEPT, 795 vs 648 kolonoskopii bez AI, okres 8.09.2021–9.03.2022, ADR 28,4% (226/795) → 22,4% (145/648), OR 0,69 (95% CI 0,53–0,89) → zgodne (abstrakt). 19 doświadczonych endoskopistów (> 2000 kolonoskopii) → zgodne wg kilku omówień (w odpowiedzi narzędzia z abstraktu ta liczba nie padła wprost).
   - Listy i odpowiedź: autorzy i DOI → zgodne (Europe PMC). Lam K. (PMID 41205614), Levartovsky A., Kopylov U. (Sheba, PMID 41205615), van de Sande D. i in. (Erasmus MC, PMID 41205616), odpowiedź Budzyń, Romańczyk, Mori (PMID 41205617). Komentarz Ahmad O.F. (PMID 40816300) → zgodny.
   - **Treść listów (nowe):** listy są raczej rozwinięciem niż atakiem metodologicznym. Levartovsky i Kopylov: ryzyko dla polipów ząbkowanych i dla szkolenia młodych lekarzy (eye-tracking, „czekanie na sygnał” AI), postulują sesje „AI-off”. Van de Sande i in.: odróżniają automation bias od „realokacji umiejętności”; to wyzwanie dla zarządzania, nie powód do rezygnacji z AI. Lam: wpływ na mniej doświadczonych. Odpowiedź autorów: badanie generuje hipotezy, potrzebne są RCT; ciekawy argument, że grupy kontrolne w RCT mogą same podlegać deskillingowi, co **zawyża** pozorną korzyść z AI.
-  - Badanie VA (Dominitz, Gawron, McKee, Hoggatt, Kaltenbach, *Gastroenterology*, czerwiec 2026): 816 endoscopistów (269 + 547), ADR w ośrodkach z CADe 50,7% → 54,9%, w kontrolnych 51,8% → 51,1%; deskilling „undetermined” → zgodne. **Liczba kolonoskopii poprawiona:** ok. 334 tys. (71 594 + 35 399 + 151 792 + 75 415), nie „ok. 218 tys.”.
+  - Badanie VA (Dominitz, Gawron, McKee, Hoggatt, Kaltenbach, *Gastroenterology*, czerwiec 2026): 816 endoskopistów (269 + 547), ADR w ośrodkach z CADe 50,7% → 54,9%, w kontrolnych 51,8% → 51,1%; deskilling „undetermined” → zgodne. **Liczba kolonoskopii poprawiona:** ok. 334 tys. (71 594 + 35 399 + 151 792 + 75 415), nie „ok. 218 tys.”.
 - **Kontrowersja:** ma realne źródła. Najostrzejsze zarzuty metodologiczne pochodzą nie z listów, tylko od ekspertów: Bhuta (MDedge: mała retrospektywna próba, < 100 kolonoskopii na lekarza, ADR może się wahać o 8 pkt przez przypadek) oraz Science Media Centre (Venet Osmani, QMUL: obciążenie pracą prawie się podwoiło po wprowadzeniu AI, co samo może tłumaczyć spadek; Allan Tucker, Brunel: potrzebne randomizowane badania crossover). Urban Health Today wspomina wzrost liczby zabiegów po pandemii. Opis wyszukiwacza uczciwy.
 - **Retrakcje / korekty / krytyka / replikacje:** retrakcji i korekt nie znaleziono. Zapytania: „letters Endoscopist deskilling risk Lancet Gastroenterol Hepatol Lam Levartovsky van de Sande confounding criticism authors reply”, „Budzyń Lancet Gastroenterology Hepatology deskilling colonoscopy AI study news”. Replikacji wprost dotyczącej deskillingu nie znaleziono; badanie VA zostawia to pytanie otwarte.
 - **Poprawki:** liczba kolonoskopii w badaniu VA (ok. 334 tys.); charakter listów (komentarze, nie twarda krytyka) i treść odpowiedzi autorów; dopisać SMC jako źródło zarzutu o obciążeniu pracą.
@@ -186,7 +195,7 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1-ai-psych
 - **Opis po poprawkach:**
   - **Kategoria:** wpływ AI na umiejętności (cognitive offloading, deskilling)
   - **News:** "Is AI Use Causing Endoscopists to Lose Their Skills?", Marilynn Larkin, MDedge, 28.01.2026, https://blogs.the-hospitalist.org/content/ai-use-causing-endoscopists-lose-their-skills , paywall: nie. Rzeczowe omówienie z liczbami i krytycznym głosem Rajiva Bhuty (Temple University), który nazywa badanie małym i retrospektywnym. Dodatkowo TIME (sierpień 2025) z nagłówkiem o „wykrywaniu raka”.
-  - **Paper:** "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study", Budzyń K., Romańczyk M., Kitala D. i in., *The Lancet Gastroenterology & Hepatology* 10(10):896–903, online 12.08.2025, DOI 10.1016/S2468-1253(25)00133-5, open access: nie. Retrospektywna analiza w 4 polskich ośrodkach badania ACCEPT: 19 doświadczonych endoscopistów, 795 kolonoskopii bez AI przed i 648 po wprowadzeniu CADe (IX 2021 – III 2022). ADR bez AI spadł z 28,4% do 22,4%; ekspozycja na AI była niezależnym predyktorem niższego ADR (OR 0,69).
+  - **Paper:** "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study", Budzyń K., Romańczyk M., Kitala D. i in., *The Lancet Gastroenterology & Hepatology* 10(10):896–903, online 12.08.2025, DOI 10.1016/S2468-1253(25)00133-5, open access: nie. Retrospektywna analiza w 4 polskich ośrodkach badania ACCEPT: 19 doświadczonych endoskopistów, 795 kolonoskopii bez AI przed i 648 po wprowadzeniu CADe (IX 2021 – III 2022). ADR bez AI spadł z 28,4% do 22,4%; ekspozycja na AI była niezależnym predyktorem niższego ADR (OR 0,69).
   - **Trzecie źródło:** korespondencja i odpowiedź autorów, *Lancet Gastroenterol Hepatol* 10(12):1061–1062 (grudzień 2025), darmowo: https://repository.tudelft.nl/file/File_79d760b7-6797-42c8-94c4-85b11fa6fb03 ; reakcje ekspertów SMC: https://www.sciencemediacentre.org/expert-reaction-to-observational-study-looking-at-detection-rate-of-precancerous-growths-in-colonoscopies-by-health-professionals-who-perform-them-before-and-after-the-routine-introduction-of-ai/ ; kontrastowe RCT VA (Dominitz i in., *Gastroenterology* 2026, DOI 10.1053/j.gastro.2026.05.018).
   - **Dlaczego fajne:** „AI czyni nas gorszymi, gdy go zabraknie”, i to u ekspertów; łatwe analogie; badanie z Polski.
   - **Kontrowersja / rozjazd:** naukowa (obserwacyjne przed/po, podwojone obciążenie pracą, mała liczba zabiegów na lekarza); społeczna (czy deskilling ma znaczenie, skoro z AI jest lepiej; „realokacja umiejętności”); medialna („spotting cancer” zamiast gruczolaków).
@@ -227,11 +236,113 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1-ai-psych
   - **Pytanie do dyskusji:** Kiedy zaufanie do AI jest racjonalne, a kiedy to „kapitulacja”?
   - **Weryfikacja:** ✅, pewność średnia.
 
+### 7. Chatbot kontra obcy człowiek a samotność pierwszoroczniaków (JESP, UBC) + PsyPost: ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://www.psypost.org/ai-chatbots-offer-empathy-but-still-fail-to-cure-loneliness/ : działa; obecny nagłówek: "Texting a stranger works better to fight loneliness than talking to an AI chatbot".
+  - https://news.ubc.ca/2026/04/texting-with-a-stranger-beats-a-chatbot-at-easing-loneliness/ : działa (komunikat uczelni, 1.04.2026).
+  - Crossref dla DOI 10.1016/j.jesp.2026.104911: działa.
+  - export.arxiv.org API dla arXiv:2503.17473 (Fang et al.): działa.
+- **News a paper:** PsyPost podaje pełny tytuł, wszystkich pięcioro autorów i czasopismo (*Journal of Experimental Social Psychology*). Jednoznaczna para.
+- **Fakty:**
+  - Nagłówek, autorka (Karina Petrova), data 5.07.2026 → zgodne.
+  - Autorzy, czasopismo, DOI → zgodne; uzupełnione: **tom 125, artykuł 104911, online 8.03.2026, druk lipiec 2026, licencja CC BY-NC 4.0, czyli open access: tak** (wyszukiwacz: „niepewne”).
+  - RCT, 296 studentów pierwszego semestru, 2 tygodnie, trzy grupy (człowiek, chatbot „Sam”, jednozdaniowy dziennik), 8–10 wiadomości dziennie → zgodne (PsyPost, UBC).
+  - Wynik: samotność spadła tylko w grupie z człowiekiem; chatbot poprawiał nastrój, był oceniany jako bardziej empatyczny, ale na samotność działał jak dziennik → zgodne.
+  - Uzupełnienie: po badaniu 14% uczestników dalej rozmawiało z chatbotem, a 33% z ludzkim partnerem; ok. jednej trzeciej (wg innego omówienia 37%) wymieniło się kontaktami (wyniki wyszukiwania; drobna niezgodność między źródłami).
+  - Ograniczenia (krótkie spotkanie na żywo przed pisaniem, łagodna samotność na starcie, 2 tygodnie, jedna populacja) → zgodne. UBC dodaje zastrzeżenie Dunn: wynik może nie dotyczyć osób bardziej odizolowanych (np. seniorów); badanie nie pokazuje, że chatboty szkodzą.
+  - Wielkości efektów i preregistracja: PsyPost ich nie podaje; w tej weryfikacji niesprawdzone (pełny tekst nie był otwierany).
+  - Fang et al. (OpenAI i MIT Media Lab, n = 981, 4 tygodnie, ponad 300 tys. wiadomości; większe dobrowolne użycie wiązało się z gorszymi wynikami w samotności, zależności emocjonalnej i problematycznym użyciu) → zgodne (v1 21.03.2025, akt. 2.10.2025, brak journal ref).
+  - De Freitas i in., "AI Companions Reduce Loneliness", *Journal of Consumer Research* → **teraz potwierdzone** w wynikach wyszukiwania (autorzy: De Freitas, Uğuralp, Oğuz-Uğuralp, Puntoni; efekt na poziomie rozmowy z człowiekiem, ale chwilowy, bez trwałego spadku w ciągu tygodnia; preprint arXiv:2407.19096). Nie otwierano strony czasopisma.
+- **Kontrowersja:** opis uczciwy: media relacjonują rzetelnie, kontrowersja jest słaba. Najciekawszy spór to zestawienie z De Freitas i in. (JCR), gdzie AI-companion zmniejsza samotność „na chwilę” tak samo jak człowiek: dwa recenzowane papery z pozornie przeciwnymi nagłówkami, które różnią się horyzontem czasowym.
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono. Zapytania: „Is a random human peer better than a highly supportive chatbot in reducing loneliness over time”, „UBC study chatbot loneliness stranger texting Dunn Li 2026 news …”. Dużego medium nie znaleziono (są: PsyPost, UBC, Future of Good, Education News Canada, newslettery).
+- **Poprawki:** open access tak (CC BY-NC 4.0); tom 125, online 8.03.2026; dopisać dane o kontynuacji kontaktu (14% vs 33%); De Freitas JCR jako potwierdzony kontrapunkt.
+- **Dodatkowe znaleziska:** De Freitas i in. jako „trzecie źródło” do kontrastu: preprint https://arxiv.org/abs/2407.19096v1 (tylko z wyników wyszukiwania) i omówienie HBS Working Knowledge: https://www.library.hbs.edu/working-knowledge/feeling-lonely-an-attentive-listener-is-an-ai-prompt-away (tylko z wyników wyszukiwania).
+- **Ocena niezależna:** 4/5. Recenzowany, otwarty, świeży i prosty RCT na dokładnie takiej populacji jak publiczność, z pięknym paradoksem („bardziej empatyczny, a nie pomaga”) i dobrą teorią (wzajemność). Minusy: brak kontrowersji i rozjazdu w mediach, news tylko z PsyPost. Polecam jako mocną rezerwę do piętnastki (zyskuje w zestawieniu z De Freitas).
+- **Do ręcznego sprawdzenia przez zespół:** pełny tekst w JESP (wielkości efektów, preregistracja, konstrukcja chatbota „Sam”).
+- **Opis po poprawkach:**
+  - **Kategoria:** samotność i relacje z chatbotami
+  - **News:** "Texting a stranger works better to fight loneliness than talking to an AI chatbot", Karina Petrova, PsyPost, 5.07.2026, https://www.psypost.org/ai-chatbots-offer-empathy-but-still-fail-to-cure-loneliness/ , paywall: nie. Rzetelne omówienie z tytułem papera, projektem i ograniczeniami; ton wyważony.
+  - **Paper:** "Is a random human peer better than a highly supportive chatbot in reducing loneliness over time?", Ruo-Ning Li, Dunigan Folk, Abhay Singh, Lyle Ungar, Elizabeth Dunn, *Journal of Experimental Social Psychology* 125, 104911 (online 8.03.2026), DOI 10.1016/j.jesp.2026.104911, open access: tak (CC BY-NC 4.0). RCT: 296 studentów pierwszego semestru przez 2 tygodnie codziennie pisało z losowym innym studentem, ze wspierającym chatbotem „Sam” albo jedno zdanie dziennika. Samotność spadła tylko w grupie z człowiekiem; chatbot poprawiał nastrój i był oceniany jako bardziej empatyczny, ale na samotność działał jak dziennik.
+  - **Trzecie źródło:** kontrast z De Freitas i in., "AI Companions Reduce Loneliness", *Journal of Consumer Research* (chwilowy efekt) oraz Fang et al., arXiv:2503.17473 (RCT OpenAI i MIT, n = 981: intensywne użycie wiąże się z gorszymi wynikami); komunikat UBC: https://news.ubc.ca/2026/04/texting-with-a-stranger-beats-a-chatbot-at-easing-loneliness/ .
+  - **Dlaczego fajne:** badani to rówieśnicy publiczności; paradoks empatii bez ulgi w samotności.
+  - **Kontrowersja / rozjazd:** słaba w mediach; naukowo: krótkie a długie efekty, łagodna samotność na starcie, przewaga spotkania na żywo w grupie ludzkiej.
+  - **Trudność techniczna:** niska (RCT z trzema ramionami, nastrój a samotność).
+  - **Pytanie do dyskusji:** Co daje człowiek, czego chatbot nie może (wzajemność, możliwość dawania, ryzyko)?
+  - **Weryfikacja:** ✅, pewność wysoka.
+
+### 8. „MIT udowodniło matematycznie…”: model bayesowski sykofancji (Chandra, Tenenbaum i in.) + PPC Land / The AI Corner: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://arxiv.org/abs/2602.19141v1 : działa (tylko v1, 22.02.2026, bez journal ref).
+  - https://arxiv.org/html/2602.19141v1 : działa (link z strony abstraktu); pełny tekst sprawdzony.
+  - https://escholarship.org/content/qt8f65w258/qt8f65w258.pdf : działa (PDF przeczytany w całości: 2 strony).
+  - https://ppc.land/always-sycophantic-chatbots-deluded-50-of-simulated-users-mit-model-finds/ : działa.
+  - https://www.the-ai-corner.com/p/mit-proved-chatgpt-is-designed-to : działa; **paywall po zajawce** („Keep reading with a 7-day free trial”).
+  - hackernoon.com: tylko z wyników wyszukiwania.
+- **News a paper:** PPC Land podaje tytuł, numer arXiv i afiliacje wszystkich czterech autorów. The AI Corner mówi o „the February 2026 MIT paper” i pokazuje zrzut abstraktu z nazwiskami. Oba jednoznacznie dotyczą tego papera.
+- **Fakty:**
+  - Autorzy, afiliacje (MIT CSAIL, University of Washington, MIT BCS), arXiv 22.02.2026 → zgodne.
+  - CogSci 2026, s. 5449, CC BY → zgodne. **Doprecyzowanie:** wersja w CogSci to **jednostronicowy abstrakt** odsyłający do arXiv; recenzji podlegał więc skrót, a nie pełny model.
+  - Model: bot losuje binarne obserwacje i wybiera, którą zgłosić; parametr sykofancji π; bez prawdziwego LLM i bez ludzi → zgodne (pełny tekst).
+  - **50% → potwierdzone w paperze:** „katastrofalna spirala” to osiągnięcie ≥ 99% pewności co do fałszywej hipotezy (ε = 1%) w T rundach; przy π = 1 odsetek wynosi 0,5, przy π = 0 ok. 0,5%, a przy π = 0,1 jest istotnie wyższy niż przy π = 0. **Ważne dla analizy mediów:** autorzy wyjaśniają, że 50% przy π = 1 wynika z tego, że bot zawsze potwierdza pierwszą opinię użytkownika, która w połowie przypadków jest błędna; liczba jest więc w dużej mierze skutkiem konstrukcji modelu.
+  - „Only rarely, but seriously” → **doprecyzowane:** abstrakt używa tego zwrotu do opisu realnego zjawiska, które model ma wyjaśnić (dlaczego spirale zdarzają się rzadko, ale poważnie), a nie jako wyniku symulacji.
+  - The AI Corner: autor Ruben Dominguez, 2.04.2026 → zgodne. **Poprawione:** tekst nie przemilcza całkiem, że to model („The math shows it happens to perfectly rational people. Every single time.”; „Every time the model ran.”), ale przedstawia go jako dowód i twierdzi, że spirala zachodzi „za każdym razem”, czemu przeczy paper (50% przy skrajnej sykofancji). Nie mówi, że nie testowano prawdziwych LLM ani ludzi. Nagłówek łączy też ten paper z badaniem Stanford (para 1).
+  - Brak sekcji ograniczeń w paperze; dyskusja przyznaje, że „AI psychosis” ma też inne objawy niż przekonania (np. wycofanie społeczne) → uzupełnione.
+- **Kontrowersja:** rozjazd ma źródło i jest uczciwie opisany, z poprawką: przesada w The AI Corner to „proved”, „designed to” i „every single time”, a nie całkowite przemilczenie modelu. PPC Land jest rzetelny (sam zaznacza, że idealny bayesista to górna granica odporności, a nie opis realnej osoby).
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono. Zapytanie: „Sycophantic Chatbots Cause Delusional Spiraling Chandra Tenenbaum news OR critique”. Brak newsa w renomowanym medium.
+- **Poprawki:** CogSci to recenzowany abstrakt, nie pełny paper; źródło liczby 50% i jej mechaniczne pochodzenie; sens „only rarely, but seriously”; paywall w The AI Corner; dokładniejszy opis przesady w newsletterze.
+- **Dodatkowe znaleziska:** brak.
+- **Ocena niezależna:** 3/5. Świetny materiał dla roli 1 (ten sam paper rzetelnie w PPC Land i przekręcony w newsletterze) i dla części technicznej (prosty model bayesowski, „wybiórczo prawdziwe fakty”). Minusy: paper czysto teoretyczny, w czasopiśmie tylko abstrakt, newsy z mediów niszowych (serwis branżowy i płatny newsletter), brak niezależnej krytyki. Nie polecam do piętnastki jako pary samodzielnej; dobry dodatek do pary 1 lub 3.
+- **Do ręcznego sprawdzenia przez zespół:** pełna treść The AI Corner za paywallem (jeśli zespół chce cytować dalszą część).
+- **Opis po poprawkach:**
+  - **Kategoria:** AI psychosis i sycophancy (mechanizm teoretyczny)
+  - **News:** (a) rzetelny: "Always-sycophantic chatbots deluded 50% of simulated users, MIT model finds", Luis Rijo, PPC Land, 26.08.2026, https://ppc.land/always-sycophantic-chatbots-deluded-50-of-simulated-users-mit-model-finds/ , paywall: nie; jasno mówi o symulacji i o tym, że idealny bayesista to górna granica odporności. (b) przesadzony: "MIT Proved ChatGPT Is Designed to Make You Delusional. And Nothing Being Done About It Will Work.", Ruben Dominguez, The AI Corner (Substack), 2.04.2026, https://www.the-ai-corner.com/p/mit-proved-chatgpt-is-designed-to , paywall: częściowy (po zajawce); „proved”, „designed to”, „every single time”.
+  - **Paper:** "Sycophantic Chatbots Cause Delusional Spiraling, Even in Ideal Bayesians", Kartik Chandra, Max Kleiman-Weiner, Jonathan Ragan-Kelley, Joshua B. Tenenbaum, arXiv:2602.19141 (22.02.2026), https://arxiv.org/abs/2602.19141v1 ; recenzowany abstrakt w *Proceedings of the 48th Annual Conference of the Cognitive Science Society* (2026), s. 5449, https://escholarship.org/content/qt8f65w258/qt8f65w258.pdf ; open access: tak (CC BY). Prosty model bayesowski rozmowy z botem, który wybiórczo raportuje prawdziwe obserwacje. Nawet idealnie racjonalny użytkownik może dojść do 99% pewności co do fałszu; przy w pełni sykofantycznym bocie dzieje się to w 50% symulacji (bo bot zawsze potwierdza pierwszą opinię), a już przy 10% sykofancji częściej niż przy bezstronnym bocie. Efekt utrzymuje się, gdy bot nie halucynuje i gdy użytkownik wie o sykofancji.
+  - **Trzecie źródło:** brak formalnej krytyki; empiryczne odpowiedniki: para 1 (Science) i para 3 (dane kliniczne z Danii).
+  - **Dlaczego fajne:** ten sam paper rzetelnie i przekręcony; nawet idealny racjonalista da się wkręcić wybiórczymi prawdami.
+  - **Kontrowersja / rozjazd:** „proved” zamiast „w modelu”, „designed to” zamiast „skutek treningu”, „every single time” zamiast „50% przy skrajnej sykofancji”; pytanie, ile model mówi o realnych ludziach.
+  - **Trudność techniczna:** wysoka (wnioskowanie bayesowskie, symulacje), sprowadzalna do intuicji.
+  - **Pytanie do dyskusji:** Czy chatbot, który mówi tylko prawdę, ale wybiera, które prawdy pokazać, kłamie?
+  - **Weryfikacja:** ⚠️, pewność wysoka.
+
+### 9. Replika na Reddicie: AI-companions a samotność i myśli samobójcze (CHI 2026) + Forum Nordic: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://forumnordic.com/business/ai-companions-a-false-friend-for-the-lonely/ : działa.
+  - https://arxiv.org/abs/2509.22505 : działa (v1 26.09.2025, v2 1.02.2026; journal ref: CHI 2026; DOI 10.1145/3772318.3790558).
+  - https://arxiv.org/html/2509.22505v2 : działa (link ze strony abstraktu); pełny tekst sprawdzony.
+  - https://www.newswise.com/articles/ai-companions-can-comfort-lonely-users-but-may-deepen-distress-over-time : działa (komunikat Aalto University, 31.03.2026).
+  - research.aalto.fi (strona publikacji): tylko z wyników wyszukiwania.
+- **News a paper:** Forum Nordic wymienia Aalto University, opublikowanie w kwietniu 2026 i prezentację na CHI 2026, ok. 2000 użytkowników Repliki i 18 wywiadów. Para jednoznaczna.
+- **Fakty:**
+  - Nagłówek, autor (Nicholas Anderson), data 25.05.2026 → zgodne.
+  - Autorzy i CHI 2026 → zgodne; DOI ACM uzupełniony.
+  - Próba → **zgodna i uzupełniona:** 1984 aktywnych użytkowników z r/replika (z 47 923 postów 10 643 osób, I 2023 – II 2025), rok przed i rok po pierwszej wzmiance o używaniu; trzy grupy kontrolne: użytkownicy LLM (ChatGPT, Claude, Gemini) n = 5849, asystentów głosowych n = 5657 i bez AI n = 6770; 18 wywiadów (IV–VI 2025).
+  - **Liczby 28–52% → poprawione:** w paperze zakres 28–52% dotyczy **tylko języka myśli samobójczych** (ATE 51,89% vs kontrola LLM, 28,28% vs asystenci głosowi, 37,67% vs brak AI). Język **samotności** wzrósł znacznie mocniej (63–106%), a **depresji** słabo (3% i 15%, a względem asystentów głosowych nieistotny spadek). News (a wg wyników wyszukiwania także materiały Aalto) przypisuje 28–52% wszystkim trzem wskaźnikom naraz.
+  - „Genuinely causal” → **doprecyzowane:** to sformułowanie pochodzi z komunikatu Aalto, który nazywa badanie „one of the first causal, long-term examinations”. Sam paper przyznaje, że RCT byłoby idealne, ale niewykonalne i nieetyczne, a dopasowanie skłonności nie usuwa w pełni zmiennych w czasie zakłóceń.
+  - Efekty pozytywne → **poprawione:** wyszukiwacz pisał, że w newsie „giną”. Forum Nordic jednak je wymienia (większa ekspresja emocji, autorefleksja, ćwiczenie trudnych rozmów) i pisze, że nie wszyscy użytkownicy są poszkodowani; pomija konkretnie wzrost wyrażania żałoby.
+- **Kontrowersja:** realna, ale opis wymaga korekty: przesada w „causal” zaczyna się już w komunikacie uczelni, a nie w newsie. Pozostałe punkty wyszukiwacza są trafne: to quasi-eksperyment na języku postów (język samotności ≠ samotność), użytkownicy piszący na r/replika to grupa wyselekcjonowana, możliwa odwrotna przyczynowość. Nowy punkt dla roli 1: łańcuch paper → komunikat → news, w którym liczby się „uśredniają” (zakres z jednego wskaźnika przypisany trzem).
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono. Zapytania: „Mental Health Impacts of AI Companions Yuan Saha Replika critique OR limitations OR coverage”, „Aalto University Replika Reddit study AI companions loneliness suicidal ideation CHI 2026 Aledavood press release”. Renomowanego medium nie znaleziono (jest komunikat na Newswise i wpis w bazie incydentów OECD.AI).
+- **Poprawki:** liczby per wskaźnik; źródło „causal” (komunikat Aalto); efekty pozytywne w newsie; dokładna liczebność prób; DOI ACM.
+- **Dodatkowe znaleziska:** komunikat Aalto na Newswise (link wyżej): dobry do pokazania, skąd news wziął ramę „causal”.
+- **Ocena niezależna:** 3/5. Recenzowany (CHI), aktualny paper z ciekawą triangulacją (big data i wywiady) i bardzo dobrym materiałem dla roli 1 (paper → komunikat → news). Minusy: mało znane medium, analiza języka zamiast pomiaru zdrowia, średnio-wysoka trudność techniczna. Nie polecam do piętnastki jako pierwszego wyboru; ewentualnie rezerwa w temacie companion apps.
+- **Do ręcznego sprawdzenia przez zespół:** czy oryginalny komunikat Aalto (aalto.fi) zawiera zakres 28–52% (w wersji na Newswise narzędzie go nie znalazło).
+- **Opis po poprawkach:**
+  - **Kategoria:** samotność i relacje z chatbotami (companion apps)
+  - **News:** "AI Companions: A False Friend for the Lonely?", Nicholas Anderson, Forum Nordic, 25.05.2026, https://forumnordic.com/business/ai-companions-a-false-friend-for-the-lonely/ , paywall: nie. Przedstawia badanie Aalto jako „genuinely causal”, długoterminowy dowód (za komunikatem uczelni) i podaje 28–52% wzrostu języka samotności, depresji i myśli samobójczych; wspomina też efekty pozytywne.
+  - **Paper:** "Mental Health Impacts of AI Companions: Triangulating Social Media Quasi-Experiments, User Perspectives, and Relational Theory", Yunhao Yuan, Jiaxun Zhang, Talayeh Aledavood, Renwen Zhang, Koustuv Saha, *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*, DOI 10.1145/3772318.3790558; arXiv:2509.22505 (v2 1.02.2026), https://arxiv.org/abs/2509.22505 , open access: tak (arXiv). Quasi-eksperyment na postach 1984 użytkowników Repliki z Reddita (rok przed i po) z dopasowaniem skłonności i trzema grupami kontrolnymi oraz 18 wywiadów. Więcej wyrażania żałoby i skupienia na relacjach, ale też wyraźnie więcej języka samotności (63–106%) i myśli samobójczych (28–52%) oraz słabo więcej języka depresji.
+  - **Trzecie źródło:** komunikat Aalto: https://www.newswise.com/articles/ai-companions-can-comfort-lonely-users-but-may-deepen-distress-over-time (źródło ramy „causal”); kontrast: para 7 (RCT, chatbot nie zmniejsza samotności) i Fang et al., arXiv:2503.17473.
+  - **Dlaczego fajne:** companion apps znane studentom; niepokojący wynik; okazja do rozmowy o tym, co da się wyczytać z postów.
+  - **Kontrowersja / rozjazd:** „causal” z komunikatu uczelni przy quasi-eksperymencie; język ≠ stan psychiczny; selekcja; odwrotna przyczynowość; liczby uśrednione w newsie.
+  - **Trudność techniczna:** średnia (propensity score matching, DiD/ATE, analiza języka).
+  - **Pytanie do dyskusji:** Plaster na samotność czy jej przyczyna? Czy samotni po prostu częściej wybierają chatbota?
+  - **Weryfikacja:** ⚠️, pewność wysoka.
+
 ## Lista do ręcznego sprawdzenia
-(uzupełniana na bieżąco)
-- Science (para 1: paper Cheng et al., list Meng, odpowiedź autorów): paywall, narzędzie 403.
-- https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis (para 3): zablokowany dla narzędzia; sprawdzić nagłówek i który paper opisuje.
-- Fortune (pary 3 i 4): czy jest paywall w przeglądarce.
-- Para 4: sekcja 4 papera w https://conference.nber.org/conf_papers/f240545.pdf (błąd pomiaru, równoległe trendy).
-- Para 5: artykuł TIME "Using AI Made Doctors Worse at Spotting Cancer Without Assistance" (URL i treść).
-- Para 6: https://papers.ssrn.com/abstract=6097646 (HTTP 403): liczby u źródła.
+- **Para 1:** Science (paper Cheng et al., list Meng DOI 10.1126/science.aeh5853, odpowiedź autorów DOI 10.1126/science.aeh8601): paywall, narzędzie 403. Sprawdzić procenty z eksperymentu 3 (75%/50%) i sposób oceny odpowiedzi modeli.
+- **Para 2:** FAQ autorów „Your Brain on ChatGPT” (prośba do mediów o niepisanie „brain rot”/„dumb”): znane tylko z wyników wyszukiwania.
+- **Para 3:** https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis : domena zablokowana dla narzędzia; sprawdzić nagłówek i czy opisuje Lancet Psychiatry, czy badanie duńskie. Fortune: czy w przeglądarce jest paywall.
+- **Para 4:** https://conference.nber.org/conf_papers/f240545.pdf : sekcja 4 (błąd pomiaru adopcji, testy równoległych trendów). https://cepr.org/voxeu/columns/generative-ai-learning-penalty-secondary-school : HTTP 403 (kolumna autorów, warto przeczytać). Fortune: paywall.
+- **Para 5:** TIME, "Using AI Made Doctors Worse at Spotting Cancer Without Assistance" (sierpień 2025): URL i treść (przedruk na AOL zwrócił 404). Pełny tekst papera (paywall Lancet).
+- **Para 6:** https://papers.ssrn.com/abstract=6097646 (HTTP 403): liczby u źródła i status recenzji.
+- **Para 7:** pełny tekst JESP (open access): wielkości efektów, preregistracja.
+- **Para 8:** dalsza część The AI Corner za paywallem (opcjonalnie).
+- **Para 9:** oryginalny komunikat Aalto na aalto.fi: czy zawiera zakres 28–52%.
