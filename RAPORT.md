@@ -423,7 +423,12 @@ Kolejność: od najmocniejszych. W nawiasie podaję werdykt weryfikatora i jego 
 - [5 #10] Zakaz telefonów w szkołach (Lancet Reg Health Eur 2025) (⚠️).
 - [5 #11] Samotność w dzieciństwie (Dev Psychopathol 2026) (⚠️).
 
-**Uzupełnienie grupy 1 (pary 4–8):** weryfikacja jeszcze trwała w chwili pisania. Wyniki będą w `verification/1b-ai-psychika-uzupelnienie.md`.
+**Uzupełnienie grupy 1 (pary 4–8):**
+- **[1b #8] Codzienne rozmowy z AI przez 28 dni lekko zwiększyły samotność: RCT na 7286 Francuzach (CESifo 2026)** (⚠️, 4/5): najmocniejszy test przyczynowy w temacie. Fortune opisuje nieistotne wyniki jak istotne, a autorzy złagodzili abstrakt między wersjami.
+- **[1b #4] OpenAI i MIT Media Lab: czy ChatGPT czyni samotnym? (RCT, N = 981)** (✅, 4/5): współautorzy z OpenAI, opublikowana krytyka w *Frontiers in Medicine*. Najlepiej pokazać razem z [1b #8].
+- **[1b #5] ⚑ Paper Anthropic: „How AI Impacts Skill Formation” (Shen i Tamkin, 2026)** (⚠️, 4/5): programiści uczący się z AI gorzej rozumieją kod. Asystentem był GPT-4o. Media piszą „mostly junior”, a w grupie z AI 54% osób miało ponad 7 lat doświadczenia. Krytyka jest na niezależnych blogach.
+- [1b #6] „Spirale urojeń”: 391 tys. wiadomości od 19 osób (Stanford, FAccT 2026) (⚠️, warunkowo): rozbieżne liczby wewnątrz samego papera.
+- [1b #7] RAND w *Psychiatric Services*: chatboty niespójnie odpowiadają na pytania o samobójstwo (news AP) (⚠️, 3/5): testowano modele z 2024 roku.
 
 **Odrzucone (❌):** [3a #5] „AI mind-reading” z MIT Technology Review: artykuł nie nazywa żadnego konkretnego papera.
 

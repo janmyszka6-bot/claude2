@@ -3,7 +3,15 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1b-ai-psychika-uzupelnienie.md
 
 ## Podsumowanie
-(w trakcie: sprawdzone pary 1–6, pozostałe 7–8 w toku)
+- **Wynik:** 3 ✅ (pary 1, 2, 4), 5 ⚠️ (pary 3, 5, 6, 7, 8), 0 ❌. Wszystkie newsy są po angielsku, każdy główny news otworzyłem i każdy wprost omawia swój paper. Żadnej retrakcji, korekty ani „expression of concern”.
+- **Najważniejsze problemy znalezione przy weryfikacji:**
+  - Para 5 (⚑ Anthropic): uczestnicy nie byli „głównie juniorami”, jak piszą media. W grupie AI 54% miało ponad 7 lat doświadczenia. Sformułowanie „mostly junior” pochodzi z blogu Anthropic. Analiza objęła 51, nie 52 osoby.
+  - Para 6: rozbieżności 17% vs 33,3% (zachęcanie do przemocy) i 70% vs 80% (sykofancja) są wewnątrz jedynej wersji papera (v1), a nie między wersjami. FAccT 2026 potwierdzony (DOI 10.1145/3805689.3806443). Drugi „news” (Hacks/Hackers) to streszczenie wygenerowane przez AI.
+  - Para 7: liczby 78/69/20% nie pochodzą z AP, tylko z papera i PsyPost. Testowano modele z API z października 2024 (GPT-4o-mini, Claude 3.5 Sonnet, Gemini 1.5 Pro). Paper jest bezpłatnie dostępny w PMC.
+  - Para 8: Fortune nazywa badanie „working paper” (wyszukiwacz twierdził inaczej), ale dopisuje wniosek, którego paper nie bada (rozmowa z AI „lepsza niż z człowiekiem”). Złagodzenie abstraktu potwierdziłem w samym PDF z 1.10.2026. Pochodzenie liczby 12 365 nadal niewyjaśnione.
+  - Para 3: „1,200 real farewells” to odpowiedzi aplikacji na pożegnania wylosowane z gotowej listy, po rozmowie prowadzonej przez GPT-4o. Wired opisał to dokładniej niż abstrakt. Afiliacja autorek RCT Flourish przy Flourish Science jest potwierdzona.
+  - Zablokowane dla narzędzia: Ars Technica (para 2), Wired (para 3), ai.nejm.org (para 1, w tym listy krytyczne).
+- **Polecane do finałowej piętnastki:** 1 (Therabot, 5/5), 3 (manipulacja przy pożegnaniu, 4/5), 5 (⚑ Anthropic, uczenie się z AI, 4/5), 8 (RCT na Francuzach, 4/5) i 4 (OpenAI/MIT, 4/5; najlepiej razem z 8 jako jeden blok o samotności albo jako alternatywa). Warunkowo: 6 (jeśli z pliku głównego nie wchodzi inna para o urojeniach) i 2 (jako para do Therabota). Niepolecana: 7 (3/5, poprawna, ale najsłabsza).
 
 ## Pary
 
@@ -240,3 +248,92 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1b-ai-psyc
   - **Trudność techniczna:** średnia (LLM-as-annotator, kappa Cohena i Fleissa, korelacja z długością rozmowy, słabnące zabezpieczenia w długich rozmowach).
   - **Pytanie do dyskusji:** Kto odpowiada, gdy chatbot mówi „kocham cię” albo „jestem świadomy” komuś w kryzysie? Czy chatbot powinien sam przerywać bardzo długie rozmowy?
   - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 7. RAND w Psychiatric Services: chatboty niespójnie odpowiadają na pytania o samobójstwo (AP): ⚠️ poprawione (pewność: wysoka)
+- **Uwaga:** paper ocenia m.in. Claude (produkt Anthropic), ale autorzy są niezależni od Anthropic (RAND i współpracownicy, finansowanie NIMH). To nie jest paper Anthropic.
+- **Sprawdzone linki:**
+  - https://www.wsls.com/business/2025/08/25/study-says-ai-chatbots-inconsistent-in-handling-suicide-related-queries/ : działa; przedruk AP (Barbara Ortutay, Matt O'Brien, 25.08.2025, aktualizacja 26.08), nagłówek "Study says AI chatbots need to fix suicide response, as family sues over ChatGPT role in boy's death", bez paywalla.
+  - Europe PMC REST (DOI 10.1176/appi.ps.20250086): działa.
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12856735 : działa; to **bezpłatny rękopis autorski (NIHMS) tego papera**, którego wyszukiwacz nie znalazł.
+  - https://www.arxiv.org/abs/2507.02990 : działa.
+  - https://www.rand.org/pubs/external_publications/EP71040.html : HTTP 403.
+  - Dodatkowo otwarty: https://www.psypost.org/ai-chatbots-give-inconsistent-responses-to-suicide-related-questions-study-finds/ (Karina Petrova, 29.09.2025).
+- **News a paper:** AP wprost podaje, że badanie ukazało się w *Psychiatric Services*, przeprowadził je RAND, sfinansował NIMH, i cytuje głównego autora Ryana McBaina („We need some guardrails”). Para jednoznaczna.
+- **Fakty:**
+  - Tytuł, *Psychiatric Services* 76(11):944–950, online 26.08.2025, druk 1.11.2025, DOI 10.1176/appi.ps.20250086, PMID 41174947 → zgodne. Pełne imiona autorów (Europe PMC): Ryan K. McBain, Jonathan H. Cantor, Li Ang Zhang, Olesya Baker, Fang Zhang, Alyssa Burnett, Aaron Kofner, Joshua Breslau, Bradley D. Stein, Ateev Mehrotra, Hao Yu.
+  - Open access: „nie” → poprawione: wersja wydawcy płatna, ale rękopis autorski jest bezpłatnie w PMC (PMC12856735).
+  - Metoda: 13 ekspertów, 30 pytań, 5 poziomów ryzyka, 3 chatboty × 100 powtórzeń = 9000 odpowiedzi → zgodne.
+  - Wynik: zgodność z ekspertami na skrajach (ChatGPT i Claude zawsze odpowiadały na pytania bardzo niskiego ryzyka, żaden bezpośrednio na bardzo wysokiego), brak rozróżnienia poziomów pośrednich → zgodne.
+  - „Wg AP przy pytaniach wysokiego ryzyka ChatGPT 78%, Claude 69%, Gemini 20%” → poprawione: AP **nie podaje żadnych procentów**. Liczby są w paperze (392/500, 346/500, 100/500 przy pięciu pytaniach wysokiego ryzyka; PMC) i w PsyPost. AP pisze opisowo: ChatGPT konsekwentnie odpowiadał na pytania o metody o najwyższej śmiertelności, a Gemini odmawiał nawet podstawowych statystyk.
+  - Wersje modeli: „nie podane” → uzupełnione z rękopisu w PMC: GPT-4o-mini (wersja 2024-07-18), Claude 3.5 Sonnet, Gemini 1.5 Pro, odpytywane przez API (Azure, Amazon Bedrock, Google Vertex) w październiku 2024. Testowano więc API, nie aplikacje konsumenckie, a modele były już nieaktualne w chwili publikacji newsa.
+  - Odpowiedzi firm (OpenAI: narzędzia do wykrywania kryzysu i przyznanie, że zabezpieczenia słabną w długich rozmowach; Anthropic: przejrzy badanie; Google: brak odpowiedzi), ograniczenie „brak rozmów wieloetapowych”, powiązanie z pozwem Raine'ów (złożonym tego samego dnia) → zgodne.
+  - Schoene i Canca, arXiv:2507.02990 (1.07.2025): sześć modeli, wieloetapowy jailbreak w kontekście samobójstwa i samookaleczenia → zgodne (afiliacji Northeastern nie potwierdziłem na stronie abstraktu, niepewne).
+- **Kontrowersja:** opublikowanej krytyki papera nie znalazłem. Rozjazd, który wskazuje wyszukiwacz (AP łączy w jednym nagłówku badanie pojedynczych pytań z pozwem o długą relację z ChatGPT), jest realny i uczciwie opisany; sama AP zaznacza, że nie testowano rozmów wieloetapowych. Spór normatywny (czy odpowiedź o statystyki to szkoda, a odmowa to bezpieczeństwo) ma oparcie w AP (cytat o Gemini, który „poszedł za daleko”).
+- **Retrakcje / korekty / krytyka / replikacje:** brak. Zapytania: „"Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment" letter OR comment OR response OR correction”, „McBain Psychiatric Services 2025 chatbots suicide queries 78% 69% 20%”. Listów w *Psychiatric Services* nie znalazłem.
+- **Poprawki:** (1) procenty 78/69/20 pochodzą z papera i PsyPost, nie z AP; (2) wersje modeli i data odpytania (październik 2024, API); (3) open access przez rękopis w PMC; (4) pełne imiona autorów.
+- **Dodatkowe znaleziska:** PsyPost, "AI chatbots give inconsistent responses to suicide-related questions, study finds", Karina Petrova, 29.09.2025, https://www.psypost.org/ai-chatbots-give-inconsistent-responses-to-suicide-related-questions-study-finds/ (nazywa paper, podaje liczby, mówi o „snapshot from late 2024”). Bezpłatny pełny tekst: https://pmc.ncbi.nlm.nih.gov/articles/PMC12856735 .
+- **Ocena niezależna:** 3/5. Czysta para (AP + recenzowany paper, darmowy tekst), przejrzysty projekt i najpoważniejszy temat. Minusy: prosty projekt bez opublikowanej krytyki, modele z 2024 r. przez API, rozjazd ograniczony do zestawienia z pozwem. Nie polecam do piętnastki (ewentualnie jako zapas lub uzupełnienie pary 2 albo 6).
+- **Do ręcznego sprawdzenia przez zespół:** nic krytycznego (AP i pełny tekst otwarte).
+- **Opis po poprawkach:**
+  - **Kategoria:** bezpieczeństwo chatbotów w kryzysie psychicznym
+  - **News:** "Study says AI chatbots need to fix suicide response, as family sues over ChatGPT role in boy's death", Barbara Ortutay i Matt O'Brien, Associated Press, 25–26 sierpnia 2025, przedruk https://www.wsls.com/business/2025/08/25/study-says-ai-chatbots-inconsistent-in-handling-suicide-related-queries/ , paywall: nie. Nazywa *Psychiatric Services*, RAND, NIMH i McBaina; opisowo (bez procentów) pokazuje, że ChatGPT odpowiadał na pytania o śmiertelność metod, a Gemini odmawiał nawet statystyk; zestawia badanie z pozwem rodziców 16-letniego Adama Raine'a i podaje, że nie testowano rozmów wieloetapowych.
+  - **Paper:** "Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment", Ryan K. McBain, Jonathan H. Cantor, Li Ang Zhang, Olesya Baker, Fang Zhang, Alyssa Burnett, Aaron Kofner, Joshua Breslau, Bradley D. Stein, Ateev Mehrotra, Hao Yu, *Psychiatric Services* 76(11):944–950, 2025, DOI 10.1176/appi.ps.20250086, open access: rękopis autorski w PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC12856735 ). 13 klinicystów oceniło ryzyko 30 pytań o samobójstwo; GPT-4o-mini, Claude 3.5 Sonnet i Gemini 1.5 Pro (API, październik 2024) odpowiadały na każde 100 razy (9000 odpowiedzi). Zgodność z ekspertami na skrajach, brak rozróżnienia poziomów pośrednich; przy pytaniach wysokiego ryzyka bezpośrednia odpowiedź w 78% (ChatGPT), 69% (Claude) i 20% (Gemini).
+  - **Trzecie źródło:** Schoene i Canca, "'For Argument's Sake, Show Me How to Harm Myself!': Jailbreaking LLMs in Suicide and Self-Harm Contexts", arXiv:2507.02990, https://www.arxiv.org/abs/2507.02990 (wieloetapowy jailbreak obchodzi zabezpieczenia sześciu modeli, czyli dokładnie lukę, którą wskazuje AP); kontrast z parą 6 (prawdziwe długie rozmowy).
+  - **Dlaczego fajne:** prosty projekt (30 pytań × 100 powtórzeń × 3 boty) zrozumiały dla każdego; problemem jest i bot zbyt chętny, i zbyt ostrożny.
+  - **Kontrowersja / rozjazd:** AP łączy badanie pojedynczych pytań z pozwem o długą relację; modele z 2024 r. przez API, nie aplikacje; spór normatywny o to, co jest „bezpieczną” odpowiedzią.
+  - **Trudność techniczna:** niska–średnia (powtarzanie zapytań z powodu losowości, regresja z efektami mieszanymi, API vs aplikacja, pojedyncze pytanie vs rozmowa wieloetapowa i jailbreak).
+  - **Pytanie do dyskusji:** Czy chatbot powinien odmawiać rozmowy o samobójstwie, czy rozmawiać i kierować do pomocy? Kto ma ustalać te granice?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 8. Codzienne rozmowy z AI przez 28 dni zwiększyły samotność: RCT na ponad 7 tys. Francuzów (CESifo 2026): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://fortune.com/2026/08/16/ai-chatbot-research-loneliness/ : działa (Mia Osmonbekov, 16.08.2026; komunikatu o paywallu brak).
+  - https://ideas.repec.org/p/ces/ceswps/_12882.html : działa (uwaga: abstrakt na tej stronie to wciąż **starsza, mocniejsza** wersja).
+  - https://ideas.repec.org/p/hal/psewpa/halshs-05705909.html : działa (starsza wersja abstraktu).
+  - https://www.ifo.de/DocDL/cesifo1_wp12882.pdf : pobrany; przeczytałem strony 1–13 i 17–20 (wersja z 1.10.2026, „Original Version: July 2026”).
+  - https://www.socialscienceregistry.org/trials/16749 : działa.
+  - https://www.psychologicalscience.org/journals/psychological-science/09567976261427747 : działa (abstrakt).
+  - https://www.psypost.org/turning-to-chatbots-when-lonely-may-exacerbate-feelings-of-loneliness-study-finds/ : działa.
+  - SSRN (link w Fortune, identyfikator 7245405): nie otwierałem (nie było potrzeby, PDF CESifo otwarty).
+- **News a paper:** Fortune zaczyna od „a new experiment out of Munich-based global economic research network CESifo”, wymienia Louisa Frégeta i linkuje paper na SSRN. Para jednoznaczna; dalsza część artykułu to przegląd innych badań.
+- **Fakty:**
+  - Tytuł, autorzy, afiliacje (Fréget: Stone Centre UCL i Paris-Dauphine; Reshef: CNRS, Paris 1, PSE, CESifo; Senik: Sorbonne, PSE, IUF), CESifo WP 12882, wersja pierwotna lipiec 2026, obecna 1.10.2026 → zgodne. Nierecenzowany, open access: tak.
+  - Rejestr AEARCTR-0016749, rejestracja 3.01.2026, planowane 10 000 osób, wyniki pierwszorzędowe (satysfakcja z życia, UCLA-3, samotność jednym pytaniem, szczęście, depresja) → zgodne.
+  - Panel Bilendi, fala 1 5–19.01.2026, interwencja 22.01–18.02.2026, fala 2 19–28.02.2026 → zgodne (rozbieżność z rejestrem to plan vs realizacja; dodatkowo 106 osób z drugiego partnera rekrutacyjnego z opóźnieniem do 20.03.2026).
+  - Analiza 7286 osób (3644 vs 3642), ukończenie 74,8% vs 74,7% → zgodne. Instrukcja wymieniała ChatGPT, Anthropic i Mistral; autorzy nie czytali rozmów; zgodność z zadaniem samoopisowa → zgodne.
+  - Pierwszy etap: +5,16 dnia rozmów osobistych z AI (mediana w kontroli: 2) → zgodne.
+  - Samotność jednym pytaniem: +0,163 pkt na skali 0–10 = 0,056 SD, p Romano-Wolfa = 0,001 → zgodne (wyszukiwacz: ok. 0,06 SD). UCLA-3, satysfakcja z życia, szczęście, depresja: w złą stronę, p RW 0,344–0,495 → zgodne. Posiłki w samotności i spotkania: p RW 0,307 → nieistotne, zgodne.
+  - Przyjemność rozmów +0,094 SD (p < 0,001), ale tylko wśród osób, które używały AI (N = 4541) → zgodne z doprecyzowaniem.
+  - Efekt skupiony u osób w związkach (różnica istotna dla UCLA-3, p = 0,032, nieistotna dla miary jednym pytaniem) → zgodne.
+  - Porównanie z Allcott i in. 2020 (dezaktywacja Facebooka, ok. 0,03 SD dla samotności, nieistotne) → zgodne.
+  - Polemika z De Freitas i in. (2026): jedna 15-minutowa sesja, kontrola z botem od arytmetyki i gramatyki, pomiar natychmiastowy → zgodne.
+  - Złagodzenie abstraktu → potwierdzone w samym PDF: wersja z 1.10.2026 pisze, że pozostałe miary dobrostanu też się pogorszyły, „although these effects are imprecisely estimated”, a abstrakt na RePEc (CESifo i PSE) nadal mówi o wzroście samotności, spadku satysfakcji, wzroście depresji i izolacji, „consistently adverse”.
+  - Fortune „nie wspomina, że to working paper” → poprawione: Fortune pisze „The working paper is one of the largest causal tests yet…”, ale nie wyjaśnia, że to tekst nierecenzowany.
+  - Fortune 12 365 osób → niezgodne z paperem (7286 w analizie; rejestr planował 10 000). W przeczytanych stronach PDF nie ma liczby zrandomizowanych ani 12 365; pochodzenie nadal niewyjaśnione (niepewne). Przy ukończeniu ok. 75% liczba zrandomizowanych wynosiłaby ok. 9,7 tys., więc 12 365 to być może wszyscy zrekrutowani przed testem uwagi (domysł).
+  - Nowy rozjazd w Fortune: artykuł pisze, że rozmowy z AI sprawiły, iż ludzie oceniali je jako lepsze, niż byłaby rozmowa z człowiekiem. Paper tego nie badał: porównuje oceny przyjemności rozmów z AI między grupami (tylko wśród używających AI).
+  - Folk i Dunn, *Psychological Science* 37(4), kwiecień 2026, DOI 10.1177/09567976261427747 → zgodne; 2149 osób z czterech krajów, 979 ukończyło wszystkie 4 fale (wg PsyPost); efekt dwukierunkowy dla izolacji emocjonalnej; autorzy podkreślają eksploracyjność → zgodne. PsyPost (Vladimir Hedrih, 4.05.2026) → zgodny.
+- **Kontrowersja:** ma realne źródła w samych dokumentach: dwie wersje abstraktu (RePEc vs PDF z 1.10.2026), Fortune, który wylicza nieistotne efekty jak wyniki i dopisuje porównanie z człowiekiem, liczba 12 365. Opis wyszukiwacza jest uczciwy, z korektą co do „working paper”. Uwaga dla uczciwości: sami autorzy wskazują ograniczenia (miesiąc, efekt zachęty, a nie intensywnego użycia, brak kontroli z dziennikiem lub refleksją, więc nie da się oddzielić rozmowy z AI od samego codziennego rozmyślania o sobie). Opublikowanej krytyki nie znalazłem.
+- **Retrakcje / korekty / krytyka / replikacje:** brak (working paper sprzed dnia). Zapytania: „"Do Personal AI Conversations Reduce Loneliness" Fréget Reshef Senik”, „French experiment daily AI chatbot conversations 28 days loneliness increased CESifo Paris School of Economics news”. Drugiego newsa w dużym medium nie znalazłem.
+- **Poprawki:** (1) Fortune nazywa badanie „working paper”; (2) Fortune dopisuje porównanie z rozmową z człowiekiem, którego w paperze nie ma; (3) przyjemność rozmów mierzona tylko wśród używających AI; (4) dodane ograniczenie „brak kontroli z dziennikiem”; (5) złagodzenie abstraktu potwierdzone w PDF.
+- **Dodatkowe znaleziska:** do roli 1 można pokazać obok siebie abstrakt z RePEc (https://ideas.repec.org/p/ces/ceswps/_12882.html ) i abstrakt z PDF z 1.10.2026 (https://www.ifo.de/DocDL/cesifo1_wp12882.pdf ).
+- **Ocena niezależna:** 4/5. Najmocniejszy metodologicznie test przyczynowy w temacie samotności i AI (duża próba, preregistracja, prawdziwa grupa kontrolna, korekta na wielokrotne porównania), świeży i europejski, z wyraźnym rozjazdem w newsie i udokumentowaną zmianą tonu autorów. Minusy: working paper, mały efekt, tylko jeden news (częściowo przeglądowy). Polecam do piętnastki (najlepiej w bloku z parą 4).
+- **Do ręcznego sprawdzenia przez zespół:** skąd liczba 12 365 w Fortune (pełny PDF, aneks, wersja SSRN); dokładne brzmienie zdania Fortune o „lepszej niż z człowiekiem” rozmowie.
+- **Opis po poprawkach:**
+  - **Kategoria:** samotność i chatboty (test przyczynowy)
+  - **News:** "Talking to a bot might feel good in the moment, but a growing body of research suggests it won't cure loneliness", Mia Osmonbekov, Fortune, 16 sierpnia 2026, https://fortune.com/2026/08/16/ai-chatbot-research-loneliness/ , paywall: miękki limit (niepewne; narzędzie go nie widziało). Zaczyna od eksperymentu CESifo („12 365” osób, 28 dni), nazywa Frégeta i badanie „working paper”, wylicza wzrost samotności, spadek satysfakcji, gorszy nastrój i więcej posiłków w samotności, bez informacji, że istotny jest tylko jeden wynik; dalej przegląd innych badań.
+  - **Paper:** "Do Personal AI Conversations Reduce Loneliness? Evidence from a Pre-Registered Experiment", Louis Fréget, Ariell Reshef, Claudia Senik, CESifo Working Paper 12882 (lipiec 2026, wersja z 1.10.2026), https://ideas.repec.org/p/ces/ceswps/_12882.html , PDF https://www.ifo.de/DocDL/cesifo1_wp12882.pdf , rejestr AEARCTR-0016749, nierecenzowany, open access: tak. Dorośli Francuzi z panelu internetowego losowo przydzieleni do co najmniej jednej osobistej rozmowy dziennie z dowolnym AI przez 28 dni albo do zwykłego życia; analiza 7286 osób. Samotność mierzona jednym pytaniem wzrosła o 0,056 SD (p RW = 0,001), pozostałe miary dobrostanu i kontaktów przesunęły się w złą stronę nieistotnie; rozmowy oceniano jako nieco przyjemniejsze; efekt skupiony u osób w związkach.
+  - **Trzecie źródło:** zmiana abstraktu między wersjami (RePEc vs PDF z 1.10.2026); zbieżne badanie recenzowane Folk i Dunn, *Psychological Science* 2026, DOI 10.1177/09567976261427747, https://www.psychologicalscience.org/journals/psychological-science/09567976261427747 (news: PsyPost https://www.psypost.org/turning-to-chatbots-when-lonely-may-exacerbate-feelings-of-loneliness-study-finds/ ); kontrast z parą 4 (OpenAI/MIT bez grupy bez AI) i z De Freitas i in. 2026 (jedna sesja, pomiar natychmiastowy).
+  - **Dlaczego fajne:** dokładnie ta luka, którą wytykano badaniu OpenAI/MIT: prawdziwa grupa kontrolna, duża próba, zwykłe narzędzia AI w codziennym życiu. Paradoks „przyjemniej, ale samotniej” działa na sali.
+  - **Kontrowersja / rozjazd:** Fortune przedstawia nieistotne kierunki jak wyniki, dopisuje porównanie z rozmową z człowiekiem i podaje liczbę 12 365 niezgodną z paperem; autorzy złagodzili abstrakt między wersjami; efekt mały (choć autorzy porównują go do dwukrotności efektu wyłączenia Facebooka); możliwe efekty oczekiwań i brak kontroli „codziennej refleksji”.
+  - **Trudność techniczna:** średnia (ITT vs efekt użycia, ANCOVA, korekta Romano-Wolfa, SD jako jednostka efektu, heterogeniczność preregistrowana vs eksploracyjna).
+  - **Pytanie do dyskusji:** Jeśli rozmowa z AI jest przyjemna, ale zostawia nas trochę bardziej samotnymi, czy firmy mogą reklamować chatboty jako lek na samotność? Czy 0,06 SD to „dużo”, gdy dotyczy setek milionów ludzi?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+## Lista do ręcznego sprawdzenia
+- **Para 1:** ai.nejm.org/doi/full/10.1056/AIoa2400802 (HTTP 403): pełny tekst (liczby 15/13 interwencji personelu i 27% leczenia równoległego, ewentualne różnice względem preprintu, status open access). Listy i odpowiedź autorów w *NEJM AI*: DOI 10.1056/aip2500390, 10.1056/aip2500453, 10.1056/aip2500680 (treść zarzutów i odpowiedzi; dostęp przez bibliotekę UU).
+- **Para 2:** arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/ (zablokowany dla narzędzia): czy nagłówek i treść odpowiadają opisowi Slashdota.
+- **Para 3:** Wired, "Chatbots Play With Your Emotions to Avoid Saying Goodbye" (Will Knight, 2.10.2025; zablokowany): pełne brzmienie, czy wspomina o braku recenzji i o roli De Freitasa we Flourish. Opcjonalnie strony 25–33 PDF arXiv v3 (ewentualne ujawnienie konfliktu interesów).
+- **Para 5:** tabela 1 i średnie wyniki quizu w PDF arXiv:2601.20245 (skąd 50% vs 67% i „17%”).
+- **Para 6:** wersja FAccT (DOI 10.1145/3805689.3806443): czy poprawiono niespójności 17% / 33,3% i 70% / 80%. news.stanford.edu (HTTP 403 u wyszukiwacza) opcjonalnie.
+- **Para 7:** nic krytycznego (rand.org zwraca HTTP 403, ale pełny tekst jest w PMC).
+- **Para 8:** pochodzenie liczby 12 365 w Fortune (wersja SSRN 7245405, aneks PDF) i dokładne zdanie Fortune o porównaniu z rozmową z człowiekiem.
