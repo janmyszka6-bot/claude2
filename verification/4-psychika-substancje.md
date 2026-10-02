@@ -133,4 +133,120 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/4-psychika
   - **Pytanie do dyskusji:** Jeśli badanie zostaje wycofane, kto ma „odkręcić” decyzje i nagłówki oparte na nim? Czy rodzice, którzy już podają lek, powinni przestać?
   - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
 
+### 4. Odstawienie antydepresantów: „średnio jeden dodatkowy objaw” kontra „56% ma objawy”: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - Yahoo (https://www.yahoo.com/news/scientists-accused-downplaying-dangers-antidepressants-150000704.html): działa; strona wyraźnie podaje The Telegraph jako dostawcę treści i Sarah Knapton jako autorkę, więc to licencjonowana syndykacja. Oryginału Telegraph nie otwierałem.
+  - Paper: metadane i pełny abstrakt przez Europe PMC (PMID 40632531). Wolny pełny tekst w PMC (PMC12242823) i wersja autorska w UCL Discovery (wynik wyszukiwania).
+  - Erratum https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2836896 : działa.
+  - Psychological Medicine (Moncrieff i in.; Baethge i in.): potwierdzone przez Crossref API.
+- **News a paper:** Telegraph/Yahoo pisze o nowym badaniu w JAMA Psychiatry (Imperial College i King's College London, 50 badań, prawie 18 000 pacjentów), cytuje Sameera Jauhara (Imperial) i Michaila Kalfasa (KCL). Jednoznaczna para.
+- **Fakty:**
+  - Tytuł, czasopismo, 82(9):896–904, DOI, PMID, PMCID → zgodne. Data: online 9.07.2025, numer wrześniowy 2025.
+  - Autorzy → poprawione: lista w Europe PMC zawiera **dwóch autorów „Lewis G”** (19 nazwisk, nie 18).
+  - 50 badań, 17 828 uczestników; DESS po tygodniu SMD 0,31 (95% CI 0,23–0,39; k=11; n=3 915); zawroty głowy OR 5,52 (3,81–8,01), różnica ryzyka 6,24%; nudności OR 3,16; vertigo OR 6,40 (1,20–34,19); nerwowość OR 3,15; brak związku z objawami depresji (k=5) → zgodne (pełny abstrakt).
+  - „Ok. 1 objaw więcej” → zgodne z newsem („about one additional symptom”) i komunikatem uczelni; abstrakt mówi, że średnia liczba objawów była poniżej progu klinicznie istotnego zespołu odstawiennego.
+  - Open access → doprecyzowane: wolny pełny tekst w PMC; Europe PMC oznacza artykuł jako nie-OA w sensie licencji.
+  - Erratum → **poprawione:** „Omitted Disclosures”, DOI 10.1001/jamapsychiatry.2025.2398, opublikowane online **22 lipca 2025** (nie w listopadzie). Dotyczy prof. Allana Younga: pominięte honoraria m.in. od Janssen, Lundbeck, Eli Lilly, AstraZeneca, Compass, Servier, Otsuka, Novartis, Roche, Takeda → zgodne co do treści.
+  - Cytaty krytyków w newsie → zgodne: John Read (minimalizowanie objawów zagraża bezpieczeństwu pacjentów; badania firm trwały kilka tygodni), Mark Horowitz (8–12-tygodniowe badania to coś innego niż odstawienie po latach).
+  - „Badanie UEL z 2019 r., 56%” → doprecyzowane: to przegląd systematyczny Davies & Read, Addictive Behaviors 2019, DOI 10.1016/j.addbeh.2018.08.027: 24 badania; częstość z 14 badań od 27% do 86%, średnia ważona 56%; w czterech dużych badaniach 46% oceniło objawy jako ciężkie. Telegraph nazywa go „study”.
+  - Moncrieff i in., Psychol Med 55:e191 (2025), reanaliza przeglądu Henssler i in.: 55% (95% CI 31–81%, N=601) w 5 badaniach z systematycznym pomiarem → zgodne. Odpowiedź Baethge, Bschor, Henssler, „Double counting, double standards…”, Psychol Med 55:e329, online 30.10.2025 → zgodne.
+- **Kontrowersja:** realna i z konkretnymi źródłami. Opis wyszukiwacza uczciwy. Nagłówek Telegraph ustawia sprawę jako „oskarżenie naukowców”, ale treść daje głos obu stronom. Uwaga: paper sam podkreśla ograniczenia (krótkie obserwacje, krótkie leczenie), więc krytyka dotyczy głównie komunikatu „objawy rzadkie i łagodne”, a nie ukrytych danych.
+- **Retrakcje / korekty / krytyka / replikacje:** erratum o konfliktach interesów (22.07.2025). Opublikowanych listów do JAMA Psychiatry nie znalazłem. Znalazłem krytykę poza czasopismem: Mark Horowitz, „Nonsense Disguised as Nuance: No, the Kalfas Meta-Analysis Doesn't Prove Antidepressant Withdrawal Is Modest”, Substack, 31.07.2025 (główna analiza oparta na 11 RCT z ekspozycją 8–12 tygodni, brak danych z ANTLER, DESS nie mierzy nasilenia ani czasu trwania, mało paroksetyny i wenlafaksyny); komentarz w Therapeutics Letter (UBC). Science Media Centre (9.07.2025): reakcje ekspertów raczej pozytywne (Murphy, Domschke, Vinkers), z zastrzeżeniem braku danych o długim stosowaniu. Zapytania: „Kalfas Jauhar … JAMA Psychiatry letter comment reply criticism Horowitz Davies”, „"Incidence and Nature of Antidepressant Discontinuation Symptoms" letter OR "in reply"”, Europe PMC (letter/comment).
+- **Poprawki:**
+  1. Erratum: online 22.07.2025, nie listopad 2025.
+  2. Lista autorów: dwóch „Lewis G”.
+  3. „Badanie UEL 2019” to przegląd systematyczny 24 badań (56% to średnia ważona z 14).
+  4. Open access: wolny pełny tekst w PMC.
+  5. Lepszy, bardziej wyważony drugi news: NPR (niżej).
+- **Dodatkowe znaleziska:**
+  - **Drugi news, otwarty i z renomowanego medium:** „A new study renews the debate around withdrawal from stopping antidepressants”, NPR, Will Stone, 13.07.2025, przedruk na stronie stacji członkowskiej KUNC: https://www.kunc.org/npr-news/2025-07-13/a-new-study-renews-the-debate-around-withdrawal-from-stopping-antidepressants . Cytuje Jauhara, Johna Reada („completely inaccurate, outrageous and misleading”) i Awaisa Aftaba (badanie „opens more questions than it answers”). Dobry kontrast z ramą Telegraph.
+  - Horowitz, Substack, 31.07.2025: https://mhorowitz.substack.com/p/no-the-kalfas-meta-analysis-doesnt (szczegółowa krytyka; głos strony).
+  - Science Media Centre, reakcje ekspertów: https://www.sciencemediacentre.org/expert-reaction-to-systematic-review-and-meta-analysis-on-antidepressant-withdrawal-symptoms/
+- **Ocena niezależna:** 4/5. Recenzowany paper w czołowym czasopiśmie, bardzo osobisty temat dla studentów, wyraźny spór dwóch obozów (z wymianą w Psychological Medicine) i erratum o konfliktach interesów. Z NPR jako drugim newsem para jest kompletna. Minus: część krytyki jest w blogach, a nie w recenzowanych listach. Polecam do piętnastki (raczej tak, choć słabiej niż pary 1 i 3); tematycznie zachodzi na parę 1 (te same obozy: Moncrieff/Horowitz/Plöderl vs psychiatria „głównego nurtu”).
+- **Do ręcznego sprawdzenia przez zespół:** oryginał w The Telegraph (paywall, ewentualne różnice względem Yahoo).
+- **Opis po poprawkach:**
+  - **Kategoria:** leki psychiatryczne / spór o odstawienie
+  - **News:** „Scientists accused of downplaying dangers of antidepressants”, The Telegraph, Sarah Knapton, 9 lipca 2025, licencjonowany przedruk na Yahoo News: https://www.yahoo.com/news/scientists-accused-downplaying-dangers-antidepressants-150000704.html , paywall: nie (Yahoo; oryginał Telegraph prawdopodobnie tak). Podaje wynik („about one additional symptom”, najczęściej zawroty głowy) i od razu oddaje głos krytykom (Read, Horowitz); zestawia z przeglądem UEL z 2019 r. (56%). Nagłówek ustawia spór jako oskarżenie. Drugi news: NPR, Will Stone, 13.07.2025 (link KUNC wyżej), wyważony.
+  - **Paper:** „Incidence and Nature of Antidepressant Discontinuation Symptoms: A Systematic Review and Meta-Analysis”, Kalfas M, Tsapekos D, Butler M, McCutcheon RA, Pillinger T, Strawbridge R, Bhat BB, Haddad PM, Cowen PJ, Howes OD, Joyce DW, Nutt DJ, Baldwin DS, Pariante CM, Lewis G, Young AH, Lewis G, Hayes JF, Jauhar S. JAMA Psychiatry 82(9):896–904, online 9.07.2025, DOI 10.1001/jamapsychiatry.2025.1362, wolny pełny tekst w PMC (PMC12242823). Przegląd RCT: 50 badań, 17 828 uczestników. Po tygodniu od odstawienia SMD 0,31 w skali DESS (średnio ok. 1 objaw więcej; poniżej progu zespołu odstawiennego); zawroty głowy OR 5,52 (różnica ryzyka 6,24%), nudności, vertigo, nerwowość; brak związku z objawami depresji. Ograniczenia: krótkie leczenie i krótkie obserwacje.
+  - **Trzecie źródło:** erratum „Omitted Disclosures”, JAMA Psychiatry, 22.07.2025, https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2836896 (pominięte konflikty interesów prof. Younga); krytyka: Horowitz, Substack, 31.07.2025 (link wyżej); spór w Psychological Medicine: Moncrieff i in. 55:e191 (DOI 10.1017/s0033291725100652) i odpowiedź Baethge i in. 55:e329 (DOI 10.1017/s0033291725101980).
+  - **Dlaczego fajne:** wielu studentów bierze SSRI albo zna kogoś, kto bierze. Ten sam problem, dwa obozy naukowców, liczby różne o rząd wielkości (1 objaw vs 56%), bo mierzą co innego.
+  - **Kontrowersja / rozjazd:** naukowa (krótkie RCT firm vs ankiety pacjentów; objaw odstawienia vs nawrót; średnia vs ogon rozkładu) i etyczna (konflikty interesów ujawnione po publikacji). Media: Telegraph wybiera ramę oskarżenia, NPR ramę „odnowionej debaty”.
+  - **Trudność techniczna:** średnia. SMD, OR vs różnica ryzyka, dlaczego średnia może ukrywać ciężkie przypadki, design RCT vs ankieta.
+  - **Pytanie do dyskusji:** Komu wierzyć: metaanalizie krótkich badań klinicznych czy relacjom tysięcy pacjentów? Czy „średnio jeden objaw” to uczciwy komunikat dla kogoś, kto chce odstawić lek po latach?
+  - **Weryfikacja:** ⚠️ poprawione (data erraty, autorzy, opis przeglądu UEL), pewność wysoka.
+
+### 5. Czy trauma wojny „dziedziczy się” w epigenomie? Trzy pokolenia syryjskich uchodźców: ⚠️ poprawione (pewność: średnia)
+- **Sprawdzone linki:**
+  - Nature news (https://www.nature.com/articles/d41586-025-00937-z): działa po 3 przekierowaniach; tytuł, podtytuł, autorka, data (28.03.2025; Nature 640, 294–295) i przypis (Mulligan i in., Sci. Rep. 15, 5945) potwierdzone. Paywall: tak; nazwisk krytyków w widocznej części nie ma.
+  - Paper: Europe PMC (abstrakt) i pełny tekst w PMC (https://pmc.ncbi.nlm.nih.gov/articles/PMC11868390/): działa.
+  - The Conversation (Camilleri): działa; nie nazywa tego papera (zgodnie z opisem wyszukiwacza).
+- **News a paper:** Nature w podtytule mówi o badaniu, które znalazło „genetic imprints” w trzech pokoleniach syryjskich uchodźców, i cytuje paper w przypisie. Jednoznaczna para.
+- **Fakty:**
+  - Tytuł, autorzy, Sci Rep 15:5945, 27.02.2025, DOI, PMCID, OA → zgodne.
+  - 48 rodzin, 131 osób → zgodne. **Uzupełnienie (pełny tekst):** grupa „Hama” 10 rodzin / 28 osób, grupa 2011: 22 rodziny / 61 osób, kontrola 16 rodzin / 42 osoby. Sygnał „germline” opiera się więc na ok. 10 rodzinach.
+  - Grupy → poprawione (wyszukiwacz pisał z pamięci): paper opisuje masakrę w Hamie „that started in 1980” (historycznie główna masakra to luty 1982; trzymać się sformułowania papera i zaznaczyć to), grupę 2011 (matki w ciąży w czasie wojny; młodsze dzieci z ekspozycją prenatalną, starsze z bezpośrednią) i kontrolę: rodziny, w których babki i matki mieszkały w Jordanii przed 1980 r.
+  - „14 pozycji … i 21” → poprawione: 14 i 21 **regionów różnie metylowanych (DMR)**, nie pojedynczych pozycji.
+  - Tkanka → poprawione: **wymaz z policzka (buccal swab)**, nie ślina/krew. Pomiar: Illumina EPIC (ponad 850 000 CpG), próg Bonferroniego 6,505 × 10⁻⁸.
+  - Przyspieszony wiek epigenetyczny u dzieci z ekspozycją prenatalną; cytat „the first report of an intergenerational epigenetic signature of violence” → zgodne.
+  - Ograniczenia wg autorów: tkanka, mała próba, tylko metylacja DNA.
+- **Kontrowersja:** realna, ale główne źródła są poza czasopismami: Jerry Coyne (blog, 2.03.2025) i Mental Elf (krytyczna ocena, 29.05.2025). Wg wyników wyszukiwania w Nature wypowiada się m.in. Rachel Yehuda (badanie jako „proof of concept”, bez wyjaśnienia wpływu na zdrowie); nie potwierdziłem tego w widocznej części artykułu. Uwaga wyszukiwacza o nagłówku Nature („genetically inherited” przy zmianach epigenetycznych) jest trafna i potwierdzona; jeszcze dalej idzie ScienceAlert („Violence Leaves Its Mark on Our Genes For Generations”).
+- **Retrakcje / korekty / krytyka / replikacje:** brak korekt, komentarzy „Matters Arising” i wpisów PubPeer w wynikach. Brak replikacji. Zapytania: „"Epigenetic signatures of intergenerational exposure to violence" correction OR comment OR "matters arising" OR PubPeer”, „Mulligan Syrian refugees epigenetic … criticism replication”.
+- **Poprawki:**
+  1. DMR (regiony), nie pozycje.
+  2. Wymaz z policzka, nie ślina/krew.
+  3. Grupy i ich liczebność (10/22/16 rodzin); paper datuje Hamę na 1980.
+  4. Trzecie źródło wymienione na bezpośrednie polemiki (Coyne, Mental Elf); The Conversation tylko jako tło.
+  5. Krytycy w Nature: niepotwierdzeni (paywall).
+- **Dodatkowe znaleziska:**
+  - Jerry Coyne, „A misleading case of ‘trauma inherited across generations’”, Why Evolution Is True, 2.03.2025, https://whyevolutionistrue.com/2025/03/02/a-misleading-case-of-trauma-inherited-across-generations/ : zarzuty: kontrola nieporównywalna (rodziny w Jordanii od dawna), mała próba, nieznana funkcja zmienionych miejsc, małe efekty, media mylą „dziedziczenie metylacji” z „dziedziczeniem traumy”; przytacza żart Johna Greally'ego, że wymaz z policzka może mierzyć raczej zapalenie dziąseł.
+  - Demelza Smeeth, Mental Elf (National Elf Service), 29.05.2025, https://www.nationalelfservice.net/publication-types/case-control/inheriting-traumas-war-examining-dna-methylation-across-three-generations-syrian-refugees/ : wyważona ocena (mocne strony: unikalna populacja, trzy pokolenia, korekta na wielokrotne testy; słabości: mała próba, obserwacyjny design, jeden punkt pomiaru).
+  - Otwarty news z przesadnym nagłówkiem: „Violence Leaves Its Mark on Our Genes For Generations, Study Finds”, ScienceAlert, David Nield, 6.03.2025, https://www.sciencealert.com/violence-leaves-its-mark-on-our-genes-for-generations-study-finds (podaje Scientific Reports, jedno zastrzeżenie, brak krytyków). Dobre do roli 1.
+- **Ocena niezależna:** 4/5. Fascynujący i bardzo „poczuwalny” temat (dziedziczenie traumy), paper otwarty i recenzowany, a rozjazd nagłówków („genetically inherited”, „marks on our genes”) wobec metylacji w wymazach z policzka od kilkudziesięciu osób jest wyraźny i dobrze udokumentowany. Minusy: news Nature za paywallem, polemiki tylko blogowe, paper techniczny (EWAS). Polecam do piętnastki.
+- **Do ręcznego sprawdzenia przez zespół:** pełna treść Nature: nazwiska i argumenty krytyków (czy jest Rachel Yehuda, John Greally).
+- **Opis po poprawkach:**
+  - **Kategoria:** trauma / epigenetyka
+  - **News:** „Can trauma from violence be genetically inherited? Scientists debate Syria refugee study”, Nature (News), Miryam Naddaf, 28 marca 2025, https://www.nature.com/articles/d41586-025-00937-z , paywall: tak. Podtytuł: badanie znajduje „genetic imprints” w trzech pokoleniach syryjskich uchodźców, badacze wzywają do ostrożności i replikacji. Sam nagłówek mówi „genetically inherited”, choć chodzi o metylację DNA. Otwarta alternatywa z mocniejszym nagłówkiem: ScienceAlert, 6.03.2025 (link wyżej).
+  - **Paper:** „Epigenetic signatures of intergenerational exposure to violence in three generations of Syrian refugees”, Mulligan CJ, Quinn EB, Hamadmad D, Dutton CL, Nevell L, Binder AM, Panter-Brick C, Dajani R. Scientific Reports 15:5945, 27.02.2025, DOI 10.1038/s41598-025-89818-z, open access: tak. 48 rodzin w Jordanii (131 osób, wymazy z policzka, Illumina EPIC): grupa Hama (10 rodzin, babki w ciąży w czasie masakry, którą paper datuje na 1980), grupa wojny 2011 (22 rodziny) i kontrola (16 rodzin mieszkających w Jordanii przed 1980). EWAS: 14 regionów różnie metylowanych związanych z ekspozycją „germline” i 21 z bezpośrednią ekspozycją, zgodny kierunek zmian, przyspieszony wiek epigenetyczny u dzieci z ekspozycją prenatalną.
+  - **Trzecie źródło:** Jerry Coyne, blog Why Evolution Is True, 2.03.2025 (ostra krytyka papera i jego relacji w mediach) oraz Mental Elf, 29.05.2025 (wyważona ocena); linki wyżej. Tło: The Conversation, Camilleri, 30.06.2025, https://theconversation.com/trauma-is-carried-in-your-dna-but-science-reveals-a-more-complicated-story-259057
+  - **Dlaczego fajne:** „dziedziczona trauma” to popularna idea (TikTok, terapia, książki), a ten paper jest jej najczęściej przywoływanym nowym dowodem u ludzi. Każdy może się odnieść (rodzinne historie, wojny).
+  - **Kontrowersja / rozjazd:** naukowa (mała próba, zwłaszcza ok. 10 rodzin w grupie „germline”; dobór kontroli; EWAS; brak dowodu funkcjonalnego; trudność oddzielenia biologii od środowiska rodzinnego) i medialna („genetically inherited”, „marks on our genes” vs metylacja w wymazie z policzka).
+  - **Trudność techniczna:** średnia–wysoka. Metylacja DNA, EWAS i korekta Bonferroniego, zegary epigenetyczne, ekspozycja „germline”.
+  - **Pytanie do dyskusji:** Czy to dobrze, że ludzie wierzą w „dziedziczoną traumę”, jeśli dowody są słabe? Czy etykieta „biologicznie naznaczonego pokolenia” pomaga, czy stygmatyzuje uchodźców?
+  - **Weryfikacja:** ⚠️ poprawione (DMR, tkanka, grupy, trzecie źródło; krytycy w Nature niepotwierdzeni), pewność średnia.
+
+### 6. Mikrodawkowanie psylocybiny (Lejda): ta sama grupa, dwa papery, dwa przeciwne nagłówki: ⚠️ poprawione (pewność: średnia)
+- **Sprawdzone linki:**
+  - PsyPost A (https://www.psypost.org/psilocybin-microdosing-fails-to-boost-cognitive-performance-in-rigorous-trials/): działa, 19.01.2026, Karina Petrova.
+  - PsyPost B (https://www.psypost.org/major-new-study-finds-psilocybin-microdoses-improve-the-quality-of-creative-ideas-but-not-the-quantity/): działa, 24.01.2026, Karina Petrova.
+  - PsyPost 2022 (Cavanna): działa; autorka Beth Ellwood, 6.09.2022.
+  - Papery: Europe PMC (abstrakty; PMID papera B: 41187880), Crossref (metadane B). PubMed: strona z wymogiem cookies, nieczytelna. Strony Elsevier: nie otwierane (paywall).
+- **News a paper:** oba teksty PsyPost podają tytuł papera, autorów i czasopismo (Neuropharmacology). Jednoznaczne.
+- **Fakty:**
+  - Paper A: tytuł, autorzy, Neuropharmacology 283 (luty 2026), DOI 10.1016/j.neuropharm.2025.110722, OA nie → zgodne. Wynik: brak istotnych efektów behawioralnych i subiektywnych vs placebo; wstępne efekty (poznanie społeczne, nastrój) znikają po korekcie na wielokrotne porównania; zaślepienie skuteczne → zgodne (abstrakt).
+  - Dawki w A (0,65 g co kilka dni przez 4 tygodnie; 1 g przez 8 tygodni), nudności i „negative bodily awareness”, zgadywanie na poziomie losowym → zgodne z PsyPost. Liczebności prób PsyPost nie podaje.
+  - Paper B: tytuł, autorzy, Neuropharmacology 284 (luty 2026), DOI 10.1016/j.neuropharm.2025.110732, OA nie → zgodne. N=171 łącznie → zgodne z abstraktem. **Niespójność:** PsyPost podaje liczebności trzech badań 59, 61 i 27 (razem 147, nie 171); różnica może wynikać z liczenia zrekrutowanych vs analizowanych (niepewne).
+  - „Istotny przy uwzględnieniu względnej dawki” → zgodne i doprecyzowane: abstrakt mówi, że nieskorygowany wynik oryginalności był istotny tylko przy uwzględnieniu dawki względnej (dawka/masa ciała), a stosunek oryginalność/płynność rósł w grupie aktywnej; efekty „survived controlling for dose guess and demographic biases”.
+  - Zaślepienie w trzecim badaniu nieskuteczne → zgodne z PsyPost (uczestnicy zgadywali lepiej niż losowo z powodu doznań fizycznych).
+  - Nakładanie się prób A i B → niepewne: A opisuje dwa badania, B trzy, w tym dawki 0,65–1,5 g; prawdopodobnie te same badania z programu Lejdy, ale tego nie potwierdziłem.
+  - Cavanna i in., Translational Psychiatry 2022, 34 osoby; efekty subiektywne tylko u osób, które poprawnie zgadły grupę → zgodne.
+- **Kontrowersja:** częściowo poprawiona. Nagłówek B („Major new study finds … improve the quality of creative ideas”) nie przekręca papera: powtarza interpretację samych autorów (abstrakt mówi o „higher quality of divergent thinking”). Przesadą jest raczej „Major” przy pojedynczym dodatnim wskaźniku spośród kilku miar i przy N=171. Argument o „garden of forking paths” to hipoteza wyszukiwacza (i moja), nie opublikowana krytyka; dotyczy papera tak samo jak newsa. PsyPost B sam podaje zastrzeżenia (drugie badanie samodzielnie nie powtórzyło wyniku, efekty kruche).
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono. Zapytania: „psilocybin microdosing Leiden Prochazkova creativity criticism OR critique … Neuropharmacology 2026”, Europe PMC AUTH:"Prochazkova L".
+- **Poprawki:**
+  1. Liczebności w PsyPost B (59+61+27=147) nie zgadzają się z N=171 z abstraktu.
+  2. Nagłówek B oddaje interpretację autorów; rozjazd jest między liczbą sprawdzonych miar a jednym dodatnim wynikiem (w paperze i newsie), a nie między newsem a paperem.
+  3. Brak opublikowanej, niezależnej krytyki.
+- **Dodatkowe znaleziska:** brak.
+- **Ocena niezależna:** 3/5. Solidne, recenzowane RCT z zaślepieniem i lokalny haczyk (Lejda, legalne trufle w Holandii), ale oba papery za paywallem, oba newsy z PsyPost (serwis popularnonaukowy), brak niezależnej polemiki, a „rozjazd” jest subtelniejszy, niż sugerował wyszukiwacz. Nie polecam do piętnastki; ewentualnie jako rezerwa, jeśli potrzebny jest temat psychodelików i placebo.
+- **Do ręcznego sprawdzenia przez zespół:** pełne teksty obu paperów (liczebności, liczba miar kreatywności, czy A i B dzielą uczestników).
+- **Opis po poprawkach:**
+  - **Kategoria:** psychodeliki / placebo i oczekiwania
+  - **News:** A: „Psilocybin microdosing fails to boost cognitive performance in rigorous trials”, PsyPost, Karina Petrova, 19.01.2026, https://www.psypost.org/psilocybin-microdosing-fails-to-boost-cognitive-performance-in-rigorous-trials/ , paywall: nie. B: „Major new study finds psilocybin microdoses improve the quality of creative ideas but not the quantity”, PsyPost, Karina Petrova, 24.01.2026, https://www.psypost.org/major-new-study-finds-psilocybin-microdoses-improve-the-quality-of-creative-ideas-but-not-the-quantity/ , paywall: nie. A opisuje brak efektów poznawczych i skuteczne zaślepienie; B eksponuje jedyny dodatni wskaźnik (odsetek oryginalnych pomysłów), podając zastrzeżenia w treści.
+  - **Paper:** A: „Cognitive and subjective effects of psilocybin microdosing: Results from two double-blind placebo-controlled longitudinal trials”, Prochazkova L, Marschall J, Lippelt DP, Schon NR, Kuchař M, Hommel B, Neuropharmacology 283, 2026, DOI 10.1016/j.neuropharm.2025.110722, open access: nie. Dwa podwójnie ślepe RCT: brak efektów vs placebo po korekcie na wielokrotne porównania. B: „Microdosing psilocybin and its effect on creativity: Lessons learned from three double-blind placebo controlled longitudinal trials”, Prochazkova L, Marschall J, van Elk M, Rifkin BD, Schon NR, Fiacchino D, Fejer G, Kuchar M, Hommel B, Neuropharmacology 284, 2026, DOI 10.1016/j.neuropharm.2025.110732, open access: nie. Trzy RCT (N=171): wyższy stosunek oryginalność/płynność w grupie aktywnej (nieskorygowana oryginalność istotna tylko przy dawce względnej), brak efektów na inne miary.
+  - **Trzecie źródło:** „Placebo-controlled study suggests that the benefits of psilocybin microdosing can be explained by expectancy effects”, PsyPost, 6.09.2022, https://www.psypost.org/placebo-controlled-study-suggests-that-the-benefits-of-psilocybin-microdosing-can-be-explained-by-expectancy-effects/ (Cavanna i in., Translational Psychiatry 2022: efekty tylko u tych, którzy zgadli, co dostali). To tło, nie polemika.
+  - **Dlaczego fajne:** mikrodawkowanie to modny „life hack”, badania pochodzą z Lejdy (50 km od Utrechtu). Ten sam program badawczy daje nagłówki „fails” i „improves”.
+  - **Kontrowersja / rozjazd:** wiele miar i jeden dodatni wynik (w paperze i newsie), „Major” w nagłówku, nieudane zaślepienie w jednym badaniu; szersze pytanie: czy efekty mikrodawkowania to oczekiwania.
+  - **Trudność techniczna:** niska–średnia. Podwójne zaślepienie i jego test, korekta na wielokrotne porównania, mega-analiza.
+  - **Pytanie do dyskusji:** Jeśli mikrodawkowanie „działa” tylko przez oczekiwania, czy to znaczy, że nie działa? Czy media powinny pisać nagłówki o pojedynczym istotnym wyniku spośród wielu?
+  - **Weryfikacja:** ⚠️ poprawione, pewność średnia.
+
 (kolejne pary w toku)

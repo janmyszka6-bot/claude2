@@ -3,7 +3,7 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1-ai-psychika.md
 
 ## Podsumowanie
-(w trakcie: sprawdzone pary 1–3)
+(w trakcie: sprawdzone pary 1–6)
 
 ## Pary
 
@@ -122,8 +122,116 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/1-ai-psych
   - **Pytanie do dyskusji:** Czy „AI psychosis” to nowe zjawisko, czy stare urojenia w nowym przebraniu? Czy chatboty powinny wykrywać urojenia i odmawiać rozmowy?
   - **Weryfikacja:** ⚠️ (drobne poprawki faktów), pewność wysoka.
 
+### 4. „Generative AI Learning Penalty” (CEPR, 26 811 chińskich uczniów) + Fortune: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://www.fortune.com/2026/07/21/gen-z-cheating-homework-school-exam-scores-crash-post-literate-society-incentives/ : działa (WebFetch); narzędzie nie widziało paywalla (miękki limit Fortune niepewny).
+  - https://cepr.org/publications/dp21577 : działa; **PDF płatny (£6,00)** dla osób spoza CEPR.
+  - **Pełny tekst za darmo:** https://conference.nber.org/conf_papers/f240545.pdf (wersja konferencyjna NBER, czerwiec 2026; otwarta i przeczytana, s. 1–8). Wersja SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618 (link z repozytorium Stanford SCALE; nie otwierano, SSRN daje narzędziu 403).
+  - https://cepr.org/voxeu/columns/generative-ai-learning-penalty-secondary-school (kolumna VoxEU) i https://voxdev.org/node/300713 : HTTP 403.
+  - Europe PMC dla PNAS (DOI 10.1073/pnas.2422633122): działa.
+- **News a paper:** Fortune podaje, że badanie opublikował Centre for Economic Policy Research, linkuje do DP21577, podaje 26 811 uczniów klas 7–12 i afiliacje. Jednoznaczna para.
+- **Fakty:**
+  - Nagłówek, autorka (Sasha Rogelberg), data 21.07.2026, cytaty Horvatha i Shelleya → zgodne.
+  - Tytuł, autorzy, data 2.06.2026, abstrakt → zgodne. Afiliacje (z PDF): Strömberg Stockholm University, Lei i Wu University of Hong Kong.
+  - **Jednostki „20%” → wyjaśnione, i odwrotnie niż sugerował wyszukiwacz:** wszystkie wyniki przeskalowano do procentu średniej bazowej (średnia uczniów przed adopcją AI = 100). „20%” to 20% średniej bazowej, co autorzy przeliczają na **1,4 odchylenia standardowego**; egzaminy wstępne: gaokao −18% (1,3 SD), zhongkao −24% (1,5 SD). Nagłówek Fortune („20%”) jest więc zgodny z paperem, a w jednostkach SD efekt jest **ogromny** (typowe interwencje edukacyjne to dziesiąte części SD). Autorzy tłumaczą to tym, że uśrednianie wyników z 7–9 przedmiotów zmniejsza SD mniej więcej o połowę (wg omówienia z wyników wyszukiwania).
+  - **Pomiar „adopcji AI” → uzupełnione:** to **retrospektywna ankieta z końca czerwca 2025** (przygotowana przez lokalny urząd edukacji, rozesłana przez nauczycieli w grupach WeChat). Uczniowie sami podawali miesiąc pierwszego użycia AI, po instrukcji, by sprawdzić daty rejestracji w aplikacjach; ponad 96% ważnych odpowiedzi. Najpopularniejsze narzędzia: Doubao, DeepSeek, ChatGLM, Ernie Bot, Qwen. Do czerwca 2025 ok. 80% uczniów deklarowało użycie AI.
+  - **Próba → doprecyzowana:** jeden powiat w środkowych Chinach (ponad 1 mln mieszkańców, PKB per capita poniżej 6000 USD), 5 gimnazjów i 4 licea, 90% uczniów szkół średnich w powiecie. To nie „chińscy uczniowie” ogólnie.
+  - Metoda: DiD Callaway i Sant'Anna ze stopniowaną adopcją; grupą porównawczą są uczniowie, którzy do czerwca 2025 nie zaczęli używać AI (ok. 20%); kluczowe założenie: równoległe trendy; błędy standardowe klastrowane na 524 klasach → zgodne i uzupełnione.
+  - 81% użytkowników AI zachowuje się jak przy „outsourcingu” (b. krótki czas i wysokie wyniki prac domowych); ci, którzy pracują tyle co nie-użytkownicy, mają podobne wyniki egzaminów → zgodne. Dodatkowo: kara za AI malała w czasie (z ok. 25% na początku 2023 do ok. 16% w czerwcu 2025).
+  - Przedmioty: społeczne −27%, STEM −22%, angielski −17%, chiński −9% → uzupełnione.
+  - **Błędy Fortune (nowe):** Fortune pisze, że „college entrance” egzaminy spadły o 18–24%, a w paperze 18% dotyczy gaokao (egzamin na studia), a 24% zhongkao (egzamin do liceum). Fortune nie wspomina, że adopcja AI była deklarowana retrospektywnie, że dane są z jednego powiatu ani że to nierecenzowany working paper.
+  - PNAS (Bastani i in., 122(26), e2422633122, lipiec 2025 wg Europe PMC, OA tak): prawie 1000 uczniów, GPT Base +48% w ćwiczeniach, GPT Tutor +127%, po odebraniu dostępu GPT Base −17% na egzaminie → zgodne.
+- **Kontrowersja:** opis wyszukiwacza wymaga korekty. Podejrzenie „jeśli to odchylenia standardowe, nagłówek przesadza” jest nietrafne: 20% to procent średniej, a w SD efekt jest wręcz większy, niż czytelnik by przypuszczał. Prawdziwe punkty sporne: (1) samodeklarowany, retrospektywny moment adopcji (błąd pomiaru, autorzy omawiają go w sekcji 4); (2) samoselekcja do używania AI i założenie równoległych trendów względem 20% uczniów, którzy AI nie używali; (3) nieprawdopodobnie duży efekt (1,4 SD), co samo w sobie jest dobrym tematem do dyskusji o „zbyt pięknych” (tu: zbyt strasznych) wynikach; (4) jeden powiat, kontekst chiński; (5) brak recenzji.
+- **Retrakcje / korekty / krytyka / replikacje:** formalnej krytyki nie znaleziono (paper z czerwca 2026). Zapytania: „Generative AI Learning Penalty critique OR skeptical OR implausible standard deviations OR self-reported”, „Generative AI Learning Penalty Strömberg Lei Wu”. Znaleziono za to komentarz wzmacniający: Benjamin Riley, "The Penalty Students Pay for Using AI", Education Next, 23.09.2026, https://www.educationnext.org/?p=49726869 (otwarty): bezkrytycznie przyjmuje wyniki i nazywa generatywne AI „cognitive cancer” (dobry przykład dalszej eskalacji w komentarzach).
+- **Poprawki:** jednostki efektu (procent średniej bazowej, 1,4 SD); sposób pomiaru adopcji (retrospektywna ankieta); zakres próby (jeden powiat); PDF CEPR płatny, ale darmowa wersja NBER/SSRN; błąd Fortune przy egzaminach wstępnych; pominięcia w Fortune.
+- **Dodatkowe znaleziska:** darmowy pełny tekst (NBER, link wyżej); SCMP (przedruk w The Star, 17.07.2026): https://www.thestar.com.my/tech/tech-news/2026/07/17/ai-homework-tools-cut-exam-scores-by-20-study-of-26000-chinese-students-finds (otwarty; podaje nazwy chińskich narzędzi i że 81% „outsourcowało”).
+- **Ocena niezależna:** 4/5. Ogromna próba, dane administracyjne z 2,5 roku, mechanizm, który studenci rozpoznają od razu, i bogaty materiał dla części technicznej (DiD ze stopniowaną adopcją, równoległe trendy, jednostki efektu). Minusy: nierecenzowany working paper, samodeklarowana adopcja, brak opublikowanej krytyki. Polecam do piętnastki (najlepiej z PNAS jako eksperymentalnym kontrapunktem).
+- **Do ręcznego sprawdzenia przez zespół:** sekcja 4 papera (błąd pomiaru adopcji, testy równoległych trendów) w PDF z NBER; czy Fortune ma paywall w przeglądarce.
+- **Opis po poprawkach:**
+  - **Kategoria:** wpływ AI na uczenie się (edukacja, cognitive offloading)
+  - **News:** "Study finds AI boosted homework scores 18%—then tanked exam results 20%", Sasha Rogelberg, Fortune, 21.07.2026, https://www.fortune.com/2026/07/21/gen-z-cheating-homework-school-exam-scores-crash-post-literate-society-incentives/ , paywall: miękki limit (niepewne). Esej wokół jednego badania CEPR: liczby zgodne z abstraktem, kontekst Gen Z i „post-literate society”, głosy neuronaukowca i wykładowcy. Pomija samodeklarowaną adopcję, jeden powiat i brak recenzji; myli egzamin do liceum z egzaminem na studia.
+  - **Paper:** "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education", David Strömberg (Stockholm University), Victor Lei, Yanhui Wu (University of Hong Kong), CEPR Discussion Paper DP21577, 2.06.2026, https://cepr.org/publications/dp21577 (PDF płatny), darmowa wersja: https://conference.nber.org/conf_papers/f240545.pdf , working paper, nierecenzowany. 30 miesięcy danych administracyjnych 26 811 uczniów klas 7–12 z jednego powiatu w środkowych Chinach; moment adopcji AI z retrospektywnej ankiety; DiD ze stopniowaną adopcją (Callaway i Sant'Anna). AI podnosi wyniki prac domowych o 18% i skraca ich czas o 30%, ale obniża wyniki comiesięcznych egzaminów o 20% średniej (1,4 SD) w ciągu pół roku, a egzaminów wstępnych o 18% (gaokao) i 24% (zhongkao) po ok. 2 latach. Strata dotyczy głównie 81% użytkowników, którzy „outsourcują” prace domowe.
+  - **Trzecie źródło:** Bastani i in., "Generative AI without guardrails can harm learning: Evidence from high school mathematics", *PNAS* 122(26), e2422633122 (2025), DOI 10.1073/pnas.2422633122, OA: RCT na ok. 1000 licealistach w Turcji z tym samym wzorcem i z „tutorem” z zabezpieczeniami. Komentarz Education Next (Riley, 23.09.2026) jako przykład eskalacji: https://www.educationnext.org/?p=49726869 .
+  - **Dlaczego fajne:** mechanizm „zadanie zrobione, a nic nie umiem”; szkodzi oddawanie pracy AI, a nie samo używanie AI.
+  - **Kontrowersja / rozjazd:** naukowa (samodeklarowana adopcja, selekcja, ogromny efekt w SD, jeden powiat, brak recenzji); medialna (pominięcia i drobny błąd Fortune, eskalacja do „cognitive cancer” w komentarzach).
+  - **Trudność techniczna:** średnia (DiD, stopniowana adopcja, równoległe trendy, przeliczanie procentów na SD; w PNAS projekt RCT).
+  - **Pytanie do dyskusji:** Czy szkoły powinny zakazać AI do prac domowych, czy przestać oceniać prace domowe? Czy wierzymy w efekt 1,4 SD z samodeklaracji?
+  - **Weryfikacja:** ⚠️ (istotne doprecyzowania), pewność wysoka.
+
+### 5. „Deskilling” endoskopistów po AI (Lancet Gastroenterology & Hepatology, Polska) + MDedge: ✅ potwierdzone (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://blogs.the-hospitalist.org/content/ai-use-causing-endoscopists-lose-their-skills : działa (MDedge, bez paywalla).
+  - https://www.urbanhealthtoday.com/post/as-ai-spreads-through-health-care-is-the-technology-degrading-providers-skills : działa.
+  - Europe PMC REST (paper, komentarz Ahmada, 3 listy, odpowiedź autorów, badanie VA): działa. Zapytanie po samym DOI nie zwróciło wyników, po tytule i PMID tak.
+  - https://repository.tudelft.nl/file/File_79d760b7-6797-42c8-94c4-85b11fa6fb03 : działa; **darmowy PDF całej korespondencji** (Taverne, wersja wydawcy): koniec listu Levartovsky'ego, list van de Sande i in. oraz pełna odpowiedź autorów, *Lancet Gastroenterol Hepatol* 10(12):1061–1062.
+  - https://www.sciencemediacentre.org/expert-reaction-to-observational-study-looking-at-detection-rate-of-precancerous-growths-in-colonoscopies-by-health-professionals-who-perform-them-before-and-after-the-routine-introduction-of-ai/ : działa (12.08.2025).
+  - wrap.warwick.ac.uk/id/eprint/191005: tylko z wyników wyszukiwania (nie otwierano).
+- **News a paper:** MDedge podaje, że badanie ukazało się online w The Lancet Gastroenterology & Hepatology, i nazywa Krzysztofa Budzynia i Marcina Romańczyka (Akademia Śląska). Jednoznaczna para.
+- **Fakty:**
+  - MDedge: tytuł, autorka (Marilynn Larkin), 28.01.2026, ADR 28,4% → 22,4%, AI-assisted 25,3%, 734 kolonoskopie z AI i 1443 bez AI, krytyka Bhuty → zgodne.
+  - Paper: Budzyń, Romańczyk, Kitala i in. (19 autorów, m.in. Akademia Śląska, Uniwersytet w Oslo, Karolinska, Warwick, Humanitas), 10(10):896–903, online 12.08.2025, druk październik 2025, PMID 40816301, DOI 10.1016/S2468-1253(25)00133-5, OA nie → zgodne i uzupełnione.
+  - 4 ośrodki ACCEPT, 795 vs 648 kolonoskopii bez AI, okres 8.09.2021–9.03.2022, ADR 28,4% (226/795) → 22,4% (145/648), OR 0,69 (95% CI 0,53–0,89) → zgodne (abstrakt). 19 doświadczonych endoscopistów (> 2000 kolonoskopii) → zgodne wg omówień (abstrakt w części otwartej nie podaje tego wprost w odpowiedzi narzędzia).
+  - Listy i odpowiedź: autorzy i DOI → zgodne (Europe PMC). Lam K. (PMID 41205614), Levartovsky A., Kopylov U. (Sheba, PMID 41205615), van de Sande D. i in. (Erasmus MC, PMID 41205616), odpowiedź Budzyń, Romańczyk, Mori (PMID 41205617). Komentarz Ahmad O.F. (PMID 40816300) → zgodny.
+  - **Treść listów (nowe):** listy są raczej rozwinięciem niż atakiem metodologicznym. Levartovsky i Kopylov: ryzyko dla polipów ząbkowanych i dla szkolenia młodych lekarzy (eye-tracking, „czekanie na sygnał” AI), postulują sesje „AI-off”. Van de Sande i in.: odróżniają automation bias od „realokacji umiejętności”; to wyzwanie dla zarządzania, nie powód do rezygnacji z AI. Lam: wpływ na mniej doświadczonych. Odpowiedź autorów: badanie generuje hipotezy, potrzebne są RCT; ciekawy argument, że grupy kontrolne w RCT mogą same podlegać deskillingowi, co **zawyża** pozorną korzyść z AI.
+  - Badanie VA (Dominitz, Gawron, McKee, Hoggatt, Kaltenbach, *Gastroenterology*, czerwiec 2026): 816 endoscopistów (269 + 547), ADR w ośrodkach z CADe 50,7% → 54,9%, w kontrolnych 51,8% → 51,1%; deskilling „undetermined” → zgodne. **Liczba kolonoskopii poprawiona:** ok. 334 tys. (71 594 + 35 399 + 151 792 + 75 415), nie „ok. 218 tys.”.
+- **Kontrowersja:** ma realne źródła. Najostrzejsze zarzuty metodologiczne pochodzą nie z listów, tylko od ekspertów: Bhuta (MDedge: mała retrospektywna próba, < 100 kolonoskopii na lekarza, ADR może się wahać o 8 pkt przez przypadek) oraz Science Media Centre (Venet Osmani, QMUL: obciążenie pracą prawie się podwoiło po wprowadzeniu AI, co samo może tłumaczyć spadek; Allan Tucker, Brunel: potrzebne randomizowane badania crossover). Urban Health Today wspomina wzrost liczby zabiegów po pandemii. Opis wyszukiwacza uczciwy.
+- **Retrakcje / korekty / krytyka / replikacje:** retrakcji i korekt nie znaleziono. Zapytania: „letters Endoscopist deskilling risk Lancet Gastroenterol Hepatol Lam Levartovsky van de Sande confounding criticism authors reply”, „Budzyń Lancet Gastroenterology Hepatology deskilling colonoscopy AI study news”. Replikacji wprost dotyczącej deskillingu nie znaleziono; badanie VA zostawia to pytanie otwarte.
+- **Poprawki:** liczba kolonoskopii w badaniu VA (ok. 334 tys.); charakter listów (komentarze, nie twarda krytyka) i treść odpowiedzi autorów; dopisać SMC jako źródło zarzutu o obciążeniu pracą.
+- **Dodatkowe znaleziska:**
+  - Duże medium istnieje: TIME, "Using AI Made Doctors Worse at Spotting Cancer Without Assistance" (sierpień 2025; tylko z wyników wyszukiwania, przedruk na AOL zwrócił 404). Nagłówek mówi o „raku”, a ADR dotyczy gruczolaków (zmian przedrakowych): dobry przykład przesady dla roli 1.
+  - Science Media Centre (link wyżej): gotowe niezależne opinie ekspertów.
+  - Darmowa korespondencja z TU Delft (link wyżej).
+- **Ocena niezależna:** 4/5. Pełny trójkąt (paper, komentarz redakcyjny, listy, odpowiedź autorów, kontrastowe RCT) z darmowym dostępem do korespondencji, czysta i łatwa do przełożenia teza (GPS, autokorekta), polski akcent. Minusy: temat medyczny, nie chatboty; główny news z portalu branżowego (choć istnieje TIME). Polecam do piętnastki.
+- **Do ręcznego sprawdzenia przez zespół:** artykuł TIME (dokładny URL, data, autorka, czy nazywa czasopismo); pełny tekst papera (paywall Lancet; ewentualnie wersja w WRAP Warwick).
+- **Opis po poprawkach:**
+  - **Kategoria:** wpływ AI na umiejętności (cognitive offloading, deskilling)
+  - **News:** "Is AI Use Causing Endoscopists to Lose Their Skills?", Marilynn Larkin, MDedge, 28.01.2026, https://blogs.the-hospitalist.org/content/ai-use-causing-endoscopists-lose-their-skills , paywall: nie. Rzeczowe omówienie z liczbami i krytycznym głosem Rajiva Bhuty (Temple University), który nazywa badanie małym i retrospektywnym. Dodatkowo TIME (sierpień 2025) z nagłówkiem o „wykrywaniu raka”.
+  - **Paper:** "Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study", Budzyń K., Romańczyk M., Kitala D. i in., *The Lancet Gastroenterology & Hepatology* 10(10):896–903, online 12.08.2025, DOI 10.1016/S2468-1253(25)00133-5, open access: nie. Retrospektywna analiza w 4 polskich ośrodkach badania ACCEPT: 19 doświadczonych endoscopistów, 795 kolonoskopii bez AI przed i 648 po wprowadzeniu CADe (IX 2021 – III 2022). ADR bez AI spadł z 28,4% do 22,4%; ekspozycja na AI była niezależnym predyktorem niższego ADR (OR 0,69).
+  - **Trzecie źródło:** korespondencja i odpowiedź autorów, *Lancet Gastroenterol Hepatol* 10(12):1061–1062 (grudzień 2025), darmowo: https://repository.tudelft.nl/file/File_79d760b7-6797-42c8-94c4-85b11fa6fb03 ; reakcje ekspertów SMC: https://www.sciencemediacentre.org/expert-reaction-to-observational-study-looking-at-detection-rate-of-precancerous-growths-in-colonoscopies-by-health-professionals-who-perform-them-before-and-after-the-routine-introduction-of-ai/ ; kontrastowe RCT VA (Dominitz i in., *Gastroenterology* 2026, DOI 10.1053/j.gastro.2026.05.018).
+  - **Dlaczego fajne:** „AI czyni nas gorszymi, gdy go zabraknie”, i to u ekspertów; łatwe analogie; badanie z Polski.
+  - **Kontrowersja / rozjazd:** naukowa (obserwacyjne przed/po, podwojone obciążenie pracą, mała liczba zabiegów na lekarza); społeczna (czy deskilling ma znaczenie, skoro z AI jest lepiej; „realokacja umiejętności”); medialna („spotting cancer” zamiast gruczolaków).
+  - **Trudność techniczna:** niska–średnia (ADR, projekt przed/po, regresja logistyczna, dlaczego RCT VA nie odpowiada na pytanie o deskilling).
+  - **Pytanie do dyskusji:** Kiedy deskilling jest akceptowalny (kalkulator), a kiedy groźny (awaria systemu)? Czy szpitale powinny wprowadzać obowiązkowe „dni bez AI”?
+  - **Weryfikacja:** ✅, pewność wysoka.
+
+### 6. „Cognitive surrender” (Shaw i Nave, Wharton, SSRN) + PsyPost: ✅ potwierdzone (pewność: średnia)
+- **Sprawdzone linki:**
+  - https://www.psypost.org/high-trust-in-ai-leaves-individuals-vulnerable-to-cognitive-surrender-study-finds/ : działa.
+  - https://papers.ssrn.com/abstract=6097646 : HTTP 403 (abstrakt widoczny tylko w wynikach wyszukiwania).
+  - https://etcjournal.com/2026/05/01/shaw-naves-tri-system-theory-productive-but-incomplete/ : działa; w podpisie „By Jim Shimabukuro (assisted by Claude)”.
+  - https://thedecisionlab.com/insights/technology/cognitive-surrender-from-tool-to-thinker : działa (nowe, lepsze trzecie źródło).
+  - knowledge.wharton.upenn.edu (podcast) i hrexecutive.com: tylko z wyników wyszukiwania w tej weryfikacji (wyszukiwacz otworzył podcast).
+- **News a paper:** PsyPost podaje pełny tytuł, autorów (Steven D. Shaw, Gideon Nave) i to, że to Wharton School Research Paper na SSRN. Jednoznaczna para.
+- **Fakty:**
+  - Nagłówek, autor (Eric W. Dolan), data 30.04.2026 → zgodne.
+  - 3 eksperymenty, N = 1372, 9593 prób → zgodne z abstraktem (wg wyników wyszukiwania SSRN); eksperymenty były **preregistrowane**, zadania to zaadaptowany Cognitive Reflection Test (uzupełnione).
+  - 71% / 46% / 31% → zgodne z abstraktem w ujęciu „+25 pkt proc. przy trafnym AI, −15 pkt przy błędnym”. ~80% akceptacji błędnych podpowiedzi, > 90% trafnych, wzrost pewności siebie (ok. 11,7–12%) → zgodne z kilkoma omówieniami. Bonus i informacja zwrotna: odrzucanie błędnych podpowiedzi z 20% do 42% → zgodne z PsyPost (w abstrakcie nie sprawdzono).
+  - Data na SSRN: wg wyników wyszukiwania 2.02.2026 (inne źródła: styczeń 2026) → uzupełnione, niepewne co do dnia.
+  - Status: brak informacji o publikacji w czasopiśmie → nadal preprint (zapytanie: „Steven D. Shaw Gideon Nave cognitive surrender journal published peer-reviewed”).
+  - PsyPost cytuje tylko autora (Shaw), bez niezależnych ekspertów → zgodne z oceną wyszukiwacza.
+  - Recenzja ETC: napisana z pomocą Claude → zgodne z uwagą wyszukiwacza; źródło słabe.
+- **Kontrowersja:** spór interpretacyjny jest realny i teraz ma lepsze, niezależne źródło: Sekoul Krastev (The Decision Lab, 16.09.2026) broni wyników empirycznych, ale pyta, czy „System 3” to nowa psychologia, czy po prostu zewnętrzna deliberacja, i czy przyjmowanie podpowiedzi to „kapitulacja”, czy racjonalne zaufanie do zwykle trafnego narzędzia. Opis wyszukiwacza uczciwy.
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono retrakcji, formalnej krytyki ani replikacji. Zapytania: „cognitive surrender System 3 critique OR criticism OR rebuttal Shaw Nave 2026”, „cognitive surrender Wharton study Shaw Nave AI 80% wrong answers news”. Zbieżne RCT: Liu et al., arXiv:2604.04721 (para 2).
+- **Poprawki:** dopisać preregistrację i CRT; zastąpić recenzję ETC (współpisaną z Claude) tekstem Decision Lab jako głównym trzecim źródłem.
+- **Dodatkowe znaleziska:** The Decision Lab, "From Tool to Thinker: When AI Becomes Part of How We Reason", Sekoul Krastev, 16.09.2026, https://thedecisionlab.com/insights/technology/cognitive-surrender-from-tool-to-thinker .
+- **Ocena niezależna:** 3/5. Czysty, zrozumiały eksperyment, dobry most do Kahnemana i świetne pytania do dyskusji. Minusy: preprint, news tylko z PsyPost (bez niezależnych głosów), brak wyraźnego rozjazdu media–paper, liczby szczegółowe tylko z omówień. Nie polecam do piętnastki jako pary samodzielnej (raczej jako materiał uzupełniający do pary 2 lub 4).
+- **Do ręcznego sprawdzenia przez zespół:** PDF z SSRN (narzędzie 403): liczby 71/46/31, 20→42%, status recenzji.
+- **Opis po poprawkach:**
+  - **Kategoria:** wpływ AI na myślenie i krytyczne myślenie
+  - **News:** "High trust in AI leaves individuals vulnerable to 'cognitive surrender,' study finds", Eric W. Dolan, PsyPost, 30.04.2026, https://www.psypost.org/high-trust-in-ai-leaves-individuals-vulnerable-to-cognitive-surrender-study-finds/ , paywall: nie. Wierne, szczegółowe omówienie z liczbami i zastrzeżeniem autora, że to „czysta demonstracja”, a nie mapa realnego użycia AI; bez niezależnych ekspertów.
+  - **Paper:** "Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender", Steven D. Shaw, Gideon Nave, Wharton School Research Paper, SSRN, 2026, https://papers.ssrn.com/abstract=6097646 , preprint, open access: tak (SSRN). Trzy preregistrowane eksperymenty (N = 1372, 9593 prób) na zadaniach typu CRT z opcjonalnym chatbotem o manipulowanej trafności: trafne AI podnosi poprawność o ok. 25 pkt proc., błędne obniża o ok. 15 pkt; ludzie przyjmują ok. 80% błędnych podpowiedzi i są przy tym pewniejsi siebie. Autorzy proponują „Tri-System Theory” z AI jako „Systemem 3”.
+  - **Trzecie źródło:** The Decision Lab (Krastev), https://thedecisionlab.com/insights/technology/cognitive-surrender-from-tool-to-thinker : krytyka ramy teoretycznej i alternatywna interpretacja (racjonalne zaufanie).
+  - **Dlaczego fajne:** każdy wkleja odpowiedź z ChatGPT bez sprawdzania; prosty most do Kahnemana.
+  - **Kontrowersja / rozjazd:** interpretacyjna („kapitulacja” czy racjonalne zaufanie; czy „System 3” to nowa teoria czy chwyt); preprint.
+  - **Trudność techniczna:** niska–średnia (projekt eksperymentu, manipulacja trafnością, CRT, moderatory).
+  - **Pytanie do dyskusji:** Kiedy zaufanie do AI jest racjonalne, a kiedy to „kapitulacja”?
+  - **Weryfikacja:** ✅, pewność średnia.
+
 ## Lista do ręcznego sprawdzenia
 (uzupełniana na bieżąco)
-- Science (paper Cheng et al., list Meng, odpowiedź autorów): paywall, narzędzie 403.
-- https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis : zablokowany dla narzędzia; sprawdzić nagłówek i który paper opisuje.
-- Fortune (para 3): czy jest paywall w przeglądarce.
+- Science (para 1: paper Cheng et al., list Meng, odpowiedź autorów): paywall, narzędzie 403.
+- https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis (para 3): zablokowany dla narzędzia; sprawdzić nagłówek i który paper opisuje.
+- Fortune (pary 3 i 4): czy jest paywall w przeglądarce.
+- Para 4: sekcja 4 papera w https://conference.nber.org/conf_papers/f240545.pdf (błąd pomiaru, równoległe trendy).
+- Para 5: artykuł TIME "Using AI Made Doctors Worse at Spotting Cancer Without Assistance" (URL i treść).
+- Para 6: https://papers.ssrn.com/abstract=6097646 (HTTP 403): liczby u źródła.

@@ -125,4 +125,106 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3a-umysl-m
   - **Pytanie do dyskusji:** Czy teoria, której nie da się obalić, może być naukowa? Kto decyduje, co jest pseudonauką: list otwarty, recenzenci czy media?
   - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
 
+### 4. "Mind captioning": tekst z fMRI (Horikawa, Science Advances 2025): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://kvia.com/?p=1426671 : działa; przedruk CNN (Amarachi Orie, 14.11.2025), bez paywalla.
+  - https://www.psypost.org/mind-captioning-this-scientist-just-used-ai-to-translate-brain-activity-into-text : działa; Eric W. Dolan, 10.11.2025; podaje tytuł i DOI.
+  - https://www.thehub.news/p/breakthrough-or-boundary-violation : działa; Veronika Lleshi, 25.11.2025; wydawca nieokreślony, słabe źródło.
+  - Paper: **otwarty u źródła przez PMC** https://pmc.ncbi.nlm.nih.gov/articles/PMC12588295/ (pełny tekst) oraz Europe PMC (PMID 41191769, OA, CC BY). science.org nie był potrzebny.
+  - Dodatkowo otwarte: https://www.scientificamerican.com/article/ai-decodes-visual-brain-activity-and-writes-captions-for-it/ (przedruk Nature News, Max Kozlov, 5/6.11.2025) i https://futurism.com/health-medicine/scientists-transcribe-thoughts-mri-scan (Frank Landymore, 8.11.2025).
+- **News a paper:** CNN pisze, że naukowiec z Japonii opracował technikę zamiany obrazów w umyśle na zdania, i podaje, że praca Tomoyasu Horikawy ukazała się 5 listopada w Science Advances. Para jednoznaczna (paper ma jednego autora).
+- **Fakty:**
+  - Tytuł, Horikawa (NTT Communication Science Laboratories), Science Advances 11(45): eadw1464, 5.11.2025, DOI 10.1126/sciadv.adw1464: zgodne (PMC/Europe PMC).
+  - Open access: **potwierdzone**: tak, CC BY (u wyszukiwacza "prawdopodobnie").
+  - 6 uczestników, Japończycy: zgodne; **uściślone**: 4 mężczyzn i 2 kobiety, wiek 22–38 lat (PMC, Metody; CNN podaje 22–37). Wszyscy rodzimi użytkownicy japońskiego, opisy generowane po angielsku.
+  - Ok. 17 h fMRI na osobę: zgodne (ok. 17,1 h: trening ok. 11,8 h, test ok. 1,8 h, wyobrażanie ok. 3,6 h).
+  - 2180 klipów treningowych: zgodne; test: 72 klipy po 5 powtórzeń.
+  - DeBERTa (cechy) i RoBERTa (optymalizacja tekstu): zgodne (DeBERTa-large, RoBERTa-large; analizowano 42 modele językowe).
+  - Identyfikacja 1 ze 100 ok. 50% (losowo 1%): zgodne. Przy przypominaniu z pamięci: **uzupełnione**: blisko 40%.
+  - Dodatkowo z papera: opisy dało się generować także po wyłączeniu sieci językowej mózgu (blisko 50%), a paper sam wspomina o ryzyku niezamierzonego ujawnienia myśli i potrzebie świadomej zgody.
+- **Kontrowersja:** Realne źródła: CNN cytuje trzech zewnętrznych ekspertów (Ienca: "the ultimate privacy challenge" przy komercjalizacji; Kaufman; Szoszkiewicz: dane neuronalne jako szczególnie wrażliwe). Horikawa w CNN sam zastrzega, że metoda wymaga dużo danych, nie jest dość dokładna do praktycznego użytku i nie odczyta łatwo prywatnych myśli. Opis wyszukiwacza ("czytanie w myślach" vs. 6 osób, 17 h, współpraca, 1 ze 100) jest uczciwy. CNN jest dość wyważony; wyraźniejszy przykład przesady to Futurism z nagłówkiem "Scientists Say They've Figured Out How to Transcribe Your Thoughts From an MRI Scan", który w treści sam przyznaje, że prywatnych myśli odczytać się nie da. Wg streszczenia narzędzia Futurism nazywa Alexa Hutha "study coauthor", choć paper ma jednego autora, a Huth w Nature News występuje jako ekspert zewnętrzny (niepewne, do sprawdzenia ręcznie).
+- **Retrakcje / korekty / krytyka / replikacje:** brak korekt (Europe PMC: jedyny powiązany rekord to wcześniejszy preprint PPR844334; 2 cytowania). Nie znaleziono formalnej polemiki. Zapytania: "\"mind captioning\" Horikawa Nature news OR Science news OR critique fMRI brain decoding text November 2025", "\"mind captioning\" \"meaning signature\" brain", "nature.com \"mind-captioning\" technique…".
+- **Poprawki:**
+  1. Paper zweryfikowany u źródła (PMC); OA potwierdzony (CC BY); numer 11(45), eadw1464.
+  2. Płeć i wiek: 4 M / 2 K, 22–38 lat.
+  3. Dodać wynik przy przypominaniu (~40%).
+  4. Trzecie źródło: TheHub.news zastąpić tekstem Nature News (Kozlov, przedruk SciAm) z niezależnym Alexem Huthem (UC Berkeley).
+  5. Dodać Futurism jako kontrastowy, przesadzony nagłówek.
+- **Dodatkowe znaleziska:** krytyka metodologiczna całego nurtu dekodowania obrazów z fMRI: Shirakawa, …, Kamitani, "Spurious reconstruction from brain activity", arXiv 2405.10078 (v5, 14.05.2025), https://arxiv.org/abs/2405.10078 . Teza: część "rekonstrukcji" to klasyfikacja do znanych kategorii plus halucynacje modelu dyfuzyjnego. Dotyczy rekonstrukcji obrazów, nie bezpośrednio mind captioning, ale dobrze nadaje się do dyskusji o tym, czy model "czyta mózg", czy dopowiada. Status publikacji w czasopiśmie: niepewny.
+- **Ocena niezależna:** 4/5. Świeży, otwarty, efektowny paper (AI + mózg); news CNN z niezależnymi ekspertami; dobry kontrast z parą 2 (nieinwazyjny skaner zamiast implantu). Słabości: 6 osób, jeden autor, brak formalnej polemiki naukowej. **Polecam do piętnastki** jako mocny kandydat, szczególnie jeśli zespół chce temat "AI czyta w myślach".
+- **Do ręcznego sprawdzenia przez zespół:** Futurism: czy rzeczywiście nazywa Hutha współautorem (byłby to konkretny błąd medialny do analizy).
+- **Opis po poprawkach:**
+  - **Kategoria:** dekodowanie myśli z fMRI / AI w neuronauce / prywatność
+  - **News:** "Scientist turns people's mental images into text using 'mind-captioning' technology", Amarachi Orie, CNN, 14 listopada 2025, https://kvia.com/?p=1426671 (przedruk w stacji partnerskiej CNN), paywall: nie. Artykuł opisuje pracę Horikawy z Science Advances, cytuje trzech niezależnych ekspertów (Ienca, Kaufman, Szoszkiewicz) o prywatności i danych neuronalnych oraz zastrzeżenia autora (dużo danych, mała praktyczność, brak odczytu prywatnych myśli). Kontrast: Futurism, "Scientists Say They've Figured Out How to Transcribe Your Thoughts From an MRI Scan" (8.11.2025), https://futurism.com/health-medicine/scientists-transcribe-thoughts-mri-scan .
+  - **Paper:** "Mind captioning: Evolving descriptive text of mental content from human brain activity", Tomoyasu Horikawa. Science Advances 11(45): eadw1464, 2025. DOI: 10.1126/sciadv.adw1464, https://pmc.ncbi.nlm.nih.gov/articles/PMC12588295/ . Open access: tak (CC BY). 6 osób (Japończycy, 22–38 lat), ok. 17 h fMRI na osobę, 2180 niemych klipów treningowych. Liniowe dekodery mapują aktywność mózgu na cechy semantyczne modelu językowego (DeBERTa-large), a drugi model (RoBERTa-large) iteracyjnie poprawia tekst, aż pasuje do zdekodowanych cech. Identyfikacja właściwego klipu spośród 100: ok. 50% przy oglądaniu, blisko 40% przy przypominaniu (losowo 1%); działało też bez sieci językowej mózgu.
+  - **Trzecie źródło:** Max Kozlov, Nature News, przedruk "AI Decodes Visual Brain Activity—And Writes Captions for It", https://www.scientificamerican.com/article/ai-decodes-visual-brain-activity-and-writes-captions-for-it/ : niezależny komentarz Alexa Hutha; obaj badacze podkreślają, że metody wymagają zgody uczestnika i nie odczytują prywatnych myśli. Szersza krytyka nurtu: "Spurious reconstruction from brain activity", https://arxiv.org/abs/2405.10078 .
+  - **Dlaczego fajne:** obrazowy wynik ("mózg ogląda film, AI pisze opis"); AI + neuronauka; prywatność myśli zrozumiała dla każdego; dobry kontrast z implantem z pary 2.
+  - **Kontrowersja / rozjazd:** rama "czytanie w myślach" (szczególnie Futurism) vs. 6 współpracujących osób, kilkanaście godzin w skanerze, wybór 1 ze 100; społeczno-etyczna: neuroprawa i dane neuronalne.
+  - **Trudność techniczna:** średnia–wysoka (fMRI, dekodery liniowe, przestrzenie cech modeli językowych, iteracyjne generowanie tekstu); dla Janka dobra.
+  - **Pytanie do dyskusji:** Czy zgodzilibyście się na taki skan, gdyby mógł pomóc osobie z afazją? Kto powinien mieć dostęp do danych z mózgu?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
+### 5. "AI mind-reading" z MIT Technology Review (Weizmann, Brain-IT, 2025–2026): ❌ odrzucone (pewność: średnia)
+- **Sprawdzone linki:**
+  - https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/ : działa; Jessica Hamzelou, 1.10.2026; brak widocznego paywalla (MIT TR ma limit darmowych artykułów).
+  - https://arxiv.org/abs/2510.25976 : działa; Brain-IT, v1 29.10.2025, v2 1.03.2026, przyjęty na ICLR 2026.
+  - https://arxiv.org/html/2510.25976v2 : działa (sprawdzenie danych treningowych).
+  - https://2026.ccneuro.org/ : działa; CCN 2026 odbyło się **3–6 sierpnia 2026** na NYU; wśród keynote'ów (Tsao, Lake, Fyshe, Doya, Grill-Spector) nie ma Irani.
+  - arXiv 2406.12179 (Universal Brain Encoder): tylko z wyników wyszukiwania (v1 i v2 widoczne w wynikach).
+- **News a paper:** **News nie nazywa żadnego papera ani preprintu.** Lista linków w artykule (sprawdzona narzędziem) zawiera m.in. trzy wcześniejsze prace z arXiv (2305.18274, 2404.07850, 2403.18211), paper o zbiorze danych w Nature Neuroscience (s41593-021-00962-x) i stronę CCN, ale nie Brain-IT. Irani nazywa narzędzie "universal brain encoder", a "mind reading" określa jako "cute, jazzy name".
+- **Fakty:**
+  - 1 h danych fMRI zamiast ok. 40 h: zgodne z abstraktem Brain-IT.
+  - "Ok. 70% danych treningowych to obrazy bez skanów": w Brain-IT jest wzbogacenie o ok. 120 tys. "external images" (COCO bez fMRI), ale paper nie podaje odsetka. Zgodność możliwa, niepotwierdzona.
+  - MIT TR: dane od 8 osób, każda widziała ok. 9000 obrazów (to opis zbioru NSD). Brain-IT raportuje wyniki dla 4 osób z NSD (1, 2, 5, 7). Rozbieżność niewykluczająca, ale osłabia dopasowanie.
+  - Brain-IT używa jako komponentu enkodera z wcześniejszej pracy "Universal Brain Encoder" (Beliy i in. 2024), więc określenie Irani może odnosić się do całej linii badań, a nie do jednego papera.
+  - Termin konferencji: **poprawione**: CCN 2026 odbyło się w sierpniu, nie we wrześniu (MIT TR z 1.10 pisze "last month", co nie zgadza się ze stroną konferencji).
+  - Eksperci: MIT TR cytuje Tommy'ego Sprague'a (UCSB), Marcella Iencę (TUM) i **Judy Illes (UBC)**, której wyszukiwacz nie wymienił.
+- **Kontrowersja:** nagłówek "mind-reading" vs. autorka, która sama nazywa to ładną etykietą; Sprague ostrzega przed potajemnym wydobywaniem informacji. Opis uczciwy, ale kontrowersja dotyczy newsa, a nie konkretnego papera.
+- **Retrakcje / korekty / krytyka / replikacje:** nie dotyczy bezpośrednio (brak jednoznacznego papera). Do nurtu pasuje krytyka "Spurious reconstruction from brain activity" (Shirakawa, …, Kamitani), https://arxiv.org/abs/2405.10078 . Zapytania: "Irani Weizmann \"universal brain encoder\" fMRI 2026 arXiv", "Cognitive Computational Neuroscience 2026 CCN Irani image reconstruction…", "Beliy Irani 2026 fMRI image reconstruction new subject one hour \"CCN\"…", "2026.ccneuro.org Irani keynote OR talk…".
+- **Poprawki:** CCN w sierpniu 2026; dodać Judy Illes; "70%" niepotwierdzone w Brain-IT; dopasowanie news–paper pozostaje wnioskiem.
+- **Powód odrzucenia:** kryterium 1 (news jednoznacznie omawia konkretny paper) niespełnione. MIT TR relacjonuje wystąpienie konferencyjne i nie wskazuje publikacji; Brain-IT jest prawdopodobnym, ale nie pewnym odpowiednikiem (inna nazwa narzędzia, inne liczby osób, brak odsetka 70%). Para nie nadaje się jako samodzielna para "news + paper". Może służyć jako materiał uzupełniający do pary 4.
+- **Ocena niezależna:** 2/5 jako para (świeży i efektowny temat, ale bez jednoznacznego papera); jako tło do pary 4: przydatne. Nie polecam do piętnastki.
+- **Do ręcznego sprawdzenia przez zespół:** jeśli zespół chce tę parę, napisać do zespołu Irani albo poszukać abstraktu CCN 2026 (program sesji nie był dostępny narzędziu), by ustalić, który paper był prezentowany.
+
+### 6. Ludzie bez wewnętrznego głosu: anendofazja (Nedergaard & Lupyan, Psychological Science 2024): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://tech.yahoo.com/general/articles/inner-voice-reveals-brain-182415266.html : działa; przedruk NY Post (Tracy Swartz, 14.05.2024).
+  - https://bps.org.uk/research-digest/silent-inner-world-anendophasia : działa; Emma Young, 17.06.2024.
+  - https://www.psypost.org/anendophasia-scientists-examine-the-cognitive-impact-of-life-without-an-inner-voice : działa; Eric W. Dolan, 27.06.2024 (nagłówek: "Anendophasia: Scientists uncover the weird cognitive impact of life without an inner voice").
+  - https://aphantasia.com/research/10.1177/09567976241243004 : działa.
+  - https://journals.sagepub.com/doi/10.1177/09567976241243004 : nie sprawdzano ponownie (Sage zwraca 403 także dla komentarza Linda). Metadane z Europe PMC i Crossref.
+  - Dodatkowo otwarty: https://www.scientificamerican.com/article/not-everyone-has-an-inner-voice-streaming-through-their-head/ (Simon Makin, 5.07.2024), bez widocznego paywalla.
+- **News a paper:** NY Post wymienia Johanne Nedergård (Kopenhaga) i Gary'ego Lupyana (Wisconsin-Madison) i pisze, że wyniki ukazały się "last week" w Psychological Science. SciAm nazywa pracę "a new study, from Lupyan and his colleague Johanne Nedergaard", bez nazwy czasopisma. Para jednoznaczna.
+- **Fakty:**
+  - Tytuł, Nedergaard i Lupyan, Psychological Science: zgodne. **Uzupełnione:** 35(7):780–797; online 10.05.2024, druk lipiec 2024; PMID 38728320 (Europe PMC). Rozbieżność "maj vs czerwiec" wyjaśniona: online w maju, wydanie lipcowe; aphantasia.com podaje 30.06.2024 (prawdopodobnie data wydania).
+  - Open access: **nie** (Europe PMC: isOpenAccess = N; brak wersji w PMC). Wersja autorska: niepewne.
+  - 93 osoby (46 niska, 47 wysoka wewnętrzna mowa): zgodne. Dobór kwestionariuszem IRQ (czynnik werbalny poniżej 3,5 lub powyżej 4,25; wg PsyPost).
+  - Gorzej w pamięci roboczej werbalnej i ocenie rymów; brak różnic w przełączaniu zadań i efektach kategorii: zgodne (abstrakt).
+  - "Różnice znikały u osób mówiących na głos": zgodne (BPS: po zawężeniu do osób, które mówiły słowa zadania na głos, grupa z prawie nieobecnym głosem radziła sobie równie dobrze).
+- **Kontrowersja:** **Wyszukiwacz się mylił: kontrowersja istnieje i jest opublikowana.** Wyszukiwacz pisał o "braku formalnej krytyki", a jest pełna wymiana w Psychological Science:
+  1. Andreas Lind (Lund), "Are There Really People With No Inner Voice? Commentary on Nedergaard and Lupyan (2024)", Psychological Science 36(9):765–767, online 27.05.2025, DOI 10.1177/09567976251335583, PMID 40424755. Teza: dane pokazują różnice między grupami z niską i wysoką wewnętrzną mową, ale nie dowodzą, że ktokolwiek nie ma wewnętrznej mowy w ogóle.
+  2. Lupyan i Nedergaard, "Reply to Are There Really People with no Inner Voice?", OSF, 25.06.2025, DOI 10.31219/osf.io/w9gfy_v1 (metadane z Crossref; strona OSF nie zwróciła treści; czy odpowiedź ukazała się też w Psych Sci: niepewne).
+  3. Lind, "Reply to Lupyan and Nedergaard (2025)", PsyArXiv, 21.08.2025, DOI 10.31234/osf.io/8u4ct_v1.
+  4. Russell T. Hurlburt (UNLV), "Fidelity Versus Validity Using Anendophasia as an Example: Commentary on Nedergaard and Lupyan (2024) and Lind (2025)", Psychological Science, online 30.01.2026, DOI 10.1177/09567976251413525 (wg Crossref Hurlburt uważa, że osoby z anendofazją prawdopodobnie istnieją i warto je badać obiema metodami).
+  - Rozjazd z mediami: opis wyszukiwacza uczciwy. NY Post akcentuje "significantly worse at remembering the words", ale wspomina też strategie kompensacyjne. SciAm cytuje sceptycznego Charlesa Fernyhougha (Durham), który obawia się, że nowy termin zrobi z wzorca doświadczenia "zaburzenie".
+- **Retrakcje / korekty / krytyka / replikacje:** brak retrakcji i korekt (Europe PMC). Krytyka: patrz wyżej (2025–2026). Replikacji nie znaleziono. Zapytania: "anendophasia replication 2025 2026 inner speech absence verbal working memory rhyme Nedergaard Lupyan follow-up", Europe PMC "anendophasia", Crossref "Lupyan Nedergaard reply Lind inner voice".
+- **Poprawki:**
+  1. Dodać opublikowaną debatę (Lind 2025, odpowiedź autorów, Hurlburt 2026). To zmienia parę w "trójkąt".
+  2. OA: nie.
+  3. Dane bibliograficzne: 35(7):780–797, online 10.05.2024.
+  4. Lepszy news: SciAm (Makin) zamiast lub obok NY Post.
+- **Dodatkowe znaleziska:** SciAm (Makin, 5.07.2024) z trzema zewnętrznymi ekspertami (Fernyhough, Racy, Nalborczyk) to lepszy news niż NY Post. Futurity "People with no inner voice have worse verbal memory" (z wyników wyszukiwania) to najpewniej przedruk komunikatu uczelni, nie niezależne medium.
+- **Ocena niezależna:** 4/5 (wyszukiwacz dał 3). Temat bardzo odczuwalny (ankieta na sali), niska trudność techniczna, a teraz także opublikowany spór metodologiczny w tym samym czasopiśmie (czy samoopis pozwala stwierdzić, że ktoś "nie ma" wewnętrznego głosu). Słabości: paper skromny (93 osoby, samoopis), za paywallem, mało materiału dla części technicznej Janka. **Polecam do piętnastki** warunkowo: jako mocną parę "low-tech" albo w połączeniu z parą 2.
+- **Do ręcznego sprawdzenia przez zespół:** pełne teksty komentarzy Linda i Hurlburta (Sage 403 dla narzędzia; mogą wymagać dostępu przez bibliotekę UCU); czy odpowiedź Lupyana i Nedergaard ukazała się w Psychological Science.
+- **Opis po poprawkach:**
+  - **Kategoria:** wewnętrzny głos / różnice indywidualne w doświadczeniu / metodologia samoopisu
+  - **News:** "Not Everyone Has an Inner Voice Streaming through Their Head", Simon Makin, Scientific American, 5 lipca 2024, https://www.scientificamerican.com/article/not-everyone-has-an-inner-voice-streaming-through-their-head/ , paywall: możliwy limit darmowych artykułów (narzędzie widziało pełny tekst). Opisuje badanie Lupyana i Nedergaard i proponowany termin "anendofazja"; cytuje sceptyka Charlesa Fernyhougha. Wersja bardziej tabloidowa: "Do you have an inner voice? Here's what it reveals about your brain", Tracy Swartz, New York Post, 14.05.2024, https://tech.yahoo.com/general/articles/inner-voice-reveals-brain-182415266.html (przedruk Yahoo), paywall: nie.
+  - **Paper:** "Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia", Johanne S. K. Nedergaard, Gary Lupyan. Psychological Science 35(7):780–797, 2024 (online 10.05.2024). DOI: 10.1177/09567976241243004. Open access: nie. 93 dorosłych dobranych kwestionariuszem (46 z bardzo słabą, 47 z bardzo silną wewnętrzną mową). Cztery zadania: grupa z anendofazją gorzej w werbalnej pamięci roboczej i ocenie rymów; brak różnic w przełączaniu zadań i efektach kategorii. Różnice znikały u osób, które mówiły słowa na głos.
+  - **Trzecie źródło:** Andreas Lind, "Are There Really People With No Inner Voice? Commentary on Nedergaard and Lupyan (2024)", Psychological Science 36(9):765–767, 2025, DOI 10.1177/09567976251335583: dane nie dowodzą całkowitego braku wewnętrznej mowy. Dalej: odpowiedź autorów (OSF, 2025, DOI 10.31219/osf.io/w9gfy_v1) i komentarz Russella Hurlburta (Psychological Science, 2026, DOI 10.1177/09567976251413525) o różnicy między "wiernością" a "trafnością" pomiaru doświadczenia.
+  - **Dlaczego fajne:** każdy od razu pyta siebie, czy ma wewnętrzny głos (ankieta na sali); żywy, opublikowany spór o to, czy samoopis wystarczy; most do par 2 i 4 (co dekoduje implant wewnętrznej mowy, jeśli nie każdy ją ma?).
+  - **Kontrowersja / rozjazd:** naukowa: czy "brak wewnętrznego głosu" to realna kategoria, czy koniec kontinuum źle mierzonego samoopisem (Lind vs. autorzy vs. Hurlburt). Medialna: "gorsza pamięć" vs. różnice tylko w zadaniach fonologicznych, znikające przy mówieniu na głos; obawa Fernyhougha przed patologizacją.
+  - **Trudność techniczna:** niska (eksperymenty behawioralne, kwestionariusz).
+  - **Pytanie do dyskusji:** Czy można wiarygodnie badać coś, co znamy tylko z samoopisu? Czy brak wewnętrznego głosu to deficyt, czy po prostu inny styl myślenia?
+  - **Weryfikacja:** ⚠️ poprawione (na plus: dodana opublikowana debata), pewność wysoka.
+
 (kolejne pary w trakcie weryfikacji)

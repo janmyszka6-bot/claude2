@@ -140,6 +140,89 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/2b-ai-spol
   - **Pytanie do dyskusji:** Czy jako studenci powinniśmy wybierać kierunki i zawody pod kątem „odporności na AI”, skoro dowody są wciąż sporne? Jak odróżnić sygnał od paniki?
   - **Weryfikacja:** ⚠️ (poprawka interpretacji liczb), pewność wysoka.
 
+### 4. Tajny eksperyment Uniwersytetu w Zurychu z botami AI na r/changemyview: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - 404 Media (https://404media.co/researchers-secretly-ran-a-massive-unauthorized-ai-persuasion-experiment-on-reddit-users): działa; tytuł, autor (Jason Koebler), data 28.04.2025 zgodne; częściowy paywall (widoczny fragment).
+  - PDF extended abstract (retractionwatch.com/wp-content/uploads/2025/04/ExtendedAbstract-Zurich-AI-Reddit.pdf): działa; przeczytany w całości (8 stron PDF: 2 strony tekstu, 2 strony bibliografii, 4 strony rycin).
+  - Retraction Watch (28.04.2025, aktualizacja 30.04): działa; zgodny z opisem.
+  - WAMC (przedruk NPR, 7.05.2025): działa; zgodny.
+  - Dodatkowo otwarte: 404 Media, 29.04.2025, „Reddit Issuing 'Formal Legal Demands' Against Researchers Who Conducted Secret AI Experiment on Users” (https://www.404media.co/reddit-issuing-formal-legal-demands-against-researchers-who-conducted-secret-ai-experiment-on-users/); Decrypt, 30.04.2025 (https://decrypt.co/316976/secret-reddit-experiment-using-ai-personas-sparks-ethics-scandal-in-academia).
+- **News a paper:** 404 Media pisze o zespole, który „podaje się za badaczy z Uniwersytetu w Zurychu” i potajemnie wpuścił boty na r/changemyview; opisuje persony (ofiara napaści seksualnej, czarnoskóry przeciwnik BLM, pracownik schroniska dla ofiar przemocy domowej) i ponad 1700 komentarzy. W widocznej części nie omawia wyników szkicu. NPR/WAMC omawia wyniki („more persuasive than the vast majority of human comments”). Para czytelna, choć „paper” to szkic.
+- **Fakty:**
+  - Tytuł „Can AI Change Your View? Evidence from a Large-Scale Online Field Experiment”, autorzy nieujawnieni → zgodne (PDF nie podaje nazwisk).
+  - Prerejestracja, XI 2024–III 2025, 1061 postów, N=478 → zgodne.
+  - Trzy warunki (generic, personalization z cechami OP wywnioskowanymi przez inny LLM z ostatnich 100 postów i komentarzy, community aligned z modelem dostrojonym na komentarzach z deltą) → zgodne.
+  - Odsetki delt: personalization 0,18, generic 0,17 (dokładnie 0,168), community aligned 0,09, baseline 0,03 (0,027) → zgodne; „3–6 razy” → zgodne.
+  - 99. percentyl → zgodne (personalization: 99,4% wszystkich użytkowników, 98,2% ekspertów).
+  - Zatwierdzenie przez komisję etyczną UZH; „użytkownicy nigdy nie zgłaszali podejrzeń, że to AI” → zgodne.
+  - **Precyzja do poprawy:** ludzki baseline to nie „wszyscy komentujący”, tylko komentarze najwyższego poziomu (bezpośrednie odpowiedzi do OP), przy czym delta liczy się, jeśli padła gdziekolwiek w wątku pod nimi (podpis Fig. 3). Wyszukiwacz podaje raz „4 strony”, raz „2-stronicowy abstrakt”: tekst ma 2 strony, cały PDF 8.
+  - **Uzupełnienie:** pipeline korzystał z GPT-4o, Claude 3.5 Sonnet (Anthropic) i Llama 3.1 405B do generowania odpowiedzi, a Claude 3.5 Sonnet (z wyszukiwaniem Perplexity) do filtrowania postów i jako sędzia rankingujący (Fig. 2). Paper nie jest autorstwa Anthropic, ale używał modelu Anthropic, a raport przygotowuje Claude; warto to zaznaczyć.
+  - Komisja etyczna: formalne ostrzeżenie dla kierownika, odmowa zablokowania publikacji („minimal” risks) → zgodne (Retraction Watch). Cytaty Fiesler i Gilbert → zgodne.
+  - Reddit: „formal legal demands” (Ben Lee, główny radca prawny), Reddit „rozważał” kroki prawne; pozwu nie znalazłem → doprecyzowane (404 Media, 29.04.2025).
+  - UZH: wyniki nie zostaną opublikowane, uczelnia bada sprawę i zapowiada ostrzejszy przegląd etyczny → zgodne (404 Media, wyniki wyszukiwania).
+  - Decrypt (wg ujawnienia badaczy): 1783 komentarze, 137 delt. Uwaga: to inna jednostka niż N=478 postów w abstrakcie, więc „3–6 razy” liczone jest na poziomie postów, nie komentarzy (137/1783 ≈ 7,7% komentarzy z deltą). Nie wiem, jak dokładnie zdefiniowano obserwację; do dyskusji metodologicznej, nie jako twierdzenie.
+- **Kontrowersja:** realna i bardzo dobrze udokumentowana (moderatorzy, Reddit, Retraction Watch, eksperci od etyki). Opis wyszukiwacza uczciwy. Krytyka metodologiczna (brak recenzji, porównywalność baseline'u, inne boty na forum) to w dużej mierze własne uwagi wyszukiwacza, a nie opublikowana krytyka; w prezentacji trzeba to przedstawić jako pytania, nie ustalenia.
+- **Retrakcje / korekty / krytyka / replikacje:** paper nigdy nie został opublikowany (autorzy i UZH zrezygnowali). Nie znalazłem recenzowanej analizy tego przypadku z 2026 w czasopiśmie etyki badań. Zapytania: „University of Zurich Reddit changemyview AI experiment Reddit legal demands outcome ethics review changes”, „r/changemyview Zurich AI experiment research ethics analysis journal article 2026”, „"changemyview" "Zurich" bots experiment lessons research ethics commentary Nature OR Science … 2025 2026”.
+- **Poprawki:**
+  1. Baseline = komentarze najwyższego poziomu, nie wszyscy komentujący.
+  2. Reddit wystosował „formal legal demands”; brak informacji o pozwie.
+  3. Długość: 2 strony tekstu (PDF 8 stron z bibliografią i rycinami).
+  4. Dopisać, że w eksperymencie użyto m.in. Claude 3.5 Sonnet (Anthropic).
+- **Dodatkowe znaleziska:** Szkic sam cytuje paper z pary 8 (Salvi et al.) i badanie perswazyjności Anthropic (Durmus et al. 2024); dobrze łączy się z parami 1 i 8.
+- **Ocena niezależna:** 4/5. Najlepszy kandydat na dyskusję o etyce eksperymentów (zgoda, fałszywe tożsamości, profilowanie), każdy zna Reddita. Słabość: „paper” to nierecenzowany, wycofany z obiegu szkic, więc część techniczna musi opierać się na pipeline'ie z Fig. 2 i na krytycznej analizie metryki „delta”. Polecam do piętnastki jako parę „etyczną”, najlepiej z parą 1 lub 8 jako tłem.
+- **Do ręcznego sprawdzenia przez zespół:** pełny tekst 404 Media (częściowy paywall).
+- **Opis po poprawkach:**
+  - **Kategoria:** etyka eksperymentów z AI / perswazja
+  - **News:** „Researchers Secretly Ran a Massive, Unauthorized AI Persuasion Experiment on Reddit Users”, Jason Koebler, 404 Media, 28 kwietnia 2025, https://404media.co/researchers-secretly-ran-a-massive-unauthorized-ai-persuasion-experiment-on-reddit-users , paywall: częściowy. Akcent na etykę: fałszywe persony (ofiara napaści, czarnoskóry przeciwnik BLM, pracownik schroniska), profilowanie użytkowników z historii postów, ponad 1700 komentarzy. Drugi news: NPR, 7.05.2025, „A controversial experiment on Reddit reveals the persuasive powers of AI”, przedruk WAMC https://www.wamc.org/2025-05-07/a-controversial-experiment-on-reddit-reveals-the-persuasive-powers-of-ai (rozmowa z Tomem Bartlettem z The Atlantic; wyniki i etyka).
+  - **Paper:** „Can AI Change Your View? Evidence from a Large-Scale Online Field Experiment”, anonimowi autorzy z Uniwersytetu w Zurychu, extended abstract 2025, nieopublikowany, kopia: https://retractionwatch.com/wp-content/uploads/2025/04/ExtendedAbstract-Zurich-AI-Reddit.pdf , open access: tak (kopia). Prerejestrowany eksperyment terenowy XI 2024–III 2025: 1061 postów, N=478; trzy warunki (generic, personalization, community aligned); odpowiedzi z GPT-4o, Claude 3.5 Sonnet i Llama 3.1 405B, wybierane przez sędziego-LLM. Odsetek z deltą 0,17–0,18 (generic, personalization) i 0,09 (community aligned) vs 0,03 u ludzi (komentarze najwyższego poziomu); personalizacja w 99. percentylu użytkowników.
+  - **Trzecie źródło:** Retraction Watch, Kate Travis, 28.04.2025, https://retractionwatch.com/2025/04/28/experiment-using-ai-generated-posts-on-reddit-draws-fire-for-ethics-concerns/ : komisja etyczna dała ostrzeżenie, ale nie zablokowała publikacji; Casey Fiesler: jedno z najgorszych naruszeń etyki badań; Sara Gilbert: utrata zaufania społeczności. Plus 404 Media, 29.04.2025 (formalne żądania prawne Reddita): https://www.404media.co/reddit-issuing-formal-legal-demands-against-researchers-who-conducted-secret-ai-experiment-on-users/
+  - **Dlaczego fajne:** realni ludzie bez zgody, fałszywe tożsamości, a jednocześnie wynik ważny dla demokracji (boty przekonujące i niewykrywalne). Każdy zna Reddita.
+  - **Kontrowersja / rozjazd:** „ważna wiedza vs zgoda”; kto decyduje: komisja, platforma, społeczność? Metodologicznie: brak recenzji, jednostka analizy (posty vs komentarze), definicja baseline'u; media skupiły się na etyce, a liczby „3–6×” krążyły bez krytycznej oceny.
+  - **Trudność techniczna:** niska–średnia (pipeline: LLM profilujący z historii postów, fine-tuning na komentarzach z deltą, sędzia-LLM w turnieju, randomizacja warstwowa).
+  - **Pytanie do dyskusji:** Gdyby wynik był ważny dla obrony przed botami wyborczymi, czy usprawiedliwiałby oszukanie użytkowników forum liczącego prawie 4 mln osób? Kto powinien decydować: uczelniana komisja, platforma czy społeczność?
+  - **Weryfikacja:** ⚠️ (drobne poprawki), pewność wysoka.
+
+### 5. Ile wody i energii zużywa jeden prompt? Google „pięć kropli” kontra „butelka wody na maila”: ⚠️ poprawione (pewność: wysoka co do paperów, średnia co do newsa)
+- **Sprawdzone linki:**
+  - Android Headlines (25.08.2025): działa; tytuł, autor (Tyler Lee) zgodne; bez paywalla.
+  - ScienceBlog (10.07.2026): działa; zgodny z opisem.
+  - arXiv 2508.15734 (abs i HTML v1): działa; zgodne.
+  - arXiv 2304.03271: działa; v1 6.04.2023 … v5 26.03.2025, „Accepted by Communications of the ACM”.
+  - arXiv 2603.02705: działa; zgodne (v1 3.03.2026, rewizja 18.03.2026).
+  - IBTimes (26.06.2026): działa; zgodny częściowo (patrz niżej).
+  - The Verge: nie otwierałem (domena zablokowana); URL zwrócony przez Android Headlines: https://www.theverge.com/report/763080/google-ai-gemini-water-energy-emissions-study . Tytuł wg wyników wyszukiwania (agregator RSS): „Google says a typical AI text prompt only uses 5 drops of water — experts say that's misleading” (niepewne, z drugiej ręki).
+  - Washington Post 2024: nie otwierałem (403).
+  - Dodatkowo otwarte: MIT Technology Review, Casey Crownhart, 21.08.2025, „In a first, Google has released data on how much energy an AI prompt uses” (https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/) i 28.08.2025, „Google's still not giving us the full picture on AI energy use” (https://www.technologyreview.com/2025/08/28/1122685/ai-energy-use-gemini/).
+- **News a paper:** Android Headlines nazywa raport Google i podaje jego liczby; krytykę Rena i de Vries-Gao przytacza za The Verge. MIT TR (21.08) wprost omawia raport techniczny Google z cytatami Jeffa Deana i niezależnych ekspertów.
+- **Fakty:**
+  - Autorzy (12 osób, wszyscy Google), arXiv 21.08.2025, brak recenzji, open access → zgodne.
+  - 0,24 Wh, 0,03 g CO2e, 0,26 ml; 33× (energia) i 44× (emisje) w okresie V 2024–V 2025 → zgodne.
+  - Woda: kategoria 2 WUE (pobór minus zwrot), bez wody na produkcję prądu; emisje market-based (94 gCO2e/kWh w 2024); wąska granica 0,10 Wh; porównania Li et al. 10–50 ml, Mistral 45 ml, Epoch 0,3 Wh → zgodne (HTML v1).
+  - Li et al.: 700 000 l (trening GPT-3), 4,2–6,6 mld m³ (2027) → zgodne. CACM: arXiv podaje „accepted”, wyniki wyszukiwania podają publikację w CACM w 2025; tom i numer niepotwierdzone. Liczba „ok. 500 ml na 10–50 odpowiedzi” nie jest w abstrakcie; ScienceBlog przypisuje ją temu paperowi (prawdopodobnie z treści; niepewne, nie sprawdziłem w PDF).
+  - „Small Bottle, Big Pipe”: Han, Li, Wierman, Ren; 697–1451 mln galonów dziennie do 2030; porównanie z ok. 1000 MGD Nowego Jorku → zgodne.
+  - IBTimes: „największy szacunek ok. 2000× większy od najmniejszego” → zgodne; LBNL 228 mld galonów w 2023 (17 mld bezpośrednio, ok. 211 mld pośrednio przez prąd) → zgodne z artykułem. Uwaga: IBTimes nie omawia jednego raportu, tylko streszcza analizę CBS News i dane LBNL/IEA; słabe źródło.
+  - **Android Headlines myli pojęcia:** pisze, że Google pominęło „indirect water use … for instance, the water used in the cooling systems”. To błąd: Google wlicza wodę chłodzenia na miejscu, a pomija wodę pośrednią z produkcji energii. Krytyka Rena dotyczy właśnie tej drugiej. Wyszukiwacz opisał krytykę poprawnie, ale nie zauważył błędu w newsie.
+- **Kontrowersja:** ma realne źródła: Ren i de Vries-Gao (za The Verge i Android Headlines), Sasha Luccioni (Hugging Face) oraz Chung i Chowdhury (ML.Energy) w MIT TR (market-based emissions, mediana zamiast sumy, brak liczby zapytań). Opis wyszukiwacza uczciwy, a teza „obie liczby mogą być prawdziwe przy różnych granicach” jest dobrze podparta (ScienceBlog: „The studies are not measuring the same thing”).
+- **Retrakcje / korekty / krytyka / replikacje:** nie znaleziono recenzowanej wersji raportu Google ani formalnej odpowiedzi w czasopiśmie (zapytanie: „"Measuring the environmental impact of delivering AI at Google Scale" critique OR response OR peer-reviewed 2026”). Kontynuacja Rena z 2026 (Small Bottle, Big Pipe) potwierdzona.
+- **Poprawki:**
+  1. Android Headlines błędnie opisuje „wodę pośrednią” jako wodę chłodzenia; to błąd newsa (dobry materiał dla roli 1), nie papera.
+  2. Lepszy, otwarty news z renomowanego medium istnieje: MIT TR (Crownhart, 21.08.2025 i 28.08.2025) z niezależnymi ekspertami. Proponuję go jako news główny, a Android Headlines jako przykład zniekształcenia.
+  3. IBTimes to streszczenie analizy CBS News, nie „raport”.
+  4. Status CACM: „accepted” wg arXiv; tom/numer niepotwierdzone.
+- **Dodatkowe znaleziska:** MIT TR 28.08.2025 wylicza, czego brakuje w raporcie Google (łączna liczba zapytań, obrazy i wideo, modele rozumujące) i pokazuje, że przy 2,5 mld zapytań dziennie ChatGPT (0,34 Wh każde) daje to ponad 300 GWh rocznie. To świetny materiał do pokazania „mediana na prompt vs suma”.
+- **Ocena niezależna:** 4/5. Namacalny spór o liczby, dobra lekcja o granicach systemu i konflikcie interesów (Google mierzy siebie), holenderski akcent (de Vries-Gao, VU). Minusy: główny paper to raport firmy bez recenzji; przeciwny paper Li et al. jest z 2023 (dla AI starszy), choć z kontynuacją 2026. Polecam do piętnastki z MIT TR jako newsem.
+- **Do ręcznego sprawdzenia przez zespół:** artykuł The Verge (zablokowany; sprawdzić tytuł, datę i dokładne cytaty Rena i de Vries-Gao); artykuł Washington Post z 18.09.2024 (403).
+- **Opis po poprawkach:**
+  - **Kategoria:** ślad środowiskowy AI
+  - **News:** „In a first, Google has released data on how much energy an AI prompt uses”, Casey Crownhart, MIT Technology Review, 21 sierpnia 2025, https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/ , paywall: możliwy limit darmowych artykułów (narzędzie otworzyło pełny tekst). Chwali przejrzystość raportu, ale cytuje Luccioni (to firma decyduje, co ujawnić; brak łącznej liczby zapytań) i Chunga/Chowdhury'ego (emisje market-based, mediana). Kontynuacja: „Google's still not giving us the full picture on AI energy use”, 28.08.2025, https://www.technologyreview.com/2025/08/28/1122685/ai-energy-use-gemini/ . Alternatywnie, jako przykład zniekształcenia: Android Headlines, Tyler Lee, 25.08.2025, „Google Says AI Is Tiny on Resources, Experts Say It's Much Bigger”, https://www.androidheadlines.com/2025/08/google-says-ai-is-tiny-on-resources-experts-say-its-much-bigger.html (krytyka Rena i de Vries-Gao za The Verge, z błędnym opisem wody pośredniej). Objaśniacz 2026: ScienceBlog, 10.07.2026, https://scienceblog.com/t-writing-a-single-100-word-email-with-chatgpt-consumes-approximately-the-volume-of-a-standard-bottle-of-water-the-global-infrastructure-processing-ai-queries-is-projected-to-use-the-equivalent-of-hal/
+  - **Paper:** „Measuring the environmental impact of delivering AI at Google Scale”, Elsworth, Huang, Patterson, Schneider, Sedivy, Goodman, Townsend, Ranganathan, Dean, Vahdat, Gomes, Manyika (Google), raport techniczny arXiv:2508.15734, 21.08.2025, https://arxiv.org/abs/2508.15734 , open access: tak, bez recenzji. Pomiar w produkcji: medianowy prompt tekstowy Gemini Apps = 0,24 Wh, 0,03 g CO2e, 0,26 ml wody; spadek 33× (energia) i 44× (emisje) w rok. Woda tylko konsumpcyjna na miejscu (bez wody na produkcję prądu), emisje market-based; wąska granica (same akceleratory) dałaby 0,10 Wh. Paper przeciwny: Li, Yang, Islam, Ren, „Making AI Less 'Thirsty'…”, arXiv:2304.03271 (v5 26.03.2025), przyjęty do Communications of the ACM, https://arxiv.org/abs/2304.03271 : 700 000 l na trening GPT-3, 4,2–6,6 mld m³ poboru w 2027.
+  - **Trzecie źródło:** Han, Li, Wierman, Ren, „Small Bottle, Big Pipe…”, arXiv:2603.02705, marzec 2026, https://arxiv.org/abs/2603.02705 : 697–1451 mln galonów dziennie nowej przepustowości wodociągów w USA do 2030 (porównywalne z dziennym zaopatrzeniem Nowego Jorku); skutki lokalne. Plus krytyka Rena i de Vries-Gao w The Verge (do ręcznego sprawdzenia).
+  - **Dlaczego fajne:** każdy słyszał „butelka wody na maila” albo „pięć kropli”; obie liczby mogą być „prawdziwe” przy różnych granicach (woda bezpośrednia vs pośrednia, mediana vs suma, market- vs location-based); konflikt interesów; holenderski akcent.
+  - **Kontrowersja / rozjazd:** media w 2024 uogólniły „butelkę na maila”; Google w 2025 wybrało korzystne granice; Android Headlines pomylił pojęcia; spór naukowców z firmą.
+  - **Trudność techniczna:** średnia (WUE, PUE, scope 2 market vs location, wnioskowanie vs trening, batching i bezczynne maszyny).
+  - **Pytanie do dyskusji:** Kto powinien liczyć ślad środowiskowy AI: firmy same o sobie, naukowcy z niepełnymi danymi czy regulator? Czy indywidualne „oszczędzanie promptów” ma sens, czy problem jest systemowy (lokalne wodociągi)?
+  - **Weryfikacja:** ⚠️ (zmiana newsa głównego, poprawka opisu Android Headlines), pewność wysoka co do paperów, średnia co do The Verge.
+
 (kolejne pary w toku)
 
 ## Lista do ręcznego sprawdzenia

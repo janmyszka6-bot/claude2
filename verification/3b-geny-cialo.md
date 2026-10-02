@@ -143,6 +143,127 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3b-geny-ci
   - **Pytanie do dyskusji:** Czy firma zarabiająca na selekcji zarodków powinna móc publikować walidację własnego predyktora bez ujawnienia algorytmu i czy „Editor's Note” to wystarczające zabezpieczenie?
   - **Weryfikacja:** ⚠️ poprawione, pewność średnia (paper potwierdzony z wysoką pewnością; słabe ogniwo to news).
 
+### 4. „Dire wolf” Colossal: de-extinction, czyli genetycznie zmodyfikowany wilk szary: ⚠️ poprawione (pewność: średnia)
+- **Sprawdzone linki:**
+  - https://www.scientificamerican.com/article/the-dire-wolf-isnt-back-but-heres-what-de-extinction-tech-can-actually-do/ – działa, Andrea Thompson, 8.04.2025, bez paywalla.
+  - https://www.sciencealert.com/did-dire-wolves-just-come-back-from-extinction-heres-the-truth – działa, Carly Cassella, 8.04.2025.
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13477035/ – działa, recenzowany paper w Cell Genomics.
+  - https://news.ucsc.edu/wp-content/uploads/2025/04/Dire-wolf-ancestry-pre-print.pdf – działa (PDF), WebFetch nie odczytał treści; tytuł potwierdzony z metadanych.
+  - https://phys.org/news/2025-04-ancient-dna-aids-de-extinction.html – działa, komunikat UC Santa Cruz, 14.04.2025.
+  - New Scientist (Le Page, 22.05.2025) – nieotwierany (domena blokowana); cytat Shapiro potwierdzony przez wyniki wyszukiwania (bioethics.com, sciencealert).
+  - Komentarz IUCN SSC CSG – otworzyłem sam: https://canids.org/resources/CSG%20gene%20editing%20in%20wild%20canids.pdf (PDF przeczytany narzędziem Read).
+  - Dodatkowo: https://pmc.ncbi.nlm.nih.gov/articles/PMC12181955/ (Ilic, Stem Cell Reports) – działa; SciAm i ScienceAlert ze stycznia 2021 o paperze Perri i in. w Nature – działają (kontekst).
+- **News a paper:** To słabe ogniwo. SciAm (kwiecień 2025) jest o ogłoszeniu szczeniąt i tylko jednym akapitem zapowiada paper o pochodzeniu wilka straszliwego („set to be detailed in a paper that will be posted to the preprint server arXiv.org”; w rzeczywistości bioRxiv, 11.04.2025, wg komunikatu UCSC). ScienceAlert w ogóle nie nazywa preprintu Colossal; cytuje paper Perri i in. (Nature 2021). Recenzowany paper (Cell Genomics, lipiec 2026) nie opisuje edytowanych szczeniąt, a o samych szczeniętach nie ma żadnego recenzowanego papera (zapytanie: „Colossal dire wolf pups Romulus Remus gene edits peer-reviewed paper published 2026”). Nie znalazłem newsa, który omawia wersję z Cell Genomics (zapytania: „dire wolf genome Cell Genomics news hybrid two lineages 2026”, „dire wolf Cell Genomics July 2026 ancestry paper Shapiro Colossal published peer-reviewed”).
+- **Fakty:**
+  - Tytuł, Gedman … Shapiro, Cell Genomics 6(8):101306, 27.07.2026, DOI 10.1016/j.xgen.2026.101306, PMC13477035, open access → zgodne (24 autorów).
+  - Dwie próbki: ~13 000 lat (Sheriden Pit, Ohio) i >72 000 lat (Gigantobison Bay, Idaho) → zgodne.
+  - „ok. 2/3 i ok. 1/3” → poprawione: w wersji recenzowanej ok. 61% od linii siostrzanej do wilków szarych, kojotów i dholi, ok. 39% z głębszej linii (bliskiej psowatym Ameryki Południowej). „2/3 – 1/3” to sformułowanie z preprintu i komunikatu UCSC (2025).
+  - Dywergencja ~4,5 mln lat → zgodne.
+  - Konflikt interesów (udziały w Colossal, Church współzałożyciel, George R.R. Martin inwestor i doradca) → zgodne.
+  - Paper nie opisuje szczeniąt → zgodne.
+  - „20 sites on 14 genes … 15 extinct dire wolf variants” (SciAm) → zgodne.
+  - IUCN SSC CSG, 18.04.2025, Kitchener, Sacks, Sillero i in.: zwierzęta „are not dire wolves. Nor are they proxies…”, projekt nie przyczynia się do ochrony gatunków → zgodne (PDF).
+  - Shapiro w New Scientist: „Our animals are grey wolves with 20 edits that are cloned” → zgodne z wynikami wyszukiwania (artykułu nie otwierałem).
+  - Krytycy Austin i Boyko (ScienceAlert), Jacquelyn Gill (SciAm, „designer dog”) → zgodne.
+- **Kontrowersja:** Realna i dobrze udokumentowana (IUCN, Ilic w Stem Cell Reports, wypowiedź samej Shapiro), ale dotyczy ogłoszenia i PR firmy, a nie recenzowanego papera. Ciekawy, niezauważony przez wyszukiwacza wątek naukowy: paper Perri i in. (Nature 2021) twierdził, że wilk straszliwy oddzielił się ok. 5,7 mln lat temu i nie wymieniał genów z wilkami szarymi; paper Colossal opisuje hybrydowe pochodzenie i bliższe pokrewieństwo, co wygodnie uzasadnia użycie wilka szarego jako „bazy”. To nie musi być błąd, ale przy pełnym konflikcie interesów warto to omówić. Opis wyszukiwacza jest uczciwy, z jednym zastrzeżeniem: para news↔paper jest luźniejsza, niż sugeruje ocena 4/5.
+- **Retrakcje / korekty / krytyka / replikacje:** Brak retrakcji i korekt dla papera z Cell Genomics (świeży, lipiec 2026). Recenzowana krytyka projektu: Dusko Ilic, „Engineered proxies and the illusion of de-extinction”, Stem Cell Reports 20(6), 15.05.2025, DOI 10.1016/j.stemcr.2025.102505 (komentarz). Zapytania: j.w. oraz „Colossal dire wolf ancestry preprint criticism Perri 2021 no gene flow hybridization grey wolf closest relative experts dispute”.
+- **Poprawki:**
+  1. Proporcje pochodzenia: 61% / 39% w wersji recenzowanej (2/3 – 1/3 tylko w preprincie).
+  2. SciAm mówi o arXiv, faktycznie preprint był na bioRxiv (11.04.2025).
+  3. ScienceAlert nie omawia preprintu Colossal; jako „news o paperze” nadaje się tylko SciAm.
+  4. Ocena pary niższa: news jest o szczeniętach, paper o filogenezie; brak newsa o wersji recenzowanej.
+  5. Komentarz IUCN jest dostępny wprost (link wyżej), nie tylko przez Wikipedię.
+- **Dodatkowe znaleziska:** Ilic, Stem Cell Reports 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12181955/ – recenzowany, otwarty komentarz, idealny jako trzecie źródło („synthetic proxy designed to mimic phenotype, not to replicate genotype”). The Conversation (Timothy Hearn, kwiecień 2025), „Can we really resurrect extinct animals, or are we just creating hi-tech lookalikes?” (z wyników wyszukiwania, nieotwierane). Kontrast z paperem Perri i in., Nature 2021 (SciAm 13.01.2021: https://www.scientificamerican.com/article/dire-wolves-were-not-really-wolves-new-genetic-clues-reveal).
+- **Ocena niezależna:** 3/5. Temat bardzo popularny i wdzięczny do analizy mediów (okładka Time, „wskrzeszony wilk”), krytyka solidna. Ale paper (filogeneza ze starożytnego DNA) nie dotyczy tego, o czym jest kontrowersja, a dla samych szczeniąt nie ma papera. Czytelność pary (kryterium 1) jest słaba. Do piętnastki raczej nie, chyba że zespół świadomie zrobi z braku papera temat („nauka przez komunikat prasowy”).
+- **Do ręcznego sprawdzenia przez zespół:** New Scientist, 22.05.2025, „Colossal scientist now admits they haven't really made dire wolves” (dokładny cytat Shapiro).
+- **Opis po poprawkach:**
+  - **Kategoria:** de-extinction / edycja genów / spór naukowy i terminologiczny.
+  - **News:** „The Dire Wolf Isn't Back—But Here's What 'De-Extinction' Tech Can Actually Do”, Scientific American (Andrea Thompson), 8 kwietnia 2025, https://www.scientificamerican.com/article/the-dire-wolf-isnt-back-but-heres-what-de-extinction-tech-can-actually-do/, paywall: nie. Opisuje 20 edycji w 14 genach wilka szarego, cytuje krytyków („designer dog”) i zapowiada paper o pochodzeniu wilka straszliwego (hybrydyzacja dwóch linii). Uzupełniająco: ScienceAlert, 8.04.2025, https://www.sciencealert.com/did-dire-wolves-just-come-back-from-extinction-heres-the-truth (krytyka, bez nazwy papera).
+  - **Paper:** „On the ancestry and evolution of the extinct dire wolf”, Gregory L. Gedman … Beth Shapiro (Colossal Biosciences, UC Santa Cruz i in.), Cell Genomics 6(8):101306, 27 lipca 2026, DOI 10.1016/j.xgen.2026.101306, https://pmc.ncbi.nlm.nih.gov/articles/PMC13477035/, open access: tak (preprint bioRxiv, kwiecień 2025). Dwie próbki (~13 000 i >72 000 lat), rekonstrukcja paleogenomu, analiza filogenetyczna. Wynik: podwójne pochodzenie (ok. 61% i 39%), dywergencja ok. 4,5 mln lat temu. Rozbudowany konflikt interesów. Paper nie opisuje edytowanych szczeniąt.
+  - **Trzecie źródło:** IUCN SSC Canid Specialist Group, 18.04.2025, https://canids.org/resources/CSG%20gene%20editing%20in%20wild%20canids.pdf – zwierzęta to ani wilki straszliwe, ani ich „proxy”; projekt nie służy ochronie gatunków. Ilic, Stem Cell Reports 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC12181955/.
+  - **Dlaczego fajne:** „Wskrzesili wymarłego wilka” to nagłówek, który każdy zna. Kontrast między marketingiem a nauką jest ostry.
+  - **Kontrowersja / rozjazd:** Firma mówi „de-extinction”, krytycy i sama Shapiro przyznają, że to zmodyfikowany i sklonowany wilk szary z 20 edycjami. Recenzowany paper o pochodzeniu, napisany przy pełnym konflikcie interesów, częściowo rewiduje wcześniejszy wynik z Nature 2021. Kluczowa uwaga: dla szczeniąt nie ma recenzowanego papera.
+  - **Trudność techniczna:** średnia/wysoka. Paleogenomika, starożytne DNA, admixture, „proxy” fenotypowe vs odtworzenie gatunku, edycja wielopunktowa i klonowanie.
+  - **Pytanie do dyskusji:** Czy nazywanie zmodyfikowanego wilka szarego „wilkiem straszliwym” to uczciwa komunikacja nauki, czy marketing, i czy firma, która na tym zarabia, powinna sama publikować badania uzasadniające ten projekt?
+  - **Weryfikacja:** ⚠️ poprawione, pewność średnia.
+
+### 5. Pierwsza ksenotransplantacja płuca świni do człowieka: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:** Wyszukiwacz nie podał linku do newsa ani trzeciego źródła; uzupełniłem:
+  - Paper: https://www.nature.com/articles/s41591-025-03861-x – działa po 2 przekierowaniach (strona z abstraktem, paywall).
+  - News (licencjonowany przedruk NYT News Service): https://www.hawaiitribune-herald.com/2025/08/26/nation-world-news/scientists-perform-first-pig-to-human-lung-transplant – działa; Roni Caryn Rabin, 26.08.2025; strona czasowo bez paywalla.
+  - News alternatywny: https://www.nationalgeographic.com/science/article/first-pig-to-human-lung-transplant-china – działa; Mohana Ravindranath, 25.08.2025.
+  - Komentarze ekspertów: https://www.sciencemediacentre.org/expert-reaction-to-study-on-first-pig-to-human-lung-transplantation-into-a-brain-dead-recipient/ – działa (25.08.2025; zawiera komentarze ekspertów hiszpańskich, przejęte od SMC Spain).
+  - Europe PMC (wyszukiwacz) – nie otwierałem, bo otworzyłem stronę wydawcy.
+- **News a paper:** NYT (przedruk): „scientists at Guangzhou Medical University reported in the journal Nature Medicine” – wprost. National Geographic: badanie „published in Nature Medicine”, ogłoszone w poniedziałek.
+- **Fakty:**
+  - Tytuł, He Jianxing (pierwszy), Xu Xin (ostatni) → zgodne; liczba autorów „~29” → poprawione na 27.
+  - Nature Medicine 31, 3388–3393, online 25.08.2025, DOI 10.1038/s41591-025-03861-x → zgodne (dodane strony).
+  - Open access: nie → zgodne.
+  - Sześć edycji genów → zgodne (wg wyników wyszukiwania: knock-out GGTA1, B4GALNT2, CMAH + ludzkie CD46, CD55, trombomodulina).
+  - 39-letni mężczyzna w śmierci mózgowej, 216 godzin (9 dni) → zgodne.
+  - Brak nadostrej reakcji, ciężki obrzęk po 24 h → zgodne (paper: obrzęk przypominający pierwotną dysfunkcję przeszczepu). „Prawdopodobnie uszkodzenie niedokrwienno-reperfuzyjne” → niepotwierdzone przeze mnie w tekście (niepewne).
+  - Odrzucanie z udziałem przeciwciał w dniach 3 i 6, częściowa poprawa do dnia 9 → zgodne.
+  - Uzupełnienie: operację przeprowadzono w maju 2024, opublikowano w sierpniu 2025 (wyniki wyszukiwania).
+- **Kontrowersja:** Ma źródło. Dr Richard N. Pierson w NYT: „It's impressive, but it doesn't answer the question: Is that lung working?” (krytykuje, że nie sprawdzono, jak płuco radzi sobie samo). Komentarze SMC wskazują ograniczenia: model śmierci mózgowej, wczesny obrzęk, odrzucanie od dnia 3, krótka obserwacja, intensywna immunosupresja, wykryte latentne wirusy świńskie, jeden przypadek. Opis wyszukiwacza (rozjazd „pierwsze płuco” vs obrzęk i odrzucanie) jest uczciwy; media (NYT, NatGeo) w treści same zaznaczają uszkodzenia, więc rozjazd jest głównie w nagłówkach („first pig-to-human lung transplant”).
+- **Retrakcje / korekty / krytyka / replikacje:** Brak korekt na stronie wydawcy. Brak drugiego pacjenta i formalnej krytyki (zapytanie: „pig lung xenotransplantation 2026 He Jianxing follow-up second patient OR criticism OR correction”). Jest artykuł przeglądowy w PMC (PMC12641028), z wyników wyszukiwania.
+- **Poprawki:**
+  1. Dodany dostępny news: przedruk NYT (Hawaii Tribune-Herald) i National Geographic.
+  2. Dodane trzecie źródło: SMC (komentarze ekspertów) i cytat Piersona z NYT.
+  3. 27 autorów, strony 3388–3393.
+  4. Przyczyna obrzęku (niedokrwienie-reperfuzja) niepotwierdzona.
+- **Dodatkowe znaleziska:** brak ponad to, co wyżej.
+- **Ocena niezależna:** 4/5. Mocny, świeży paper w Nature Medicine, czytelna para (news wprost nazywa czasopismo i zespół), realny rozjazd nagłówek–wynik oraz etyka (eksperyment na ciele w śmierci mózgowej, zwierzęta jako dawcy). Minus: brak formalnej krytyki w czasopiśmie; paper za paywallem (zespół może potrzebować dostępu przez bibliotekę UU). Polecam do piętnastki jako mocną opcję zapasową lub główną dla grupy lubiącej medycynę.
+- **Do ręcznego sprawdzenia przez zespół:** pełny tekst papera (paywall Nature; dostęp przez bibliotekę UU), w tym przyczyna obrzęku; zgoda rodziny i aspekty etyczne opisane w paperze.
+- **Opis po poprawkach:**
+  - **Kategoria:** ksenotransplantacja / edycja genów (świnie wieloedytowane) / medycyna.
+  - **News:** „Scientists perform first pig-to-human lung transplant”, The New York Times (Roni Caryn Rabin), przedruk NYT News Service w Hawaii Tribune-Herald, 26 sierpnia 2025, https://www.hawaiitribune-herald.com/2025/08/26/nation-world-news/scientists-perform-first-pig-to-human-lung-transplant, paywall: nie (czasowo; oryginał NYT za paywallem). Opisuje płuco, które „doznało uszkodzeń, ale do pewnego stopnia działało”, odrzucanie w dniach 3 i 6, obrzęk i usunięcie po 9 dniach; cytuje sceptycznego Piersona. Alternatywa: National Geographic, 25.08.2025, https://www.nationalgeographic.com/science/article/first-pig-to-human-lung-transplant-china.
+  - **Paper:** „Pig-to-human lung xenotransplantation into a brain-dead recipient”, Jianxing He … Xin Xu (27 autorów, Guangzhou Medical University), Nature Medicine 31, 3388–3393 (25 sierpnia 2025), DOI 10.1038/s41591-025-03861-x, https://www.nature.com/articles/s41591-025-03861-x, open access: nie. Płuco od świni z sześcioma edycjami genów przeszczepione 39-letniemu mężczyźnie w stanie śmierci mózgowej; obserwacja 216 godzin. Brak nadostrej reakcji; ciężki obrzęk po 24 h; odrzucanie z udziałem przeciwciał w dniach 3 i 6, częściowa poprawa do dnia 9.
+  - **Trzecie źródło:** Science Media Centre, 25.08.2025, https://www.sciencemediacentre.org/expert-reaction-to-study-on-first-pig-to-human-lung-transplantation-into-a-brain-dead-recipient/ – eksperci chwalą jakość, ale wymieniają ograniczenia (śmierć mózgowa, obrzęk, odrzucanie, wirusy świńskie, N=1).
+  - **Dlaczego fajne:** Płuco to najtrudniejszy narząd w ksenotransplantacji; pierwsza próba u człowieka. Dotyka list oczekujących, śmierci mózgowej jako „modelu” i zwierząt jako dawców.
+  - **Kontrowersja / rozjazd:** „Pierwsze płuco świni u człowieka” brzmi jak przełom, a narząd miał ciężki obrzęk po dobie i cechy odrzucania po 3 dniach; nie sprawdzono, czy samo utrzymałoby oddychanie. Etyka: eksperyment na ciele osoby w śmierci mózgowej, dobrostan świń.
+  - **Trudność techniczna:** wysoka. Knock-out antygenów cukrowych, ludzkie transgeny, odrzucanie humoralne, pierwotna dysfunkcja przeszczepu, immunosupresja.
+  - **Pytanie do dyskusji:** Czy „pierwszy przeszczep” narządu, który zawodzi po kilku dniach, to sukces czy porażka i jak media powinny o tym pisać, by nie dawać fałszywej nadziei pacjentom?
+  - **Weryfikacja:** ⚠️ poprawione (uzupełniony news i trzecie źródło), pewność wysoka.
+
+### 6. „Trzy-rodzicielskie” dzieci: dawstwo mitochondriów, ośmioro niemowląt w Newcastle: ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - https://www.ncl.ac.uk/press/articles/archive/2025/07/mitochondrialdonationtreatment/ – działa (16.07.2025), komunikat uczelni, nazywa oba papery w NEJM.
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7617940 – działa, pełny tekst papera Hyslop i in.
+  - https://www.livescience.com/health/genetics/8-babies-spared-from-potentially-deadly-inherited-diseases-through-new-mitochondrial-donation-trial – WebFetch zwrócił obciętą treść (jak u wyszukiwacza); nie potwierdziłem, czy nazywa NEJM.
+  - PubMed 40689593 (McFarland i in.) – strona zwróciła tylko komunikat o ciasteczkach; tytuł potwierdzony przez komunikat Newcastle.
+  - Dodatkowo otwarte: MIT Technology Review https://www.technologyreview.com/2025/07/16/1120285/babies-born-trial-of-three-person-ivf/ (działa) oraz przedruk BBC w The Star (Kenia) https://www.the-star.co.ke/health/2025-07-17-babies-made-using-three-peoples-dna-are-born-free-of-hereditary-disease (działa).
+- **News a paper:** MIT Technology Review (Jessica Hamzelou): „The results were published today in the New England Journal of Medicine”. BBC (przedruk): „A pair of reports, in the New England Journal of Medicine…”. Live Science: niepotwierdzone (treść obcięta).
+- **Fakty:**
+  - Tytuł papera 1 „Mitochondrial Donation and Preimplantation Genetic Testing for mtDNA Disease” → poprawione na „Mitochondrial Donation and PGT to Reduce Risk of Mitochondrial DNA Disease” (PMC i komunikat Newcastle).
+  - Hyslop i in., NEJM 393(5):438–449, DOI 10.1056/NEJMoa2415539 → zgodne.
+  - Paper 2: McFarland i in., „Mitochondrial Donation in a Reproductive Care Pathway for mtDNA Disease”, NEJM 393(5):461–468, DOI 10.1056/NEJMoa2503658 → tytuł zgodny (komunikat Newcastle); strony i DOI tylko od wyszukiwacza, niepotwierdzone przeze mnie.
+  - Open access (PMC) → zgodne dla papera 1.
+  - 22 kobiety przeszły PNT (25 miało pobranie oocytów), 8 żywych urodzeń + 1 ciąża → zgodne; dopisać: ośmioro dzieci urodziło 7 kobiet (w tym bliźnięta jednojajowe).
+  - 18 urodzeń po samym PGT (39 kobiet) → zgodne.
+  - Heteroplazmia u dzieci po PNT: 5 niewykrywalna (<3%), 3 na poziomie 5%, 12%, 16% → zgodne; redukcja 77,6–100% względem zygot → zgodne.
+  - „Strategia redukcji ryzyka” → zgodne (autorzy: „a risk reduction strategy”).
+  - Wkład dawczyni ok. 0,1% DNA → zgodne (powtarzane przez media).
+- **Kontrowersja:** Ma realne źródło. MIT TR cytuje etyczkę Heidi Mertes („As long as they don't understand what's happening, I would still be worried”) i embriologa Pavlo Mazura (sugeruje wstrzymanie prób do wyjaśnienia „reversal”). BBC w treści przyznaje, że u trojga dzieci 5–20% mitochondriów było wadliwych i trzeba zrozumieć dlaczego, ale nagłówek mówi „born free of hereditary disease”. To czysty, uczciwie udokumentowany rozjazd nagłówek–treść–paper. Opis wyszukiwacza („nagłówki raczej nie mówią o reversal”) jest trafny dla nagłówków; treści części mediów o tym mówią.
+- **Retrakcje / korekty / krytyka / replikacje:** Nie znaleziono korekt ani listów do NEJM o „reversal” z lat 2025–2026 (zapytania: „pronuclear transfer mitochondrial donation Newcastle 2026 follow-up children reversal correspondence NEJM letter”, „mitochondrial donation Newcastle babies 16% heteroplasmy reversal concern expert news NEJM”). Komentarze ekspertów: SMC Spain (z wyników wyszukiwania).
+- **Poprawki:**
+  1. Tytuł papera 1 poprawiony.
+  2. Główny news zmieniony na dostępny i nazywający NEJM: MIT Technology Review (z wątkiem „reversal” i krytykami). Wersja „hype” do analizy: BBC („born free of hereditary disease”, przedruk w The Star).
+  3. Dodane trzecie źródło: krytycy cytowani przez MIT TR (Mertes, Mazur).
+  4. 8 dzieci od 7 kobiet.
+- **Dodatkowe znaleziska:** MIT TR i przedruk BBC (linki wyżej). Komunikat Newcastle nie używa określenia „three-parent”; MIT TR używa „three-person IVF”, BBC „three people's DNA” – dobry materiał do porównania framingu.
+- **Ocena niezależna:** 4/5. Recenzowane, otwarte papery w NEJM, pierwsze wyniki po 10 latach od legalizacji w UK, czytelny rozjazd („wolne od choroby” vs heteroplazmia do 16% i nieznany mechanizm „reversal”), zrozumiały framing „trojga rodziców”. Minus: brak formalnej krytyki w czasopiśmie. Polecam do piętnastki.
+- **Do ręcznego sprawdzenia przez zespół:** Live Science (treść obcięta przez narzędzie); oryginał BBC i Guardiana (zablokowane), jeśli zespół chce cytować oryginał zamiast przedruku; ewentualny limit darmowych artykułów w MIT TR.
+- **Opis po poprawkach:**
+  - **Kategoria:** terapie reprodukcyjne / mtDNA / „three-parent babies”.
+  - **News:** „Researchers announce babies born from a trial of three-person IVF”, MIT Technology Review (Jessica Hamzelou), 16 lipca 2025, https://www.technologyreview.com/2025/07/16/1120285/babies-born-trial-of-three-person-ivf/, paywall: możliwy limit darmowych artykułów (niepewne). Nazywa NEJM, opisuje 8 dzieci i to, że u trojga poziom zmutowanego mtDNA wyniósł 5–16%, cytuje zaniepokojonych ekspertów. Wersja „nagłówkowa”: BBC, „Babies made using three people's DNA are born free of hereditary disease” (przedruk: https://www.the-star.co.ke/health/2025-07-17-babies-made-using-three-peoples-dna-are-born-free-of-hereditary-disease). Źródło pierwotne: komunikat Newcastle University, https://www.ncl.ac.uk/press/articles/archive/2025/07/mitochondrialdonationtreatment/.
+  - **Paper:** (1) Hyslop L.A. i in., „Mitochondrial Donation and PGT to Reduce Risk of Mitochondrial DNA Disease”, NEJM 393(5):438–449, 16 lipca 2025, DOI 10.1056/NEJMoa2415539, https://pmc.ncbi.nlm.nih.gov/articles/PMC7617940, open access: tak; (2) McFarland R. i in., „Mitochondrial Donation in a Reproductive Care Pathway for mtDNA Disease”, NEJM 2025, DOI 10.1056/NEJMoa2503658. Pronuclear transfer: 22 kobiety, 8 żywych urodzeń (od 7 kobiet) + 1 ciąża; plus 18 urodzeń po samym PGT. U 5 z 8 dzieci heteroplazmia niewykrywalna, u 3 na poziomie 5%, 12% i 16%; autorzy nazywają metodę strategią redukcji ryzyka.
+  - **Trzecie źródło:** krytycy w MIT TR (Heidi Mertes, Uniwersytet w Gandawie; Pavlo Mazur) – obawy o „reversal” i apel o ostrożność; sam paper omawia ten problem.
+  - **Dlaczego fajne:** „Dziecko z DNA trojga osób” to chwytliwy temat o IVF, dziedziczeniu i granicach ingerencji w linię zarodkową. Pierwsze wyniki po latach oczekiwania (UK zalegalizowało metodę w 2015).
+  - **Kontrowersja / rozjazd:** (1) framing „three-parent” vs ok. 0,1% DNA od dawczyni; (2) „born free of hereditary disease” vs heteroplazmia do 16% i nieznany mechanizm „reversal”; (3) etyka modyfikacji dziedzicznej.
+  - **Trudność techniczna:** średnia/wysoka. Mitochondria i mtDNA, heteroplazmia, pronuclear transfer, PGT, „reversal”.
+  - **Pytanie do dyskusji:** Jeśli u części dzieci wadliwe mitochondria wracają, czy wolno nazywać terapię sukcesem i jak komunikować niepewność rodzicom?
+  - **Weryfikacja:** ⚠️ poprawione (tytuł papera, dostępny news), pewność wysoka.
+
 ## Lista do ręcznego sprawdzenia
 (uzupełniana na bieżąco)
 - Guardian, Damian Carrington, 13.01.2026, „'A bombshell': doubt cast on discovery of microplastics throughout human body” (para 1): dokładny nagłówek, lista badań, cytat Kuhlmana.
@@ -150,3 +271,6 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/3b-geny-ci
 - NYT/Guardian/BBC z 15.05.2025 o baby KJ (para 2): czy w nagłówkach pada „cure”.
 - The Economist, 11.08.2026, „How much would you pay for a smarter baby?” (para 3): czy omawia paper Wolframa i in. lub Editor's Note.
 - medRxiv 10.1101/2025.08.06.25333145 (para 3): HTTP 403; czy to wcześniejsza wersja papera.
+- New Scientist, 22.05.2025, https://www.newscientist.com/article/2481409-colossal-scientist-now-admits-they-havent-really-made-dire-wolves/ (para 4; URL od wyszukiwacza, nieotwierany): dokładny cytat Shapiro.
+- Nature Medicine, pełny tekst papera He i in. (para 5; paywall): przyczyna obrzęku, zgoda rodziny.
+- Live Science, 16.07.2025 (para 6): treść obcięta przez narzędzie; czy nazywa NEJM.
