@@ -25,6 +25,7 @@ Pisz po polsku. Tytuły artykułów i paperów zostawiaj w oryginale.
 
 ## Czego szukamy
 
+- **Najważniejszy jest dobry paper.** Jakość i ciekawość papera ważą więcej niż jakość newsa. News musi jednak istnieć i wprost omawiać paper.
 - Coś kontrowersyjnego albo naprawdę fascynującego, do czego każdy na sali może się odnieść.
 - Obie opcje są dobre: media dobrze oddały badanie albo wyraźnie je przekręciły.
 - Kontrowersja naukowa (słaba metodologia, podważony wynik) i społeczno-etyczna (solidny wynik, spór o konsekwencje) są równie dobre.
@@ -53,6 +54,8 @@ Dzisiaj jest **październik 2026** (dokładna data jest w treści zadania). Twoj
 7. Dostępność (paywall oznaczyć).
 8. Trudność techniczna (zaznaczyć, nie wykluczać).
 
+Największą wagę mają: jakość i ciekawość papera, potem czytelność pary i kontrowersja. Werdykt ⚠️ wynikający wyłącznie z zablokowanego newsa nie obniża oceny niezależnej.
+
 # Procedura (dla każdej pary z pliku)
 
 1. **Linki.** Sam otwórz każdy link przez WebFetch. Sprawdź, czy działa i czy prowadzi do tego, co opisano. Zapisz status każdego.
@@ -76,13 +79,16 @@ Nie dodawaj własnych nowych par. Jeśli jednak przy okazji znajdziesz dla istni
 
 # Narzędzia: praktyczne uwagi (stan na 2 października 2026)
 
+- **Używaj tylko WebSearch, WebFetch, Read i Write.** Jeśli WebSearch albo WebFetch nie są od razu dostępne, załaduj je na początku przez ToolSearch z zapytaniem `select:WebSearch,WebFetch`. Nie używaj Bash, Agent ani innych narzędzi.
+
 - **„Claude Code is unable to fetch from <domena>”** oznacza blokadę narzędzia po stronie wydawcy (serwis blokuje AI), a nie zły link. Tak było m.in. z: theguardian.com, nytimes.com, bbc.com, theatlantic.com, wired.com, theverge.com, arstechnica.com, newscientist.com, vox.com, apnews.com, reuters.com, content.guardianapis.com (API Guardiana). **HTTP 403:** science.org, washingtonpost.com.
 - **Działały:** nature.com (trzeba ręcznie przejść 2 przekierowania), arxiv.org, pubmed.ncbi.nlm.nih.gov, medrxiv.org, theconversation.com, statnews.com, technologyreview.com, scientificamerican.com, quantamagazine.org, psypost.org, 404media.co. Lista nie jest pełna.
 - **Przekierowania:** WebFetch nie podąża za przekierowaniem na inną domenę, tylko zwraca nowy URL. Wywołaj go ponownie z tym URL-em.
 - **Gdy news jest zablokowany:** nie obchodź blokady. Wydawca świadomie zablokował AI. Nie udawaj przeglądarki i nie używaj kopii archiwalnych, mirrorów, czytników-proxy ani innych sposobów czytania zablokowanego artykułu. Zamiast tego:
   1. **WebSearch z precyzyjnym zapytaniem:** tytuł artykułu w cudzysłowie, nazwisko autora papera, nazwa czasopisma, nazwa medium.
   2. **Licencjonowany przedruk:** teksty AP i Reuters są legalnie przedrukowywane przez partnerów (np. Yahoo News, PBS, ABC News). Jeśli wyszukiwanie zwróci przedruk, otwórz go.
-  3. **Inne dostępne artykuły** o tym samym paperze.
+  3. **Opisy tego artykułu gdzie indziej:** inne media, newslettery, blogi naukowców i serwisy cytujące ten artykuł (np. „as reported by the Guardian…”).
+  4. **Inne dostępne artykuły** o tym samym paperze.
   Taka para może dostać najwyżej ⚠️ i trafia na listę „Do ręcznego sprawdzenia przez zespół”. Zespół wklei treść artykułu do końcowej weryfikacji.
 - **Gdy paper jest zablokowany:** strona abstraktu w PubMed lub Europe PMC, wersja w PMC, preprint, wersja autorska.
 - **WebFetch odpowiada przez mały model streszczający stronę.** Zadawaj precyzyjne pytania („podaj dokładną liczbę uczestników”, „przytocz zdanie, w którym artykuł wymienia badanie”). Kluczowych faktów nie opieraj na ogólnym streszczeniu.

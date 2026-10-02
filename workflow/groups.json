@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "1-ai-psychika",
+    "name": "1. AI i ludzka psychika/myślenie",
+    "short": "AI psychosis i urojenia, sycophancy, samotność i relacje z chatbotami, AI jako terapeuta, wpływ AI na myślenie, pamięć, pisanie, uczenie się",
+    "scope": "„AI psychosis” i urojenia podsycane przez chatboty; sycophancy (zarówno pomiar u modeli, jak i wpływ na użytkowników); samotność i relacje z chatbotami (companion apps, Character.AI, Replika itp.); AI jako terapeuta; wpływ AI na myślenie, pamięć, pisanie i uczenie się (cognitive offloading, edukacja, krytyczne myślenie).",
+    "tropes": "- MIT „Your Brain on ChatGPT” (EEG, pisanie esejów z ChatGPT, 2025) i medialne „ChatGPT ogłupia”\n- chatboty a urojenia („AI psychosis”)\n- badanie Stanford o chatbotach-terapeutach (2025)\n- badanie OpenAI/MIT o używaniu ChatGPT i samotności (2025)"
+  },
+  {
+    "slug": "2a-ai-od-srodka",
+    "name": "2a. AI od środka: alignment, interpretability, świadomość AI, tempo postępu",
+    "short": "alignment (oszukiwanie, szantaż, alignment faking, rozpoznawanie testów), interpretability i introspekcja modeli, świadomość AI i wiara ludzi w nią, możliwości i tempo postępu, test Turinga, spór o rozumowanie",
+    "scope": "Alignment: oszukiwanie, szantaż w scenariuszach testowych, udawanie posłuszeństwa (alignment faking), rozpoznawanie testów (eval awareness), scheming, reward hacking. Interpretability i introspekcja modeli. Świadomość AI i to, czy ludzie w nią wierzą (w tym dobrostan modeli). Możliwości i tempo postępu (benchmarki, horyzont zadań, test Turinga, spór o to, czy modele „rozumują”).",
+    "tropes": "- modele AI szantażujące w scenariuszach testowych (agentic misalignment)\n- „alignment faking” (Anthropic i inni)\n- GPT-4.5 przechodzi test Turinga (Jones & Bergen, 2025)\n- od orkiestratora: Apple „The Illusion of Thinking” (2025) i odpowiedzi/rebuttale\n- od orkiestratora: nagłówek MIT Technology Review widoczny 2 października 2026: „Don't be fooled—LLMs don't reason” (sprawdzić, czy omawia konkretny paper)"
+  },
+  {
+    "slug": "2b-ai-spoleczenstwo",
+    "name": "2b. AI a społeczeństwo: praca, perswazja, polityka, nauka, etyka",
+    "short": "rynek pracy i produktywność z AI, perswazja i polityka, AI w nauce i recenzjach, etyka eksperymentów z AI, ślad środowiskowy AI",
+    "scope": "Rynek pracy i produktywność; perswazja i polityka (AI zmieniające przekonania, wybory, dezinformacja); AI w nauce (AI-naukowcy, recenzje, ukryte prompty, zalew tekstów generowanych przez AI); etyka eksperymentów z udziałem AI; ślad środowiskowy AI (woda, energia).",
+    "tropes": "- METR: doświadczeni programiści z AI wolniejsi, choć przekonani, że szybsi (2025)\n- spadek zatrudnienia młodych w zawodach narażonych na AI (Stanford, 2025)\n- AI zmniejsza wiarę w teorie spiskowe (Science, 2024)\n- nieetyczny eksperyment z botami AI na Reddicie r/changemyview (2025)\n- ukryte prompty w paperach, żeby recenzenci-AI chwalili pracę (2025)\n- od orkiestratora: szacunki zużycia wody/energii przez AI i spór o te liczby"
+  },
+  {
+    "slug": "3a-umysl-mozg",
+    "name": "3a. Umysł i mózg",
+    "short": "wewnętrzny głos, afantazja, interfejsy mózg-komputer i dekodowanie myśli, stymulacja mózgu, nauka o świadomości, świadomość zwierząt, organoidy mózgowe",
+    "scope": "Wewnętrzny głos, afantazja; interfejsy mózg-komputer i dekodowanie myśli (także z fMRI); stymulacja mózgu; nauka o świadomości i spory teorii; świadomość zwierząt; organoidy mózgowe.",
+    "tropes": "- anendophasia, ludzie bez wewnętrznego głosu (Nedergaard & Lupyan, 2024)\n- implant dekodujący wewnętrzną mowę (2025)\n- list nazywający teorię IIT pseudonauką; „adversarial collaboration” teorii świadomości w Nature (2025)\n- od orkiestratora: nagłówek MIT Technology Review widoczny 2 października 2026: „An AI 'mind-reading' tool can reconstruct what you're looking at from a brain scan” (sprawdzić)"
+  },
+  {
+    "slug": "3b-geny-cialo",
+    "name": "3b. Geny i ciało",
+    "short": "edycja genów, selekcja zarodków, mikroplastik w organizmie, de-extinction, mirror life, inne fascynujące tematy biomedyczne niezwiązane z psychiką",
+    "scope": "Edycja genów (CRISPR, terapie spersonalizowane), selekcja zarodków (w tym pod cechy jak IQ), mikroplastik w organizmie, de-extinction, syntetyczna biologia i ryzyko (mirror life), inne fascynujące tematy biomedyczne niezwiązane z psychiką ani mózgiem jako umysłem.",
+    "tropes": "- mikroplastik w ludzkim mózgu (Nature Medicine, 2025) i krytyka metodologii\n- spersonalizowana terapia CRISPR u niemowlęcia (NEJM, 2025)\n- selekcja zarodków pod IQ (firmy typu Orchid, Heliospect, Nucleus)\n- od orkiestratora: „dire wolf” firmy Colossal (2025) i spór naukowców\n- od orkiestratora: ostrzeżenie przed „mirror life” (Science, 2024) i dalsze losy"
+  },
+  {
+    "slug": "4-psychika-substancje",
+    "name": "4. Psychika i substancje",
+    "short": "choroby psychiczne i spory diagnostyczne, trauma i jej dziedziczenie, psychodeliki i narkotyki, ciemne strony medytacji, placebo, leki psychiatryczne",
+    "scope": "Choroby psychiczne i spory diagnostyczne (np. ADHD, autyzm, depresja); trauma, w tym dziedziczenie traumy; psychodeliki i narkotyki; ciemne strony medytacji; placebo (także jawne placebo); leki psychiatryczne i spory wokół nich.",
+    "tropes": "- przegląd Moncrieff o serotoninowej teorii depresji (2022) i dalszy spór\n- paracetamol w ciąży a autyzm (2025, nauka i polityka)\n- epigenetyczne dziedziczenie traumy\n- odrzucenie MDMA na PTSD przez FDA (2024)\n- mikrodawkowanie a placebo\n- niepożądane skutki medytacji; jawne placebo\n- od orkiestratora: nagłówek Nature News widoczny 2 października 2026: „Prozac use for childhood depression skewed by single flawed medical trial” (sprawdzić)"
+  },
+  {
+    "slug": "5-spoleczenstwo-metanauka",
+    "name": "5. Społeczeństwo, metanauka i wildcard",
+    "short": "smartfony i social media a nastolatki, samotność społeczna (nie chatboty), kryzys replikacji, oszustwa naukowe i retrakcje, wildcard spoza innych grup",
+    "scope": "Smartfony i media społecznościowe a nastolatki; samotność społeczna (nie chatboty); kryzys replikacji, oszustwa naukowe, retrakcje; wszystko fascynujące spoza pozostałych grup (wildcard).",
+    "tropes": "- smartfony a psychika nastolatków (spór Haidt kontra krytycy; trzeba zakotwiczyć w jednym konkretnym paperze)\n- afera z badaniami o amyloidzie i Alzheimerze\n- od orkiestratora: sprawy Gino i Ariely'ego (oszustwa w badaniach o nieuczciwości; następstwa 2025–2026)\n- od orkiestratora: nagłówek PsyPost widoczny 2 października 2026 o długofalowych skutkach samotności i izolacji w dzieciństwie (sprawdzić)"
+  }
+]
