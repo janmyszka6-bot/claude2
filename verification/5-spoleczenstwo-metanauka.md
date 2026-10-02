@@ -3,7 +3,21 @@
 Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/5-spoleczenstwo-metanauka.md
 
 ## Podsumowanie
-(w trakcie: sprawdzone pary 1–9)
+Sprawdziłem wszystkie 11 par z sekcji „Pary wstępnie zweryfikowane”. Wynik: **3 ✅** (1, 6, 9), **8 ⚠️** (2, 3, 4, 5, 7, 8, 10, 11), **0 ❌**. WebSearch działał przez całą pracę (komunikatu o wyczerpanym budżecie nie było); Crossref raz zwrócił HTTP 429, ponowna próba się udała. Żaden paper w tej grupie nie jest autorstwa ani współautorstwa pracowników Anthropic.
+
+Najważniejsze problemy i poprawki:
+- **Pola, których wyszukiwacz nie sprawdził z powodu limitu, uzupełnione:** para 5 ma teraz dostępne newsy główne (NYT w przedruku Boston Globe, AP w Euronews, Fox News) i oryginał Retraction Watch; para 6 ma AP (przedruk WSLS) i Scientific American, a „NYT z lutego 2025” okazał się sympatyzującym profilem Wolfe-Simon, nie zapowiedzią retrakcji; para 10 ma brakujący working paper NBER (w35132, Allcott, Gentzkow i in.).
+- **Para 3:** wyszukiwacz przypisał Barzilayowi zarzuty Mental Elf (35,5% braków danych o social mediach, niesprawdzona hipoteza zarejestrowana, graniczny wynik dla depresji), które dotyczą kontynuacji Bren i in. (JAMA Pediatrics 2026). ABC rozciąga „+10% ryzyka na rok” na depresję, choć w paperze dotyczy to tylko otyłości i snu.
+- **Para 4:** kluczowa różnica między Sapien Labs a Fergusonem to nie „wybór zmiennych”, tylko kierunek przyczynowy: u Sapien Labs traumy (np. cyberprzemoc) są mediatorem, u Fergusona wcześniejszą przyczyną. Paper Sapien Labs to krótki tekst w dziale „The Policy Forum”.
+- **Para 7:** wyszukiwacz nie znalazł recenzowanej kontrkrytyki: ponad 70 toksykologów (Borgert i in., EXCLI Journal 2026) żąda cofnięcia retrakcji; jest też odpowiedź Kaurova, MacLeana i Oreskes (SSRN 2026). Paper Kaurova i Oreskes ma teraz DOI i jest open access. Ekspertka Kah (SMC NZ) popiera retrakcję, a nie „broni konsensusu” przeciw niej.
+- **Para 8:** autor tekstu NYT to najpewniej Carl Zimmer („Lori Jia” to osoba publikująca wpisy na jego stronie). Dodane dane ApJL (983(2): L40, DOI 10.3847/2041-8213/adc1c8, open access) i recenzowana krytyka Stevensona i in. (AJ).
+- **Para 11:** „samotni 12-latkowie dwa razy częściej izolowani w wieku 18 lat” to błędne odczytanie: PsyPost pisze, że ścieżka samotność → późniejsza izolacja była ok. dwa razy silniejsza niż ścieżka odwrotna.
+- **Para 2:** paper nie jest open access u wydawcy (wersja autorska w PMC od sierpnia 2026). Science Friday nie podaje tytułu papera ani liczb. Doszedł recenzowany komentarz Rubina (Nature Human Behaviour, wrzesień 2026).
+- **Para 9:** doszła relacja NYT (Carl Zimmer). Teza wyszukiwacza, że media podają ekstrapolację jako pewnik, jest przesadzona: powtarzają tezę samych autorów.
+
+**Polecane do finałowej piętnastki:** 1 (Ariely, 5/5), 5 (Kotz i in., Nature, 4,5/5), 7 (glifosat, 4,5/5), 2 (SCORE, 4/5), 6 (arsenic life, 4/5), 8 (K2-18 b, 4/5). **Warunkowo:** 3 + 4 (+ ewentualnie 10) jako jeden blok „smartfony” (każda 3,5/5); 9 jako uzupełnienie pary 1 (3,5/5). **Nie polecam:** 11 (3/5, solidna, ale bez kontrowersji).
+
+Poza zakresem: tropu „wycofany paper BMJ Public Health o nadmiarowych zgonach” (sekcja odrzuconych) nie weryfikowałem, bo zadanie obejmuje tylko pary wstępnie zweryfikowane.
 
 ## Pary
 
@@ -312,13 +326,13 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/5-spolecze
   - NYT „New Studies Dismiss Signs of Life on Distant Planet”, 23 maja 2025 → zgodne; **autor poprawiony**: „Lori Jia” to osoba publikująca wpisy na stronie carlzimmer.com („Posted … by Lori Jia”); ta sama formuła pojawia się przy innym przedruku NYT, gdzie autorem jest Carl Zimmer. Autorem tekstu NYT jest więc najpewniej Carl Zimmer (do potwierdzenia przez zespół). Treść: Luque i in. (Chicago; połączone dane, brak wyraźnego DMS), Welbanks i in. (ASU; 90 przetestowanych cząsteczek, propyn lepszym kandydatem), odpowiedź Madhusudhana (650 cząsteczek, DMS „wśród najlepszych”) → zgodne. Szczegół „59 z 90 cząsteczek” niepotwierdzony.
   - Hu i in. (JPL), ok. 2,7σ, procesy abiotyczne (fotochemia) mogą wytwarzać DMS → zgodne (Astronomy).
   - Taylor 2025 (test płaskiej linii): niepotwierdzony (aanda.org nieotwarte).
-- **Kontrowersja:** realna i silnie udokumentowana. Opis wyszukiwacza uczciwy: paper jest ostrożniejszy niż komunikat („strongest hints yet”) i nagłówki. Do krytyki dochodzi recenzowana praca: Stevenson i in., „K2-18b Does Not Meet The Standards of Evidence For Life”, arXiv 2508.05961, przyjęta do The Astronomical Journal: sygnał w MIRI to raczej szum instrumentalny, 87,5% ich analiz nie wspiera DMS.
+- **Kontrowersja:** realna i silnie udokumentowana. Opis wyszukiwacza uczciwy: paper jest ostrożniejszy niż komunikat („strongest hints yet”) i nagłówki. Do krytyki dochodzi praca przyjęta do The Astronomical Journal: Stevenson i in., „K2-18b Does Not Meet The Standards of Evidence For Life”, arXiv 2508.05961: sygnał w MIRI to raczej szum instrumentalny, 87,5% ich analiz nie wspiera DMS.
 - **Retrakcje / korekty / krytyka / replikacje:** brak retrakcji/korekt (Crossref bez relacji). Krytyka: Luque i in. („Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b”, arXiv 2505.13407, według wyników wyszukiwania), Welbanks i in. 2025, Hu i in. 2025, Stevenson i in. 2025 (AJ). Nie znalazłem nowych obserwacji JWST z 2026 r., które zmieniałyby obraz. Zapytania: „K2-18b DMS 2026 new JWST observations biosignature update”, „Luque Welbanks K2-18b DMS reanalysis 2025 paper arXiv”, „"New Studies Dismiss Signs of Life on Distant Planet"”.
 - **Poprawki:**
   - Dodać ApJL 983(2): L40, DOI 10.3847/2041-8213/adc1c8, CC BY 4.0.
   - Autor NYT: najpewniej Carl Zimmer, nie Lori Jia.
   - Dodać Stevenson i in. (AJ) jako recenzowaną krytykę.
-- **Dodatkowe znaleziska:** Stevenson i in., https://arxiv.org/abs/2508.05961. Inne przedruki tekstu NYT: Oman Observer (https://www.omanobserver.om/article/1171163/scitech/science/new-studies-dismiss-signs-of-life-on-distant-planet, HTTP 307 dla narzędzia).
+- **Dodatkowe znaleziska:** Stevenson i in., https://arxiv.org/abs/2508.05961. Inny przedruk tekstu NYT: Oman Observer (https://www.omanobserver.om/article/1171163/scitech/science/new-studies-dismiss-signs-of-life-on-distant-planet, HTTP 307 dla narzędzia).
 - **Ocena niezależna:** 4/5. „Czy jesteśmy sami” porusza każdego; świeży (2025), open access, podręcznikowy przypadek, jak komunikat i nagłówki wyprzedzają statystykę, z wieloma niezależnymi krytykami (w tym recenzowanymi) i dobrym newsem (NatGeo, 10 ekspertów). Minus: technicznie trudny (spektroskopia, bayesowski wybór modeli). Polecam do piętnastki jako wildcard.
 - **Do ręcznego sprawdzenia przez zespół:** autor tekstu NYT z 23 maja 2025; brzmienie nagłówków BBC/Guardiana z kwietnia 2025 (zablokowane).
 - **Opis po poprawkach:**
@@ -366,5 +380,93 @@ Weryfikator, data: 2 października 2026. Plik źródłowy: candidates/5-spolecze
   - **Pytanie do dyskusji:** Jeśli tylko 1/4 fałszywych prac zostanie wycofana, jak studenci i dziennikarze mają odróżniać wiarygodne źródła?
   - **Weryfikacja:** ✅ potwierdzone, pewność wysoka.
 
+### 10. Zakaz telefonów w szkołach nie poprawia samopoczucia? (SMART Schools, Lancet Regional Health – Europe, luty 2025): ⚠️ poprawione (pewność: wysoka co do papera, średnia co do newsa)
+- **Sprawdzone linki:**
+  - Strona papera w repozytorium Birmingham (https://research.birmingham.ac.uk/en/publications/school-phone-policies-and-their-association-with-mental-wellbeing/): działa; tytuł, 14 autorów, art. 101211, 4 lutego 2025, DOI, CC BY, abstrakt.
+  - Komentarz Weiss i Bonell (https://pmc.ncbi.nlm.nih.gov/articles/PMC11850730/): działa; komentarz w tym samym czasopiśmie, 8 lutego 2025.
+  - Psychiatrist.com (https://www.psychiatrist.com/news/cell-phone-bans-dont-boost-student-mental-health/): działa; brak autora i dokładnej daty na stronie („this week”); Goodyear przedstawiona jako „MD, Associate Professor”.
+  - GovTech / PennLive (https://www.govtech.com/education/k-12/study-finds-school-phone-bans-boost-student-wellness-not-grades): działa; Zack Hoopes, 6 maja 2026.
+  - schoolinfosystem.org (https://www.schoolinfosystem.org/2026/05/21/youth-mental-health-and-school-smartphone-bans-early-evidence/): działa; 21 maja 2026; Saffer, NBER w35181.
+  - **Nowe:** Inquirer Technology, „School phone bans alone do not boost well-being, grades, says a UK study”, Dale Arasa, 11 lutego 2025, https://technology.inquirer.net/140498/school-phone-bans-alone-do-not-boost-well-being-grades-says-a-uk-study (działa, bez paywalla).
+  - **Nowe:** NBER w35132 (https://www.nber.org/papers/w35132): zwrócony przez WebSearch, nieotwierany; autorzy z wyników wyszukiwania.
+  - US News (wyszukiwacz: HTTP 503) i Forbes z 26 sierpnia 2026: nie otwierane.
+- **News a paper:** Psychiatrist.com nazywa badanie, czasopismo i liderkę (Goodyear), bez zewnętrznych ekspertów. Inquirer opisuje badanie z University of Birmingham i liderkę Goodyear, cytuje jej wniosek i dodaje głos z zewnątrz (Joe Ryrie, kampania Smartphone Free Childhood), ale nie podaje nazwy czasopisma.
+- **Fakty:**
+  - Tytuł, 14 autorów (Goodyear, Randhawa, Adab, Al-Janabi, Fenton, Jones, Michail, Morrison, Patterson, Quinlan, Sitch, Twardochleb, Wade, Pallan), The Lancet Regional Health – Europe, art. 101211, 4 lutego 2025, DOI 10.1016/j.lanepe.2025.101211, CC BY → zgodne.
+  - 1227 uczniów w wieku 12–15 lat, 30 szkół (20 restrykcyjnych, 10 permisywnych) → zgodne.
+  - WEMWBS: skorygowana różnica −0,48 (95% CI −2,05 do 1,06), p = 0,62 → zgodne (dodać CI).
+  - Czas w ciągu dnia szkolnego: telefon 0,67 h mniej (ok. 40 min), social media 0,54 h mniej (ok. 32 min); bez różnic w skali dnia powszedniego i weekendu → zgodne (komunikat Birmingham podaje ok. 40 i ok. 30 min).
+  - Komentarz Weiss i Bonell: projekt przekrojowy, odsetek odpowiedzi szkół 10%, uczniowie nadrabiają poza szkołą → zgodne.
+  - Psychiatrist.com: data „luty 2025” → niepotwierdzona (strona nie podaje daty); tytuł „MD” przy Goodyear rzeczywiście stoi w tekście serwisu (czy to błąd, nie sprawdziłem; jej afiliacja w paperze wskazuje na nauki o sporcie i zdrowiu, więc prawdopodobnie błąd serwisu).
+  - Working paper NBER o zamykanych etui → uzupełniony: „The Effects of School Phone Bans: National Evidence from Lockable Pouches”, Hunt Allcott, E. Jason Baron, Thomas Dee, Angela L. Duckworth, Matthew Gentzkow, Brian Jacob, NBER w35132 (2026) (wyniki wyszukiwania). Według wyników wyszukiwania: w pierwszym roku po wprowadzeniu etui samopoczucie **spada**, a incydenty dyscyplinarne rosną; w kolejnych latach efekt na samopoczucie staje się dodatni; wyniki testów bez zmian. GovTech: ok. 30% mniej sygnałów GPS w szkole, +16% zawieszeń w pierwszym roku, ponad 40 500 szkół, 2019–2026 → zgodne z opisem wyszukiwacza.
+  - Saffer, NBER w35181: synthetic difference-in-differences, NSCH 2016–2024, bardzo mało jurysdykcji po zakazie (jeden stan z dwoma okresami, dwa z jednym); „no clear evidence” spadku czasu ekranowego ani poprawy samopoczucia → zgodne.
+- **Kontrowersja:** realna, ze źródłami (Weiss i Bonell; dwa working papery NBER o częściowo innych wynikach). Opis wyszukiwacza uczciwy, z jedną poprawką: badanie z etui nie pokazuje „poprawy dopiero po roku” jako prostego sukcesu, tylko najpierw spadek, potem wzrost samopoczucia.
+- **Retrakcje / korekty / krytyka / replikacje:** brak retrakcji/korekt (nie znaleziono). Nie znalazłem relacji Guardiana ani BBC w wyszukiwaniu (domeny zablokowane dla WebFetch; WebSearch ich nie zwrócił). Zapytania: „SMART Schools study Goodyear phone bans no better mental health Lancet Regional Health Europe February 2025 Guardian BBC”, „"University of Birmingham" school phone ban study February 2025 wellbeing…”, „NBER working paper 2026 Yondr pouch school phone ban…”.
+- **Poprawki:**
+  - News główny: Psychiatrist.com bez daty i autora; lepiej dodać Inquirer (z głosem z zewnątrz) albo komunikat Birmingham.
+  - Uzupełnić autorów i numer working paperu NBER (w35132) oraz kierunek efektu w pierwszym roku (spadek samopoczucia).
+  - Dodać CI dla WEMWBS.
+- **Dodatkowe znaleziska:** komunikat University of Birmingham „School bans alone not enough to tackle negative impacts of phone and social media use” (https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use, tylko z wyników wyszukiwania). Working paper NBER w35132 (Allcott, Gentzkow, Duckworth i in.) to bardzo mocny materiał kontrastowy (dane GPS z ponad 40 000 szkół), opisany według GovTech także przez NYT.
+- **Ocena niezależna:** 3,5/5. Paper otwarty, prosty i aktualny politycznie (zakazy w Holandii i w Europie), z gotowym komentarzem krytycznym w tym samym czasopiśmie i świeżymi, częściowo sprzecznymi badaniami z 2026 r. Minus: news główny słaby, wynik „brak różnicy” mniej efektowny. Polecam warunkowo, najlepiej jako część bloku „smartfony” (z parą 3) albo z working paperem NBER jako kontrapunktem.
+- **Do ręcznego sprawdzenia przez zespół:** ewentualne relacje Guardiana/BBC o SMART Schools; tekst NBER w35132 (pełne wyniki); data artykułu Psychiatrist.com.
+- **Opis po poprawkach:**
+  - **Kategoria:** smartfony i nastolatki / polityka szkolna (wątek holenderski).
+  - **News:** „School phone bans alone do not boost well-being, grades, says a UK study”, Inquirer Technology (Dale Arasa), 11 lutego 2025, https://technology.inquirer.net/140498/school-phone-bans-alone-do-not-boost-well-being-grades-says-a-uk-study, paywall: nie: opisuje badanie z Birmingham i liderkę, z komentarzem kampanii Smartphone Free Childhood (bez nazwy czasopisma). Uzupełniająco: „Cell Phone Bans Don't Boost Student Mental Health”, Psychiatrist.com, luty 2025 (data niepewna), https://www.psychiatrist.com/news/cell-phone-bans-dont-boost-student-mental-health/, paywall: nie: nazywa czasopismo, bez zewnętrznych ekspertów.
+  - **Paper:** „School phone policies and their association with mental wellbeing, phone use, and social media use (SMART Schools): a cross-sectional observational study”, Victoria Goodyear, Amie Randhawa, Peymane Adab i in. (14 autorów, University of Birmingham i in.), The Lancet Regional Health – Europe, art. 101211, 2025, DOI 10.1016/j.lanepe.2025.101211, https://research.birmingham.ac.uk/en/publications/school-phone-policies-and-their-association-with-mental-wellbeing/, open access: tak (CC BY). 1227 uczniów (12–15 lat) z 30 angielskich szkół (20 restrykcyjnych, 10 permisywnych). Brak różnicy w samopoczuciu (WEMWBS −0,48; 95% CI −2,05 do 1,06; p = 0,62), śnie, aktywności, wynikach i zachowaniu; w szkołach restrykcyjnych ok. 40 min mniej telefonu i ok. 30 min mniej social mediów w czasie lekcji, ale nie w skali całego dnia. Więcej czasu z telefonem i social mediami wiązało się z gorszymi wynikami niezależnie od polityki szkoły.
+  - **Trzecie źródło:** Helen A. Weiss i Chris Bonell, „Smartphone use and mental health: going beyond school restriction policies”, The Lancet Regional Health – Europe, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11850730/: projekt przekrojowy, 10% odpowiedzi szkół, nadrabianie poza szkołą. Kontrapunkt: Allcott i in., NBER w35132 (2026), https://www.nber.org/papers/w35132: zamykane etui w ponad 40 000 szkół, najpierw spadek, potem wzrost samopoczucia, brak efektu na testy.
+  - **Dlaczego fajne:** zakazy telefonów w szkołach wprowadza pół Europy, w tym Holandia; każdy pamięta własną szkołę.
+  - **Kontrowersja / rozjazd:** wynik „zakaz nie pomaga” jest niewygodny dla polityków; krytycy pokazują, że badanie przekrojowe niewiele mówi o przyczynowości; nowsze badania quasi-eksperymentalne dają wyniki zależne od czasu i projektu.
+  - **Trudność techniczna:** niska–średnia: badanie przekrojowe vs difference-in-differences, selekcja szkół, samoopis.
+  - **Pytanie do dyskusji:** Czy szkoły powinny zakazywać telefonów, jeśli dowody na korzyść dla zdrowia psychicznego są niejednoznaczne? Czy są inne powody (koncentracja, cyberprzemoc)?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka co do papera, średnia co do newsa.
+
+### 11. Samotność i izolacja w dzieciństwie (Development and Psychopathology, lipiec 2026): ⚠️ poprawione (pewność: wysoka)
+- **Sprawdzone linki:**
+  - PsyPost (https://www.psypost.org/longitudinal-study-highlights-the-enduring-toll-of-childhood-loneliness-and-social-isolation/): działa; Eric W. Dolan, 2 października 2026; bez paywalla.
+  - Crossref API dla DOI 10.1017/S0954579426101758: działa; Development and Psychopathology 38(4): 2012–2028, online 28 lipca 2026, CC BY 4.0.
+  - Strona wydawcy (doi.org → https://www.cambridge.org/core/product/identifier/S0954579426101758/type/journal_article): działa; abstrakt.
+  - Komunikat Tulane (https://news.tulane.edu/pr/lonely-socially-isolated-it-may-cost-you-six-healthy-years-life): działa; data na stronie 28 września 2026.
+  - EurekAlert (https://www.eurekalert.org/news-releases/1144951): działa; 22 września 2026; podaje DOI papera Nature Communications 10.1038/s41467-026-74498-8.
+  - nature.com (Tulane) i usnews.com: nie otwierane (wyszukiwacz: przekierowanie / HTTP 503).
+- **News a paper:** PsyPost podaje tytuł, czasopismo i wszystkich sześciu autorów; jedyny cytowany głos to pierwsza autorka (Bryan), brak ekspertów z zewnątrz; ograniczenia (dwa pomiary w odstępie 6 lat, różne narzędzia w wieku 12 i 18 lat, bliźnięta) zgodne z opisem.
+- **Fakty:**
+  - Tytuł, autorzy (Bryan, Thompson, Fisher, Matthews, Milne, Arseneault), Development and Psychopathology, 28 lipca 2026, DOI 10.1017/S0954579426101758, CC BY → zgodne; dodać 38(4): 2012–2028.
+  - Kohorta E-Risk, 2232 bliźnięta urodzone w Anglii i Walii w latach 1994–1995 → zgodne.
+  - „Samotni 12-latkowie dwa razy częściej izolowani w wieku 18 lat” → **poprawione**: PsyPost pisze, że samotność w wieku 12 lat przewidywała późniejszą izolację i że ta ścieżka była ok. dwa razy silniejsza niż ścieżka odwrotna (izolacja → późniejsza samotność). To porównanie siły dwóch ścieżek, nie „dwa razy wyższe ryzyko”. Abstrakt podaje współczynniki standaryzowane (β), nie OR.
+  - Najbardziej izolowani ok. 2,4 razy częściej NEET w wieku 18 lat → zgodne (PsyPost: iloraz szans).
+  - Brak dodatkowej „kary” za połączenie samotności i izolacji → zgodne (abstrakt).
+  - Podważenie teorii ewolucyjnej (samotność jako sygnał do odbudowy więzi) → zgodne z PsyPost; abstrakt nie nazywa tej teorii wprost, ale wynik (samotne izolowane dzieci pozostają izolowane) jest z nią sprzeczny. Nazwisko Cacioppo pochodzi od wyszukiwacza; nie potwierdziłem, że autorzy je przywołują.
+  - Badanie towarzyszące (Tulane, Nature Communications): 277 489 osób z UK Biobank w wieku 40–69 lat; kobiety tracą 2,4 roku bez chorób somatycznych i 3,7 roku bez zaburzeń psychicznych, mężczyźni 1,7 i 5,8 → zgodne. EurekAlert używa języka przyczynowego („costing people nearly six years”), Lu Qi mówi o związku i o potrzebie badań przyczynowości w przyszłości → zgodne z opisem wyszukiwacza. Rozbieżność dat komunikatu: EurekAlert 22 września, strona Tulane 28 września 2026 (niepewne, która jest pierwotna).
+- **Kontrowersja:** niewielka, jak uczciwie zaznaczył wyszukiwacz. Jedyny rozjazd medialny dotyczy badania towarzyszącego (język przyczynowy w komunikacie i nagłówku HealthDay przy badaniu obserwacyjnym), a nie głównego papera.
+- **Retrakcje / korekty / krytyka / replikacje:** brak (paper z lipca 2026). Brak opublikowanej krytyki. Zapytania: „Bryan Arseneault loneliness social isolation adolescence E-Risk Development and Psychopathology 2026 news”.
+- **Poprawki:**
+  - „Dwa razy częściej” → „ścieżka samotność → izolacja ok. dwa razy silniejsza niż odwrotna”.
+  - Dodać 38(4): 2012–2028.
+  - Teoria ewolucyjna: sformułowanie z PsyPost, abstrakt mówi o tym pośrednio; Cacioppo niepotwierdzony.
+- **Dodatkowe znaleziska:** brak.
+- **Ocena niezależna:** 3/5. Solidny, otwarty, bardzo świeży paper z renomowanej grupy (King's College London, E-Risk) i temat bliski studentom pierwszego roku, ale bez kontrowersji, z niszowym newsem (PsyPost) i trudnym do pokazania modelem (cross-lagged). Nie polecam do piętnastki; dobry wariant „bezpieczny”, gdyby zespół chciał uniknąć kontrowersji.
+- **Do ręcznego sprawdzenia przez zespół:** czy jakieś duże medium opisało któreś z dwóch badań; pełny tekst (czy autorzy przywołują Cacioppo).
+- **Opis po poprawkach:**
+  - **Kategoria:** samotność społeczna.
+  - **News:** „Longitudinal study highlights the enduring toll of childhood loneliness and social isolation”, PsyPost (Eric W. Dolan), 2 października 2026, https://www.psypost.org/longitudinal-study-highlights-the-enduring-toll-of-childhood-loneliness-and-social-isolation/, paywall: nie. Wprost nazywa paper, czasopismo i autorów, opisuje wyniki i ograniczenia; rama spokojna, bez ekspertów z zewnątrz.
+  - **Paper:** „Investigating the interplay of loneliness and social isolation across adolescence: Findings from a nationally representative longitudinal study”, Bridget T. Bryan, Katherine N. Thompson, Helen L. Fisher, Timothy Matthews, Barry Milne, Louise Arseneault, Development and Psychopathology 38(4): 2012–2028, 2026, DOI 10.1017/S0954579426101758, open access: tak (CC BY 4.0). Kohorta E-Risk (2232 bliźnięta, ur. 1994–1995): izolacja w wieku 12 lat z ocen rodziców i nauczycieli, samotność z samoopisu; w wieku 18 lat oba z samoopisu. Samotność i izolacja wpływają na siebie w czasie (ścieżka samotność → izolacja ok. dwa razy silniejsza niż odwrotna) i niezależnie przewidują gorsze zdrowie psychiczne i sytuację społeczno-ekonomiczną (najbardziej izolowani ok. 2,4 razy częściej NEET); ich połączenie nie daje dodatkowej „kary”.
+  - **Trzecie źródło:** badanie towarzyszące Tulane, Nature Communications, DOI 10.1038/s41467-026-74498-8, komunikat: https://www.eurekalert.org/news-releases/1144951 (277 489 dorosłych z UK Biobank; utrata 1,7–5,8 roku życia bez chorób; komunikat używa języka przyczynowego). Brak krytyki któregokolwiek papera.
+  - **Dlaczego fajne:** samotność jest bliska studentom pierwszego roku; rozróżnienie „czuję się samotny” vs „jestem izolowany” jest proste.
+  - **Kontrowersja / rozjazd:** niewielka; język przyczynowy w komunikacie o drugim badaniu; spór teoretyczny, czy samotność to „sygnał” motywujący do odbudowy więzi.
+  - **Trudność techniczna:** niska–średnia: badania podłużne, model ścieżek krzyżowych, samoopis vs ocena nauczycieli, bliźnięta.
+  - **Pytanie do dyskusji:** Czy samotność to sygnał, który pomaga wrócić do ludzi, czy pułapka? Co uczelnia (np. UCU z systemem akademików) mogłaby z tym zrobić?
+  - **Weryfikacja:** ⚠️ poprawione, pewność wysoka.
+
 ## Lista do ręcznego sprawdzenia
-(w trakcie)
+Linki, których narzędzie nie otworzyło (albo otworzyło tylko częściowo), i co w nich sprawdzić:
+- **Para 1:** The Chronicle of Higher Education (https://www.chronicle.com/article/data-sleuths-found-evidence-of-fraud-in-another-dan-ariely-study-now-its-being-retracted, HTTP 403; paywall): rama i cytaty. Duke Chronicle (https://dukechronicle.com/article/duke-university-professor-dan-ariely-research-article-retracted-after-fraud-allegations-data-colada-tampering-fabrication-falsification-20260903, 403 według wyszukiwacza). Ynetnews: dokładna data publikacji. Notka retrakcyjna (https://journals.sagepub.com/doi/full/10.1177/09567976261488042, 403 według wyszukiwacza): pełne brzmienie.
+- **Para 2:** Forbes (https://www.forbes.com/sites/michaeltnietzel/2026/04/04/only-about-half-of-social-science-results-can-be-replicated-finds-new-study/) i Chronicle (https://www.chronicle.com/article/lots-of-social-science-wont-replicate-does-that-mean-its-bunk): czy nazywają paper wprost, jak oprawiają wynik. Status paywalla komentarza Rubina w Nature Human Behaviour.
+- **Para 3:** oryginał NYT z 1 grudnia 2025 (autor, paywall); pełny tekst papera i licencja w PMC (publications.aap.org: 403).
+- **Para 4:** pełny tekst papera Sapien Labs w tandfonline (https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313, HTTP 403; czy open access); pełny tekst Fergusona (czy używa tego samego podzbioru danych i czy cytuje Thiagarajan i in.; tom czasopisma).
+- **Para 5:** autor tekstu NYT (przedruk Boston Globe bez autora); czy poprawiona wersja papera Kotz i in. ukazała się w 2026 r.; spectator.org (403).
+- **Para 6:** profil NYT z 11 lutego 2025 (https://www.nytimes.com/2025/02/11/science/arseniclife-felisa-wolfe-simon-retraction.html, link z bloga; domena blokowana): autorka i rama; notka retrakcyjna na science.org (https://www.science.org/doi/10.1126/science.adu5488, 403).
+- **Para 7:** pełny tekst Borgert i in., EXCLI 2026 (deklaracje konfliktów interesów sygnatariuszy); Undark (https://undark.org/2026/04/20/interview-christopher-borgert-glyphosate/, HTTP 403); autorka tekstu RW z 4 grudnia 2025; odpowiedź MacLeana, Kaurova i Oreskes na SSRN (DOI 10.2139/ssrn.6971901).
+- **Para 8:** autor tekstu NYT z 23 maja 2025 (najpewniej Carl Zimmer); nagłówki BBC/Guardiana z kwietnia 2025 (domeny blokowane); aanda.org (https://www.aanda.org/10.1051/0004-6361/202555580, 403): czy to praca Taylora o teście płaskiej linii.
+- **Para 9:** wpis Gelmana z 20 kwietnia 2026 (https://statmodeling.stat.columbia.edu/2026/04/20/94/, HTTP 403): czy dotyczy tego papera i czy go krytykuje; Nature News o redaktorach PLOS ONE (sierpień 2025).
+- **Para 10:** relacje Guardiana/BBC o SMART Schools (niepotwierdzone); US News (https://www.usnews.com/news/u-s-news-decision-points/articles/2026-05-05/study-school-cell-phone-bans-are-a-mixed-and-locked-bag, HTTP 503 według wyszukiwacza); NBER w35132 (https://www.nber.org/papers/w35132, nieotwierany); data Psychiatrist.com.
+- **Para 11:** paper Tulane w Nature Communications (https://www.nature.com/articles/s41467-026-74498-8, nieotwarty); US News/HealthDay (https://www.usnews.com/news/health-news/articles/2026-09-25/loneliness-isolation-can-strip-away-years-of-healthy-life-large-study-finds, HTTP 503 według wyszukiwacza).
